@@ -38,25 +38,30 @@
   </entry>
   
   <entry>
-    <title>my first post</title>
+    <title>Hexo + Github 搭建 Blog (MacOS)</title>
     <link href="https://medill-east.github.io/2021/05/24/my-first-post/"/>
     <id>https://medill-east.github.io/2021/05/24/my-first-post/</id>
     <published>2021-05-24T10:31:17.000Z</published>
-    <updated>2021-05-26T10:17:10.166Z</updated>
+    <updated>2021-05-30T22:29:00.867Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;This is my first post, just for test</summary>
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;[toc]&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;20210524&quot;&gt;&lt;a href=&quot;#20210524&quot; class=&quot;headerlink&quot; title=&quot;20210524&quot;&gt;&lt;/a&gt;20210524&lt;/h1&gt;&lt;h2 id=&quot;Why&quot;&gt;&lt;a</summary>
         
       
     
     
     
+    <category term="Blog" scheme="https://medill-east.github.io/categories/Blog/"/>
     
-    <category term="test" scheme="https://medill-east.github.io/tags/test/"/>
+    
+    <category term="blog-building" scheme="https://medill-east.github.io/tags/blog-building/"/>
     
   </entry>
   
