@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="無涘">
+    <meta name="keywords" content="GAMES101-6 20200228 20210708 Rasterization 2 anti - aliasing and Z - buffering, 無涘">
     <meta name="description" content="Whatever will be, will be.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>無涘</title>
+    <title>GAMES101-6 20200228 20210708 Rasterization 2 anti - aliasing and Z - buffering | 無涘</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -226,12 +226,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105306.png')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title"></h1>
+                    <h1 class="description center-align post-title">GAMES101-6 20200228 20210708 Rasterization 2 anti - aliasing and Z - buffering</h1>
                 </div>
             </div>
         </div>
@@ -345,12 +345,25 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/ComputerGraphics/">
+                                <span class="chip bg-color">ComputerGraphics</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/Study-CS-CG/" class="post-category">
+                                Study-CS-CG
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -359,28 +372,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2021-05-31
+                    2021-07-16
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2021-05-31
+                    2021-07-16
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    17
+                    1.2k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    1 Min
+                    4 Min
                 </div>
                 
 
@@ -403,7 +416,266 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>title: 404<br>date: 2019-07-19 16:41:10<br>type: “404”<br>layout: “404”<br>description: “You have came to nowhere :(“</p>
+                <h1 id="6-20200228-20210708-Rasterization-2-anti-aliasing-and-Z-buffering"><a href="#6-20200228-20210708-Rasterization-2-anti-aliasing-and-Z-buffering" class="headerlink" title="6 20200228/20210708 Rasterization 2 anti-aliasing and Z-buffering"></a>6 20200228/20210708 Rasterization 2 anti-aliasing and Z-buffering</h1><h2 id="Sampling-Artifacts-Errors-Mistakes-Inaccuracies-in-Computer-Graphics"><a href="#Sampling-Artifacts-Errors-Mistakes-Inaccuracies-in-Computer-Graphics" class="headerlink" title="Sampling Artifacts (Errors / Mistakes / Inaccuracies) in Computer Graphics"></a>Sampling Artifacts (Errors / Mistakes / Inaccuracies) in Computer Graphics</h2><ul>
+<li><p>采样的例子</p>
+<ul>
+<li>rasterization = sample 2d positions</li>
+<li>photograph = sample image sensor plane</li>
+</ul>
+</li>
+<li><p>video = sample time</p>
+</li>
+<li><p>采样瑕疵的例子 sampling artifacts</p>
+<ul>
+<li><p>Jaggies (staircase pattern)</p>
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105306.png" alt="Jaggies (staircase pattern)" style="zoom: 25%;" /></li>
+<li><p>Moiré Patterns in Imaging</p>
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105327.png" alt="Moiré Patterns in Imaging" style="zoom: 25%;" /></li>
+<li><p>Wagon Wheel Illusion (False Motion)</p>
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105353.png" alt="Wagon Wheel Illusion (False Motion)" style="zoom: 25%;" />
+
+<ul>
+<li>原因：人眼在时间上的采样跟不上运动速度</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>采样瑕疵的本质</p>
+<ul>
+<li>Signals are changing too fast (high frequency), but sampled too slowly</li>
+</ul>
+</li>
+</ul>
+<h1 id="Antialiasing-Idea-Blurring-Pre-Filtering-Before-Sampling"><a href="#Antialiasing-Idea-Blurring-Pre-Filtering-Before-Sampling" class="headerlink" title="Antialiasing Idea: Blurring (Pre-Filtering) Before Sampling"></a>Antialiasing Idea: Blurring (Pre-Filtering) Before Sampling</h1><ul>
+<li><p>先模糊滤波再采样</p>
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105614.png" alt="Rasterization: Point Sampling in Space" style="zoom:25%;" />
+
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105628.png" alt="Rasterization: Antialiased Sampling" style="zoom:25%;" />
+
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105754.png" alt="效果对比" style="zoom:25%;" /></li>
+</ul>
+<h1 id="But-why"><a href="#But-why" class="headerlink" title="But why?"></a>But why?</h1><ol>
+<li>Why undersampling introduces aliasing?</li>
+<li>Why pre-filtering then sampling can do antialiasing?</li>
+</ol>
+<ul>
+<li><p>Let’s dig into fundamental reasons</p>
+<p>And look at how to implement antialiased rasterization</p>
+</li>
+<li><p>为什么先采样再模糊不行</p>
+<ul>
+<li>先采样后 频谱已经发生了混叠</li>
+<li>此时再模糊 得到的结果还是混叠的频谱</li>
+</ul>
+</li>
+</ul>
+<h1 id="Frequency-domain-频域"><a href="#Frequency-domain-频域" class="headerlink" title="Frequency domain 频域"></a>Frequency domain 频域</h1><ul>
+<li><p>Frequencies</p>
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105917.png" alt="Frequencies" style="zoom:25%;" /></li>
+</ul>
+<h2 id="Fourier-Transform"><a href="#Fourier-Transform" class="headerlink" title="Fourier Transform"></a>Fourier Transform</h2><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708110031.png" alt="Fourier Transform" style="zoom:25%;" />
+
+<ul>
+<li><p>傅里叶级数展开：任何一个周期函数都可以写成一系列正弦余弦函数线性组合以及一个常数项</p>
+<ul>
+<li>任何一个函数都可分解为不同频率</li>
+</ul>
+</li>
+<li><p>fourier Transform Decomposes A Signal into Frequencies 傅里叶变换（把一个函数变为另一个，或者反过来）把函数分解为不同频率的段并分别显示出来</p>
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708110225.png" alt="fourier Transform Decomposes A Signal into Frequencies" style="zoom:25%;" /></li>
+<li><p>Higher Frequencies Need Faster Sampling</p>
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708110352.png" alt="Higher Frequencies Need Faster Sampling" style="zoom:25%;" /></li>
+<li><p>Undersampling Creates Frequency Aliases 欠采样导致了频率瑕疵以频率定义走样：假如蓝色和黑色分别是两个不同的函数 二者采样方法相同 但本身频率不同 导致了采样结果相同</p>
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708110544.png" alt="Undersampling Creates Frequency Aliases" style="zoom:25%;" /></li>
+</ul>
+<h2 id="Filtering-Getting-rid-of-certain-frequency-contents"><a href="#Filtering-Getting-rid-of-certain-frequency-contents" class="headerlink" title="Filtering = Getting rid of certain frequency contents"></a>Filtering = Getting rid of certain frequency contents</h2><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708110721.png" alt="Viasualizing Image Frequency Content" style="zoom:25%;" />
+
+<ul>
+<li><p>傅里叶变换把图像从时域变成了频域</p>
+</li>
+<li><p>中心是最低频 周围是高频</p>
+</li>
+<li><p>多数信息集中在低频（中心）</p>
+</li>
+<li><p>水平和竖直亮线</p>
+<ul>
+<li>分析信号时会假设信号周期性重复（即假设图片水平重叠放置 AAAA）</li>
+<li>但实际上并不重复</li>
+<li>那么在左右边界部分会产生剧烈信号变化 - 产生高频</li>
+<li>则产生白线</li>
+<li>若分析单幅内容 可忽略</li>
+</ul>
+</li>
+<li><p>高通滤波（抹掉低频信号）可得到图像内容轮廓边界 - 和周围内容相差巨大 - 信号变化非常大 - 高频信号</p>
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708111303.png" alt="高通滤波" style="zoom:25%;" /></li>
+<li><p>低通滤波（只有低频信号通过，抹掉高频信息）</p>
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708112533.png" alt="低通滤波" style="zoom:25%;" />
+
+<ul>
+<li>边界被抹去</li>
+<li>水波纹</li>
+</ul>
+</li>
+<li><p>去掉了高和低频率信息</p>
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708112640.png" alt="同时过滤高低频信息" style="zoom:25%;" />
+
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708112659.png" alt="同时过滤高低频信息 cont." style="zoom:25%;" />
+
+<ul>
+<li>提取到了不太明显的轮廓特征</li>
+<li>数字图像处理</li>
+</ul>
+</li>
+</ul>
+<h1 id="Filtering-Convolution-卷积-Averaging-加权平均"><a href="#Filtering-Convolution-卷积-Averaging-加权平均" class="headerlink" title="Filtering = Convolution 卷积 (= Averaging) 加权平均"></a>Filtering = Convolution 卷积 (= Averaging) 加权平均</h1><ul>
+<li><p>Convolution 卷积</p>
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708113238.png" alt="Convolution" style="zoom:25%;" /></li>
+<li><p>图形学中的简化定义</p>
+<ul>
+<li>卷积：通过窗口来进行点乘获取中心值（相当于加权平均）</li>
+</ul>
+</li>
+<li><p>Convolution Theorem（卷积定理）</p>
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708113517.png" alt="Convolution Theorem" style="zoom:25%;" />
+
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708113559.png" alt="Convolution Theorem cont." style="zoom:25%;" />
+
+<ul>
+<li>Convolution in the spatial domain is equal to multiplication in the frequency domain, and vice versa - 在时域上想对信号进行卷积相当于在频域上进行乘积，反之亦然</li>
+<li>Option 1:<ul>
+<li>Filter by convolution in the spatial domain</li>
+</ul>
+</li>
+<li>Option 2:<ul>
+<li>Transform to frequency domain (Fourier transform)</li>
+<li>Multiply by Fourier transform of convolution kernel</li>
+<li>Transform back to spatial domain (inverse Fourier)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="Box-Filter-低通滤波器"><a href="#Box-Filter-低通滤波器" class="headerlink" title="Box Filter 低通滤波器"></a>Box Filter 低通滤波器</h2><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708114556.png" alt="Box Filter" style="zoom:25%;" />
+
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708114539.png" alt="Box Filter - Works as “Low Pass” Filter" style="zoom:25%;" />
+
+<ul>
+<li>box 越大结果越模糊（留下的频率越低）<ul>
+<li>相当于画笔变大</li>
+</ul>
+</li>
+<li>考虑极端情况<ul>
+<li>box 超级大 - 只有最中间有采样信息</li>
+<li>box 超级小 - 全部频率都被留下来</li>
+</ul>
+</li>
+</ul>
+<h1 id="Sampling-Repeating-Frequency-Contents"><a href="#Sampling-Repeating-Frequency-Contents" class="headerlink" title="Sampling = Repeating Frequency Contents"></a>Sampling = Repeating Frequency Contents</h1><ul>
+<li><p>冲激函数（某些位置有值有些没有，为0）</p>
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708114726.png" alt="冲激函数" style="zoom:25%;" />
+
+<ul>
+<li>采样：给定函数与冲激函数相乘得到采样结果</li>
+<li>采样（从频域角度理解）：就是在重复原始信号的频谱</li>
+</ul>
+</li>
+</ul>
+<p>$$时域的乘积 = 频域的卷积$$</p>
+<ul>
+<li><p>为什么会走样</p>
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708115306.png" alt="为什么会走样" style="zoom:25%;" />
+
+<ul>
+<li>采样率不足（不够快），导致原始信号复制粘贴距离不够大，频率的频谱发生了混叠，即走样</li>
+<li>相当于采样低 = 稀疏采样</li>
+</ul>
+</li>
+</ul>
+<h1 id="Anti-Aliasing"><a href="#Anti-Aliasing" class="headerlink" title="Anti-Aliasing"></a>Anti-Aliasing</h1><ul>
+<li>How Can We Reduce Aliasing Error?</li>
+<li>Option 1: Increase sampling rate<ul>
+<li>Essentially increasing the distance between replicas in the<br>Fourier domain</li>
+<li>Higher resolution displays, sensors, framebuffers…</li>
+<li>But: costly &amp; may need very high resolution</li>
+</ul>
+</li>
+<li>Option 2: Antialiasing<ul>
+<li>Making Fourier contents “narrower” before repeating</li>
+<li>i.e. Filtering out high frequencies before sampling</li>
+</ul>
+</li>
+<li>步骤<ul>
+<li>先卷积</li>
+<li>再采样</li>
+</ul>
+</li>
+</ul>
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708115851.png" alt="如何反走样" style="zoom:25%;" />
+
+<ul>
+<li><p>模糊之后的频谱覆盖范围小</p>
+</li>
+<li><p>所以采样堆叠几率小</p>
+</li>
+<li><p>如何模糊</p>
+<ul>
+<li><p>用一定大小的低通滤波器来处理图像</p>
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708120101.png" alt="A Practical Pre-Filter" style="zoom:25%;" /></li>
+</ul>
+</li>
+</ul>
+<h2 id="Antialiasing-by-averaging-values-in-pixel-area"><a href="#Antialiasing-by-averaging-values-in-pixel-area" class="headerlink" title="Antialiasing by averaging values in pixel area"></a>Antialiasing by averaging values in pixel area</h2><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708120227.png" alt="Antialiasing by averaging values in pixel area" style="zoom:25%;" />
+
+<ul>
+<li><p>Solution:</p>
+<ul>
+<li>Convolve f(x,y) by a 1-pixel box-blur<ul>
+<li>convolving = filtering = averaging</li>
+</ul>
+</li>
+<li>Then sample at every pixel’s center</li>
+</ul>
+</li>
+<li><p>怎么把三角形在像素内覆盖的区域算出来：</p>
+</li>
+</ul>
+<h2 id="Antialiasing-By-Supersampling-MSAA"><a href="#Antialiasing-By-Supersampling-MSAA" class="headerlink" title="Antialiasing By Supersampling (MSAA)"></a>Antialiasing By Supersampling (MSAA)</h2><blockquote>
+<p> 解决的是对信号的模糊操作 不是靠提升分辨率解决问题 只是为了解决三角形覆盖问题</p>
+</blockquote>
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708120523.png" alt="Supersampling" style="zoom:25%;" />
+
+<ul>
+<li>给像素内部加采样点 看像素覆盖率</li>
+</ul>
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708122814.png" alt="Supersampling cont." style="zoom:25%;" />
+
+<h2 id="Antialiasing-Today"><a href="#Antialiasing-Today" class="headerlink" title="Antialiasing Today"></a>Antialiasing Today</h2><ul>
+<li>No free lunch!What’s the cost of MSAA?<ul>
+<li>增加了计算量</li>
+</ul>
+</li>
+<li>Milestones (personal idea)<ul>
+<li>FXAA (Fast Approximate AA)<ul>
+<li>和采样无关 相当于后期处理</li>
+<li>得到一幅图 有锯齿 找到边界 将有锯齿的边界换成没有锯齿的边界</li>
+</ul>
+</li>
+<li>TAA (Temporal AA)<ul>
+<li>复用上一帧信息 在当前帧不引入新信息</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Super resolution / super sampling 超分辨率<ul>
+<li>From low resolution to high resolution</li>
+<li>Essentially still “not enough samples“ problem</li>
+<li>DLSS (Deep Learning Super Sampling)<ul>
+<li>一切猜测 深度学习都适合</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 
                 
             </div>
@@ -430,7 +702,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://medill-east.github.io/404.html">https://medill-east.github.io/404.html</a>
+                    <a href="https://medill-east.github.io/2021/07/16/games101-6-20200228-20210708-rasterization-2-anti-aliasing-and-z-buffering/">https://medill-east.github.io/2021/07/16/games101-6-20200228-20210708-rasterization-2-anti-aliasing-and-z-buffering/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -467,7 +739,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
+                            
+                                <a href="/tags/ComputerGraphics/">
+                                    <span class="chip bg-color">ComputerGraphics</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -637,39 +913,48 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;Current
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/404.html">
+                <a href="/2021/07/16/games101-7-20200303-20210708-shading-1-illumination-shading-and-graphics-pipeline/">
                     <div class="card-image">
                         
+                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708132803.png" class="responsive-img" alt="GAMES101-7 20200303 20210708 Shading 1 (Illumination, Shading and Graphics Pipeline)">
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
-                        
-                        <span class="card-title"></span>
+                        <span class="card-title">GAMES101-7 20200303 20210708 Shading 1 (Illumination, Shading and Graphics Pipeline)</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            Depth buffer, Shading.
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-31
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-07-16
+                        </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            Haodong Liao
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Study-CS-CG/" class="post-category">
+                                    Study-CS-CG
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/ComputerGraphics/">
+                        <span class="chip bg-color">ComputerGraphics</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -677,37 +962,47 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                Current&nbsp;<i class="far fa-dot-circle"></i>
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/404.html">
+                <a href="/2021/07/16/games101-5-20200225-20210706-07-rasterization-1-triangles/">
                     <div class="card-image">
                         
+                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210707122155.png" class="responsive-img" alt="GAMES101-5 20200225 20210706 07 Rasterization 1 (Triangles)">
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
-                        
-                        <span class="card-title"></span>
+                        <span class="card-title">GAMES101-5 20200225 20210706 07 Rasterization 1 (Triangles)</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            Perspective Projection, What’s after MVP, Canonical Cube to Screen, Rsterizing Triangles into Pixels, Rasterization - Drawing to Raster Displays, A simple approach - sampling.
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-31
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-07-16
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            Haodong Liao
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Study-CS-CG/" class="post-category">
+                                    Study-CS-CG
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/ComputerGraphics/">
+                        <span class="chip bg-color">ComputerGraphics</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>

@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="無涘">
+    <meta name="keywords" content="GAMES101-7 20200303 20210708 Shading 1 (Illumination, Shading and Graphics Pipeline), 無涘">
     <meta name="description" content="Whatever will be, will be.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>無涘</title>
+    <title>GAMES101-7 20200303 20210708 Shading 1 (Illumination, Shading and Graphics Pipeline) | 無涘</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -226,12 +226,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708132803.png')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title"></h1>
+                    <h1 class="description center-align post-title">GAMES101-7 20200303 20210708 Shading 1 (Illumination, Shading and Graphics Pipeline)</h1>
                 </div>
             </div>
         </div>
@@ -345,12 +345,25 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/ComputerGraphics/">
+                                <span class="chip bg-color">ComputerGraphics</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/Study-CS-CG/" class="post-category">
+                                Study-CS-CG
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -359,28 +372,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2021-05-31
+                    2021-07-16
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2021-05-31
+                    2021-07-16
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    17
+                    667
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    1 Min
+                    2 Min
                 </div>
                 
 
@@ -403,7 +416,143 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>title: 404<br>date: 2019-07-19 16:41:10<br>type: “404”<br>layout: “404”<br>description: “You have came to nowhere :(“</p>
+                <h1 id="7-20200303-20210708-Shading-1-Illumination-Shading-and-Graphics-Pipeline"><a href="#7-20200303-20210708-Shading-1-Illumination-Shading-and-Graphics-Pipeline" class="headerlink" title="7 20200303 / 20210708 Shading 1 (Illumination, Shading and Graphics Pipeline)"></a>7 20200303 / 20210708 Shading 1 (Illumination, Shading and Graphics Pipeline)</h1><h1 id="深度缓存：解决可见性-遮挡问题"><a href="#深度缓存：解决可见性-遮挡问题" class="headerlink" title="深度缓存：解决可见性/遮挡问题"></a>深度缓存：解决可见性/遮挡问题</h1><h2 id="Painter’s-Algorithm"><a href="#Painter’s-Algorithm" class="headerlink" title="Painter’s Algorithm"></a>Painter’s Algorithm</h2><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708125836.png" alt="Painter's Algorithm" style="zoom: 50%;" />
+
+<ul>
+<li>从后向前绘制，<strong>overwrite</strong> in the frame buffer</li>
+<li>需要考虑绘制顺序</li>
+<li>Requires sorting in depth (O(n log n) for n triangles) Can have unresolvable depth order<ul>
+<li>但会出现无法定义深度关系的情况</li>
+</ul>
+</li>
+</ul>
+<h3 id="Z-Buffer-深度缓存"><a href="#Z-Buffer-深度缓存" class="headerlink" title="Z-Buffer 深度缓存"></a>Z-Buffer 深度缓存</h3><ul>
+<li><p>This is the algorithm that eventually won.</p>
+</li>
+<li><p>Idea:</p>
+<ul>
+<li>Store current min. z-value for each sample (pixel) 记录像素最浅深度</li>
+<li>Needs an additional buffer for depth values</li>
+<li>frame buffer stores color values (color buffer)</li>
+<li>depth buffer (z-buffer) stores depth (depth buffer)</li>
+</ul>
+</li>
+<li><p>IMPORTANT: For simplicity we suppose</p>
+<ul>
+<li><p>z is always positive<br>(smaller z -&gt; closer, larger z -&gt; further)</p>
+  <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708130237.png" alt="Z-Buffer examples" style="zoom: 33%;" /></li>
+</ul>
+</li>
+<li><p>Algorighm</p>
+  <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708130440.png" alt="Z-Buffer Algorithm" style="zoom: 33%;" />
+
+  <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708130621.png" alt="Z-Buffer Algorithm cont." style="zoom: 33%;" />
+
+<ul>
+<li>初始深度无限远</li>
+<li>把三角形做光栅化为像素</li>
+<li>找到像素后找到其深度</li>
+<li>z 值小就更新</li>
+</ul>
+</li>
+<li><p>z-buffer Complexity</p>
+</li>
+<li><p>O(n) for n triangles (assuming constant coverage)</p>
+</li>
+<li><p>How is it possible to sort n triangles in linear time?</p>
+<ul>
+<li>并没有排序 只是进行了比较 找最小值</li>
+</ul>
+</li>
+<li><p>绘制顺序不同不影响结果</p>
+<ul>
+<li>两个浮点数基本不可能完全相等</li>
+</ul>
+</li>
+<li><p>Most important visibility algorithm</p>
+<ul>
+<li>Implemented in hardware for all GPUs</li>
+</ul>
+</li>
+<li><p>z-buffer 处理不了透明物体</p>
+</li>
+</ul>
+<h1 id="What-we’ve-covered-so-far"><a href="#What-we’ve-covered-so-far" class="headerlink" title="What we’ve covered so far"></a>What we’ve covered so far</h1><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708131319.png" alt="What we've covered so far" style="zoom: 33%;" />
+
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708131557.png" alt="Rotating Cubes" style="zoom:33%;" />
+
+<h1 id="Shading-着色"><a href="#Shading-着色" class="headerlink" title="Shading 着色"></a>Shading 着色</h1><h2 id="Definition"><a href="#Definition" class="headerlink" title="Definition"></a>Definition</h2><ul>
+<li>In Merriam-Webster Dictionary<ul>
+<li>shading,  noun<br>The darkening or coloring of an illustration or diagram with parallel lines or a block of color.</li>
+<li>In this course<ul>
+<li>The process of applying a material to an object.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="A-Simple-Shading-Model-Blinn-Phong-Reflectance-Model"><a href="#A-Simple-Shading-Model-Blinn-Phong-Reflectance-Model" class="headerlink" title="A Simple Shading Model (Blinn-Phong Reflectance Model)"></a>A Simple Shading Model (Blinn-Phong Reflectance Model)</h2><ul>
+<li><p>Perceptual Observations</p>
+  <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708132803.png" alt="Perceptual Observations" style="zoom:33%;" />
+
+<ul>
+<li>高光 specular highlights</li>
+<li>漫反射 diffuse reflection</li>
+<li>环境光 ambient lighting</li>
+</ul>
+</li>
+<li><p>Shading is Local - 着色局部性只看自己 不考虑其他任何物体的存在 所以没有阴影 (shading ≠ shadow)</p>
+  <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708133217.png" alt="Shading is Local" style="zoom:33%;" /></li>
+</ul>
+<h3 id="Diffuse-Reflection"><a href="#Diffuse-Reflection" class="headerlink" title="Diffuse Reflection"></a>Diffuse Reflection</h3><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708133534.png" alt="Diffuse Reflection" style="zoom:33%;" />
+
+<ul>
+<li><p>把光看作能量 （Lambert）<br>看着色点周围单位面积能够接收到多少能量<br>直射接收到的能量 &gt; 折射接收到的能量</p>
+</li>
+<li><p>Light Falloff</p>
+  <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708133918.png" alt="Light Falloff" style="zoom:33%;" />
+
+<ul>
+<li>能量守恒 - 单位点的能量越来越小 （不同球体表面积所含能量相同）</li>
+</ul>
+</li>
+<li><p>Lambertian (Diffuse) Shading</p>
+  <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708134228.png" alt="Lambertian (Diffuse) Shading" style="zoom:33%;" /></li>
+<li><p>$L_d = k_d (I/r^2)\max(0,\bf{n · l})$</p>
+<ul>
+<li>$k_d$: 着色点对于光的吸收率<ul>
+<li>如果 $k_d = 1$<ul>
+<li>表示该点完全不吸收能量 - 最亮</li>
+</ul>
+</li>
+<li>如果 $k_d = 0$<ul>
+<li>表示该点完全吸收能量没有能量反射出去 - 最暗</li>
+</ul>
+</li>
+<li>如果定义为三通道的 rgb 分别有 01<ul>
+<li>那么就可以定义颜色值</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>$I/r^2$：传播到着色点的强度（结合能量球来看 总面积为 $4\pi r^2$ 距离为 r，那么单位强度就是 $\frac{I}{4\pi r^2}$，为平方反比关系）<ul>
+<li>I: 点光源在单位距离上的强度</li>
+<li>r: 点光源和着色点的距离</li>
+</ul>
+</li>
+<li>$max(0, \bf{n · l})$<ul>
+<li>为什么有 0<ul>
+<li>如果是负数代表从反面照射没有意义</li>
+</ul>
+</li>
+<li>$\bf{n · l}$ 为余弦角</li>
+<li>整体表示被着色点能接收到的能量的比例</li>
+</ul>
+</li>
+<li>漫反射与V无关 - 和观测点无关</li>
+</ul>
+</li>
+</ul>
 
                 
             </div>
@@ -430,7 +579,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://medill-east.github.io/404.html">https://medill-east.github.io/404.html</a>
+                    <a href="https://medill-east.github.io/2021/07/16/games101-7-20200303-20210708-shading-1-illumination-shading-and-graphics-pipeline/">https://medill-east.github.io/2021/07/16/games101-7-20200303-20210708-shading-1-illumination-shading-and-graphics-pipeline/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -467,7 +616,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
+                            
+                                <a href="/tags/ComputerGraphics/">
+                                    <span class="chip bg-color">ComputerGraphics</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -642,34 +795,45 @@
                 <i class="far fa-dot-circle"></i>&nbsp;Current
             </div>
             <div class="card">
-                <a href="/404.html">
+                <a href="/2021/07/16/games101-7-20200303-20210708-shading-1-illumination-shading-and-graphics-pipeline/">
                     <div class="card-image">
                         
+                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708132803.png" class="responsive-img" alt="GAMES101-7 20200303 20210708 Shading 1 (Illumination, Shading and Graphics Pipeline)">
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
-                        
-                        <span class="card-title"></span>
+                        <span class="card-title">GAMES101-7 20200303 20210708 Shading 1 (Illumination, Shading and Graphics Pipeline)</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            Depth buffer, Shading.
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-31
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-07-16
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            Haodong Liao
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Study-CS-CG/" class="post-category">
+                                    Study-CS-CG
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
 
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/ComputerGraphics/">
+                        <span class="chip bg-color">ComputerGraphics</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -677,37 +841,47 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                Current&nbsp;<i class="far fa-dot-circle"></i>
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/404.html">
+                <a href="/2021/07/16/games101-6-20200228-20210708-rasterization-2-anti-aliasing-and-z-buffering/">
                     <div class="card-image">
                         
+                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105306.png" class="responsive-img" alt="GAMES101-6 20200228 20210708 Rasterization 2 anti - aliasing and Z - buffering">
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
-                        
-                        <span class="card-title"></span>
+                        <span class="card-title">GAMES101-6 20200228 20210708 Rasterization 2 anti - aliasing and Z - buffering</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            Anti - aliasing and Z - buffering.
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-31
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-07-16
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            Haodong Liao
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Study-CS-CG/" class="post-category">
+                                    Study-CS-CG
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/ComputerGraphics/">
+                        <span class="chip bg-color">ComputerGraphics</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
