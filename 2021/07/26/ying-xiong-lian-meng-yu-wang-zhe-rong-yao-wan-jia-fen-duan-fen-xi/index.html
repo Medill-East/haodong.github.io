@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="GAMES101-6 20200228 20210708 Rasterization 2 anti - aliasing and Z - buffering, 無涘">
+    <meta name="keywords" content="英雄联盟与王者荣耀玩家分段分析, 無涘">
     <meta name="description" content="Whatever will be, will be.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>GAMES101-6 20200228 20210708 Rasterization 2 anti - aliasing and Z - buffering | 無涘</title>
+    <title>英雄联盟与王者荣耀玩家分段分析 | 無涘</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -226,12 +226,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105306.png')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210726150757.png')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">GAMES101-6 20200228 20210708 Rasterization 2 anti - aliasing and Z - buffering</h1>
+                    <h1 class="description center-align post-title">英雄联盟与王者荣耀玩家分段分析</h1>
                 </div>
             </div>
         </div>
@@ -347,8 +347,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/ComputerGraphics/">
-                                <span class="chip bg-color">ComputerGraphics</span>
+                            <a href="/tags/Game/">
+                                <span class="chip bg-color">Game</span>
+                            </a>
+                        
+                            <a href="/tags/Portfolio/">
+                                <span class="chip bg-color">Portfolio</span>
                             </a>
                         
                     </div>
@@ -359,8 +363,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Study-CS-CG/" class="post-category">
-                                Study-CS-CG
+                            <a href="/categories/Study-Game-Proposal/" class="post-category">
+                                Study-Game-Proposal
                             </a>
                         
                     </div>
@@ -372,28 +376,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2021-07-16
+                    2021-07-26
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2021-07-16
+                    2021-07-26
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    1.2k
+                    2.4k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    4 Min
+                    8 Min
                 </div>
                 
 
@@ -416,266 +420,130 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="6-20200228-20210708-Rasterization-2-anti-aliasing-and-Z-buffering"><a href="#6-20200228-20210708-Rasterization-2-anti-aliasing-and-Z-buffering" class="headerlink" title="6 20200228/20210708 Rasterization 2 anti-aliasing and Z-buffering"></a>6 20200228/20210708 Rasterization 2 anti-aliasing and Z-buffering</h1><h2 id="Sampling-Artifacts-Errors-Mistakes-Inaccuracies-in-Computer-Graphics"><a href="#Sampling-Artifacts-Errors-Mistakes-Inaccuracies-in-Computer-Graphics" class="headerlink" title="Sampling Artifacts (Errors / Mistakes / Inaccuracies) in Computer Graphics"></a>Sampling Artifacts (Errors / Mistakes / Inaccuracies) in Computer Graphics</h2><ul>
-<li><p>采样的例子</p>
+                <h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>据统计：</p>
 <ul>
-<li>rasterization = sample 2d positions</li>
-<li>photograph = sample image sensor plane</li>
+<li>《王者荣耀》玩家段位分布<ul>
+<li>青铜 5.22% </li>
+<li>白银 1.97% </li>
+<li>黄金 10.37% </li>
+<li>铂金 17.48%</li>
+<li>钻石 20.24% </li>
+<li>星耀 28.67%</li>
+<li>最强王者 12.16%</li>
+<li>荣耀王者 3.89% </li>
 </ul>
 </li>
-<li><p>video = sample time</p>
+<li>《英雄联盟》玩家段位分布<ul>
+<li>黑铁 3.3% </li>
+<li>青铜 19.0% </li>
+<li>白银 32.0% </li>
+<li>黄金 29.0% </li>
+<li>铂金 11.0%</li>
+<li>钻石 2.4% </li>
+<li>钻石以上 3.3%</li>
+</ul>
 </li>
-<li><p>采样瑕疵的例子 sampling artifacts</p>
+</ul>
+<p>本文希望从该现象出发，分析其出现原因及各自优劣。</p>
+<p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/%E5%88%86%E6%AE%B5%E6%8A%98%E7%BA%BF%E5%9B%BE.png"></p>
+<p>首先以折线图形式看一下二者的分段分布情况，可以看到二者基本呈现正态分布，差异点主要在于英雄联盟玩家的段位分布高峰主要在白银（超过 42.86% 的段位），位居中游；而王者荣耀玩家的段位分布高峰主要在星耀（超过 75 % 的段位），接近最高段位。基于此观察回答进行如下分析：</p>
+<h2 id="为什么存在段位分布上的差异"><a href="#为什么存在段位分布上的差异" class="headerlink" title="为什么存在段位分布上的差异"></a>为什么存在段位分布上的差异</h2><p>首先需要明确的是分段差异出现的原因是因为设计者的设计，个人认为产生分段差异的原因有以下几点：</p>
+<ol>
+<li><p>游玩门槛导致的玩家基数不同</p>
 <ul>
-<li><p>Jaggies (staircase pattern)</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105306.png" alt="Jaggies (staircase pattern)" style="zoom: 25%;" /></li>
-<li><p>Moiré Patterns in Imaging</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105327.png" alt="Moiré Patterns in Imaging" style="zoom: 25%;" /></li>
-<li><p>Wagon Wheel Illusion (False Motion)</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105353.png" alt="Wagon Wheel Illusion (False Motion)" style="zoom: 25%;" />
-
+<li>英雄联盟作为一款 PC 端游，其游玩需要特定的环境与设备支持，存在游玩门槛。</li>
+<li>王者荣耀作为一款手游，与英雄联盟相比，其游玩的门槛大大降低。</li>
+<li>由此导致的结果是王者荣耀的玩家数量远超英雄联盟。设计师需要为大多数玩家带来良好的游戏体验，而在大玩家基数的基础之上，设计师需要为更多不同背景的玩家设计契合的玩法机制。</li>
+</ul>
+</li>
+<li><p>想要打造的游戏体验不同</p>
 <ul>
-<li>原因：人眼在时间上的采样跟不上运动速度</li>
+<li>英雄联盟想要打造的游戏体验是竞技感<ul>
+<li>作为一款成功的 MOBA 类端游，每一局游戏的胜利都需要玩家投入时间与精力到每一个小细节上，玩家所期待的就是辛苦经营之后的酣畅胜利。整体强调的是有来有回的竞技感、博弈感。所以玩家对于越往后，受到的阻力越大，升段就越难是有心理准备的。</li>
+</ul>
+</li>
+<li>王者荣耀则更加注重娱乐性和满足感<ul>
+<li>作为一款希望玩家能够随时随地掏出手机就能玩的大众手游，玩家所追求的就是时间短、频率高的爽快体验。从玩家角度而言，在爽快娱乐的心理预期下若是花费了时间与精力却总是受挫是不可接受的。设计师需要保障绝大部分玩家都呈现一个段位整体上升的趋势。虽然玩家对于升段有难度一事有心理准备，但要尽可能避免因为玩家产生“本来玩的时间也不多，过了这么久了还总是在原地踏步”这样的挫败感而带来的留存率下降问题。</li>
 </ul>
 </li>
 </ul>
 </li>
-<li><p>采样瑕疵的本质</p>
-<ul>
-<li>Signals are changing too fast (high frequency), but sampled too slowly</li>
-</ul>
-</li>
-</ul>
-<h1 id="Antialiasing-Idea-Blurring-Pre-Filtering-Before-Sampling"><a href="#Antialiasing-Idea-Blurring-Pre-Filtering-Before-Sampling" class="headerlink" title="Antialiasing Idea: Blurring (Pre-Filtering) Before Sampling"></a>Antialiasing Idea: Blurring (Pre-Filtering) Before Sampling</h1><ul>
-<li><p>先模糊滤波再采样</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105614.png" alt="Rasterization: Point Sampling in Space" style="zoom:25%;" />
-
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105628.png" alt="Rasterization: Antialiased Sampling" style="zoom:25%;" />
-
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105754.png" alt="效果对比" style="zoom:25%;" /></li>
-</ul>
-<h1 id="But-why"><a href="#But-why" class="headerlink" title="But why?"></a>But why?</h1><ol>
-<li>Why undersampling introduces aliasing?</li>
-<li>Why pre-filtering then sampling can do antialiasing?</li>
 </ol>
+<h2 id="什么系统设计导致了这样的差距"><a href="#什么系统设计导致了这样的差距" class="headerlink" title="什么系统设计导致了这样的差距"></a>什么系统设计导致了这样的差距</h2><p>从策划角度考虑该问题，即设计师为了达到目标体验而设计的不同路径与挑战。</p>
+<ol>
+<li><p>排位机制的不同</p>
 <ul>
-<li><p>Let’s dig into fundamental reasons</p>
-<p>And look at how to implement antialiased rasterization</p>
+<li>英雄联盟中存在隐藏分机制，隐藏分机制的设置是为了让玩家的段位尽可能地体现出其真实水平，所以存在胜负之后的加减分波动很大的情况。这一点也和目标游戏体验有关，英雄联盟的目标游戏体验就是竞技感，而这一机制的设定也是为了体现竞技场上强者为尊的思想，所以在隐藏分和显示段位接近情况下，基本不可能出现低段位战胜高段位的情况。</li>
+<li>王者荣耀中存在段位保护机制，并且不存在隐藏分机制，玩家的升降段直接由胜负场决定，并且可以显式看到。还是可以从目标游戏体验分析，王者荣耀的目标游戏体验是娱乐性和爽快感，在这过程中应该尽量减少玩家的挫败感，所以王者荣耀甚至为首次到达钻石/星耀的玩家提供了排位保护卡，目的也是为了能够让持续游玩的玩家的段位达到稳定上升的目的。</li>
+</ul>
 </li>
-<li><p>为什么先采样再模糊不行</p>
+<li><p>操作复杂度的不同导致的操作上限</p>
 <ul>
-<li>先采样后 频谱已经发生了混叠</li>
-<li>此时再模糊 得到的结果还是混叠的频谱</li>
+<li>英雄联盟作为 PC 端游，其操作依托键鼠，通常而言左手涉及十六个按键（QWER、ASDF、1234、Tab、Ctrl、Alt、空格），右手需要操控鼠标。</li>
+<li>而王者荣耀作为手游，其操作依托屏幕，通常涉及几个手指。</li>
+<li>由此带来了操作熟练度的上限，对于操作而言，英雄联盟中更高的段位通常意味着对于操作的更高要求，段位越高的玩家通常也越是能“突破极限”。而王者荣耀中由于操作复杂度被简化，更高段位的玩家的操作可能与段位稍低的玩家的操作之间不会有天壤之别，由此减小了玩家之间的差距，从而增加了王者荣耀玩家的升段可能性。</li>
 </ul>
 </li>
-</ul>
-<h1 id="Frequency-domain-频域"><a href="#Frequency-domain-频域" class="headerlink" title="Frequency domain 频域"></a>Frequency domain 频域</h1><ul>
-<li><p>Frequencies</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105917.png" alt="Frequencies" style="zoom:25%;" /></li>
-</ul>
-<h2 id="Fourier-Transform"><a href="#Fourier-Transform" class="headerlink" title="Fourier Transform"></a>Fourier Transform</h2><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708110031.png" alt="Fourier Transform" style="zoom:25%;" />
-
+<li><p>其余细节设计</p>
 <ul>
-<li><p>傅里叶级数展开：任何一个周期函数都可以写成一系列正弦余弦函数线性组合以及一个常数项</p>
+<li>以下几种机制都加速了王者荣耀的整体游戏进度，使得玩家所控英雄能在更短时间内成型，从而推进游戏进程，使得单位时间内玩家的游戏局数增加，从而增加了王者荣耀玩家的升段可能性。<ul>
+<li>等级机制<ul>
+<li>英雄联盟中满级为 18 级，升到满级基本需要 30 分钟。</li>
+<li>王者荣耀中满级为 15 级，升到满级基本只需要 10 分钟。</li>
+<li>王者荣耀中快速的升级机制使得整体游戏进度加快。</li>
+</ul>
+</li>
+<li>补刀机制<ul>
+<li>英雄联盟中存在补刀机制，即玩家需要对目标进行最后一击达成击杀，如此才可以获取经验和经济。否则只能获取到经验（需在一定范围内）。</li>
+<li>王者荣耀中不存在补刀机制，只要玩家在死亡单位的一定范围内就可以获取经验和经济。</li>
+<li>如此设计同样可以从目标游戏体验出发，结合上面提到的操作复杂度，此设计使得王者荣耀的操作要求变低，玩家更容易获得满足感。这也对英雄联盟玩家的对线操作及专注度提出了更高的要求。</li>
+</ul>
+</li>
+<li>补给机制<ul>
+<li>英雄联盟中，玩家所控制英雄只能通过泉水回复效果、辅助技能效果、物品效果（补给品或者装备特效）三种途径进行回复。</li>
+<li>王者荣耀中，除以上途径外，还有塔后补给包机制以供玩家回复。</li>
+<li>从王者荣耀的目标游戏体验出发，该设计增长了玩家的“作战”时间，从而减少由于“无聊”的回城时间带来的阻滞感。</li>
+</ul>
+</li>
+<li>装备购买机制<ul>
+<li>英雄联盟中，玩家只能在泉水一定范围内进行装备购买。</li>
+<li>王者荣耀中，玩家可在任意位置购买装备。</li>
+<li>从王者荣耀目标游戏体验出发，和补给机制一样，增加了玩家的“作战”时间，降低操作复杂度，目的也是为了降低操作门槛与阻滞感。</li>
+</ul>
+</li>
+<li>地图设计的不同导致战斗爆发频率高<ul>
+<li>英雄联盟中的地图很大，除使用冷却时间很长的传送技能（并且需要在单局游戏开始前选择携带）外只能选择步行，如果爆发战斗的地点太远，很难及时进行支援，这对玩家意识就有了更高的要求，同时也增加了战斗的策略性。</li>
+<li>王者荣耀中的地图较小，这意味着只要进行短时间的周旋就能等到队友的支援。</li>
+<li>如此设计使得王者荣耀中战斗爆发频率更高，从而加快了游戏进程。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="各自的优缺点"><a href="#各自的优缺点" class="headerlink" title="各自的优缺点"></a>各自的优缺点</h2><p>作为各自领域的成功之作，二者的优缺点都是在服务于目标游戏人群及其体验情况下的取舍。</p>
 <ul>
-<li>任何一个函数都可分解为不同频率</li>
+<li>英雄联盟在玩家分段设计方面的优点<ul>
+<li>很好地服务于竞技感这一目标游戏体验</li>
+<li>能力至上，强者为尊</li>
 </ul>
 </li>
-<li><p>fourier Transform Decomposes A Signal into Frequencies 傅里叶变换（把一个函数变为另一个，或者反过来）把函数分解为不同频率的段并分别显示出来</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708110225.png" alt="fourier Transform Decomposes A Signal into Frequencies" style="zoom:25%;" /></li>
-<li><p>Higher Frequencies Need Faster Sampling</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708110352.png" alt="Higher Frequencies Need Faster Sampling" style="zoom:25%;" /></li>
-<li><p>Undersampling Creates Frequency Aliases 欠采样导致了频率瑕疵以频率定义走样：假如蓝色和黑色分别是两个不同的函数 二者采样方法相同 但本身频率不同 导致了采样结果相同</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708110544.png" alt="Undersampling Creates Frequency Aliases" style="zoom:25%;" /></li>
-</ul>
-<h2 id="Filtering-Getting-rid-of-certain-frequency-contents"><a href="#Filtering-Getting-rid-of-certain-frequency-contents" class="headerlink" title="Filtering = Getting rid of certain frequency contents"></a>Filtering = Getting rid of certain frequency contents</h2><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708110721.png" alt="Viasualizing Image Frequency Content" style="zoom:25%;" />
-
-<ul>
-<li><p>傅里叶变换把图像从时域变成了频域</p>
-</li>
-<li><p>中心是最低频 周围是高频</p>
-</li>
-<li><p>多数信息集中在低频（中心）</p>
-</li>
-<li><p>水平和竖直亮线</p>
-<ul>
-<li>分析信号时会假设信号周期性重复（即假设图片水平重叠放置 AAAA）</li>
-<li>但实际上并不重复</li>
-<li>那么在左右边界部分会产生剧烈信号变化 - 产生高频</li>
-<li>则产生白线</li>
-<li>若分析单幅内容 可忽略</li>
+<li>英雄联盟在玩家分段设计方面的缺点<ul>
+<li>对于普通玩家而言，由于各方面能力差距导致的失败很容易产生挫败感</li>
 </ul>
 </li>
-<li><p>高通滤波（抹掉低频信号）可得到图像内容轮廓边界 - 和周围内容相差巨大 - 信号变化非常大 - 高频信号</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708111303.png" alt="高通滤波" style="zoom:25%;" /></li>
-<li><p>低通滤波（只有低频信号通过，抹掉高频信息）</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708112533.png" alt="低通滤波" style="zoom:25%;" />
-
-<ul>
-<li>边界被抹去</li>
-<li>水波纹</li>
+<li>王者荣耀在玩家分段设计方面的优点<ul>
+<li>很好地服务于娱乐性与满足感的目标游戏体验</li>
+<li>尽可能地满足了更多玩家群体的游戏需要</li>
 </ul>
 </li>
-<li><p>去掉了高和低频率信息</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708112640.png" alt="同时过滤高低频信息" style="zoom:25%;" />
-
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708112659.png" alt="同时过滤高低频信息 cont." style="zoom:25%;" />
-
-<ul>
-<li>提取到了不太明显的轮廓特征</li>
-<li>数字图像处理</li>
+<li>王者荣耀在玩家分段设计方面的缺点<ul>
+<li>在连胜场数过高情况下出现的胜率制裁等机制，可能使得玩家体验受到影响</li>
 </ul>
 </li>
 </ul>
-<h1 id="Filtering-Convolution-卷积-Averaging-加权平均"><a href="#Filtering-Convolution-卷积-Averaging-加权平均" class="headerlink" title="Filtering = Convolution 卷积 (= Averaging) 加权平均"></a>Filtering = Convolution 卷积 (= Averaging) 加权平均</h1><ul>
-<li><p>Convolution 卷积</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708113238.png" alt="Convolution" style="zoom:25%;" /></li>
-<li><p>图形学中的简化定义</p>
-<ul>
-<li>卷积：通过窗口来进行点乘获取中心值（相当于加权平均）</li>
-</ul>
-</li>
-<li><p>Convolution Theorem（卷积定理）</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708113517.png" alt="Convolution Theorem" style="zoom:25%;" />
-
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708113559.png" alt="Convolution Theorem cont." style="zoom:25%;" />
-
-<ul>
-<li>Convolution in the spatial domain is equal to multiplication in the frequency domain, and vice versa - 在时域上想对信号进行卷积相当于在频域上进行乘积，反之亦然</li>
-<li>Option 1:<ul>
-<li>Filter by convolution in the spatial domain</li>
-</ul>
-</li>
-<li>Option 2:<ul>
-<li>Transform to frequency domain (Fourier transform)</li>
-<li>Multiply by Fourier transform of convolution kernel</li>
-<li>Transform back to spatial domain (inverse Fourier)</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="Box-Filter-低通滤波器"><a href="#Box-Filter-低通滤波器" class="headerlink" title="Box Filter 低通滤波器"></a>Box Filter 低通滤波器</h2><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708114556.png" alt="Box Filter" style="zoom:25%;" />
-
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708114539.png" alt="Box Filter - Works as “Low Pass” Filter" style="zoom:25%;" />
-
-<ul>
-<li>box 越大结果越模糊（留下的频率越低）<ul>
-<li>相当于画笔变大</li>
-</ul>
-</li>
-<li>考虑极端情况<ul>
-<li>box 超级大 - 只有最中间有采样信息</li>
-<li>box 超级小 - 全部频率都被留下来</li>
-</ul>
-</li>
-</ul>
-<h1 id="Sampling-Repeating-Frequency-Contents"><a href="#Sampling-Repeating-Frequency-Contents" class="headerlink" title="Sampling = Repeating Frequency Contents"></a>Sampling = Repeating Frequency Contents</h1><ul>
-<li><p>冲激函数（某些位置有值有些没有，为0）</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708114726.png" alt="冲激函数" style="zoom:25%;" />
-
-<ul>
-<li>采样：给定函数与冲激函数相乘得到采样结果</li>
-<li>采样（从频域角度理解）：就是在重复原始信号的频谱</li>
-</ul>
-</li>
-</ul>
-<p>$$时域的乘积 = 频域的卷积$$</p>
-<ul>
-<li><p>为什么会走样</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708115306.png" alt="为什么会走样" style="zoom:25%;" />
-
-<ul>
-<li>采样率不足（不够快），导致原始信号复制粘贴距离不够大，频率的频谱发生了混叠，即走样</li>
-<li>相当于采样低 = 稀疏采样</li>
-</ul>
-</li>
-</ul>
-<h1 id="Anti-Aliasing"><a href="#Anti-Aliasing" class="headerlink" title="Anti-Aliasing"></a>Anti-Aliasing</h1><ul>
-<li>How Can We Reduce Aliasing Error?</li>
-<li>Option 1: Increase sampling rate<ul>
-<li>Essentially increasing the distance between replicas in the<br>Fourier domain</li>
-<li>Higher resolution displays, sensors, framebuffers…</li>
-<li>But: costly &amp; may need very high resolution</li>
-</ul>
-</li>
-<li>Option 2: Antialiasing<ul>
-<li>Making Fourier contents “narrower” before repeating</li>
-<li>i.e. Filtering out high frequencies before sampling</li>
-</ul>
-</li>
-<li>步骤<ul>
-<li>先卷积</li>
-<li>再采样</li>
-</ul>
-</li>
-</ul>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708115851.png" alt="如何反走样" style="zoom:25%;" />
-
-<ul>
-<li><p>模糊之后的频谱覆盖范围小</p>
-</li>
-<li><p>所以采样堆叠几率小</p>
-</li>
-<li><p>如何模糊</p>
-<ul>
-<li><p>用一定大小的低通滤波器来处理图像</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708120101.png" alt="A Practical Pre-Filter" style="zoom:25%;" /></li>
-</ul>
-</li>
-</ul>
-<h2 id="Antialiasing-by-averaging-values-in-pixel-area"><a href="#Antialiasing-by-averaging-values-in-pixel-area" class="headerlink" title="Antialiasing by averaging values in pixel area"></a>Antialiasing by averaging values in pixel area</h2><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708120227.png" alt="Antialiasing by averaging values in pixel area" style="zoom:25%;" />
-
-<ul>
-<li><p>Solution:</p>
-<ul>
-<li>Convolve f(x,y) by a 1-pixel box-blur<ul>
-<li>convolving = filtering = averaging</li>
-</ul>
-</li>
-<li>Then sample at every pixel’s center</li>
-</ul>
-</li>
-<li><p>怎么把三角形在像素内覆盖的区域算出来：</p>
-</li>
-</ul>
-<h2 id="Antialiasing-By-Supersampling-MSAA"><a href="#Antialiasing-By-Supersampling-MSAA" class="headerlink" title="Antialiasing By Supersampling (MSAA)"></a>Antialiasing By Supersampling (MSAA)</h2><blockquote>
-<p> 解决的是对信号的模糊操作 不是靠提升分辨率解决问题 只是为了解决三角形覆盖问题</p>
-</blockquote>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708120523.png" alt="Supersampling" style="zoom:25%;" />
-
-<ul>
-<li>给像素内部加采样点 看像素覆盖率</li>
-</ul>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708122814.png" alt="Supersampling cont." style="zoom:25%;" />
-
-<h2 id="Antialiasing-Today"><a href="#Antialiasing-Today" class="headerlink" title="Antialiasing Today"></a>Antialiasing Today</h2><ul>
-<li>No free lunch!What’s the cost of MSAA?<ul>
-<li>增加了计算量</li>
-</ul>
-</li>
-<li>Milestones (personal idea)<ul>
-<li>FXAA (Fast Approximate AA)<ul>
-<li>和采样无关 相当于后期处理</li>
-<li>得到一幅图 有锯齿 找到边界 将有锯齿的边界换成没有锯齿的边界</li>
-</ul>
-</li>
-<li>TAA (Temporal AA)<ul>
-<li>复用上一帧信息 在当前帧不引入新信息</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Super resolution / super sampling 超分辨率<ul>
-<li>From low resolution to high resolution</li>
-<li>Essentially still “not enough samples“ problem</li>
-<li>DLSS (Deep Learning Super Sampling)<ul>
-<li>一切猜测 深度学习都适合</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>综上，英雄联盟与王者荣耀的玩家分段不同主要是由于不同的玩家基数与目标游戏体验不同，导致设计师针对目标玩家群体及其游戏体验设计了包括排位、补刀、补给、装备购买、地图设计等不同机制，目的都是为了给玩家们带来更好的游戏体验。</p>
 
                 
             </div>
@@ -702,7 +570,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://medill-east.github.io/2021/07/16/games101-6-20200228-20210708-rasterization-2-anti-aliasing-and-z-buffering/">https://medill-east.github.io/2021/07/16/games101-6-20200228-20210708-rasterization-2-anti-aliasing-and-z-buffering/</a>
+                    <a href="https://medill-east.github.io/2021/07/26/ying-xiong-lian-meng-yu-wang-zhe-rong-yao-wan-jia-fen-duan-fen-xi/">https://medill-east.github.io/2021/07/26/ying-xiong-lian-meng-yu-wang-zhe-rong-yao-wan-jia-fen-duan-fen-xi/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -740,8 +608,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/ComputerGraphics/">
-                                    <span class="chip bg-color">ComputerGraphics</span>
+                                <a href="/tags/Game/">
+                                    <span class="chip bg-color">Game</span>
+                                </a>
+                            
+                                <a href="/tags/Portfolio/">
+                                    <span class="chip bg-color">Portfolio</span>
                                 </a>
                             
                         </div>
@@ -913,45 +785,51 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
             <div class="card">
-                <a href="/2021/07/16/games101-7-20200303-20210708-shading-1-illumination-shading-and-graphics-pipeline/">
+                <a href="/2021/07/26/ying-xiong-lian-meng-yu-wang-zhe-rong-yao-wan-jia-fen-duan-fen-xi/">
                     <div class="card-image">
                         
-                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708132803.png" class="responsive-img" alt="GAMES101-7 20200303 20210708 Shading 1 (Illumination, Shading and Graphics Pipeline)">
+                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210726150757.png" class="responsive-img" alt="英雄联盟与王者荣耀玩家分段分析">
                         
-                        <span class="card-title">GAMES101-7 20200303 20210708 Shading 1 (Illumination, Shading and Graphics Pipeline)</span>
+                        <span class="card-title">英雄联盟与王者荣耀玩家分段分析</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Depth buffer, Shading.
+                            对英雄联盟与王者荣耀玩家分段情况进行原因及优劣分析。
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-07-16
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-07-26
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Study-CS-CG/" class="post-category">
-                                    Study-CS-CG
+                            <a href="/categories/Study-Game-Proposal/" class="post-category">
+                                    Study-Game-Proposal
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/ComputerGraphics/">
-                        <span class="chip bg-color">ComputerGraphics</span>
+                    <a href="/tags/Game/">
+                        <span class="chip bg-color">Game</span>
+                    </a>
+                    
+                    <a href="/tags/Portfolio/">
+                        <span class="chip bg-color">Portfolio</span>
                     </a>
                     
                 </div>
@@ -965,30 +843,30 @@
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/07/16/games101-5-20200225-20210706-07-rasterization-1-triangles/">
+                <a href="/2021/07/26/shen-jiang-san-guo-you-xi-ti-yan-bao-gao/">
                     <div class="card-image">
                         
-                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210707122155.png" class="responsive-img" alt="GAMES101-5 20200225 20210706 07 Rasterization 1 (Triangles)">
+                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210726144033.png" class="responsive-img" alt="神将三国游戏体验报告">
                         
-                        <span class="card-title">GAMES101-5 20200225 20210706 07 Rasterization 1 (Triangles)</span>
+                        <span class="card-title">神将三国游戏体验报告</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Perspective Projection, What’s after MVP, Canonical Cube to Screen, Rsterizing Triangles into Pixels, Rasterization - Drawing to Raster Displays, A simple approach - sampling.
+                            最近在投递游戏策划相关岗位，以 4399 神将三国为目标，撰写了一份游戏体验报告。
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-07-16
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-07-26
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Study-CS-CG/" class="post-category">
-                                    Study-CS-CG
+                            <a href="/categories/Study-Game-ExperienceReport/" class="post-category">
+                                    Study-Game-ExperienceReport
                                 </a>
                             
                             
@@ -998,8 +876,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/ComputerGraphics/">
-                        <span class="chip bg-color">ComputerGraphics</span>
+                    <a href="/tags/Game/">
+                        <span class="chip bg-color">Game</span>
+                    </a>
+                    
+                    <a href="/tags/Portfolio/">
+                        <span class="chip bg-color">Portfolio</span>
                     </a>
                     
                 </div>
