@@ -6,7 +6,7 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2021-07-16T11:28:55.181Z</updated>
+  <updated>2021-07-26T12:10:49.664Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <author>
@@ -15,6 +15,60 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>神将三国游戏体验报告</title>
+    <link href="https://medill-east.github.io/2021/07/26/shen-jiang-san-guo-you-xi-ti-yan-bao-gao/"/>
+    <id>https://medill-east.github.io/2021/07/26/shen-jiang-san-guo-you-xi-ti-yan-bao-gao/</id>
+    <published>2021-07-26T11:56:19.000Z</published>
+    <updated>2021-07-26T12:10:49.664Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;神将三国游戏体验报告&quot;&gt;&lt;a href=&quot;#神将三国游戏体验报告&quot; class=&quot;headerlink&quot; title=&quot;神将三国游戏体验报告&quot;&gt;&lt;/a&gt;神将三国游戏体验报告&lt;/h1&gt;&lt;h2 id=&quot;1-报告基础信息&quot;&gt;&lt;a href=&quot;#1-报告基础信息&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-ExperienceReport" scheme="https://medill-east.github.io/categories/Study-Game-ExperienceReport/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Portfolio" scheme="https://medill-east.github.io/tags/Portfolio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>神将三国首充策划案</title>
+    <link href="https://medill-east.github.io/2021/07/26/shen-jiang-san-guo-shou-chong-ce-hua-an/"/>
+    <id>https://medill-east.github.io/2021/07/26/shen-jiang-san-guo-shou-chong-ce-hua-an/</id>
+    <published>2021-07-26T10:42:19.000Z</published>
+    <updated>2021-07-26T11:06:50.612Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;神将三国首充策划案&quot;&gt;&lt;a href=&quot;#神将三国首充策划案&quot; class=&quot;headerlink&quot; title=&quot;神将三国首充策划案&quot;&gt;&lt;/a&gt;神将三国首充策划案&lt;/h1&gt;&lt;h2 id=&quot;版本更新记录&quot;&gt;&lt;a href=&quot;#版本更新记录&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-Proposal" scheme="https://medill-east.github.io/categories/Study-Game-Proposal/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Portfolio" scheme="https://medill-east.github.io/tags/Portfolio/"/>
+    
+  </entry>
   
   <entry>
     <title>GAMES101-8 20200306/20210708 Shading 2 (Shading, Pipeline and Texture Mapping)</title>
@@ -96,7 +150,7 @@
     <link href="https://medill-east.github.io/2021/07/16/games101-5-20200225-20210706-07-rasterization-1-triangles/"/>
     <id>https://medill-east.github.io/2021/07/16/games101-5-20200225-20210706-07-rasterization-1-triangles/</id>
     <published>2021-07-16T05:58:45.000Z</published>
-    <updated>2021-07-16T10:14:44.647Z</updated>
+    <updated>2021-07-16T11:45:04.904Z</updated>
     
     
       
@@ -121,7 +175,7 @@
     <link href="https://medill-east.github.io/2021/07/16/games101-4-20200221-20210705-transformation-cont/"/>
     <id>https://medill-east.github.io/2021/07/16/games101-4-20200221-20210705-transformation-cont/</id>
     <published>2021-07-16T05:46:45.000Z</published>
-    <updated>2021-07-16T10:13:15.370Z</updated>
+    <updated>2021-07-16T11:42:23.044Z</updated>
     
     
       
@@ -146,7 +200,7 @@
     <link href="https://medill-east.github.io/2021/07/16/games101-3-20200218-20210704-transformation/"/>
     <id>https://medill-east.github.io/2021/07/16/games101-3-20200218-20210704-transformation/</id>
     <published>2021-07-16T05:36:25.000Z</published>
-    <updated>2021-07-16T10:11:26.429Z</updated>
+    <updated>2021-07-16T11:39:53.445Z</updated>
     
     
       
@@ -171,7 +225,7 @@
     <link href="https://medill-east.github.io/2021/07/16/games101-2-20200214-20210704-a-swift-and-brutal-introduction-to-linear-algebra/"/>
     <id>https://medill-east.github.io/2021/07/16/games101-2-20200214-20210704-a-swift-and-brutal-introduction-to-linear-algebra/</id>
     <published>2021-07-16T05:29:03.000Z</published>
-    <updated>2021-07-16T10:10:32.097Z</updated>
+    <updated>2021-07-16T11:36:35.041Z</updated>
     
     
       
@@ -196,7 +250,7 @@
     <link href="https://medill-east.github.io/2021/07/16/games101-1-20200211-20210703-overview-of-cg/"/>
     <id>https://medill-east.github.io/2021/07/16/games101-1-20200211-20210703-overview-of-cg/</id>
     <published>2021-07-16T05:16:46.000Z</published>
-    <updated>2021-07-16T10:05:31.867Z</updated>
+    <updated>2021-07-16T11:36:01.732Z</updated>
     
     
       
@@ -221,7 +275,7 @@
     <link href="https://medill-east.github.io/2021/07/16/games101-introduction-to-mordern-computer-graphics/"/>
     <id>https://medill-east.github.io/2021/07/16/games101-introduction-to-mordern-computer-graphics/</id>
     <published>2021-07-16T05:04:19.000Z</published>
-    <updated>2021-07-16T11:19:40.603Z</updated>
+    <updated>2021-07-16T12:33:18.115Z</updated>
     
     
       
