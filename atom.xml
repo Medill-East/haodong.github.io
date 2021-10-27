@@ -6,7 +6,7 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2021-07-26T13:10:49.493Z</updated>
+  <updated>2021-10-27T13:27:19.400Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>For Love Demo 展示及分析</title>
+    <link href="https://medill-east.github.io/2021/10/26/for-love-demo-showcase-and-analysis/"/>
+    <id>https://medill-east.github.io/2021/10/26/for-love-demo-showcase-and-analysis/</id>
+    <published>2021-10-26T20:18:19.000Z</published>
+    <updated>2021-10-27T13:27:19.400Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;《For-Love》Demo-展示&quot;&gt;&lt;a href=&quot;#《For-Love》Demo-展示&quot; class=&quot;headerlink&quot; title=&quot;《For Love》Demo 展示&quot;&gt;&lt;/a&gt;《For Love》Demo 展示&lt;/h2&gt;&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-Demo" scheme="https://medill-east.github.io/categories/Study-Game-Demo/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Portfolio" scheme="https://medill-east.github.io/tags/Portfolio/"/>
+    
+  </entry>
   
   <entry>
     <title>英雄联盟与王者荣耀玩家分段分析</title>
