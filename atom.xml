@@ -6,7 +6,7 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2021-10-27T13:27:19.400Z</updated>
+  <updated>2021-11-02T14:54:03.513Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>喝酒游戏列举与思考</title>
+    <link href="https://medill-east.github.io/2021/11/02/drinking-games/"/>
+    <id>https://medill-east.github.io/2021/11/02/drinking-games/</id>
+    <published>2021-11-02T13:26:19.000Z</published>
+    <updated>2021-11-02T14:54:03.513Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;&lt;span id=&quot;jump&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;最近在看《游戏设计、原型与开发》一书，第一章中提到了对一个牌类游戏</summary>
+        
+      
+    
+    
+    
+    <category term="Thinking" scheme="https://medill-east.github.io/categories/Thinking/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Thinking" scheme="https://medill-east.github.io/tags/Thinking/"/>
+    
+  </entry>
   
   <entry>
     <title>For Love Demo 展示及分析</title>
