@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="GAMES101-6 20200228 20210708 Rasterization 2 anti - aliasing and Z - buffering, 無涘">
+    <meta name="keywords" content="Clash Heroes 目标体验思考及设计反思, 無涘">
     <meta name="description" content="Whatever will be, will be.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>GAMES101-6 20200228 20210708 Rasterization 2 anti - aliasing and Z - buffering | 無涘</title>
+    <title>Clash Heroes 目标体验思考及设计反思 | 無涘</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -226,12 +226,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105306.png')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/clash heroes.jpeg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">GAMES101-6 20200228 20210708 Rasterization 2 anti - aliasing and Z - buffering</h1>
+                    <h1 class="description center-align post-title">Clash Heroes 目标体验思考及设计反思</h1>
                 </div>
             </div>
         </div>
@@ -347,8 +347,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/ComputerGraphics/">
-                                <span class="chip bg-color">ComputerGraphics</span>
+                            <a href="/tags/Game/">
+                                <span class="chip bg-color">Game</span>
                             </a>
                         
                     </div>
@@ -359,8 +359,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Study-CS-CG/" class="post-category">
-                                Study-CS-CG
+                            <a href="/categories/Study-Game-Analysis/" class="post-category">
+                                Study-Game-Analysis
                             </a>
                         
                     </div>
@@ -372,28 +372,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2021-07-16
+                    2021-11-06
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2021-07-16
+                    2021-11-06
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    1.2k
+                    3.3k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    4 Min
+                    10 Min
                 </div>
                 
 
@@ -416,266 +416,243 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="6-20200228-20210708-Rasterization-2-anti-aliasing-and-Z-buffering"><a href="#6-20200228-20210708-Rasterization-2-anti-aliasing-and-Z-buffering" class="headerlink" title="6 20200228/20210708 Rasterization 2 anti-aliasing and Z-buffering"></a>6 20200228/20210708 Rasterization 2 anti-aliasing and Z-buffering</h1><h2 id="Sampling-Artifacts-Errors-Mistakes-Inaccuracies-in-Computer-Graphics"><a href="#Sampling-Artifacts-Errors-Mistakes-Inaccuracies-in-Computer-Graphics" class="headerlink" title="Sampling Artifacts (Errors / Mistakes / Inaccuracies) in Computer Graphics"></a>Sampling Artifacts (Errors / Mistakes / Inaccuracies) in Computer Graphics</h2><ul>
-<li><p>采样的例子</p>
-<ul>
-<li>rasterization = sample 2d positions</li>
-<li>photograph = sample image sensor plane</li>
-</ul>
-</li>
-<li><p>video = sample time</p>
-</li>
-<li><p>采样瑕疵的例子 sampling artifacts</p>
-<ul>
-<li><p>Jaggies (staircase pattern)</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105306.png" alt="Jaggies (staircase pattern)" style="zoom: 25%;" /></li>
-<li><p>Moiré Patterns in Imaging</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105327.png" alt="Moiré Patterns in Imaging" style="zoom: 25%;" /></li>
-<li><p>Wagon Wheel Illusion (False Motion)</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105353.png" alt="Wagon Wheel Illusion (False Motion)" style="zoom: 25%;" />
+                <h3 id="视频展示"><a href="#视频展示" class="headerlink" title="视频展示"></a>视频展示</h3><iframe width="480" height="360" src="https://youtube.com/clip/UgkxFq-TIaDR8SPzRPFo4lYH-Tv9vCs9dWsH" frameborder="0" allowfullscreen></iframe>
 
-<ul>
-<li>原因：人眼在时间上的采样跟不上运动速度</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>采样瑕疵的本质</p>
-<ul>
-<li>Signals are changing too fast (high frequency), but sampled too slowly</li>
-</ul>
-</li>
-</ul>
-<h1 id="Antialiasing-Idea-Blurring-Pre-Filtering-Before-Sampling"><a href="#Antialiasing-Idea-Blurring-Pre-Filtering-Before-Sampling" class="headerlink" title="Antialiasing Idea: Blurring (Pre-Filtering) Before Sampling"></a>Antialiasing Idea: Blurring (Pre-Filtering) Before Sampling</h1><ul>
-<li><p>先模糊滤波再采样</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105614.png" alt="Rasterization: Point Sampling in Space" style="zoom:25%;" />
+<h3 id="Gif-展示"><a href="#Gif-展示" class="headerlink" title="Gif 展示"></a>Gif 展示</h3><table><tr> <center>
+    <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/冲撞技能与地形的交互.gif" alt="冲撞技能与地形的交互" style="zoom: 33%; text-align: center; align:middle;" border=0></td> 
+    <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/InteractiveObject.gif" alt="可交互道具" style="zoom: 50%; text-align: center; align:middle;" border=0></td> 
+    <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/interactiveTerrain.gif" alt="可交互地形" style="zoom:33%; align:middle;" border=0></td> 
+</center></tr></table>
 
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105628.png" alt="Rasterization: Antialiased Sampling" style="zoom:25%;" />
+<table><tr> <center>
+    <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/fight.gif" alt="战斗场景" style="zoom:33%; align:middle;" border=0></td> 
+    <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/object collection.gif" alt="物品拾取" style="zoom:33%; align:middle;" border=0></td> 
+        <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/貌似 BOSS 战斗.gif" alt="精英怪物" style="zoom:33%; align:middle;" border=0></td> 
+</center></tr></table>
 
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105754.png" alt="效果对比" style="zoom:25%;" /></li>
+<h2 id="《Clash-Heroes》目标体验思考及设计反思"><a href="#《Clash-Heroes》目标体验思考及设计反思" class="headerlink" title="《Clash Heroes》目标体验思考及设计反思"></a>《Clash Heroes》目标体验思考及设计反思</h2><h3 id="游戏概述"><a href="#游戏概述" class="headerlink" title="游戏概述"></a>游戏概述</h3><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/cooperation.gif"></p>
+<p>从目前放出的一些预览视频来看，《Clash Heroes》 是一款合作类的角色扮演闯关手游，玩家将以俯视角操纵英雄进行实时游玩。每个游戏角色都有独立的角色特性和技能。</p>
+<h4 id="目标、路径、挑战、体验分析"><a href="#目标、路径、挑战、体验分析" class="headerlink" title="目标、路径、挑战、体验分析"></a>目标、路径、挑战、体验分析</h4><p>基于视频，以下将从目标、路径、挑战、体验四个方面对游戏进行整体设想：</p>
+<h5 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h5><p>即游戏的结束条件：玩家需要带领角色冲破重重关卡，直至通关</p>
+<h5 id="路径"><a href="#路径" class="headerlink" title="路径"></a>路径</h5><p>即玩家达到目标的手段：玩家需要通过不断杀敌，从而不断向前。<br>其中涉及的元素有：</p>
+<ul>
+<li><p>杀敌</p>
+</li>
+<li><p>收集</p>
+<table><tr> <center>
+  <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/object collection.gif" alt="掉落资源收集" style="zoom:45%; align:middle;" border=0></td> 
+  <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/fight.gif" alt="场景（右上方）宝箱收集" style="zoom:45%; align:middle;" border=0></td> 
+</center></tr></table></li>
+<li><p>场景道具交互</p>
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/InteractiveObject.gif" style="zoom:60%;" /></li>
+<li><p>地形交互</p>
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/interactiveTerrain.gif" style="zoom:30%;" /></li>
 </ul>
-<h1 id="But-why"><a href="#But-why" class="headerlink" title="But why?"></a>But why?</h1><ol>
-<li>Why undersampling introduces aliasing?</li>
-<li>Why pre-filtering then sampling can do antialiasing?</li>
+<h5 id="挑战"><a href="#挑战" class="headerlink" title="挑战"></a>挑战</h5><p>即玩家在实现目标的路径中可能碰到的障碍。<br>目前视频中所反映出的障碍基本有以下几种：</p>
+<ol>
+<li>怪物障碍：即通关过程中会不断遭遇的怪物<br>怪物类型：</li>
 </ol>
 <ul>
-<li><p>Let’s dig into fundamental reasons</p>
-<p>And look at how to implement antialiased rasterization</p>
-</li>
-<li><p>为什么先采样再模糊不行</p>
+<li>普通怪物<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/fight.gif" style="zoom: 30%;" /></li>
+<li>精英怪物<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/貌似 BOSS 战斗.gif" style="zoom:30%;" /></li>
+<li>BOSS<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/Boss.gif" style="zoom:70%;" /></li>
+</ul>
+<ol start="2">
+<li>陷阱/建筑障碍：即会对玩家造成直接或间接伤害的地图陷阱/建筑<br>陷阱/建筑类型：</li>
+</ol>
 <ul>
-<li>先采样后 频谱已经发生了混叠</li>
-<li>此时再模糊 得到的结果还是混叠的频谱</li>
+<li>防御塔：如下图 Gif 中出现的会对角色进行攻击的防御塔</li>
+<li>兵工厂：如下图 Gif 中右上角出现的会不断产生新怪物的兵工厂<table><tr> <center>
+  <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/characterArrow.gif" alt="防御塔" style="zoom:45%; align:middle;" border=0></td> 
+  <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/characterWorrior.gif" alt="兵工厂" style="zoom:45%; align:middle;" border=0></td> 
+</center></tr></table></li>
 </ul>
-</li>
-</ul>
-<h1 id="Frequency-domain-频域"><a href="#Frequency-domain-频域" class="headerlink" title="Frequency domain 频域"></a>Frequency domain 频域</h1><ul>
-<li><p>Frequencies</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105917.png" alt="Frequencies" style="zoom:25%;" /></li>
-</ul>
-<h2 id="Fourier-Transform"><a href="#Fourier-Transform" class="headerlink" title="Fourier Transform"></a>Fourier Transform</h2><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708110031.png" alt="Fourier Transform" style="zoom:25%;" />
-
+<ol start="3">
+<li>地形障碍：即通关过程中需要跨越地形<br>地形类型：沟壑 - 需要借助地形交互<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/interactiveTerrain.gif" style="zoom:40%;" /></li>
+</ol>
+<h5 id="体验"><a href="#体验" class="headerlink" title="体验"></a>体验</h5><p>即期望玩家在游玩时获得的情感体验。<br>在后面部分会展开描述，这里只进行列举：</p>
 <ul>
-<li><p>傅里叶级数展开：任何一个周期函数都可以写成一系列正弦余弦函数线性组合以及一个常数项</p>
+<li>爽快感</li>
+<li>合作感</li>
+<li>策略感</li>
+</ul>
+<h3 id="目标体验反思"><a href="#目标体验反思" class="headerlink" title="目标体验反思"></a>目标体验反思</h3><h4 id="爽快感"><a href="#爽快感" class="headerlink" title="爽快感"></a>爽快感</h4><p>爽快感解析：换言之我觉得也可以称之为顺畅感、割草感<br>爽快感实现方式：</p>
+<ol>
+<li>系统角度</li>
+</ol>
 <ul>
-<li>任何一个函数都可分解为不同频率</li>
-</ul>
+<li><p>操作简单：采用了市面通行的左右摇杆机制，让玩家几乎没有学习和适应成本</p>
 </li>
-<li><p>fourier Transform Decomposes A Signal into Frequencies 傅里叶变换（把一个函数变为另一个，或者反过来）把函数分解为不同频率的段并分别显示出来</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708110225.png" alt="fourier Transform Decomposes A Signal into Frequencies" style="zoom:25%;" /></li>
-<li><p>Higher Frequencies Need Faster Sampling</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708110352.png" alt="Higher Frequencies Need Faster Sampling" style="zoom:25%;" /></li>
-<li><p>Undersampling Creates Frequency Aliases 欠采样导致了频率瑕疵以频率定义走样：假如蓝色和黑色分别是两个不同的函数 二者采样方法相同 但本身频率不同 导致了采样结果相同</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708110544.png" alt="Undersampling Creates Frequency Aliases" style="zoom:25%;" /></li>
-</ul>
-<h2 id="Filtering-Getting-rid-of-certain-frequency-contents"><a href="#Filtering-Getting-rid-of-certain-frequency-contents" class="headerlink" title="Filtering = Getting rid of certain frequency contents"></a>Filtering = Getting rid of certain frequency contents</h2><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708110721.png" alt="Viasualizing Image Frequency Content" style="zoom:25%;" />
-
+<li><p>攻击机制简单：每个角色只有一个普攻按键和一个技能按键</p>
+</li>
+<li><p>怒气积累机制直观：角色每次成功攻击都能积累一档怒气（即生命条下方的紫色状态条），当怒气集满之后不同角色会有独特的状态：</p>
 <ul>
-<li><p>傅里叶变换把图像从时域变成了频域</p>
+<li><p>战士是会进入狂暴状态，应该是能得到攻击加成</p>
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/Boss.gif" alt="战士" style="zoom:70%;" /></li>
+<li><p>弓箭手和炸弹师都是能在下次普攻时自动发动一次强力攻击</p>
+<table><tr> <center>
+  <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/characterArrow2.gif" alt="弓箭手" style="zoom:70%; align:middle;" border=0></td> 
+  <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/characterbomb.gif" alt="炸弹师" style="zoom:70%; align:middle;" border=0></td> 
+</center></tr></table></li>
+<li><p>自动选择攻击单位（参见上方炸弹师 Gif）：在进行普通攻击时，玩家不需要选择供给单位，系统会自动选择离自己最近的敌方单位进行攻击</p>
 </li>
-<li><p>中心是最低频 周围是高频</p>
+<li><p>技能方向选择简单（参见上方炸弹师 Gif）：对于需要选择攻击方向的技能，采用了以玩家自身为锚点的方式，玩家只需要根据按钮方向对攻击方向进行选择</p>
 </li>
-<li><p>多数信息集中在低频（中心）</p>
+</ul>
 </li>
-<li><p>水平和竖直亮线</p>
+<li><p>交互机制简单</p>
 <ul>
-<li>分析信号时会假设信号周期性重复（即假设图片水平重叠放置 AAAA）</li>
-<li>但实际上并不重复</li>
-<li>那么在左右边界部分会产生剧烈信号变化 - 产生高频</li>
-<li>则产生白线</li>
-<li>若分析单幅内容 可忽略</li>
+<li>攻击即可触发道具交互<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/InteractiveObject.gif" style="zoom: 60%;" /></li>
+<li>移动到特殊地形即可触发地形交互<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/interactiveTerrain.gif" style="zoom:40%;" /></li>
+<li>移动到一定范围内即可对掉落物进行自动收集<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/objectCollection.gif" style="zoom:40%;" /></li>
 </ul>
 </li>
-<li><p>高通滤波（抹掉低频信号）可得到图像内容轮廓边界 - 和周围内容相差巨大 - 信号变化非常大 - 高频信号</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708111303.png" alt="高通滤波" style="zoom:25%;" /></li>
-<li><p>低通滤波（只有低频信号通过，抹掉高频信息）</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708112533.png" alt="低通滤波" style="zoom:25%;" />
-
+</ul>
+<ol start="2">
+<li>UX 角度</li>
+</ol>
 <ul>
-<li>边界被抹去</li>
-<li>水波纹</li>
+<li>美学呈现（以视觉举例）<ul>
+<li>卡通风格简明：卡通风格既能保证战斗体验，也不会耗费玩家太多的注意力资源</li>
+<li>攻击飘字颜色简单：如图所示，目前的飘字一共有两种，己方造成的伤害是白色，敌方造成的伤害是红色，这样的飘字呈现方式简单直白  <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/fight.gif" style="zoom:40%;" /></li>
+<li>范围呈现明显：无论是敌方的攻击范围，还是所控制角色的技能释放范围，都有很明显的视觉辅助，从而能让玩家产生爽快的战斗体验  <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/Boss.gif" style="zoom:80%;" />
+  <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/characterbomb.gif" style="zoom:80%;" /></li>
 </ul>
 </li>
-<li><p>去掉了高和低频率信息</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708112640.png" alt="同时过滤高低频信息" style="zoom:25%;" />
-
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708112659.png" alt="同时过滤高低频信息 cont." style="zoom:25%;" />
-
+<li>即时交互：即时交互机制能让玩家很容易进入全神贯注的心流状态</li>
+</ul>
+<h4 id="合作感"><a href="#合作感" class="headerlink" title="合作感"></a>合作感</h4><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/coop.gif" alt="合作杀敌"></p>
+<p>合作感解析：即需要与玩家配合杀敌通关<br>合作感实现：在所展示的 Gif 中，不同玩家操纵着不同角色在同一地图中共同作战，但从目前放出的资料来看，合作感还有待加强，本文后续部分也会再次提到这部分内容。</p>
+<h4 id="策略感"><a href="#策略感" class="headerlink" title="策略感"></a>策略感</h4><p>策略感解析：这里的策略感指的是玩家可以以多种方式进行游玩和参与到游戏中<br>策略感实现：</p>
+<ol>
+<li>角色设计<br>如图所示，目前放出的视频中一共有三种角色，我称之为战士，弓箭手和炸弹师。<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/Boss.gif" alt="战士" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/characterArrow2.gif" alt="弓箭手" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/characterbomb.gif" alt="炸弹师" style="zoom:80%;" /></li>
+</ol>
+<p>据称还会有更多职业放出，多样化的职业为玩家提供了更多的游玩可能性<br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/characters.jpg" alt="角色造型" style="zoom: 33%;" /></p>
+<ol start="2">
+<li><p>可交互地形设计<br>如图所示，目前的除了有可交互的特殊区域可以帮助进行地形跨越外，还增加了令人眼前一亮的技能与地形的交互，这样的交互可能性会极大增强可玩性和策略性（但想必实现难度不低，BUG 也会很多哈哈）</p>
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/interactiveTerrain.gif" alt="可交互地形" style="zoom:40%;" />
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/冲撞技能与地形的交互.gif" alt="技能与地形的交互" style="zoom:40%;" /></li>
+<li><p>道具设计<br>如图所示，目前放出的视频中，地图中也有可供玩家交互的道具，这些道具的出现势必会丰富玩家的策略空间</p>
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/InteractiveObject.gif" alt="可交互道具" style="zoom: 67%;" /></li>
+</ol>
+<p>以上对目前所放出的视频中的目标体验进行了一些反思，下面我会对未来可能的一些设计方向提出一些自己的思考。</p>
+<h3 id="对未来可能的设计方向的思考"><a href="#对未来可能的设计方向的思考" class="headerlink" title="对未来可能的设计方向的思考"></a>对未来可能的设计方向的思考</h3><p>以下将从战斗、养成、社交的经典三元素出发，对未来可能的设计方向进行一些思考。</p>
+<h4 id="战斗"><a href="#战斗" class="headerlink" title="战斗"></a>战斗</h4><ol>
+<li>丰富战斗交互空间<br>这里的战斗交互空间主要指的是玩家的可操作空间。丰富战斗交互空间可以增强玩家【策略感】。<br>目前只为玩家提供了普通攻击、怒气攻击和一个技能，玩家可操作空间较少，所以也许可以考虑以下的几种方式丰富战斗交互空间：</li>
+</ol>
 <ul>
-<li>提取到了不太明显的轮廓特征</li>
-<li>数字图像处理</li>
+<li>丰富技能<ul>
+<li>即为各个角色增加更多的技能选项</li>
+</ul>
+</li>
+<li>丰富攻击方式<ul>
+<li>其中一种丰富攻击方式的方法是引入武器系统，并且为每种武器赋予独特的攻击方式和技能系统</li>
+</ul>
+</li>
+<li>丰富攻击属性<br>  从下面的图中我们可以看到目前已经拥有冰属性和雷属性的攻击，在未来也许可以考虑以下的方式来丰富攻击属性：<ul>
+<li>武器附魔</li>
+<li>利用不同的技能/道具状态改变攻击属性<table><tr> <center>
+  <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/characterArrow2.gif" alt="冰属性攻击" style="zoom:80%; align:middle;" border=0></td> 
+  <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/cooperation.gif" alt="雷属性攻击" style="zoom:80%; align:middle;" border=0></td> 
+</center></tr></table></li>
 </ul>
 </li>
 </ul>
-<h1 id="Filtering-Convolution-卷积-Averaging-加权平均"><a href="#Filtering-Convolution-卷积-Averaging-加权平均" class="headerlink" title="Filtering = Convolution 卷积 (= Averaging) 加权平均"></a>Filtering = Convolution 卷积 (= Averaging) 加权平均</h1><ul>
-<li><p>Convolution 卷积</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708113238.png" alt="Convolution" style="zoom:25%;" /></li>
-<li><p>图形学中的简化定义</p>
+<ol start="2">
+<li>丰富场景道具<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/InteractiveObject.gif" alt="可交互道具" style="zoom:67%;" />
+如上所示，目前已经有可供交互的道具，未来也许可以考虑以下的方式来丰富场景道具：</li>
+</ol>
 <ul>
-<li>卷积：通过窗口来进行点乘获取中心值（相当于加权平均）</li>
+<li>丰富道具功能<ul>
+<li>如交互后可为角色带来不同的状态改变：<ul>
+<li>生命恢复</li>
+<li>攻击提升</li>
+<li>攻击属性授予</li>
+<li>防御提升</li>
+<li>一段时间内不消耗怒气等</li>
 </ul>
 </li>
-<li><p>Convolution Theorem（卷积定理）</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708113517.png" alt="Convolution Theorem" style="zoom:25%;" />
-
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708113559.png" alt="Convolution Theorem cont." style="zoom:25%;" />
-
+</ul>
+</li>
+<li>丰富道具属性<ul>
+<li>图中所示的为一次性交互道具，也许可以考虑为其增加可重复使用的可携带道具，可设计为同账号不同角色间通用道具，也可为不同角色设计专属道具，如为弓箭手角色设计专属道具【翎羽】，效果为可几率触发普攻连发等。</li>
+</ul>
+</li>
+</ul>
+<ol start="3">
+<li>丰富视觉效果<br>这里的视觉效果主要指场景中的可见元素的效果。丰富视觉效果可以增强玩家战斗【爽快感】。</li>
+</ol>
 <ul>
-<li>Convolution in the spatial domain is equal to multiplication in the frequency domain, and vice versa - 在时域上想对信号进行卷积相当于在频域上进行乘积，反之亦然</li>
-<li>Option 1:<ul>
-<li>Filter by convolution in the spatial domain</li>
-</ul>
-</li>
-<li>Option 2:<ul>
-<li>Transform to frequency domain (Fourier transform)</li>
-<li>Multiply by Fourier transform of convolution kernel</li>
-<li>Transform back to spatial domain (inverse Fourier)</li>
+<li>丰富飘字效果<ul>
+<li>目前放出的版本中只有两种飘字，即己方伤害为白色，敌方伤害为红色，未来可丰富飘字效果，如暴击则飘字为黄色等。</li>
 </ul>
 </li>
 </ul>
-</li>
-</ul>
-<h2 id="Box-Filter-低通滤波器"><a href="#Box-Filter-低通滤波器" class="headerlink" title="Box Filter 低通滤波器"></a>Box Filter 低通滤波器</h2><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708114556.png" alt="Box Filter" style="zoom:25%;" />
-
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708114539.png" alt="Box Filter - Works as “Low Pass” Filter" style="zoom:25%;" />
-
+<ol start="4">
+<li>丰富职业/角色<br>目前已经放出的角色有三种，我称之为战士、弓箭手和炸弹师，未来可考虑对角色进行丰富。丰富角色可以增强玩家【策略感】。<br>也许可以考虑增加以下职业/角色：</li>
+</ol>
 <ul>
-<li>box 越大结果越模糊（留下的频率越低）<ul>
-<li>相当于画笔变大</li>
+<li>召唤师：可召唤宝宝辅助进行战斗</li>
+<li>陷阱师：可设置陷阱诱捕敌人/对敌人造成伤害</li>
+<li>工程师：可建造炮塔等设施辅助进行战斗</li>
+<li>法师：可利用强大的法术进行战斗</li>
+<li>诅咒师：可利用诅咒辅助进行战斗，如施加负面效果或造成伤害</li>
+<li>盗贼：如拥有隐身和背刺等技能，背后攻击会有攻击加成</li>
+<li>狼人：可拥有变身技能，变身后提供状态加成，且攻击方式、攻击技能改变</li>
+<li>魅惑师：可利用魅惑技能让敌方单位反为己用等</li>
 </ul>
+<ol start="5">
+<li><p>丰富地形的同时提供反悔的选项，此举可以增强玩家【爽快感】。<br>如图所示，当前版本为玩家提供了地形交互选项，我想到的是可能还得为玩家提供反悔的选择，如设置为可返回前一地形，或者添加位移技能，防止出现玩家想要返回前一地形却无计可施，从而产生挫败感的情况。</p>
+<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/interactiveTerrain.gif" alt="可交互地形" style="zoom: 40%;" /></li>
+<li><p>丰富玩法<br>这里的玩法主要指的是游戏中的各种交互机制，玩法的丰富可以增加玩家的【策略感】。<br>可以考虑如下的方式来丰富玩法：</p>
 </li>
-<li>考虑极端情况<ul>
-<li>box 超级大 - 只有最中间有采样信息</li>
-<li>box 超级小 - 全部频率都被留下来</li>
-</ul>
-</li>
-</ul>
-<h1 id="Sampling-Repeating-Frequency-Contents"><a href="#Sampling-Repeating-Frequency-Contents" class="headerlink" title="Sampling = Repeating Frequency Contents"></a>Sampling = Repeating Frequency Contents</h1><ul>
-<li><p>冲激函数（某些位置有值有些没有，为0）</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708114726.png" alt="冲激函数" style="zoom:25%;" />
-
+</ol>
 <ul>
-<li>采样：给定函数与冲激函数相乘得到采样结果</li>
-<li>采样（从频域角度理解）：就是在重复原始信号的频谱</li>
+<li>增加解密元素：目前放出的资料中基本只涉及战斗，所以可以考虑增加解谜元素以丰富玩法，同时不断给玩家带来新鲜感。</li>
+<li>引入天气系统：目前放出的资料中并不涉及天气系统，所以可以考虑增加天气系统，并且将其与战斗系统挂钩，如雨天环境下，雷属性攻击的范围变大，且攻击力变强等。</li>
+<li>引入时间系统：目前放出的资料中并不涉及时间系统，所以可以考虑增加时间系统，并且将其与战斗系统挂钩，如黑夜环境下，玩家视野变小，但也更不容易被敌人发现；其上所提到的狼人角色，其在黑夜状态下的变身时间会延长等。</li>
 </ul>
-</li>
-</ul>
-<p>$$时域的乘积 = 频域的卷积$$</p>
+<h4 id="养成"><a href="#养成" class="headerlink" title="养成"></a>养成</h4><p>即丰富养成空间：这里的养成空间主要指的是可让角色提升的方方面面，养成空间的丰富可以增强玩家的【策略感】。<br>目前所体现的角色变化只有怒气值的变化：<br>虽然怒气集满后可持续时间增长了，但是积累所需的攻击次数也变多了，如此使得养成系统的体现并不明显，也会降低玩家提升的动力。<br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/fight.gif" alt="三档怒气" style="zoom: 40%;" /><br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/characterWorrior.gif" alt="五档怒气" style="zoom: 80%;" /></p>
+<p>目前资料中还体现了收集元素，应该也是服务于养成系统的：<br>    <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/object collection.gif" alt="掉落元素收集" style="zoom:40%;" /></p>
+<p>可以考虑如下的方式来丰富养成空间：</p>
+<ol>
+<li>个人养成</li>
+</ol>
 <ul>
-<li><p>为什么会走样</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708115306.png" alt="为什么会走样" style="zoom:25%;" />
-
+<li>属性养成：这里的属性养成指的是各个角色自身的属性，如可以对角色的以下属性进行提升：<ul>
+<li>攻击力</li>
+<li>防御力</li>
+<li>暴击率</li>
+<li>攻击属性</li>
+<li>耐性：用于抵抗倒地等</li>
+</ul>
+</li>
+<li>技能/熟练度养成：玩家在不断使用技能过程中，也许可以考虑为技能引入熟练度，从而对技能达到以下效果的提升：<ul>
+<li>攻击力</li>
+<li>攻击范围</li>
+<li>冷却速率等</li>
+</ul>
+</li>
+<li>装备养成：这里的装备指的是可以对玩家属性造成影响的装备</li>
+<li>装饰养成：这里的装饰指的是不会对玩家属性造成影响，只会影响角色外观的装备</li>
+</ul>
+<ol start="2">
+<li>道具养成：这里的道具养成指的是对玩家在游戏中可交互道具的养成，如</li>
+</ol>
 <ul>
-<li>采样率不足（不够快），导致原始信号复制粘贴距离不够大，频率的频谱发生了混叠，即走样</li>
-<li>相当于采样低 = 稀疏采样</li>
+<li>增加道具增益状态的持续时间</li>
+<li>增加道具效果等</li>
 </ul>
-</li>
-</ul>
-<h1 id="Anti-Aliasing"><a href="#Anti-Aliasing" class="headerlink" title="Anti-Aliasing"></a>Anti-Aliasing</h1><ul>
-<li>How Can We Reduce Aliasing Error?</li>
-<li>Option 1: Increase sampling rate<ul>
-<li>Essentially increasing the distance between replicas in the<br>Fourier domain</li>
-<li>Higher resolution displays, sensors, framebuffers…</li>
-<li>But: costly &amp; may need very high resolution</li>
-</ul>
-</li>
-<li>Option 2: Antialiasing<ul>
-<li>Making Fourier contents “narrower” before repeating</li>
-<li>i.e. Filtering out high frequencies before sampling</li>
-</ul>
-</li>
-<li>步骤<ul>
-<li>先卷积</li>
-<li>再采样</li>
-</ul>
-</li>
-</ul>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708115851.png" alt="如何反走样" style="zoom:25%;" />
-
+<h4 id="社交"><a href="#社交" class="headerlink" title="社交"></a>社交</h4><p>即丰富社交空间：这里的社交空间指的是游戏中需要与其他玩家共同达成的事件，社交空间的丰富可以增强玩家【合作感】。<br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/cooperation.gif" alt="合作作战"></p>
+<p>如图所示，个人认为目前版本中玩家之间的合作感还不强，只是各自为战，未来也许可以考虑如下的方式来丰富社交空间：</p>
 <ul>
-<li><p>模糊之后的频谱覆盖范围小</p>
-</li>
-<li><p>所以采样堆叠几率小</p>
-</li>
-<li><p>如何模糊</p>
-<ul>
-<li><p>用一定大小的低通滤波器来处理图像</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708120101.png" alt="A Practical Pre-Filter" style="zoom:25%;" /></li>
+<li>增加合作任务：可以考虑增加合作任务，并为合作任务设置奖励加成甚至是专属奖励（如只有在合作模式下才有几率掉落）</li>
+<li>增加合击技：可以考虑为不同职业之间增加合击技，或者是为不同攻击属性之间增加交互可能性，如火属性攻击和水属性攻击会互相减弱伤害，但先施加水属性攻击后施加雷属性攻击会带来伤害加成等。</li>
 </ul>
-</li>
-</ul>
-<h2 id="Antialiasing-by-averaging-values-in-pixel-area"><a href="#Antialiasing-by-averaging-values-in-pixel-area" class="headerlink" title="Antialiasing by averaging values in pixel area"></a>Antialiasing by averaging values in pixel area</h2><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708120227.png" alt="Antialiasing by averaging values in pixel area" style="zoom:25%;" />
-
-<ul>
-<li><p>Solution:</p>
-<ul>
-<li>Convolve f(x,y) by a 1-pixel box-blur<ul>
-<li>convolving = filtering = averaging</li>
-</ul>
-</li>
-<li>Then sample at every pixel’s center</li>
-</ul>
-</li>
-<li><p>怎么把三角形在像素内覆盖的区域算出来：</p>
-</li>
-</ul>
-<h2 id="Antialiasing-By-Supersampling-MSAA"><a href="#Antialiasing-By-Supersampling-MSAA" class="headerlink" title="Antialiasing By Supersampling (MSAA)"></a>Antialiasing By Supersampling (MSAA)</h2><blockquote>
-<p> 解决的是对信号的模糊操作 不是靠提升分辨率解决问题 只是为了解决三角形覆盖问题</p>
-</blockquote>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708120523.png" alt="Supersampling" style="zoom:25%;" />
-
-<ul>
-<li>给像素内部加采样点 看像素覆盖率</li>
-</ul>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708122814.png" alt="Supersampling cont." style="zoom:25%;" />
-
-<h2 id="Antialiasing-Today"><a href="#Antialiasing-Today" class="headerlink" title="Antialiasing Today"></a>Antialiasing Today</h2><ul>
-<li>No free lunch!What’s the cost of MSAA?<ul>
-<li>增加了计算量</li>
-</ul>
-</li>
-<li>Milestones (personal idea)<ul>
-<li>FXAA (Fast Approximate AA)<ul>
-<li>和采样无关 相当于后期处理</li>
-<li>得到一幅图 有锯齿 找到边界 将有锯齿的边界换成没有锯齿的边界</li>
-</ul>
-</li>
-<li>TAA (Temporal AA)<ul>
-<li>复用上一帧信息 在当前帧不引入新信息</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Super resolution / super sampling 超分辨率<ul>
-<li>From low resolution to high resolution</li>
-<li>Essentially still “not enough samples“ problem</li>
-<li>DLSS (Deep Learning Super Sampling)<ul>
-<li>一切猜测 深度学习都适合</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
+<p>以上是基于战斗、养成、社交角度对未来可能的设计方向的一些思考，但需要明确的是在未来的设计中还是要围绕目标体验出发，达到合理的取舍与平衡。</p>
+<h2 id="《Clash-Heroes》官方网站"><a href="#《Clash-Heroes》官方网站" class="headerlink" title="《Clash Heroes》官方网站"></a>《Clash Heroes》官方网站</h2><p><a target="_blank" rel="noopener" href="https://clash.com/en">Clash</a></p>
 
                 
             </div>
@@ -702,7 +679,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://medill-east.github.io/2021/07/16/games101-6-20200228-20210708-rasterization-2-anti-aliasing-and-z-buffering/">https://medill-east.github.io/2021/07/16/games101-6-20200228-20210708-rasterization-2-anti-aliasing-and-z-buffering/</a>
+                    <a href="https://medill-east.github.io/2021/11/06/thinking-of-the-clash-heroes/">https://medill-east.github.io/2021/11/06/thinking-of-the-clash-heroes/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -740,8 +717,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/ComputerGraphics/">
-                                    <span class="chip bg-color">ComputerGraphics</span>
+                                <a href="/tags/Game/">
+                                    <span class="chip bg-color">Game</span>
                                 </a>
                             
                         </div>
@@ -913,45 +890,47 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
             <div class="card">
-                <a href="/2021/07/16/games101-7-20200303-20210708-shading-1-illumination-shading-and-graphics-pipeline/">
+                <a href="/2021/11/06/thinking-of-the-clash-heroes/">
                     <div class="card-image">
                         
-                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708132803.png" class="responsive-img" alt="GAMES101-7 20200303 20210708 Shading 1 (Illumination, Shading and Graphics Pipeline)">
+                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/clash heroes.jpeg" class="responsive-img" alt="Clash Heroes 目标体验思考及设计反思">
                         
-                        <span class="card-title">GAMES101-7 20200303 20210708 Shading 1 (Illumination, Shading and Graphics Pipeline)</span>
+                        <span class="card-title">Clash Heroes 目标体验思考及设计反思</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Depth buffer, Shading.
+                            这是一份由我写于 2021 年 11 月对所放出的 Clash Heroes 游戏视频进行的目标体验思考及设计反思。
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-07-16
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-11-06
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Study-CS-CG/" class="post-category">
-                                    Study-CS-CG
+                            <a href="/categories/Study-Game-Analysis/" class="post-category">
+                                    Study-Game-Analysis
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/ComputerGraphics/">
-                        <span class="chip bg-color">ComputerGraphics</span>
+                    <a href="/tags/Game/">
+                        <span class="chip bg-color">Game</span>
                     </a>
                     
                 </div>
@@ -965,30 +944,30 @@
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/07/16/games101-5-20200225-20210706-07-rasterization-1-triangles/">
+                <a href="/2021/11/02/drinking-games/">
                     <div class="card-image">
                         
-                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210707122155.png" class="responsive-img" alt="GAMES101-5 20200225 20210706 07 Rasterization 1 (Triangles)">
+                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/noemie-cauchon-Y_bpePELbPo-unsplash.jpeg" class="responsive-img" alt="喝酒游戏列举与思考">
                         
-                        <span class="card-title">GAMES101-5 20200225 20210706 07 Rasterization 1 (Triangles)</span>
+                        <span class="card-title">喝酒游戏列举与思考</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Perspective Projection, What’s after MVP, Canonical Cube to Screen, Rsterizing Triangles into Pixels, Rasterization - Drawing to Raster Displays, A simple approach - sampling.
+                            列举一些已知的喝酒游戏，以及从目标体验出发的一些设计反思。
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-07-16
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-11-02
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Study-CS-CG/" class="post-category">
-                                    Study-CS-CG
+                            <a href="/categories/Thinking/" class="post-category">
+                                    Thinking
                                 </a>
                             
                             
@@ -998,8 +977,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/ComputerGraphics/">
-                        <span class="chip bg-color">ComputerGraphics</span>
+                    <a href="/tags/Game/">
+                        <span class="chip bg-color">Game</span>
+                    </a>
+                    
+                    <a href="/tags/Thinking/">
+                        <span class="chip bg-color">Thinking</span>
                     </a>
                     
                 </div>
