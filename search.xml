@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>枪火重生 Teardown Analysis</title>
+      <link href="2021/12/12/teardown-analysis-gunfire-reborn/"/>
+      <url>2021/12/12/teardown-analysis-gunfire-reborn/</url>
+      
+        <content type="html"><![CDATA[<h2 id="《枪火重生》-Teardown-Analysis"><a href="#《枪火重生》-Teardown-Analysis" class="headerlink" title="《枪火重生》 Teardown Analysis"></a>《枪火重生》 Teardown Analysis</h2><p>最近在 B 站上看 <a href="https://space.bilibili.com/618369?spm_id_from=333.788.b_765f7570696e666f.1">鱼一元 001</a> 大大的相关视频，并在 <a href="https://space.bilibili.com/618369/channel/detail?cid=96395">挺进游戏公司</a> 系列下学到了 <a href="https://www.bilibili.com/video/BV1GJ411y7fj?spm_id_from=333.999.0.0">Teardown Analysis</a> 这一游戏拆解方法，现动手实践之！</p><h3 id="Keynote-展示"><a href="#Keynote-展示" class="headerlink" title="Keynote 展示"></a>Keynote 展示</h3><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.001.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.002.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.003.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.004.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.005.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.006.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.007.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.008.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.009.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.010.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.011.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.012.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.013.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.014.jpeg"></p><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>第一次做 Teardown Analysis，全部算下来应该花了快有十二个小时左右…推翻重画了好几次，期间也有一些疑惑、反思或是延伸思考：</p><ul><li>Core Loop 按理来说应该是围绕资源进行绘制，但总会牵涉到一些无法进行资源展示的系统，如何合理引入是一个需要考虑的问题</li><li>Teardown Analysis 的目的应该是为了帮助我们更好理解游戏资源流向及设计目的，本次分析中其实在 Core Loop 之后更多是对于系统的描述以及设计概述，对设计目的的反思还不够深入</li><li>一开始直接在 PPT/Keynote 上对线框图进行绘制，后觉麻烦，改用飞书云文档中的流程图工具（我将其当做免费版的  ProcessOn）进行绘制，顺畅许多</li><li>感觉下次再分析的时候，可以将目标体验作为设计反思的重点，但届时势必会出现更加纷繁的走线，需要好好思考如何合理结合</li></ul><p>综上，本文借助 Teardown Analysis 方法对游戏《枪火重生》进行了分析，而后阐述了此次分析期间的一些疑惑、反思、延伸思考。</p><p>感谢您的阅读，欢迎大家批评指正！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Study-Game-Analysis </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Game </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Florence 目标体验及设计反思</title>
       <link href="2021/11/16/thinking-of-the-florence/"/>
       <url>2021/11/16/thinking-of-the-florence/</url>

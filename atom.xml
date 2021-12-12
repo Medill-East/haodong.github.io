@@ -6,7 +6,7 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2021-11-17T18:10:40.078Z</updated>
+  <updated>2021-12-12T18:17:43.878Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>枪火重生 Teardown Analysis</title>
+    <link href="https://medill-east.github.io/2021/12/12/teardown-analysis-gunfire-reborn/"/>
+    <id>https://medill-east.github.io/2021/12/12/teardown-analysis-gunfire-reborn/</id>
+    <published>2021-12-12T17:46:19.000Z</published>
+    <updated>2021-12-12T18:17:43.878Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;《枪火重生》-Teardown-Analysis&quot;&gt;&lt;a href=&quot;#《枪火重生》-Teardown-Analysis&quot; class=&quot;headerlink&quot; title=&quot;《枪火重生》 Teardown Analysis&quot;&gt;&lt;/a&gt;《枪火重生》</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-Analysis" scheme="https://medill-east.github.io/categories/Study-Game-Analysis/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+  </entry>
   
   <entry>
     <title>Florence 目标体验及设计反思</title>
