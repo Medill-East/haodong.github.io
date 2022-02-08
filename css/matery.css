@@ -1693,14 +1693,29 @@ thead {
     margin-bottom: 2.25rem;
 }
 
-.my-demos .info,
+.my-demos .info {
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 1rem 0 1rem;
+}
+
 .my-projects .info {
     max-width: 360px;
     margin: 0 auto;
     padding: 1rem 0 1rem;
 }
 
-.my-demos .info .icon,
+.my-demos .info .icon {
+    display: inline-block;
+    width: 76px;
+    height: 76px;
+    text-align: center;
+    line-height: 76px;
+    color: #fff;
+    font-size: 1.75rem;
+    border-radius: 50%;
+}
+
 .my-projects .info .icon {
     display: inline-block;
     width: 76px;
@@ -1712,7 +1727,13 @@ thead {
     border-radius: 50%;
 }
 
-.my-demos .info .info-title,
+.my-demos .info .info-title {
+    margin: 1.25rem 0 0.875rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
 .my-projects .info .info-title {
     margin: 1.25rem 0 0.875rem;
     font-size: 1.25rem;
@@ -1728,7 +1749,12 @@ thead {
     color: #34495e;
 }
 
-.my-demos .info .info-desc,
+.my-demos .info .info-desc {
+    margin: 0 0 10px;
+    font-size: 0.9rem;
+    color: #999;
+}
+
 .my-projects .info .info-desc {
     margin: 0 0 10px;
     font-size: 0.9rem;
