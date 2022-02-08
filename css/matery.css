@@ -1676,6 +1676,7 @@ thead {
 }
 
 .post-charts,
+.my-demos,
 .my-projects,
 .my-skills,
 .post-charts {
@@ -1684,6 +1685,7 @@ thead {
 
 .post-charts,
 .title,
+.my-demos .title,
 .my-projects .title,
 .my-skills .title,
 .my-gallery .title {
@@ -1691,12 +1693,14 @@ thead {
     margin-bottom: 2.25rem;
 }
 
+.my-demos .info,
 .my-projects .info {
     max-width: 360px;
     margin: 0 auto;
     padding: 1rem 0 1rem;
 }
 
+.my-demos .info .icon,
 .my-projects .info .icon {
     display: inline-block;
     width: 76px;
@@ -1708,6 +1712,7 @@ thead {
     border-radius: 50%;
 }
 
+.my-demos .info .info-title,
 .my-projects .info .info-title {
     margin: 1.25rem 0 0.875rem;
     font-size: 1.25rem;
@@ -1715,10 +1720,15 @@ thead {
     line-height: 1.5em;
 }
 
+.my-demos .info .info-title a {
+    color: #34495e;
+}
+
 .my-projects .info .info-title a {
     color: #34495e;
 }
 
+.my-demos .info .info-desc,
 .my-projects .info .info-desc {
     margin: 0 0 10px;
     font-size: 0.9rem;
