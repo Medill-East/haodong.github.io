@@ -6,7 +6,7 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2022-03-06T22:36:47.682Z</updated>
+  <updated>2022-04-28T21:52:24.202Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <author>
@@ -17,11 +17,171 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>案例汇总</title>
+    <link href="https://medill-east.github.io/2022/04/28/index-showcase/"/>
+    <id>https://medill-east.github.io/2022/04/28/index-showcase/</id>
+    <published>2022-04-28T21:38:19.000Z</published>
+    <updated>2022-04-28T21:52:24.202Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Demo&quot;&gt;&lt;a href=&quot;#Demo&quot; class=&quot;headerlink&quot; title=&quot;Demo&quot;&gt;&lt;/a&gt;Demo&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Blog-Index" scheme="https://medill-east.github.io/categories/Blog-Index/"/>
+    
+    
+    <category term="Index" scheme="https://medill-east.github.io/tags/Index/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>游戏拆解/分析/设计反思汇总</title>
+    <link href="https://medill-east.github.io/2022/04/28/index-gameanalysis/"/>
+    <id>https://medill-east.github.io/2022/04/28/index-gameanalysis/</id>
+    <published>2022-04-28T21:30:19.000Z</published>
+    <updated>2022-04-28T21:56:02.407Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://medill-east.github.io/2022/03/06/teardown-analysis-diabolo/&quot;&gt;暗黑破坏神 3 拆解分析&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Blog-Index" scheme="https://medill-east.github.io/categories/Blog-Index/"/>
+    
+    
+    <category term="Index" scheme="https://medill-east.github.io/tags/Index/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>随想汇总</title>
+    <link href="https://medill-east.github.io/2022/04/28/index-thinking/"/>
+    <id>https://medill-east.github.io/2022/04/28/index-thinking/</id>
+    <published>2022-04-28T21:30:19.000Z</published>
+    <updated>2022-04-28T21:52:50.233Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Blog-Index" scheme="https://medill-east.github.io/categories/Blog-Index/"/>
+    
+    
+    <category term="Index" scheme="https://medill-east.github.io/tags/Index/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Level Design Book - 1 20220428 - BOOK 1. PROCESS - Pre-production</title>
+    <link href="https://medill-east.github.io/2022/04/28/leveldesignbook-1-20220428-pre-production/"/>
+    <id>https://medill-east.github.io/2022/04/28/leveldesignbook-1-20220428-pre-production/</id>
+    <published>2022-04-28T21:08:46.000Z</published>
+    <updated>2022-04-28T21:09:17.511Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Pre-production&quot;&gt;&lt;a href=&quot;#Pre-production&quot; class=&quot;headerlink&quot; title=&quot;Pre-production&quot;&gt;&lt;/a&gt;Pre-production&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-LevelDesign" scheme="https://medill-east.github.io/categories/Study-Game-LevelDesign/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Game Level Design" scheme="https://medill-east.github.io/tags/Game-Level-Design/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Level Design Book 随译</title>
+    <link href="https://medill-east.github.io/2022/04/28/leveldesignbook-toc/"/>
+    <id>https://medill-east.github.io/2022/04/28/leveldesignbook-toc/</id>
+    <published>2022-04-28T21:01:19.000Z</published>
+    <updated>2022-04-28T21:57:20.596Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Level-Design-Book-随译&quot;&gt;&lt;a href=&quot;#Level-Design-Book-随译&quot; class=&quot;headerlink&quot; title=&quot;Level Design Book 随译&quot;&gt;&lt;/a&gt;Level Design Book</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-LevelDesign" scheme="https://medill-east.github.io/categories/Study-Game-LevelDesign/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Game Level Design" scheme="https://medill-east.github.io/tags/Game-Level-Design/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>学习笔记汇总</title>
+    <link href="https://medill-east.github.io/2022/04/28/index-notes/"/>
+    <id>https://medill-east.github.io/2022/04/28/index-notes/</id>
+    <published>2022-04-28T21:01:19.000Z</published>
+    <updated>2022-04-28T21:50:30.336Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;游戏关卡设计相关&quot;&gt;&lt;a href=&quot;#游戏关卡设计相关&quot; class=&quot;headerlink&quot; title=&quot;游戏关卡设计相关&quot;&gt;&lt;/a&gt;游戏关卡设计相关&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Blog-Index" scheme="https://medill-east.github.io/categories/Blog-Index/"/>
+    
+    
+    <category term="Index" scheme="https://medill-east.github.io/tags/Index/"/>
+    
+  </entry>
+  
+  <entry>
     <title>暗黑破坏神 3 拆解分析</title>
     <link href="https://medill-east.github.io/2022/03/06/teardown-analysis-diabolo/"/>
     <id>https://medill-east.github.io/2022/03/06/teardown-analysis-diabolo/</id>
     <published>2022-03-05T23:11:19.000Z</published>
-    <updated>2022-03-06T22:36:47.682Z</updated>
+    <updated>2022-04-28T21:42:39.182Z</updated>
     
     
       
@@ -46,7 +206,7 @@
     <link href="https://medill-east.github.io/2021/12/12/teardown-analysis-gunfire-reborn/"/>
     <id>https://medill-east.github.io/2021/12/12/teardown-analysis-gunfire-reborn/</id>
     <published>2021-12-12T17:46:19.000Z</published>
-    <updated>2021-12-12T18:17:43.878Z</updated>
+    <updated>2022-04-28T21:42:42.049Z</updated>
     
     
       
@@ -71,7 +231,7 @@
     <link href="https://medill-east.github.io/2021/11/16/thinking-of-the-florence/"/>
     <id>https://medill-east.github.io/2021/11/16/thinking-of-the-florence/</id>
     <published>2021-11-16T15:32:19.000Z</published>
-    <updated>2021-11-17T18:10:40.078Z</updated>
+    <updated>2022-04-28T21:42:48.488Z</updated>
     
     
       
@@ -96,7 +256,7 @@
     <link href="https://medill-east.github.io/2021/11/06/thinking-of-the-clash-heroes/"/>
     <id>https://medill-east.github.io/2021/11/06/thinking-of-the-clash-heroes/</id>
     <published>2021-11-06T13:11:19.000Z</published>
-    <updated>2021-11-16T14:21:49.966Z</updated>
+    <updated>2022-04-28T21:42:45.584Z</updated>
     
     
       
@@ -121,7 +281,7 @@
     <link href="https://medill-east.github.io/2021/11/02/drinking-games/"/>
     <id>https://medill-east.github.io/2021/11/02/drinking-games/</id>
     <published>2021-11-02T13:26:19.000Z</published>
-    <updated>2021-11-21T14:29:58.348Z</updated>
+    <updated>2022-04-28T21:42:29.169Z</updated>
     
     
       
@@ -149,7 +309,7 @@
     <link href="https://medill-east.github.io/2021/10/26/for-love-demo-showcase-and-analysis/"/>
     <id>https://medill-east.github.io/2021/10/26/for-love-demo-showcase-and-analysis/</id>
     <published>2021-10-26T20:18:19.000Z</published>
-    <updated>2021-11-16T14:22:43.430Z</updated>
+    <updated>2022-04-28T21:42:32.040Z</updated>
     
     
       
@@ -176,7 +336,7 @@
     <link href="https://medill-east.github.io/2021/07/26/analysis-of-league-of-legends-and-glory-of-kings-players-segmented/"/>
     <id>https://medill-east.github.io/2021/07/26/analysis-of-league-of-legends-and-glory-of-kings-players-segmented/</id>
     <published>2021-07-26T13:05:19.000Z</published>
-    <updated>2021-11-16T14:22:50.615Z</updated>
+    <updated>2022-04-28T21:42:24.185Z</updated>
     
     
       
@@ -207,7 +367,7 @@
     <link href="https://medill-east.github.io/2021/07/26/shen-jiang-san-guo-game-experience-report/"/>
     <id>https://medill-east.github.io/2021/07/26/shen-jiang-san-guo-game-experience-report/</id>
     <published>2021-07-26T11:56:19.000Z</published>
-    <updated>2021-11-16T14:21:56.976Z</updated>
+    <updated>2022-04-28T21:42:55.567Z</updated>
     
     
       
@@ -234,7 +394,7 @@
     <link href="https://medill-east.github.io/2021/07/26/shen-jiang-san-guo-first-recharge-plan/"/>
     <id>https://medill-east.github.io/2021/07/26/shen-jiang-san-guo-first-recharge-plan/</id>
     <published>2021-07-26T10:42:19.000Z</published>
-    <updated>2021-11-16T14:22:02.952Z</updated>
+    <updated>2022-04-28T21:42:51.992Z</updated>
     
     
       
@@ -378,131 +538,6 @@
     
     
     <category term="ComputerGraphics" scheme="https://medill-east.github.io/tags/ComputerGraphics/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GAMES101-3 20200218 20210704 Transformation</title>
-    <link href="https://medill-east.github.io/2021/07/16/games101-3-20200218-20210704-transformation/"/>
-    <id>https://medill-east.github.io/2021/07/16/games101-3-20200218-20210704-transformation/</id>
-    <published>2021-07-16T05:36:25.000Z</published>
-    <updated>2021-07-16T11:39:53.445Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;3-20200218-20210704-Transformation&quot;&gt;&lt;a href=&quot;#3-20200218-20210704-Transformation&quot; class=&quot;headerlink&quot; title=&quot;3 20200218 / 20210704</summary>
-        
-      
-    
-    
-    
-    <category term="Study-CS-CG" scheme="https://medill-east.github.io/categories/Study-CS-CG/"/>
-    
-    
-    <category term="ComputerGraphics" scheme="https://medill-east.github.io/tags/ComputerGraphics/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GAMES101-2 20200214 20210704 A Swift and Brutal Introduction to Linear Algebra</title>
-    <link href="https://medill-east.github.io/2021/07/16/games101-2-20200214-20210704-a-swift-and-brutal-introduction-to-linear-algebra/"/>
-    <id>https://medill-east.github.io/2021/07/16/games101-2-20200214-20210704-a-swift-and-brutal-introduction-to-linear-algebra/</id>
-    <published>2021-07-16T05:29:03.000Z</published>
-    <updated>2021-07-16T11:36:35.041Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;2-20200214-20210704-A-Swift-and-Brutal-Introduction-to-Linear-Algebra&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Study-CS-CG" scheme="https://medill-east.github.io/categories/Study-CS-CG/"/>
-    
-    
-    <category term="ComputerGraphics" scheme="https://medill-east.github.io/tags/ComputerGraphics/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GAMES101-1 20200211 20210703 Overview of CG</title>
-    <link href="https://medill-east.github.io/2021/07/16/games101-1-20200211-20210703-overview-of-cg/"/>
-    <id>https://medill-east.github.io/2021/07/16/games101-1-20200211-20210703-overview-of-cg/</id>
-    <published>2021-07-16T05:16:46.000Z</published>
-    <updated>2021-07-16T11:36:01.732Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;1-20200211-20210703-Overview-of-CG&quot;&gt;&lt;a href=&quot;#1-20200211-20210703-Overview-of-CG&quot; class=&quot;headerlink&quot; title=&quot;1 20200211 / 20210703</summary>
-        
-      
-    
-    
-    
-    <category term="Study-CS-CG" scheme="https://medill-east.github.io/categories/Study-CS-CG/"/>
-    
-    
-    <category term="ComputerGraphics" scheme="https://medill-east.github.io/tags/ComputerGraphics/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GAMES101-Introduction To Mordern Computer Graphics</title>
-    <link href="https://medill-east.github.io/2021/07/16/games101-introduction-to-mordern-computer-graphics/"/>
-    <id>https://medill-east.github.io/2021/07/16/games101-introduction-to-mordern-computer-graphics/</id>
-    <published>2021-07-16T05:04:19.000Z</published>
-    <updated>2021-11-16T14:26:37.348Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;GAMES101——现代计算机图形学入门笔记&quot;&gt;&lt;a href=&quot;#GAMES101——现代计算机图形学入门笔记&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Study-CS-CG" scheme="https://medill-east.github.io/categories/Study-CS-CG/"/>
-    
-    
-    <category term="ComputerGraphics" scheme="https://medill-east.github.io/tags/ComputerGraphics/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo + Github 搭建 Blog (MacOS)</title>
-    <link href="https://medill-east.github.io/2021/05/24/my-first-post/"/>
-    <id>https://medill-east.github.io/2021/05/24/my-first-post/</id>
-    <published>2021-05-24T10:31:17.000Z</published>
-    <updated>2021-11-16T13:29:14.076Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;20210524-Start-to-build&quot;&gt;&lt;a href=&quot;#20210524-Start-to-build&quot; class=&quot;headerlink&quot; title=&quot;20210524 Start to build&quot;&gt;&lt;/a&gt;20210524 Start</summary>
-        
-      
-    
-    
-    
-    <category term="Blog" scheme="https://medill-east.github.io/categories/Blog/"/>
-    
-    
-    <category term="blog-building" scheme="https://medill-east.github.io/tags/blog-building/"/>
     
   </entry>
   
