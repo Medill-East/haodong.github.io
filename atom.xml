@@ -45,6 +45,34 @@
   </entry>
   
   <entry>
+    <title>Level Design Book - 1 20220429 - BOOK 1. PROCESS - Pre-production - Pacing</title>
+    <link href="https://medill-east.github.io/2022/04/29/leveldesignbook-20220428-pre-production-pacing/"/>
+    <id>https://medill-east.github.io/2022/04/29/leveldesignbook-20220428-pre-production-pacing/</id>
+    <published>2022-04-29T19:23:46.000Z</published>
+    <updated>2022-04-29T19:44:11.846Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Pacing&quot;&gt;&lt;a href=&quot;#Pacing&quot; class=&quot;headerlink&quot; title=&quot;Pacing&quot;&gt;&lt;/a&gt;Pacing&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-LevelDesign" scheme="https://medill-east.github.io/categories/Study-Game-LevelDesign/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Game Level Design" scheme="https://medill-east.github.io/tags/Game-Level-Design/"/>
+    
+  </entry>
+  
+  <entry>
     <title>案例汇总</title>
     <link href="https://medill-east.github.io/2022/04/28/index-showcase/"/>
     <id>https://medill-east.github.io/2022/04/28/index-showcase/</id>
@@ -152,18 +180,46 @@
   </entry>
   
   <entry>
+    <title>Level Design Book - 1 20220428 - BOOK 1. PROCESS - Pre-production</title>
+    <link href="https://medill-east.github.io/2022/04/28/leveldesignbook-20220428-pre-production/"/>
+    <id>https://medill-east.github.io/2022/04/28/leveldesignbook-20220428-pre-production/</id>
+    <published>2022-04-28T21:08:46.000Z</published>
+    <updated>2022-04-28T21:09:17.511Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Pre-production&quot;&gt;&lt;a href=&quot;#Pre-production&quot; class=&quot;headerlink&quot; title=&quot;Pre-production&quot;&gt;&lt;/a&gt;Pre-production&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-LevelDesign" scheme="https://medill-east.github.io/categories/Study-Game-LevelDesign/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Game Level Design" scheme="https://medill-east.github.io/tags/Game-Level-Design/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Level Design Book 随译</title>
     <link href="https://medill-east.github.io/2022/04/28/leveldesignbook-toc/"/>
     <id>https://medill-east.github.io/2022/04/28/leveldesignbook-toc/</id>
     <published>2022-04-28T21:01:19.000Z</published>
-    <updated>2022-04-29T19:48:53.827Z</updated>
+    <updated>2022-04-29T19:52:47.248Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Level-Design-Book-随译&quot;&gt;&lt;a href=&quot;#Level-Design-Book-随译&quot; class=&quot;headerlink&quot; title=&quot;Level Design Book 随译&quot;&gt;&lt;/a&gt;Level Design Book</summary>
+    <summary type="html">&lt;h1 id=&quot;Level-Design-Book-随译-笔记&quot;&gt;&lt;a href=&quot;#Level-Design-Book-随译-笔记&quot; class=&quot;headerlink&quot; title=&quot;Level Design Book 随译/笔记&quot;&gt;&lt;/a&gt;Level Design</summary>
         
       
     
@@ -482,56 +538,6 @@
         
         
     <summary type="html">&lt;h1 id=&quot;7-20200303-20210708-Shading-1-Illumination-Shading-and-Graphics-Pipeline&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Study-CS-CG" scheme="https://medill-east.github.io/categories/Study-CS-CG/"/>
-    
-    
-    <category term="ComputerGraphics" scheme="https://medill-east.github.io/tags/ComputerGraphics/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GAMES101-6 20200228 20210708 Rasterization 2 anti - aliasing and Z - buffering</title>
-    <link href="https://medill-east.github.io/2021/07/16/games101-6-20200228-20210708-rasterization-2-anti-aliasing-and-z-buffering/"/>
-    <id>https://medill-east.github.io/2021/07/16/games101-6-20200228-20210708-rasterization-2-anti-aliasing-and-z-buffering/</id>
-    <published>2021-07-16T06:16:45.000Z</published>
-    <updated>2021-07-16T10:28:18.233Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;6-20200228-20210708-Rasterization-2-anti-aliasing-and-Z-buffering&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Study-CS-CG" scheme="https://medill-east.github.io/categories/Study-CS-CG/"/>
-    
-    
-    <category term="ComputerGraphics" scheme="https://medill-east.github.io/tags/ComputerGraphics/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GAMES101-5 20200225 20210706 07 Rasterization 1 (Triangles)</title>
-    <link href="https://medill-east.github.io/2021/07/16/games101-5-20200225-20210706-07-rasterization-1-triangles/"/>
-    <id>https://medill-east.github.io/2021/07/16/games101-5-20200225-20210706-07-rasterization-1-triangles/</id>
-    <published>2021-07-16T05:58:45.000Z</published>
-    <updated>2021-07-16T11:45:04.904Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;5-20200225-20210706-07-Rasterization-1-Triangles&quot;&gt;&lt;a href=&quot;#5-20200225-20210706-07-Rasterization-1-Triangles&quot; class=&quot;headerlink&quot;</summary>
         
       
     
