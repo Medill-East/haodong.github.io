@@ -6,7 +6,7 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2022-04-28T21:52:24.202Z</updated>
+  <updated>2022-04-29T19:44:11.846Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Level Design Book - 1 20220429 - BOOK 1. PROCESS - Pre-production - Pacing</title>
+    <link href="https://medill-east.github.io/2022/04/29/leveldesignbook-1-20220428-pre-production-pacing/"/>
+    <id>https://medill-east.github.io/2022/04/29/leveldesignbook-1-20220428-pre-production-pacing/</id>
+    <published>2022-04-29T19:23:46.000Z</published>
+    <updated>2022-04-29T19:44:11.846Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Pacing&quot;&gt;&lt;a href=&quot;#Pacing&quot; class=&quot;headerlink&quot; title=&quot;Pacing&quot;&gt;&lt;/a&gt;Pacing&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-LevelDesign" scheme="https://medill-east.github.io/categories/Study-Game-LevelDesign/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Game Level Design" scheme="https://medill-east.github.io/tags/Game-Level-Design/"/>
+    
+  </entry>
   
   <entry>
     <title>案例汇总</title>
@@ -128,7 +156,7 @@
     <link href="https://medill-east.github.io/2022/04/28/leveldesignbook-toc/"/>
     <id>https://medill-east.github.io/2022/04/28/leveldesignbook-toc/</id>
     <published>2022-04-28T21:01:19.000Z</published>
-    <updated>2022-04-28T21:57:20.596Z</updated>
+    <updated>2022-04-29T19:48:53.827Z</updated>
     
     
       
@@ -504,31 +532,6 @@
         
         
     <summary type="html">&lt;h1 id=&quot;5-20200225-20210706-07-Rasterization-1-Triangles&quot;&gt;&lt;a href=&quot;#5-20200225-20210706-07-Rasterization-1-Triangles&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Study-CS-CG" scheme="https://medill-east.github.io/categories/Study-CS-CG/"/>
-    
-    
-    <category term="ComputerGraphics" scheme="https://medill-east.github.io/tags/ComputerGraphics/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GAMES101-4 20200221 20210705 Transformation Cont</title>
-    <link href="https://medill-east.github.io/2021/07/16/games101-4-20200221-20210705-transformation-cont/"/>
-    <id>https://medill-east.github.io/2021/07/16/games101-4-20200221-20210705-transformation-cont/</id>
-    <published>2021-07-16T05:46:45.000Z</published>
-    <updated>2021-07-16T11:42:23.044Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;4-20200221-20210705-Transformation-Cont&quot;&gt;&lt;a href=&quot;#4-20200221-20210705-Transformation-Cont&quot; class=&quot;headerlink&quot; title=&quot;4 20200221 /</summary>
         
       
     
