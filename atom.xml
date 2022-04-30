@@ -6,7 +6,7 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2022-04-29T20:18:33.273Z</updated>
+  <updated>2022-04-30T10:23:04.707Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>20220430 - Level Design Book - BOOK 1. PROCESS - Pre-production - Research</title>
+    <link href="https://medill-east.github.io/2022/04/30/leveldesignbook-20220429-pre-production-research/"/>
+    <id>https://medill-east.github.io/2022/04/30/leveldesignbook-20220429-pre-production-research/</id>
+    <published>2022-04-30T10:21:46.000Z</published>
+    <updated>2022-04-30T10:23:04.707Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Pre-production-Research&quot;&gt;&lt;a href=&quot;#Pre-production-Research&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-LevelDesign" scheme="https://medill-east.github.io/categories/Study-Game-LevelDesign/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Game Level Design" scheme="https://medill-east.github.io/tags/Game-Level-Design/"/>
+    
+  </entry>
+  
+  <entry>
     <title>20220429 - Level Design Book - BOOK 1. PROCESS - Pre-production - Pacing</title>
     <link href="https://medill-east.github.io/2022/04/29/leveldesignbook-20220429-pre-production-pacing/"/>
     <id>https://medill-east.github.io/2022/04/29/leveldesignbook-20220429-pre-production-pacing/</id>
     <published>2022-04-29T19:23:46.000Z</published>
-    <updated>2022-04-29T20:18:33.273Z</updated>
+    <updated>2022-04-30T10:23:10.614Z</updated>
     
     
       
@@ -127,7 +154,7 @@
     <link href="https://medill-east.github.io/2022/04/28/leveldesignbook-20220428-pre-production/"/>
     <id>https://medill-east.github.io/2022/04/28/leveldesignbook-20220428-pre-production/</id>
     <published>2022-04-28T21:08:46.000Z</published>
-    <updated>2022-04-29T20:18:39.000Z</updated>
+    <updated>2022-04-30T10:54:32.802Z</updated>
     
     
       
@@ -155,7 +182,7 @@
     <link href="https://medill-east.github.io/2022/04/28/leveldesignbook-toc/"/>
     <id>https://medill-east.github.io/2022/04/28/leveldesignbook-toc/</id>
     <published>2022-04-28T21:01:19.000Z</published>
-    <updated>2022-04-29T20:24:55.883Z</updated>
+    <updated>2022-04-30T10:23:54.476Z</updated>
     
     
       
@@ -506,31 +533,6 @@
         
         
     <summary type="html">&lt;h1 id=&quot;6-20200228-20210708-Rasterization-2-anti-aliasing-and-Z-buffering&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Study-CS-CG" scheme="https://medill-east.github.io/categories/Study-CS-CG/"/>
-    
-    
-    <category term="ComputerGraphics" scheme="https://medill-east.github.io/tags/ComputerGraphics/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GAMES101-5 20200225 20210706 07 Rasterization 1 (Triangles)</title>
-    <link href="https://medill-east.github.io/2021/07/16/games101-5-20200225-20210706-07-rasterization-1-triangles/"/>
-    <id>https://medill-east.github.io/2021/07/16/games101-5-20200225-20210706-07-rasterization-1-triangles/</id>
-    <published>2021-07-16T05:58:45.000Z</published>
-    <updated>2021-07-16T11:45:04.904Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;5-20200225-20210706-07-Rasterization-1-Triangles&quot;&gt;&lt;a href=&quot;#5-20200225-20210706-07-Rasterization-1-Triangles&quot; class=&quot;headerlink&quot;</summary>
         
       
     
