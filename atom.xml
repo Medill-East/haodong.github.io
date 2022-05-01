@@ -6,7 +6,7 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2022-04-30T11:04:18.746Z</updated>
+  <updated>2022-05-01T22:21:18.344Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>20220501 - Level Design Book - BOOK 1. PROCESS - Pre-production - Worldbuilding</title>
+    <link href="https://medill-east.github.io/2022/05/01/leveldesignbook-20220501-pre-production-worldbuilding/"/>
+    <id>https://medill-east.github.io/2022/05/01/leveldesignbook-20220501-pre-production-worldbuilding/</id>
+    <published>2022-05-01T20:21:46.000Z</published>
+    <updated>2022-05-01T22:21:18.344Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Worldbuilding&quot;&gt;&lt;a href=&quot;#Worldbuilding&quot; class=&quot;headerlink&quot; title=&quot;Worldbuilding&quot;&gt;&lt;/a&gt;Worldbuilding&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-LevelDesign" scheme="https://medill-east.github.io/categories/Study-Game-LevelDesign/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Game Level Design" scheme="https://medill-east.github.io/tags/Game-Level-Design/"/>
+    
+  </entry>
+  
+  <entry>
     <title>20220430 - Level Design Book - BOOK 1. PROCESS - Pre-production - Research</title>
     <link href="https://medill-east.github.io/2022/04/30/leveldesignbook-20220430-pre-production-research/"/>
     <id>https://medill-east.github.io/2022/04/30/leveldesignbook-20220430-pre-production-research/</id>
     <published>2022-04-30T10:21:46.000Z</published>
-    <updated>2022-04-30T11:04:18.746Z</updated>
+    <updated>2022-05-01T22:19:57.157Z</updated>
     
     
       
@@ -182,7 +210,7 @@
     <link href="https://medill-east.github.io/2022/04/28/leveldesignbook-toc/"/>
     <id>https://medill-east.github.io/2022/04/28/leveldesignbook-toc/</id>
     <published>2022-04-28T21:01:19.000Z</published>
-    <updated>2022-04-30T10:23:54.476Z</updated>
+    <updated>2022-05-01T22:22:19.501Z</updated>
     
     
       
@@ -508,31 +536,6 @@
         
         
     <summary type="html">&lt;h1 id=&quot;7-20200303-20210708-Shading-1-Illumination-Shading-and-Graphics-Pipeline&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Study-CS-CG" scheme="https://medill-east.github.io/categories/Study-CS-CG/"/>
-    
-    
-    <category term="ComputerGraphics" scheme="https://medill-east.github.io/tags/ComputerGraphics/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GAMES101-6 20200228 20210708 Rasterization 2 anti - aliasing and Z - buffering</title>
-    <link href="https://medill-east.github.io/2021/07/16/games101-6-20200228-20210708-rasterization-2-anti-aliasing-and-z-buffering/"/>
-    <id>https://medill-east.github.io/2021/07/16/games101-6-20200228-20210708-rasterization-2-anti-aliasing-and-z-buffering/</id>
-    <published>2021-07-16T06:16:45.000Z</published>
-    <updated>2021-07-16T10:28:18.233Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;6-20200228-20210708-Rasterization-2-anti-aliasing-and-Z-buffering&quot;&gt;&lt;a</summary>
         
       
     
