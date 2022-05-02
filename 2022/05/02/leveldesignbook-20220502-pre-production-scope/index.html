@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="GAMES101-6 20200228 20210708 Rasterization 2 anti - aliasing and Z - buffering, 無涘">
+    <meta name="keywords" content="20220502 - Level Design Book - BOOK 1. PROCESS - Pre-production - Scope, 無涘">
     <meta name="description" content="Whatever will be, will be.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>GAMES101-6 20200228 20210708 Rasterization 2 anti - aliasing and Z - buffering | 無涘</title>
+    <title>20220502 - Level Design Book - BOOK 1. PROCESS - Pre-production - Scope | 無涘</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -228,12 +228,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105306.png')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220502112605.png')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">GAMES101-6 20200228 20210708 Rasterization 2 anti - aliasing and Z - buffering</h1>
+                    <h1 class="description center-align post-title">20220502 - Level Design Book - BOOK 1. PROCESS - Pre-production - Scope</h1>
                 </div>
             </div>
         </div>
@@ -351,8 +351,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/ComputerGraphics/">
-                                <span class="chip bg-color">ComputerGraphics</span>
+                            <a href="/tags/Game/">
+                                <span class="chip bg-color">Game</span>
+                            </a>
+                        
+                            <a href="/tags/Game-Level-Design/">
+                                <span class="chip bg-color">Game Level Design</span>
                             </a>
                         
                     </div>
@@ -363,8 +367,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Study-CS-CG/" class="post-category">
-                                Study-CS-CG
+                            <a href="/categories/Study-Game-LevelDesign/" class="post-category">
+                                Study-Game-LevelDesign
                             </a>
                         
                     </div>
@@ -376,14 +380,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2021-07-16
+                    2022-05-02
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2021-07-16
+                    2022-05-02
                 </div>
                 
 
@@ -420,265 +424,48 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="6-20200228-20210708-Rasterization-2-anti-aliasing-and-Z-buffering"><a href="#6-20200228-20210708-Rasterization-2-anti-aliasing-and-Z-buffering" class="headerlink" title="6 20200228/20210708 Rasterization 2 anti-aliasing and Z-buffering"></a>6 20200228/20210708 Rasterization 2 anti-aliasing and Z-buffering</h1><h2 id="Sampling-Artifacts-Errors-Mistakes-Inaccuracies-in-Computer-Graphics"><a href="#Sampling-Artifacts-Errors-Mistakes-Inaccuracies-in-Computer-Graphics" class="headerlink" title="Sampling Artifacts (Errors / Mistakes / Inaccuracies) in Computer Graphics"></a>Sampling Artifacts (Errors / Mistakes / Inaccuracies) in Computer Graphics</h2><ul>
-<li><p>采样的例子</p>
-<ul>
-<li>rasterization = sample 2d positions</li>
-<li>photograph = sample image sensor plane</li>
-</ul>
+                <h2 id="Scope"><a href="#Scope" class="headerlink" title="Scope"></a>Scope</h2><ul>
+<li><p><a target="_blank" rel="noopener" href="https://book.leveldesignbook.com/process/preproduction/worldbuilding">原文链接</a></p>
 </li>
-<li><p>video = sample time</p>
-</li>
-<li><p>采样瑕疵的例子 sampling artifacts</p>
-<ul>
-<li><p>Jaggies (staircase pattern)</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105306.png" alt="Jaggies (staircase pattern)" style="zoom: 25%;" /></li>
-<li><p>Moiré Patterns in Imaging</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105327.png" alt="Moiré Patterns in Imaging" style="zoom: 25%;" /></li>
-<li><p>Wagon Wheel Illusion (False Motion)</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105353.png" alt="Wagon Wheel Illusion (False Motion)" style="zoom: 25%;" />
-
-<ul>
-<li>原因：人眼在时间上的采样跟不上运动速度</li>
-</ul>
+<li><p><a href="https://medill-east.github.io/2022/04/28/leveldesignbook-toc/">Level Design Book 随译/笔记</a></p>
 </li>
 </ul>
-</li>
-<li><p>采样瑕疵的本质</p>
-<ul>
-<li>Signals are changing too fast (high frequency), but sampled too slowly</li>
-</ul>
-</li>
-</ul>
-<h1 id="Antialiasing-Idea-Blurring-Pre-Filtering-Before-Sampling"><a href="#Antialiasing-Idea-Blurring-Pre-Filtering-Before-Sampling" class="headerlink" title="Antialiasing Idea: Blurring (Pre-Filtering) Before Sampling"></a>Antialiasing Idea: Blurring (Pre-Filtering) Before Sampling</h1><ul>
-<li><p>先模糊滤波再采样</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105614.png" alt="Rasterization: Point Sampling in Space" style="zoom:25%;" />
-
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105628.png" alt="Rasterization: Antialiased Sampling" style="zoom:25%;" />
-
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105754.png" alt="效果对比" style="zoom:25%;" /></li>
-</ul>
-<h1 id="But-why"><a href="#But-why" class="headerlink" title="But why?"></a>But why?</h1><ol>
-<li>Why undersampling introduces aliasing?</li>
-<li>Why pre-filtering then sampling can do antialiasing?</li>
-</ol>
-<ul>
-<li><p>Let’s dig into fundamental reasons</p>
-<p>And look at how to implement antialiased rasterization</p>
-</li>
-<li><p>为什么先采样再模糊不行</p>
-<ul>
-<li>先采样后 频谱已经发生了混叠</li>
-<li>此时再模糊 得到的结果还是混叠的频谱</li>
-</ul>
-</li>
-</ul>
-<h1 id="Frequency-domain-频域"><a href="#Frequency-domain-频域" class="headerlink" title="Frequency domain 频域"></a>Frequency domain 频域</h1><ul>
-<li><p>Frequencies</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105917.png" alt="Frequencies" style="zoom:25%;" /></li>
-</ul>
-<h2 id="Fourier-Transform"><a href="#Fourier-Transform" class="headerlink" title="Fourier Transform"></a>Fourier Transform</h2><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708110031.png" alt="Fourier Transform" style="zoom:25%;" />
-
-<ul>
-<li><p>傅里叶级数展开：任何一个周期函数都可以写成一系列正弦余弦函数线性组合以及一个常数项</p>
-<ul>
-<li>任何一个函数都可分解为不同频率</li>
-</ul>
-</li>
-<li><p>fourier Transform Decomposes A Signal into Frequencies 傅里叶变换（把一个函数变为另一个，或者反过来）把函数分解为不同频率的段并分别显示出来</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708110225.png" alt="fourier Transform Decomposes A Signal into Frequencies" style="zoom:25%;" /></li>
-<li><p>Higher Frequencies Need Faster Sampling</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708110352.png" alt="Higher Frequencies Need Faster Sampling" style="zoom:25%;" /></li>
-<li><p>Undersampling Creates Frequency Aliases 欠采样导致了频率瑕疵以频率定义走样：假如蓝色和黑色分别是两个不同的函数 二者采样方法相同 但本身频率不同 导致了采样结果相同</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708110544.png" alt="Undersampling Creates Frequency Aliases" style="zoom:25%;" /></li>
-</ul>
-<h2 id="Filtering-Getting-rid-of-certain-frequency-contents"><a href="#Filtering-Getting-rid-of-certain-frequency-contents" class="headerlink" title="Filtering = Getting rid of certain frequency contents"></a>Filtering = Getting rid of certain frequency contents</h2><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708110721.png" alt="Viasualizing Image Frequency Content" style="zoom:25%;" />
-
-<ul>
-<li><p>傅里叶变换把图像从时域变成了频域</p>
-</li>
-<li><p>中心是最低频 周围是高频</p>
-</li>
-<li><p>多数信息集中在低频（中心）</p>
-</li>
-<li><p>水平和竖直亮线</p>
-<ul>
-<li>分析信号时会假设信号周期性重复（即假设图片水平重叠放置 AAAA）</li>
-<li>但实际上并不重复</li>
-<li>那么在左右边界部分会产生剧烈信号变化 - 产生高频</li>
-<li>则产生白线</li>
-<li>若分析单幅内容 可忽略</li>
-</ul>
-</li>
-<li><p>高通滤波（抹掉低频信号）可得到图像内容轮廓边界 - 和周围内容相差巨大 - 信号变化非常大 - 高频信号</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708111303.png" alt="高通滤波" style="zoom:25%;" /></li>
-<li><p>低通滤波（只有低频信号通过，抹掉高频信息）</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708112533.png" alt="低通滤波" style="zoom:25%;" />
-
-<ul>
-<li>边界被抹去</li>
-<li>水波纹</li>
-</ul>
-</li>
-<li><p>去掉了高和低频率信息</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708112640.png" alt="同时过滤高低频信息" style="zoom:25%;" />
-
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708112659.png" alt="同时过滤高低频信息 cont." style="zoom:25%;" />
-
-<ul>
-<li>提取到了不太明显的轮廓特征</li>
-<li>数字图像处理</li>
-</ul>
-</li>
-</ul>
-<h1 id="Filtering-Convolution-卷积-Averaging-加权平均"><a href="#Filtering-Convolution-卷积-Averaging-加权平均" class="headerlink" title="Filtering = Convolution 卷积 (= Averaging) 加权平均"></a>Filtering = Convolution 卷积 (= Averaging) 加权平均</h1><ul>
-<li><p>Convolution 卷积</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708113238.png" alt="Convolution" style="zoom:25%;" /></li>
-<li><p>图形学中的简化定义</p>
-<ul>
-<li>卷积：通过窗口来进行点乘获取中心值（相当于加权平均）</li>
-</ul>
-</li>
-<li><p>Convolution Theorem（卷积定理）</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708113517.png" alt="Convolution Theorem" style="zoom:25%;" />
-
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708113559.png" alt="Convolution Theorem cont." style="zoom:25%;" />
-
-<ul>
-<li>Convolution in the spatial domain is equal to multiplication in the frequency domain, and vice versa - 在时域上想对信号进行卷积相当于在频域上进行乘积，反之亦然</li>
-<li>Option 1:<ul>
-<li>Filter by convolution in the spatial domain</li>
-</ul>
-</li>
-<li>Option 2:<ul>
-<li>Transform to frequency domain (Fourier transform)</li>
-<li>Multiply by Fourier transform of convolution kernel</li>
-<li>Transform back to spatial domain (inverse Fourier)</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="Box-Filter-低通滤波器"><a href="#Box-Filter-低通滤波器" class="headerlink" title="Box Filter 低通滤波器"></a>Box Filter 低通滤波器</h2><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708114556.png" alt="Box Filter" style="zoom:25%;" />
-
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708114539.png" alt="Box Filter - Works as “Low Pass” Filter" style="zoom:25%;" />
-
-<ul>
-<li>box 越大结果越模糊（留下的频率越低）<ul>
-<li>相当于画笔变大</li>
-</ul>
-</li>
-<li>考虑极端情况<ul>
-<li>box 超级大 - 只有最中间有采样信息</li>
-<li>box 超级小 - 全部频率都被留下来</li>
-</ul>
-</li>
-</ul>
-<h1 id="Sampling-Repeating-Frequency-Contents"><a href="#Sampling-Repeating-Frequency-Contents" class="headerlink" title="Sampling = Repeating Frequency Contents"></a>Sampling = Repeating Frequency Contents</h1><ul>
-<li><p>冲激函数（某些位置有值有些没有，为0）</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708114726.png" alt="冲激函数" style="zoom:25%;" />
-
-<ul>
-<li>采样：给定函数与冲激函数相乘得到采样结果</li>
-<li>采样（从频域角度理解）：就是在重复原始信号的频谱</li>
-</ul>
-</li>
-</ul>
-<p>$$时域的乘积 = 频域的卷积$$</p>
-<ul>
-<li><p>为什么会走样</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708115306.png" alt="为什么会走样" style="zoom:25%;" />
-
-<ul>
-<li>采样率不足（不够快），导致原始信号复制粘贴距离不够大，频率的频谱发生了混叠，即走样</li>
-<li>相当于采样低 = 稀疏采样</li>
-</ul>
-</li>
-</ul>
-<h1 id="Anti-Aliasing"><a href="#Anti-Aliasing" class="headerlink" title="Anti-Aliasing"></a>Anti-Aliasing</h1><ul>
-<li>How Can We Reduce Aliasing Error?</li>
-<li>Option 1: Increase sampling rate<ul>
-<li>Essentially increasing the distance between replicas in the<br>Fourier domain</li>
-<li>Higher resolution displays, sensors, framebuffers…</li>
-<li>But: costly &amp; may need very high resolution</li>
-</ul>
-</li>
-<li>Option 2: Antialiasing<ul>
-<li>Making Fourier contents “narrower” before repeating</li>
-<li>i.e. Filtering out high frequencies before sampling</li>
-</ul>
-</li>
-<li>步骤<ul>
-<li>先卷积</li>
-<li>再采样</li>
-</ul>
-</li>
-</ul>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708115851.png" alt="如何反走样" style="zoom:25%;" />
-
-<ul>
-<li><p>模糊之后的频谱覆盖范围小</p>
-</li>
-<li><p>所以采样堆叠几率小</p>
-</li>
-<li><p>如何模糊</p>
-<ul>
-<li><p>用一定大小的低通滤波器来处理图像</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708120101.png" alt="A Practical Pre-Filter" style="zoom:25%;" /></li>
-</ul>
-</li>
-</ul>
-<h2 id="Antialiasing-by-averaging-values-in-pixel-area"><a href="#Antialiasing-by-averaging-values-in-pixel-area" class="headerlink" title="Antialiasing by averaging values in pixel area"></a>Antialiasing by averaging values in pixel area</h2><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708120227.png" alt="Antialiasing by averaging values in pixel area" style="zoom:25%;" />
-
-<ul>
-<li><p>Solution:</p>
-<ul>
-<li>Convolve f(x,y) by a 1-pixel box-blur<ul>
-<li>convolving = filtering = averaging</li>
-</ul>
-</li>
-<li>Then sample at every pixel’s center</li>
-</ul>
-</li>
-<li><p>怎么把三角形在像素内覆盖的区域算出来：</p>
-</li>
-</ul>
-<h2 id="Antialiasing-By-Supersampling-MSAA"><a href="#Antialiasing-By-Supersampling-MSAA" class="headerlink" title="Antialiasing By Supersampling (MSAA)"></a>Antialiasing By Supersampling (MSAA)</h2><blockquote>
-<p> 解决的是对信号的模糊操作 不是靠提升分辨率解决问题 只是为了解决三角形覆盖问题</p>
+<blockquote>
+<p>项目周期代表了一个项目的规模以及复杂度，通常在原型推进过程中不断对周期进行验证。</p>
 </blockquote>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708120523.png" alt="Supersampling" style="zoom:25%;" />
-
+<p>在 <a href="https://medill-east.github.io/2022/04/28/leveldesignbook-20220428-pre-production/">pre-production</a> 一节中，我们已经设定了最初的周期和期望。</p>
+<p>游戏开发中的传统智慧是假设每个项目开始时都超期了。即使是小型的合理的项目也可能有隐藏问题。关卡设计也不例外，即使是很小的关卡也可能需要多次迭代和游戏测试才能验证通过。如果有疑问的话，就缩减周期以及去掉不必要的非支柱性的游戏设计吧。</p>
+<p>随着工作经验（或是团队信任度）的提升，最终会在估计项目周期方面做得越来越好。如果是游戏开发新手，建议遵循 50% 的原则：想想尽可能小的项目，然后直接砍掉 50% 内容，这样就有 50%的机会来真正做完。</p>
+<hr>
+<h3 id="Feasibility"><a href="#Feasibility" class="headerlink" title="Feasibility"></a>Feasibility</h3><p>对于大型/商业项目，pre-production 其实就是可行性研究：项目能否在给定时间和资源下完成？项目是否合理还是太理想化了？其可行性到底如何？</p>
+<p>游戏引擎和工具的选择极大地影响了机制和系统的制作可行性。 例如，使用 Doom 3 引擎制作开放世界驾驶游戏将非常困难，因为该引擎没有内置对大型景观或车辆的支持。</p>
+<h4 id="Engine-and-tools"><a href="#Engine-and-tools" class="headerlink" title="Engine and tools"></a>Engine and tools</h4><p>可行性可不只意味着使用最喜欢的游戏引擎。每个项目都有着不同的需求和目标。</p>
 <ul>
-<li>给像素内部加采样点 看像素覆盖率</li>
+<li>所有权：依赖另一家公司是否明智？许多大型工作室使用的是自研引擎而不是 Unity 或 Unreal。</li>
+<li>劳工：能招聘到和留住人才吗？比如小型工作室无法避免大型工作室以更高的薪资挖人，他们可能会避免使用 Unreal。（大概是技术不互通所以不好挖的意思？）</li>
+<li>技术优先：能改变设计以契合技术吗？比如对于使用 Doom 引擎的工作，制作一个射击游戏比起平台跳跃游戏就更加可行（Doom 没有跳跃键）。</li>
 </ul>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708122814.png" alt="Supersampling cont." style="zoom:25%;" />
-
-<h2 id="Antialiasing-Today"><a href="#Antialiasing-Today" class="headerlink" title="Antialiasing Today"></a>Antialiasing Today</h2><ul>
-<li>No free lunch!What’s the cost of MSAA?<ul>
-<li>增加了计算量</li>
+<hr>
+<h3 id="Pipeline"><a href="#Pipeline" class="headerlink" title="Pipeline"></a>Pipeline</h3><p>游戏开发中的管线可以理解为多个不同的生产步骤。Pre-production 是搞清楚大多数管线的时候。</p>
+<p>Build 管线可将可玩的可执行文件分发给玩家，而 art 管线会关注于将 2D 图像或 3D 模型转换为游戏引擎所支持的格式。以下这些词基本都是管线的一部分：convert，import，export，compile，bake。</p>
+<p>关卡设计管线有一些差异。有时候可能需要单独的工具或插件来生成景观或是搭建建筑。在 2010 年前，游戏引擎在加载关卡文件之前需要对地图编译进行优化或是对其进行错误检查是很常见的步骤。</p>
+<hr>
+<h3 id="Prototyping"><a href="#Prototyping" class="headerlink" title="Prototyping"></a>Prototyping</h3><p>最好的验证可行性的方式就是制作原型。原型是一个小型的项目，可视其为专门回答了某一个问题。</p>
+<p>1997 年，Apple 的研究者 Stephanie Houde 和 Charles Hill 发表了一篇名为 <a target="_blank" rel="noopener" href="https://hci.stanford.edu/courses/cs247/2012/readings/WhatDoPrototypesPrototype.pdf">“What Do Prototypes Prototype?”</a> 的著名文章。Houde 和 Hill 定义了三种原型的通用分类：</p>
+<ul>
+<li>功能验证型，Role：它怎么来满足用户需求，在其生命周期内它扮演了什么样的角色？</li>
+<li>技术验证型，Implementation：技术可行吗？怎么来制作？</li>
+<li>感官验证型，Look and feel：看起来会是什么样的？感觉如何？</li>
 </ul>
-</li>
-<li>Milestones (personal idea)<ul>
-<li>FXAA (Fast Approximate AA)<ul>
-<li>和采样无关 相当于后期处理</li>
-<li>得到一幅图 有锯齿 找到边界 将有锯齿的边界换成没有锯齿的边界</li>
-</ul>
-</li>
-<li>TAA (Temporal AA)<ul>
-<li>复用上一帧信息 在当前帧不引入新信息</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Super resolution / super sampling 超分辨率<ul>
-<li>From low resolution to high resolution</li>
-<li>Essentially still “not enough samples“ problem</li>
-<li>DLSS (Deep Learning Super Sampling)<ul>
-<li>一切猜测 深度学习都适合</li>
-</ul>
-</li>
-</ul>
-</li>
+<p>在针对其中任何一项进行原型制作时，这一过程就被称之为概念验证（proof of concept）。原型的形式可能是纸面的，引擎的技术 demo，或是一个玩家可游玩的测试关卡。</p>
+<p><a target="_blank" rel="noopener" href="https://book.leveldesignbook.com/process/layout">Layouts</a> 和 <a target="_blank" rel="noopener" href="https://book.leveldesignbook.com/process/blockout">blockouts</a> 也是用于回答设计问题的原型。</p>
+<hr>
+<h3 id="Vertical-Slice"><a href="#Vertical-Slice" class="headerlink" title="Vertical Slice"></a>Vertical Slice</h3><p>当尝试将多方面组合成一个更大的集成原型时就是在制作一个垂直切片——一个带有体验设计（role），音视频润色（look and feel），功能技术基础（implementation）的已完成游戏的“示例”切片。（其实就是早期演示视频）</p>
+<p>制作垂直切片可以让团队验证管线可行性。如果能够使用当前工具盒流程制作出出色的切片，那么工具可能就够用了。如果做不出，那么可能需要对工作方式进行调整。</p>
+<p>垂直切片还有助于衡量项目周期。如果制作 10% 的内容需要 5 个月，那么可以大概推算全部做完可能要 50 个月。（真实情况远比这复杂，但大概意思，领会精神）</p>
+<hr>
+<h2 id="Backlink"><a href="#Backlink" class="headerlink" title="Backlink"></a>Backlink</h2><ul>
+<li><a href="https://medill-east.github.io/2022/04/28/leveldesignbook-toc/">Level Design Book 随译/笔记</a></li>
 </ul>
 
                 
@@ -706,7 +493,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://medill-east.github.io/2021/07/16/games101-6-20200228-20210708-rasterization-2-anti-aliasing-and-z-buffering/">https://medill-east.github.io/2021/07/16/games101-6-20200228-20210708-rasterization-2-anti-aliasing-and-z-buffering/</a>
+                    <a href="https://medill-east.github.io/2022/05/02/leveldesignbook-20220502-pre-production-scope/">https://medill-east.github.io/2022/05/02/leveldesignbook-20220502-pre-production-scope/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -744,8 +531,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/ComputerGraphics/">
-                                    <span class="chip bg-color">ComputerGraphics</span>
+                                <a href="/tags/Game/">
+                                    <span class="chip bg-color">Game</span>
+                                </a>
+                            
+                                <a href="/tags/Game-Level-Design/">
+                                    <span class="chip bg-color">Game Level Design</span>
                                 </a>
                             
                         </div>
@@ -917,45 +708,51 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
             <div class="card">
-                <a href="/2021/07/16/games101-7-20200303-20210708-shading-1-illumination-shading-and-graphics-pipeline/">
+                <a href="/2022/05/02/leveldesignbook-20220502-pre-production-scope/">
                     <div class="card-image">
                         
-                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708132803.png" class="responsive-img" alt="GAMES101-7 20200303 20210708 Shading 1 (Illumination, Shading and Graphics Pipeline)">
+                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220502112605.png" class="responsive-img" alt="20220502 - Level Design Book - BOOK 1. PROCESS - Pre-production - Scope">
                         
-                        <span class="card-title">GAMES101-7 20200303 20210708 Shading 1 (Illumination, Shading and Graphics Pipeline)</span>
+                        <span class="card-title">20220502 - Level Design Book - BOOK 1. PROCESS - Pre-production - Scope</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Depth buffer, Shading.
+                            General size and complexity of a project; validated through prototyping
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-07-16
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-02
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Study-CS-CG/" class="post-category">
-                                    Study-CS-CG
+                            <a href="/categories/Study-Game-LevelDesign/" class="post-category">
+                                    Study-Game-LevelDesign
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/ComputerGraphics/">
-                        <span class="chip bg-color">ComputerGraphics</span>
+                    <a href="/tags/Game/">
+                        <span class="chip bg-color">Game</span>
+                    </a>
+                    
+                    <a href="/tags/Game-Level-Design/">
+                        <span class="chip bg-color">Game Level Design</span>
                     </a>
                     
                 </div>
@@ -969,30 +766,30 @@
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/07/16/games101-5-20200225-20210706-07-rasterization-1-triangles/">
+                <a href="/2022/05/01/leveldesignbook-20220501-pre-production-worldbuilding/">
                     <div class="card-image">
                         
-                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210707122155.png" class="responsive-img" alt="GAMES101-5 20200225 20210706 07 Rasterization 1 (Triangles)">
+                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220502001916.png" class="responsive-img" alt="20220501 - Level Design Book - BOOK 1. PROCESS - Pre-production - Worldbuilding">
                         
-                        <span class="card-title">GAMES101-5 20200225 20210706 07 Rasterization 1 (Triangles)</span>
+                        <span class="card-title">20220501 - Level Design Book - BOOK 1. PROCESS - Pre-production - Worldbuilding</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Perspective Projection, What’s after MVP, Canonical Cube to Screen, Rsterizing Triangles into Pixels, Rasterization - Drawing to Raster Displays, A simple approach - sampling.
+                            How to conceptualize and design the fictional history of the game world
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-07-16
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-01
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Study-CS-CG/" class="post-category">
-                                    Study-CS-CG
+                            <a href="/categories/Study-Game-LevelDesign/" class="post-category">
+                                    Study-Game-LevelDesign
                                 </a>
                             
                             
@@ -1002,8 +799,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/ComputerGraphics/">
-                        <span class="chip bg-color">ComputerGraphics</span>
+                    <a href="/tags/Game/">
+                        <span class="chip bg-color">Game</span>
+                    </a>
+                    
+                    <a href="/tags/Game-Level-Design/">
+                        <span class="chip bg-color">Game Level Design</span>
                     </a>
                     
                 </div>
@@ -1144,13 +945,6 @@
 
 </main>
 
-
-<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script>
-    MathJax.Hub.Config({
-        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
-    });
-</script>
 
 
 

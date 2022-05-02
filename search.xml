@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>20220502 - Level Design Book - BOOK 1. PROCESS - Pre-production - Scope</title>
+      <link href="2022/05/02/leveldesignbook-20220502-pre-production-scope/"/>
+      <url>2022/05/02/leveldesignbook-20220502-pre-production-scope/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Scope"><a href="#Scope" class="headerlink" title="Scope"></a>Scope</h2><ul><li><p><a href="https://book.leveldesignbook.com/process/preproduction/worldbuilding">原文链接</a></p></li><li><p><a href="https://medill-east.github.io/2022/04/28/leveldesignbook-toc/">Level Design Book 随译/笔记</a></p></li></ul><blockquote><p>项目周期代表了一个项目的规模以及复杂度，通常在原型推进过程中不断对周期进行验证。</p></blockquote><p>在 <a href="https://medill-east.github.io/2022/04/28/leveldesignbook-20220428-pre-production/">pre-production</a> 一节中，我们已经设定了最初的周期和期望。</p><p>游戏开发中的传统智慧是假设每个项目开始时都超期了。即使是小型的合理的项目也可能有隐藏问题。关卡设计也不例外，即使是很小的关卡也可能需要多次迭代和游戏测试才能验证通过。如果有疑问的话，就缩减周期以及去掉不必要的非支柱性的游戏设计吧。</p><p>随着工作经验（或是团队信任度）的提升，最终会在估计项目周期方面做得越来越好。如果是游戏开发新手，建议遵循 50% 的原则：想想尽可能小的项目，然后直接砍掉 50% 内容，这样就有 50%的机会来真正做完。</p><hr><h3 id="Feasibility"><a href="#Feasibility" class="headerlink" title="Feasibility"></a>Feasibility</h3><p>对于大型/商业项目，pre-production 其实就是可行性研究：项目能否在给定时间和资源下完成？项目是否合理还是太理想化了？其可行性到底如何？</p><p>游戏引擎和工具的选择极大地影响了机制和系统的制作可行性。 例如，使用 Doom 3 引擎制作开放世界驾驶游戏将非常困难，因为该引擎没有内置对大型景观或车辆的支持。</p><h4 id="Engine-and-tools"><a href="#Engine-and-tools" class="headerlink" title="Engine and tools"></a>Engine and tools</h4><p>可行性可不只意味着使用最喜欢的游戏引擎。每个项目都有着不同的需求和目标。</p><ul><li>所有权：依赖另一家公司是否明智？许多大型工作室使用的是自研引擎而不是 Unity 或 Unreal。</li><li>劳工：能招聘到和留住人才吗？比如小型工作室无法避免大型工作室以更高的薪资挖人，他们可能会避免使用 Unreal。（大概是技术不互通所以不好挖的意思？）</li><li>技术优先：能改变设计以契合技术吗？比如对于使用 Doom 引擎的工作，制作一个射击游戏比起平台跳跃游戏就更加可行（Doom 没有跳跃键）。</li></ul><hr><h3 id="Pipeline"><a href="#Pipeline" class="headerlink" title="Pipeline"></a>Pipeline</h3><p>游戏开发中的管线可以理解为多个不同的生产步骤。Pre-production 是搞清楚大多数管线的时候。</p><p>Build 管线可将可玩的可执行文件分发给玩家，而 art 管线会关注于将 2D 图像或 3D 模型转换为游戏引擎所支持的格式。以下这些词基本都是管线的一部分：convert，import，export，compile，bake。</p><p>关卡设计管线有一些差异。有时候可能需要单独的工具或插件来生成景观或是搭建建筑。在 2010 年前，游戏引擎在加载关卡文件之前需要对地图编译进行优化或是对其进行错误检查是很常见的步骤。</p><hr><h3 id="Prototyping"><a href="#Prototyping" class="headerlink" title="Prototyping"></a>Prototyping</h3><p>最好的验证可行性的方式就是制作原型。原型是一个小型的项目，可视其为专门回答了某一个问题。</p><p>1997 年，Apple 的研究者 Stephanie Houde 和 Charles Hill 发表了一篇名为 <a href="https://hci.stanford.edu/courses/cs247/2012/readings/WhatDoPrototypesPrototype.pdf">“What Do Prototypes Prototype?”</a> 的著名文章。Houde 和 Hill 定义了三种原型的通用分类：</p><ul><li>功能验证型，Role：它怎么来满足用户需求，在其生命周期内它扮演了什么样的角色？</li><li>技术验证型，Implementation：技术可行吗？怎么来制作？</li><li>感官验证型，Look and feel：看起来会是什么样的？感觉如何？</li></ul><p>在针对其中任何一项进行原型制作时，这一过程就被称之为概念验证（proof of concept）。原型的形式可能是纸面的，引擎的技术 demo，或是一个玩家可游玩的测试关卡。</p><p><a href="https://book.leveldesignbook.com/process/layout">Layouts</a> 和 <a href="https://book.leveldesignbook.com/process/blockout">blockouts</a> 也是用于回答设计问题的原型。</p><hr><h3 id="Vertical-Slice"><a href="#Vertical-Slice" class="headerlink" title="Vertical Slice"></a>Vertical Slice</h3><p>当尝试将多方面组合成一个更大的集成原型时就是在制作一个垂直切片——一个带有体验设计（role），音视频润色（look and feel），功能技术基础（implementation）的已完成游戏的“示例”切片。（其实就是早期演示视频）</p><p>制作垂直切片可以让团队验证管线可行性。如果能够使用当前工具盒流程制作出出色的切片，那么工具可能就够用了。如果做不出，那么可能需要对工作方式进行调整。</p><p>垂直切片还有助于衡量项目周期。如果制作 10% 的内容需要 5 个月，那么可以大概推算全部做完可能要 50 个月。（真实情况远比这复杂，但大概意思，领会精神）</p><hr><h2 id="Backlink"><a href="#Backlink" class="headerlink" title="Backlink"></a>Backlink</h2><ul><li><a href="https://medill-east.github.io/2022/04/28/leveldesignbook-toc/">Level Design Book 随译/笔记</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Study-Game-LevelDesign </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Game </tag>
+            
+            <tag> Game Level Design </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>20220501 - Level Design Book - BOOK 1. PROCESS - Pre-production - Worldbuilding</title>
       <link href="2022/05/01/leveldesignbook-20220501-pre-production-worldbuilding/"/>
       <url>2022/05/01/leveldesignbook-20220501-pre-production-worldbuilding/</url>
@@ -191,7 +218,7 @@
       <link href="2022/04/28/leveldesignbook-toc/"/>
       <url>2022/04/28/leveldesignbook-toc/</url>
       
-        <content type="html"><![CDATA[<h1 id="Level-Design-Book-随译-笔记"><a href="#Level-Design-Book-随译-笔记" class="headerlink" title="Level Design Book 随译/笔记"></a>Level Design Book 随译/笔记</h1><h2 id="Why-Note"><a href="#Why-Note" class="headerlink" title="Why Note"></a>Why Note</h2><p>最近在学习关卡设计有关知识，对《Level Design Book》中相关章节进行随译/笔记，特此记录。</p><h2 id="What"><a href="#What" class="headerlink" title="What"></a>What</h2><p>以下基本信息引用自<a href="https://book.leveldesignbook.com/">官网</a>：</p><blockquote><p><strong>The Level Design Book</strong> gathers level design knowledge for 3D video games in an approachable, up-to-date, and critical way. It is for level designers of all experience levels and game engines.</p></blockquote><h2 id="Content"><a href="#Content" class="headerlink" title="Content"></a>Content</h2><ol><li><a href="https://medill-east.github.io/2022/04/28/leveldesignbook-20220428-pre-production/">20220428 - Level Design Book - BOOK 1. PROCESS - Pre-production</a></li><li><a href="https://medill-east.github.io/2022/04/29/leveldesignbook-20220429-pre-production-pacing/">20220429 - Level Design Book - BOOK 1. PROCESS - Pre-production - Pacing</a></li><li><a href="https://medill-east.github.io/2022/04/30/leveldesignbook-20220430-pre-production-research/">20220430 - Level Design Book - BOOK 1. PROCESS - Pre-production - Research</a></li><li><a href="https://medill-east.github.io/2022/05/01/leveldesignbook-20220501-pre-production-worldbuilding/">20220501 - Level Design Book - BOOK 1. PROCESS - Pre-production - Worldbuilding</a></li></ol>]]></content>
+        <content type="html"><![CDATA[<h1 id="Level-Design-Book-随译-笔记"><a href="#Level-Design-Book-随译-笔记" class="headerlink" title="Level Design Book 随译/笔记"></a>Level Design Book 随译/笔记</h1><h2 id="Why-Note"><a href="#Why-Note" class="headerlink" title="Why Note"></a>Why Note</h2><p>最近在学习关卡设计有关知识，对《Level Design Book》中相关章节进行随译/笔记，特此记录。</p><h2 id="What"><a href="#What" class="headerlink" title="What"></a>What</h2><p>以下基本信息引用自<a href="https://book.leveldesignbook.com/">官网</a>：</p><blockquote><p><strong>The Level Design Book</strong> gathers level design knowledge for 3D video games in an approachable, up-to-date, and critical way. It is for level designers of all experience levels and game engines.</p></blockquote><h2 id="Content"><a href="#Content" class="headerlink" title="Content"></a>Content</h2><ol><li><a href="https://medill-east.github.io/2022/04/28/leveldesignbook-20220428-pre-production/">20220428 - Level Design Book - BOOK 1. PROCESS - Pre-production</a></li><li><a href="https://medill-east.github.io/2022/04/29/leveldesignbook-20220429-pre-production-pacing/">20220429 - Level Design Book - BOOK 1. PROCESS - Pre-production - Pacing</a></li><li><a href="https://medill-east.github.io/2022/04/30/leveldesignbook-20220430-pre-production-research/">20220430 - Level Design Book - BOOK 1. PROCESS - Pre-production - Research</a></li><li><a href="https://medill-east.github.io/2022/05/01/leveldesignbook-20220501-pre-production-worldbuilding/">20220501 - Level Design Book - BOOK 1. PROCESS - Pre-production - Worldbuilding</a></li><li><a href="https://medill-east.github.io/2022/05/02/leveldesignbook-20220502-pre-production-scope/">20220502 - Level Design Book - BOOK 1. PROCESS - Pre-production - Scope</a></li></ol>]]></content>
       
       
       <categories>
