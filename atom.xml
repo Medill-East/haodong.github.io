@@ -6,7 +6,7 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2022-05-02T09:26:16.658Z</updated>
+  <updated>2022-05-02T22:31:50.120Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20220502 - GDC2017 塞尔达：旷野之息的三角之力</title>
+    <link href="https://medill-east.github.io/2022/05/02/20220502-gdc2017-zelda/"/>
+    <id>https://medill-east.github.io/2022/05/02/20220502-gdc2017-zelda/</id>
+    <published>2022-05-02T20:20:46.000Z</published>
+    <updated>2022-05-02T22:31:50.120Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;塞尔达：旷野之息的三角之力&quot;&gt;&lt;a href=&quot;#塞尔达：旷野之息的三角之力&quot; class=&quot;headerlink&quot; title=&quot;塞尔达：旷野之息的三角之力&quot;&gt;&lt;/a&gt;塞尔达：旷野之息的三角之力&lt;/h2&gt;&lt;p&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="GDC" scheme="https://medill-east.github.io/tags/GDC/"/>
+    
+    <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
+    
+  </entry>
   
   <entry>
     <title>20220502 - Level Design Book - BOOK 1. PROCESS - Pre-production - Scope</title>
@@ -265,15 +294,17 @@
     <link href="https://medill-east.github.io/2022/04/28/index-notes/"/>
     <id>https://medill-east.github.io/2022/04/28/index-notes/</id>
     <published>2022-04-28T21:01:19.000Z</published>
-    <updated>2022-04-28T22:01:41.880Z</updated>
+    <updated>2022-05-02T22:10:37.524Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;游戏关卡设计相关&quot;&gt;&lt;a href=&quot;#游戏关卡设计相关&quot; class=&quot;headerlink&quot; title=&quot;游戏关卡设计相关&quot;&gt;&lt;/a&gt;游戏关卡设计相关&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a</summary>
+    <summary type="html">&lt;h2 id=&quot;学习笔记&quot;&gt;&lt;a href=&quot;#学习笔记&quot; class=&quot;headerlink&quot; title=&quot;学习笔记&quot;&gt;&lt;/a&gt;学习笔记&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;GDC2017——塞尔达：旷野之息的三角之力&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2</summary>
         
       
     
@@ -523,31 +554,6 @@
     <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
     
     <category term="Portfolio" scheme="https://medill-east.github.io/tags/Portfolio/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GAMES101-8 20200306/20210708 Shading 2 (Shading, Pipeline and Texture Mapping)</title>
-    <link href="https://medill-east.github.io/2021/07/16/games101-8-20200306-20210708-shading-2-shading-pipeline-and-texture-mapping/"/>
-    <id>https://medill-east.github.io/2021/07/16/games101-8-20200306-20210708-shading-2-shading-pipeline-and-texture-mapping/</id>
-    <published>2021-07-16T10:38:45.000Z</published>
-    <updated>2021-07-16T11:47:50.925Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;8-20200306-20210708-Shading-2-Shading-Pipeline-and-Texture-Mapping&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Study-CS-CG" scheme="https://medill-east.github.io/categories/Study-CS-CG/"/>
-    
-    
-    <category term="ComputerGraphics" scheme="https://medill-east.github.io/tags/ComputerGraphics/"/>
     
   </entry>
   
