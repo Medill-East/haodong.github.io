@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="GAMES101-7 20200303 20210708 Shading 1 (Illumination, Shading and Graphics Pipeline), 無涘">
+    <meta name="keywords" content="20220503 - Level Design Book - BOOK 1. PROCESS - Combat, 無涘">
     <meta name="description" content="Whatever will be, will be.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>GAMES101-7 20200303 20210708 Shading 1 (Illumination, Shading and Graphics Pipeline) | 無涘</title>
+    <title>20220503 - Level Design Book - BOOK 1. PROCESS - Combat | 無涘</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -228,12 +228,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708132803.png')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220503233523.png')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">GAMES101-7 20200303 20210708 Shading 1 (Illumination, Shading and Graphics Pipeline)</h1>
+                    <h1 class="description center-align post-title">20220503 - Level Design Book - BOOK 1. PROCESS - Combat</h1>
                 </div>
             </div>
         </div>
@@ -351,8 +351,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/ComputerGraphics/">
-                                <span class="chip bg-color">ComputerGraphics</span>
+                            <a href="/tags/Game/">
+                                <span class="chip bg-color">Game</span>
+                            </a>
+                        
+                            <a href="/tags/Game-Level-Design/">
+                                <span class="chip bg-color">Game Level Design</span>
                             </a>
                         
                     </div>
@@ -363,8 +367,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Study-CS-CG/" class="post-category">
-                                Study-CS-CG
+                            <a href="/categories/Study-Game-LevelDesign/" class="post-category">
+                                Study-Game-LevelDesign
                             </a>
                         
                     </div>
@@ -376,21 +380,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2021-07-16
+                    2022-05-03
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2021-07-16
+                    2022-05-03
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    667
+                    854
                 </div>
                 
 
@@ -420,142 +424,78 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="7-20200303-20210708-Shading-1-Illumination-Shading-and-Graphics-Pipeline"><a href="#7-20200303-20210708-Shading-1-Illumination-Shading-and-Graphics-Pipeline" class="headerlink" title="7 20200303 / 20210708 Shading 1 (Illumination, Shading and Graphics Pipeline)"></a>7 20200303 / 20210708 Shading 1 (Illumination, Shading and Graphics Pipeline)</h1><h1 id="深度缓存：解决可见性-遮挡问题"><a href="#深度缓存：解决可见性-遮挡问题" class="headerlink" title="深度缓存：解决可见性/遮挡问题"></a>深度缓存：解决可见性/遮挡问题</h1><h2 id="Painter’s-Algorithm"><a href="#Painter’s-Algorithm" class="headerlink" title="Painter’s Algorithm"></a>Painter’s Algorithm</h2><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708125836.png" alt="Painter's Algorithm" style="zoom: 50%;" />
-
+                <h2 id="Combat"><a href="#Combat" class="headerlink" title="Combat"></a>Combat</h2><ul>
+<li><p><a target="_blank" rel="noopener" href="https://book.leveldesignbook.com/process/preproduction/worldbuilding">原文链接</a></p>
+</li>
+<li><p><a href="https://medill-east.github.io/2022/04/28/leveldesignbook-toc/">Level Design Book 随译/笔记</a></p>
+</li>
+</ul>
+<blockquote>
+<p>设计玩家、NPC 之间或内部的物理冲突</p>
+</blockquote>
+<h3 id="What-is-combat-design"><a href="#What-is-combat-design" class="headerlink" title="What is combat design"></a>What is combat design</h3><p>战斗是游戏设计中最常见也是被探索得最为深刻的话题。一些工作室甚至有专门的战斗设计师，专门负责构建战斗系统和调整战斗。这是 2010 年代随着军事射击游戏/掩护射击游戏/黑魂等游戏的兴起才出现的行业惯例。</p>
+<p>如果没有一些已经制作好的战斗设计，想要直接制作战斗关卡是很难的。这也是为什么建议做 mod：这样就可以直接重用游戏中已经得到验证的核心战斗系统，而不用自己重建。</p>
+<p>如果没有选择冲突类型的游戏，可以直接学习有关<a target="_blank" rel="noopener" href="https://book.leveldesignbook.com/process/layout">布局</a>的内容。</p>
+<hr>
+<h3 id="Combat-concepts"><a href="#Combat-concepts" class="headerlink" title="Combat concepts"></a>Combat concepts</h3><p>设计战斗系统时，考虑以下方面：</p>
 <ul>
-<li>从后向前绘制，<strong>overwrite</strong> in the frame buffer</li>
-<li>需要考虑绘制顺序</li>
-<li>Requires sorting in depth (O(n log n) for n triangles) Can have unresolvable depth order<ul>
-<li>但会出现无法定义深度关系的情况</li>
+<li><a target="_blank" rel="noopener" href="https://book.leveldesignbook.com/process/combat/enemy">敌人设计</a>：定义不同类型的敌对 NPC 类型<ul>
+<li>理想情况下，每种类型都有不同的行为、优势、劣势</li>
+<li>如果敌人类型过于重复，战斗体验会感觉枯燥单一</li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://book.leveldesignbook.com/process/combat/encounter">遭遇战</a>：与 NPC 对抗的结构型战斗<ul>
+<li>开放式战斗谜题：玩家需要即兴解决</li>
+<li>游戏内的遭遇战通常会涉及一些<a target="_blank" rel="noopener" href="https://book.leveldesignbook.com/process/scripting">脚本</a></li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://book.leveldesignbook.com/process/combat/balance">平衡</a>：主观（觉得平衡）和客观（真的平衡）都要体现，通常体现在 PvP 中<ul>
+<li>玩家可以哪里，他们能控制什么东西</li>
+<li>平衡的关卡有能构建玩家对于布局的信任，并想着期望的目标不断加码</li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://book.leveldesignbook.com/process/combat/arena">竞技场设计</a>：专门为战斗而设的空间<ul>
+<li>设计可能的立足点，阻塞点，覆盖模式等</li>
+<li>这部分会稍晚些提到。在理解敌人设计和遭遇战设计之前是无法很好地知道竞技场设计的需求的</li>
 </ul>
 </li>
 </ul>
-<h3 id="Z-Buffer-深度缓存"><a href="#Z-Buffer-深度缓存" class="headerlink" title="Z-Buffer 深度缓存"></a>Z-Buffer 深度缓存</h3><ul>
-<li><p>This is the algorithm that eventually won.</p>
-</li>
-<li><p>Idea:</p>
+<hr>
+<h3 id="Combat-mechanics"><a href="#Combat-mechanics" class="headerlink" title="Combat mechanics"></a>Combat mechanics</h3><p>战斗机制是玩家用于对抗敌人的可重用的动作/技能/武器。常见战斗机制有：</p>
 <ul>
-<li>Store current min. z-value for each sample (pixel) 记录像素最浅深度</li>
-<li>Needs an additional buffer for depth values</li>
-<li>frame buffer stores color values (color buffer)</li>
-<li>depth buffer (z-buffer) stores depth (depth buffer)</li>
+<li><strong>收集</strong>有关布局和敌人的信息</li>
+<li><strong>远离</strong>危险，<strong>占领</strong>目标</li>
+<li><strong>瞄准</strong>特定的敌人类型/弱点</li>
+<li>当看到<strong>攻击信号</strong>（或者进攻机会时） <strong>示意</strong>攻击</li>
+<li>将攻击/武器动作组成<strong>连招</strong></li>
+<li><strong>阻挡</strong>敌人的攻击：在正确的时间<strong>招架</strong>/<strong>反击</strong>/<strong>闪避</strong></li>
+<li>在敌人无法击中或看到你的地方<strong>寻找掩护</strong></li>
+<li>管理<strong>资源</strong>，清点<strong>拾取物</strong>（血包，弹药等）</li>
+<li>在环境中布置<strong>陷阱</strong>（爆炸桶、水、岩浆、悬崖等）</li>
 </ul>
-</li>
-<li><p>IMPORTANT: For simplicity we suppose</p>
+<p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/GodOfWar2014_CombatPrototype.gif" alt="在简单的测试地图中测试战神（2018）的战斗原型，来源为 https://80.lv/articles/evolution-of-god-of-war-from-2014-to-2018/"></p>
+<h3 id="Weapon-design"><a href="#Weapon-design" class="headerlink" title="Weapon design"></a>Weapon design</h3><p>许多游戏为玩家提供了多种可用武器。武器设计是有关概念化、制作和平衡武器库的过程。需要考虑：</p>
 <ul>
-<li><p>z is always positive<br>(smaller z -&gt; closer, larger z -&gt; further)</p>
-  <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708130237.png" alt="Z-Buffer examples" style="zoom: 33%;" /></li>
+<li>武器的感觉和幻想：较大的射速较慢的枪 vs. 偷偷摸摸的刀 vs. 轰鸣电锯</li>
+<li>关于伤害，射程，射速，弹药供应等方面的统计数据<ul>
+<li>对于枪而言：需要考虑不同的散射度，后坐力，瞄具，穿透力，弹匣大小，装填速度等</li>
 </ul>
 </li>
-<li><p>Algorighm</p>
-  <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708130440.png" alt="Z-Buffer Algorithm" style="zoom: 33%;" />
-
-  <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708130621.png" alt="Z-Buffer Algorithm cont." style="zoom: 33%;" />
-
-<ul>
-<li>初始深度无限远</li>
-<li>把三角形做光栅化为像素</li>
-<li>找到像素后找到其深度</li>
-<li>z 值小就更新</li>
+<li>态势感知：挑选最合适/有效的武器</li>
+<li>弹药经济的管理：不浪费资源</li>
+<li>武器升级，装备升级等</li>
 </ul>
-</li>
-<li><p>z-buffer Complexity</p>
-</li>
-<li><p>O(n) for n triangles (assuming constant coverage)</p>
-</li>
-<li><p>How is it possible to sort n triangles in linear time?</p>
-<ul>
-<li>并没有排序 只是进行了比较 找最小值</li>
+<hr>
+<h3 id="TODO-Combat-examples"><a href="#TODO-Combat-examples" class="headerlink" title="TODO: Combat examples"></a>TODO: Combat examples</h3><p>原文还没填这里的坑</p>
+<hr>
+<h3 id="TODO-Combat-workflow"><a href="#TODO-Combat-workflow" class="headerlink" title="TODO: Combat workflow"></a>TODO: Combat workflow</h3><ul>
+<li>制作测试用的战斗关卡原型</li>
+<li>怎么知道一个战斗“足够好了”</li>
 </ul>
-</li>
-<li><p>绘制顺序不同不影响结果</p>
-<ul>
-<li>两个浮点数基本不可能完全相等</li>
-</ul>
-</li>
-<li><p>Most important visibility algorithm</p>
-<ul>
-<li>Implemented in hardware for all GPUs</li>
-</ul>
-</li>
-<li><p>z-buffer 处理不了透明物体</p>
-</li>
-</ul>
-<h1 id="What-we’ve-covered-so-far"><a href="#What-we’ve-covered-so-far" class="headerlink" title="What we’ve covered so far"></a>What we’ve covered so far</h1><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708131319.png" alt="What we've covered so far" style="zoom: 33%;" />
-
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708131557.png" alt="Rotating Cubes" style="zoom:33%;" />
-
-<h1 id="Shading-着色"><a href="#Shading-着色" class="headerlink" title="Shading 着色"></a>Shading 着色</h1><h2 id="Definition"><a href="#Definition" class="headerlink" title="Definition"></a>Definition</h2><ul>
-<li>In Merriam-Webster Dictionary<ul>
-<li>shading,  noun<br>The darkening or coloring of an illustration or diagram with parallel lines or a block of color.</li>
-<li>In this course<ul>
-<li>The process of applying a material to an object.</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="A-Simple-Shading-Model-Blinn-Phong-Reflectance-Model"><a href="#A-Simple-Shading-Model-Blinn-Phong-Reflectance-Model" class="headerlink" title="A Simple Shading Model (Blinn-Phong Reflectance Model)"></a>A Simple Shading Model (Blinn-Phong Reflectance Model)</h2><ul>
-<li><p>Perceptual Observations</p>
-  <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708132803.png" alt="Perceptual Observations" style="zoom:33%;" />
-
-<ul>
-<li>高光 specular highlights</li>
-<li>漫反射 diffuse reflection</li>
-<li>环境光 ambient lighting</li>
-</ul>
-</li>
-<li><p>Shading is Local - 着色局部性只看自己 不考虑其他任何物体的存在 所以没有阴影 (shading ≠ shadow)</p>
-  <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708133217.png" alt="Shading is Local" style="zoom:33%;" /></li>
-</ul>
-<h3 id="Diffuse-Reflection"><a href="#Diffuse-Reflection" class="headerlink" title="Diffuse Reflection"></a>Diffuse Reflection</h3><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708133534.png" alt="Diffuse Reflection" style="zoom:33%;" />
-
-<ul>
-<li><p>把光看作能量 （Lambert）<br>看着色点周围单位面积能够接收到多少能量<br>直射接收到的能量 &gt; 折射接收到的能量</p>
-</li>
-<li><p>Light Falloff</p>
-  <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708133918.png" alt="Light Falloff" style="zoom:33%;" />
-
-<ul>
-<li>能量守恒 - 单位点的能量越来越小 （不同球体表面积所含能量相同）</li>
-</ul>
-</li>
-<li><p>Lambertian (Diffuse) Shading</p>
-  <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708134228.png" alt="Lambertian (Diffuse) Shading" style="zoom:33%;" /></li>
-<li><p>$L_d = k_d (I/r^2)\max(0,\bf{n · l})$</p>
-<ul>
-<li>$k_d$: 着色点对于光的吸收率<ul>
-<li>如果 $k_d = 1$<ul>
-<li>表示该点完全不吸收能量 - 最亮</li>
-</ul>
-</li>
-<li>如果 $k_d = 0$<ul>
-<li>表示该点完全吸收能量没有能量反射出去 - 最暗</li>
-</ul>
-</li>
-<li>如果定义为三通道的 rgb 分别有 01<ul>
-<li>那么就可以定义颜色值</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>$I/r^2$：传播到着色点的强度（结合能量球来看 总面积为 $4\pi r^2$ 距离为 r，那么单位强度就是 $\frac{I}{4\pi r^2}$，为平方反比关系）<ul>
-<li>I: 点光源在单位距离上的强度</li>
-<li>r: 点光源和着色点的距离</li>
-</ul>
-</li>
-<li>$max(0, \bf{n · l})$<ul>
-<li>为什么有 0<ul>
-<li>如果是负数代表从反面照射没有意义</li>
-</ul>
-</li>
-<li>$\bf{n · l}$ 为余弦角</li>
-<li>整体表示被着色点能接收到的能量的比例</li>
-</ul>
-</li>
-<li>漫反射与V无关 - 和观测点无关</li>
-</ul>
-</li>
+<p>原文还没填这里的坑</p>
+<hr>
+<h2 id="Backlink"><a href="#Backlink" class="headerlink" title="Backlink"></a>Backlink</h2><ul>
+<li><a href="https://medill-east.github.io/2022/04/28/leveldesignbook-toc/">Level Design Book 随译/笔记</a></li>
 </ul>
 
                 
@@ -583,7 +523,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://medill-east.github.io/2021/07/16/games101-7-20200303-20210708-shading-1-illumination-shading-and-graphics-pipeline/">https://medill-east.github.io/2021/07/16/games101-7-20200303-20210708-shading-1-illumination-shading-and-graphics-pipeline/</a>
+                    <a href="https://medill-east.github.io/2022/05/03/leveldesignbook-20220503-combat/">https://medill-east.github.io/2022/05/03/leveldesignbook-20220503-combat/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -621,8 +561,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/ComputerGraphics/">
-                                    <span class="chip bg-color">ComputerGraphics</span>
+                                <a href="/tags/Game/">
+                                    <span class="chip bg-color">Game</span>
+                                </a>
+                            
+                                <a href="/tags/Game-Level-Design/">
+                                    <span class="chip bg-color">Game Level Design</span>
                                 </a>
                             
                         </div>
@@ -794,45 +738,51 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
             <div class="card">
-                <a href="/2021/07/16/games101-8-20200306-20210708-shading-2-shading-pipeline-and-texture-mapping/">
+                <a href="/2022/05/03/leveldesignbook-20220503-combat/">
                     <div class="card-image">
                         
-                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210709114026.png" class="responsive-img" alt="GAMES101-8 20200306/20210708 Shading 2 (Shading, Pipeline and Texture Mapping)">
+                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220503233523.png" class="responsive-img" alt="20220503 - Level Design Book - BOOK 1. PROCESS - Combat">
                         
-                        <span class="card-title">GAMES101-8 20200306/20210708 Shading 2 (Shading, Pipeline and Texture Mapping)</span>
+                        <span class="card-title">20220503 - Level Design Book - BOOK 1. PROCESS - Combat</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Shading, Pipeline, Texture Mapping.
+                            designing physical conflict between player(s) and/or NPCs
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-07-16
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-03
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Study-CS-CG/" class="post-category">
-                                    Study-CS-CG
+                            <a href="/categories/Study-Game-LevelDesign/" class="post-category">
+                                    Study-Game-LevelDesign
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/ComputerGraphics/">
-                        <span class="chip bg-color">ComputerGraphics</span>
+                    <a href="/tags/Game/">
+                        <span class="chip bg-color">Game</span>
+                    </a>
+                    
+                    <a href="/tags/Game-Level-Design/">
+                        <span class="chip bg-color">Game Level Design</span>
                     </a>
                     
                 </div>
@@ -846,30 +796,30 @@
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/07/16/games101-6-20200228-20210708-rasterization-2-anti-aliasing-and-z-buffering/">
+                <a href="/2022/05/02/20220502-gdc2017-zelda/">
                     <div class="card-image">
                         
-                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210708105306.png" class="responsive-img" alt="GAMES101-6 20200228 20210708 Rasterization 2 anti - aliasing and Z - buffering">
+                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220503000611.png" class="responsive-img" alt="20220502 - GDC2017 塞尔达：旷野之息的三角之力">
                         
-                        <span class="card-title">GAMES101-6 20200228 20210708 Rasterization 2 anti - aliasing and Z - buffering</span>
+                        <span class="card-title">20220502 - GDC2017 塞尔达：旷野之息的三角之力</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Anti - aliasing and Z - buffering.
+                            对此次 GDC 上旷野之息的演讲再做整理，学习最出色的开放世界的设计理念。
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-07-16
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-02
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Study-CS-CG/" class="post-category">
-                                    Study-CS-CG
+                            <a href="/categories/Study-Game-Notes/" class="post-category">
+                                    Study-Game-Notes
                                 </a>
                             
                             
@@ -879,8 +829,16 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/ComputerGraphics/">
-                        <span class="chip bg-color">ComputerGraphics</span>
+                    <a href="/tags/Game/">
+                        <span class="chip bg-color">Game</span>
+                    </a>
+                    
+                    <a href="/tags/GDC/">
+                        <span class="chip bg-color">GDC</span>
+                    </a>
+                    
+                    <a href="/tags/Learning-Notes/">
+                        <span class="chip bg-color">Learning Notes</span>
                     </a>
                     
                 </div>
@@ -1021,13 +979,6 @@
 
 </main>
 
-
-<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script>
-    MathJax.Hub.Config({
-        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
-    });
-</script>
 
 
 
