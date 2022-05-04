@@ -6,7 +6,7 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2022-05-03T21:35:31.748Z</updated>
+  <updated>2022-05-04T10:42:11.065Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>20220504 - Level Design Book - BOOK 1. PROCESS - Combat - Enemy Design</title>
+    <link href="https://medill-east.github.io/2022/05/04/20220504-leveldesignbook-combat-enemydesign/"/>
+    <id>https://medill-east.github.io/2022/05/04/20220504-leveldesignbook-combat-enemydesign/</id>
+    <published>2022-05-04T10:26:46.000Z</published>
+    <updated>2022-05-04T10:42:11.065Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Combat&quot;&gt;&lt;a href=&quot;#Combat&quot; class=&quot;headerlink&quot; title=&quot;Combat&quot;&gt;&lt;/a&gt;Combat&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-LevelDesign" scheme="https://medill-east.github.io/categories/Study-Game-LevelDesign/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Game Level Design" scheme="https://medill-east.github.io/tags/Game-Level-Design/"/>
+    
+  </entry>
+  
+  <entry>
     <title>20220503 - Level Design Book - BOOK 1. PROCESS - Combat</title>
-    <link href="https://medill-east.github.io/2022/05/03/leveldesignbook-20220503-combat/"/>
-    <id>https://medill-east.github.io/2022/05/03/leveldesignbook-20220503-combat/</id>
+    <link href="https://medill-east.github.io/2022/05/03/20220503-leveldesignbook-combat/"/>
+    <id>https://medill-east.github.io/2022/05/03/20220503-leveldesignbook-combat/</id>
     <published>2022-05-03T21:34:46.000Z</published>
-    <updated>2022-05-03T21:35:31.748Z</updated>
+    <updated>2022-05-04T10:41:59.339Z</updated>
     
     
       
@@ -75,10 +103,10 @@
   
   <entry>
     <title>20220502 - Level Design Book - BOOK 1. PROCESS - Pre-production - Scope</title>
-    <link href="https://medill-east.github.io/2022/05/02/leveldesignbook-20220502-pre-production-scope/"/>
-    <id>https://medill-east.github.io/2022/05/02/leveldesignbook-20220502-pre-production-scope/</id>
+    <link href="https://medill-east.github.io/2022/05/02/20220502-leveldesignbook-pre-production-scope/"/>
+    <id>https://medill-east.github.io/2022/05/02/20220502-leveldesignbook-pre-production-scope/</id>
     <published>2022-05-02T09:20:46.000Z</published>
-    <updated>2022-05-02T09:26:16.658Z</updated>
+    <updated>2022-05-04T10:41:39.254Z</updated>
     
     
       
@@ -103,10 +131,10 @@
   
   <entry>
     <title>20220501 - Level Design Book - BOOK 1. PROCESS - Pre-production - Worldbuilding</title>
-    <link href="https://medill-east.github.io/2022/05/01/leveldesignbook-20220501-pre-production-worldbuilding/"/>
-    <id>https://medill-east.github.io/2022/05/01/leveldesignbook-20220501-pre-production-worldbuilding/</id>
+    <link href="https://medill-east.github.io/2022/05/01/20220501-leveldesignbook-pre-production-worldbuilding/"/>
+    <id>https://medill-east.github.io/2022/05/01/20220501-leveldesignbook-pre-production-worldbuilding/</id>
     <published>2022-05-01T20:21:46.000Z</published>
-    <updated>2022-05-01T22:21:18.344Z</updated>
+    <updated>2022-05-04T10:40:33.855Z</updated>
     
     
       
@@ -131,10 +159,10 @@
   
   <entry>
     <title>20220430 - Level Design Book - BOOK 1. PROCESS - Pre-production - Research</title>
-    <link href="https://medill-east.github.io/2022/04/30/leveldesignbook-20220430-pre-production-research/"/>
-    <id>https://medill-east.github.io/2022/04/30/leveldesignbook-20220430-pre-production-research/</id>
+    <link href="https://medill-east.github.io/2022/04/30/20220430-leveldesignbook-pre-production-research/"/>
+    <id>https://medill-east.github.io/2022/04/30/20220430-leveldesignbook-pre-production-research/</id>
     <published>2022-04-30T10:21:46.000Z</published>
-    <updated>2022-05-01T22:19:57.157Z</updated>
+    <updated>2022-05-04T10:39:38.527Z</updated>
     
     
       
@@ -158,10 +186,10 @@
   
   <entry>
     <title>20220429 - Level Design Book - BOOK 1. PROCESS - Pre-production - Pacing</title>
-    <link href="https://medill-east.github.io/2022/04/29/leveldesignbook-20220429-pre-production-pacing/"/>
-    <id>https://medill-east.github.io/2022/04/29/leveldesignbook-20220429-pre-production-pacing/</id>
+    <link href="https://medill-east.github.io/2022/04/29/20220429-leveldesignbook-pre-production-pacing/"/>
+    <id>https://medill-east.github.io/2022/04/29/20220429-leveldesignbook-pre-production-pacing/</id>
     <published>2022-04-29T19:23:46.000Z</published>
-    <updated>2022-04-30T10:23:10.614Z</updated>
+    <updated>2022-05-04T10:38:53.523Z</updated>
     
     
       
@@ -210,32 +238,6 @@
   </entry>
   
   <entry>
-    <title>随想汇总</title>
-    <link href="https://medill-east.github.io/2022/04/28/index-thinking/"/>
-    <id>https://medill-east.github.io/2022/04/28/index-thinking/</id>
-    <published>2022-04-28T21:30:19.000Z</published>
-    <updated>2022-04-28T21:52:50.233Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Blog-Index" scheme="https://medill-east.github.io/categories/Blog-Index/"/>
-    
-    
-    <category term="Index" scheme="https://medill-east.github.io/tags/Index/"/>
-    
-  </entry>
-  
-  <entry>
     <title>游戏拆解/分析/设计反思汇总</title>
     <link href="https://medill-east.github.io/2022/04/28/index-gameanalysis/"/>
     <id>https://medill-east.github.io/2022/04/28/index-gameanalysis/</id>
@@ -263,11 +265,37 @@
   </entry>
   
   <entry>
+    <title>随想汇总</title>
+    <link href="https://medill-east.github.io/2022/04/28/index-thinking/"/>
+    <id>https://medill-east.github.io/2022/04/28/index-thinking/</id>
+    <published>2022-04-28T21:30:19.000Z</published>
+    <updated>2022-04-28T21:52:50.233Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Blog-Index" scheme="https://medill-east.github.io/categories/Blog-Index/"/>
+    
+    
+    <category term="Index" scheme="https://medill-east.github.io/tags/Index/"/>
+    
+  </entry>
+  
+  <entry>
     <title>20220428 - Level Design Book - BOOK 1. PROCESS - Pre-production</title>
-    <link href="https://medill-east.github.io/2022/04/28/leveldesignbook-20220428-pre-production/"/>
-    <id>https://medill-east.github.io/2022/04/28/leveldesignbook-20220428-pre-production/</id>
+    <link href="https://medill-east.github.io/2022/04/28/20220428-leveldesignbook-pre-production/"/>
+    <id>https://medill-east.github.io/2022/04/28/20220428-leveldesignbook-pre-production/</id>
     <published>2022-04-28T21:08:46.000Z</published>
-    <updated>2022-04-30T10:54:32.802Z</updated>
+    <updated>2022-05-04T10:38:36.994Z</updated>
     
     
       
@@ -291,11 +319,37 @@
   </entry>
   
   <entry>
-    <title>Level Design Book 随译/笔记</title>
-    <link href="https://medill-east.github.io/2022/04/28/leveldesignbook-toc/"/>
-    <id>https://medill-east.github.io/2022/04/28/leveldesignbook-toc/</id>
+    <title>学习笔记汇总</title>
+    <link href="https://medill-east.github.io/2022/04/28/index-notes/"/>
+    <id>https://medill-east.github.io/2022/04/28/index-notes/</id>
     <published>2022-04-28T21:01:19.000Z</published>
-    <updated>2022-05-03T21:36:25.103Z</updated>
+    <updated>2022-05-04T10:45:25.531Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;学习笔记&quot;&gt;&lt;a href=&quot;#学习笔记&quot; class=&quot;headerlink&quot; title=&quot;学习笔记&quot;&gt;&lt;/a&gt;学习笔记&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Blog-Index" scheme="https://medill-east.github.io/categories/Blog-Index/"/>
+    
+    
+    <category term="Index" scheme="https://medill-east.github.io/tags/Index/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Level Design Book 随译/笔记</title>
+    <link href="https://medill-east.github.io/2022/04/28/20220428-leveldesignbook-toc/"/>
+    <id>https://medill-east.github.io/2022/04/28/20220428-leveldesignbook-toc/</id>
+    <published>2022-04-28T21:01:19.000Z</published>
+    <updated>2022-05-04T10:36:09.098Z</updated>
     
     
       
@@ -314,32 +368,6 @@
     <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
     
     <category term="Game Level Design" scheme="https://medill-east.github.io/tags/Game-Level-Design/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>学习笔记汇总</title>
-    <link href="https://medill-east.github.io/2022/04/28/index-notes/"/>
-    <id>https://medill-east.github.io/2022/04/28/index-notes/</id>
-    <published>2022-04-28T21:01:19.000Z</published>
-    <updated>2022-05-02T22:11:44.203Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;学习笔记&quot;&gt;&lt;a href=&quot;#学习笔记&quot; class=&quot;headerlink&quot; title=&quot;学习笔记&quot;&gt;&lt;/a&gt;学习笔记&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Blog-Index" scheme="https://medill-east.github.io/categories/Blog-Index/"/>
-    
-    
-    <category term="Index" scheme="https://medill-east.github.io/tags/Index/"/>
     
   </entry>
   
@@ -521,33 +549,6 @@
     
     
     <category term="Study-Game-Analysis" scheme="https://medill-east.github.io/categories/Study-Game-Analysis/"/>
-    
-    
-    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
-    
-    <category term="Portfolio" scheme="https://medill-east.github.io/tags/Portfolio/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>神将三国游戏体验报告</title>
-    <link href="https://medill-east.github.io/2021/07/26/shen-jiang-san-guo-game-experience-report/"/>
-    <id>https://medill-east.github.io/2021/07/26/shen-jiang-san-guo-game-experience-report/</id>
-    <published>2021-07-26T11:56:19.000Z</published>
-    <updated>2022-04-28T21:42:55.567Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;神将三国游戏体验报告&quot;&gt;&lt;a href=&quot;#神将三国游戏体验报告&quot; class=&quot;headerlink&quot; title=&quot;神将三国游戏体验报告&quot;&gt;&lt;/a&gt;神将三国游戏体验报告&lt;/h1&gt;&lt;h2 id=&quot;1-报告基础信息&quot;&gt;&lt;a href=&quot;#1-报告基础信息&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Study-Game-ExperienceReport" scheme="https://medill-east.github.io/categories/Study-Game-ExperienceReport/"/>
     
     
     <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
