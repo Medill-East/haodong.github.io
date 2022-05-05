@@ -6,7 +6,7 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2022-05-04T10:42:11.065Z</updated>
+  <updated>2022-05-05T21:23:02.603Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <author>
@@ -17,18 +17,46 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>20220505 - Level Design Book - BOOK 1. PROCESS - Combat - Encounter</title>
+    <link href="https://medill-east.github.io/2022/05/05/20220505-leveldesignbook-combat-encounter/"/>
+    <id>https://medill-east.github.io/2022/05/05/20220505-leveldesignbook-combat-encounter/</id>
+    <published>2022-05-05T21:15:46.000Z</published>
+    <updated>2022-05-05T21:23:02.603Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Encounter&quot;&gt;&lt;a href=&quot;#Encounter&quot; class=&quot;headerlink&quot; title=&quot;Encounter&quot;&gt;&lt;/a&gt;Encounter&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-LevelDesign" scheme="https://medill-east.github.io/categories/Study-Game-LevelDesign/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Game Level Design" scheme="https://medill-east.github.io/tags/Game-Level-Design/"/>
+    
+  </entry>
+  
+  <entry>
     <title>20220504 - Level Design Book - BOOK 1. PROCESS - Combat - Enemy Design</title>
     <link href="https://medill-east.github.io/2022/05/04/20220504-leveldesignbook-combat-enemydesign/"/>
     <id>https://medill-east.github.io/2022/05/04/20220504-leveldesignbook-combat-enemydesign/</id>
     <published>2022-05-04T10:26:46.000Z</published>
-    <updated>2022-05-04T10:42:11.065Z</updated>
+    <updated>2022-05-05T21:15:21.366Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;Combat&quot;&gt;&lt;a href=&quot;#Combat&quot; class=&quot;headerlink&quot; title=&quot;Combat&quot;&gt;&lt;/a&gt;Combat&lt;/h2&gt;&lt;ul&gt;
+    <summary type="html">&lt;h2 id=&quot;Enemy-design&quot;&gt;&lt;a href=&quot;#Enemy-design&quot; class=&quot;headerlink&quot; title=&quot;Enemy design&quot;&gt;&lt;/a&gt;Enemy design&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a</summary>
         
       
@@ -349,7 +377,7 @@
     <link href="https://medill-east.github.io/2022/04/28/20220428-leveldesignbook-toc/"/>
     <id>https://medill-east.github.io/2022/04/28/20220428-leveldesignbook-toc/</id>
     <published>2022-04-28T21:01:19.000Z</published>
-    <updated>2022-05-04T14:33:47.574Z</updated>
+    <updated>2022-05-05T21:24:26.118Z</updated>
     
     
       
@@ -518,37 +546,6 @@
     
     
     <category term="Study-Game-Demo" scheme="https://medill-east.github.io/categories/Study-Game-Demo/"/>
-    
-    
-    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
-    
-    <category term="Portfolio" scheme="https://medill-east.github.io/tags/Portfolio/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>英雄联盟与王者荣耀玩家分段分析</title>
-    <link href="https://medill-east.github.io/2021/07/26/analysis-of-league-of-legends-and-glory-of-kings-players-segmented/"/>
-    <id>https://medill-east.github.io/2021/07/26/analysis-of-league-of-legends-and-glory-of-kings-players-segmented/</id>
-    <published>2021-07-26T13:05:19.000Z</published>
-    <updated>2022-04-28T21:42:24.185Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;据统计：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;《王者荣耀》玩家段位分布&lt;ul&gt;
-&lt;li&gt;青铜 5.22% &lt;/li&gt;
-&lt;li&gt;白银 1.97%</summary>
-        
-      
-    
-    
-    
-    <category term="Study-Game-Analysis" scheme="https://medill-east.github.io/categories/Study-Game-Analysis/"/>
     
     
     <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
