@@ -6,7 +6,7 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2022-05-10T22:51:54.400Z</updated>
+  <updated>2022-05-10T22:53:52.388Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://medill-east.github.io/2022/05/10/20220510-comicjung-chap3/"/>
     <id>https://medill-east.github.io/2022/05/10/20220510-comicjung-chap3/</id>
     <published>2022-05-10T21:56:46.000Z</published>
-    <updated>2022-05-10T22:51:54.400Z</updated>
+    <updated>2022-05-10T22:53:52.388Z</updated>
     
     
       
@@ -521,32 +521,6 @@
   </entry>
   
   <entry>
-    <title>学习笔记汇总</title>
-    <link href="https://medill-east.github.io/2022/04/28/index-notes/"/>
-    <id>https://medill-east.github.io/2022/04/28/index-notes/</id>
-    <published>2022-04-28T21:01:19.000Z</published>
-    <updated>2022-05-08T21:50:03.333Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;学习笔记&quot;&gt;&lt;a href=&quot;#学习笔记&quot; class=&quot;headerlink&quot; title=&quot;学习笔记&quot;&gt;&lt;/a&gt;学习笔记&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Blog-Index" scheme="https://medill-east.github.io/categories/Blog-Index/"/>
-    
-    
-    <category term="Index" scheme="https://medill-east.github.io/tags/Index/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Level Design Book 随译/笔记</title>
     <link href="https://medill-east.github.io/2022/04/28/20220428-leveldesignbook-toc/"/>
     <id>https://medill-east.github.io/2022/04/28/20220428-leveldesignbook-toc/</id>
@@ -570,6 +544,32 @@
     <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
     
     <category term="Game Level Design" scheme="https://medill-east.github.io/tags/Game-Level-Design/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>学习笔记汇总</title>
+    <link href="https://medill-east.github.io/2022/04/28/index-notes/"/>
+    <id>https://medill-east.github.io/2022/04/28/index-notes/</id>
+    <published>2022-04-28T21:01:19.000Z</published>
+    <updated>2022-05-08T21:50:03.333Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;学习笔记&quot;&gt;&lt;a href=&quot;#学习笔记&quot; class=&quot;headerlink&quot; title=&quot;学习笔记&quot;&gt;&lt;/a&gt;学习笔记&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Blog-Index" scheme="https://medill-east.github.io/categories/Blog-Index/"/>
+    
+    
+    <category term="Index" scheme="https://medill-east.github.io/tags/Index/"/>
     
   </entry>
   
