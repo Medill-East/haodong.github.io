@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>20220516 - GAMES104 - Lecture 1：游戏引擎导论</title>
+      <link href="2022/05/16/20220516-games104-lecture1/"/>
+      <url>2022/05/16/20220516-games104-lecture1/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Lecture-1：游戏引擎导论"><a href="#Lecture-1：游戏引擎导论" class="headerlink" title="Lecture 1：游戏引擎导论"></a>Lecture 1：游戏引擎导论</h2><ul><li><a href="https://medill-east.github.io/2022/05/15/20220515-games104-toc/">GAMES104——现代游戏引擎：从入门到实践笔记</a></li></ul><h3 id="Topic-1-Why-we-need-to-learn"><a href="#Topic-1-Why-we-need-to-learn" class="headerlink" title="Topic 1 Why we need to learn"></a>Topic 1 Why we need to learn</h3><p>如果把做游戏比作会开车，会做游戏引擎就是会造车。游戏引擎就是 the diamond on the crown。</p><p>游戏引擎的未来应用：</p><ul><li>Game</li><li>虚拟人</li><li>电影动画</li><li>军事模拟</li><li>数字孪生<ul><li>真实世界的虚拟化呈现/表达</li></ul></li></ul><h3 id="Topic-2-History-of-game-engine"><a href="#Topic-2-History-of-game-engine" class="headerlink" title="Topic 2 History of game engine"></a>Topic 2 History of game engine</h3><ul><li>早期<ul><li>红白机（Famicom, FC）</li><li>游戏引擎之父<ul><li>John Carmack，卡神</li><li>Wolfenstein 3D (1992)</li><li>Doom</li><li>Doom 引擎授权后做出了 ShadowCaster</li></ul></li></ul></li><li>早期现代游戏引擎<ul><li>背景：Voodoo 显卡出现</li><li>游戏：Quake</li><li>硬件发展推动游戏行业发展<br>  <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220516110923.png"></li></ul></li><li>现代游戏引擎生态<br>  <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220516111034.png"><ul><li>Middlewares, 中间件<br>  <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220516111202.png"></li></ul></li></ul><h3 id="Topic-3-What-is-game-engine"><a href="#Topic-3-What-is-game-engine" class="headerlink" title="Topic 3 What is game engine"></a>Topic 3 What is game engine</h3><ul><li>Technology Foundation of Matrix</li><li>Productivity Tools of Creation</li><li>Art of Complexity</li></ul><blockquote><p>荐书：The complexity of system，系统复杂之美</p></blockquote><h4 id="Complexity-of-Simulation-by-0-1"><a href="#Complexity-of-Simulation-by-0-1" class="headerlink" title="Complexity of Simulation by 0/1"></a>Complexity of Simulation by 0/1</h4><p>现代计算机本质：图灵机（01 变换）</p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220516111900.png"></p><p>Game engine is way beyond rendering</p><blockquote><p>荐书：game engine architecture</p></blockquote><p>游戏引擎的挑战：有限算力，实时处理</p><h4 id="Toolchain-for-creators"><a href="#Toolchain-for-creators" class="headerlink" title="Toolchain for creators"></a>Toolchain for creators</h4><p>做引擎要先学会做面向广大用户（程序员，艺术家/设计师）的工具</p><ul><li>对于程序员<ul><li>提供可扩展接口</li><li>是否具有二次开发能力也是评判引擎的标准</li></ul></li><li>对于艺术家/设计师<ul><li>提供多人协作功能</li></ul></li></ul><h4 id="Update-the-engine-on-the-fly"><a href="#Update-the-engine-on-the-fly" class="headerlink" title="Update the engine on the fly"></a>Update the engine on the fly</h4><p>热更新</p><h3 id="Topic-4-How-to-study"><a href="#Topic-4-How-to-study" class="headerlink" title="Topic 4 How to study"></a>Topic 4 How to study</h3><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220516113211.png"></p><p><a href="https://github.com/miloyip/game-programmer">A study path for game programmer</a></p><p>本课只关心主干道，建立知识体系结构，在未来在碰到问题的时候知道从何下手</p><h3 id="Topic-5-Course-content"><a href="#Topic-5-Course-content" class="headerlink" title="Topic 5 Course content"></a>Topic 5 Course content</h3><h5 id="Basic-Elements"><a href="#Basic-Elements" class="headerlink" title="Basic Elements"></a>Basic Elements</h5><ul><li>Engine Structure and Layer</li><li>Data Organization and management</li></ul><blockquote><p>take away: 打开游戏引擎，从 Update 函数开始看起，就能顺藤摸瓜看到架构</p></blockquote><h5 id="Rendering"><a href="#Rendering" class="headerlink" title="Rendering"></a>Rendering</h5><ul><li>Model, material, shader, texture</li><li>light and shadow</li><li>render pipeline</li><li>sky, terrain, etc.</li></ul><h5 id="Animation"><a href="#Animation" class="headerlink" title="Animation"></a>Animation</h5><ul><li>Basic concepts of animation</li><li>Animation structure and pipeline</li></ul><p>动画间的融合</p><h5 id="Physics"><a href="#Physics" class="headerlink" title="Physics"></a>Physics</h5><ul><li>basic concepts of physics system</li><li>gameplay applications</li><li>performance optimization</li></ul><p>前面的是视觉表达，这里要负责物理表达</p><h5 id="Gameplay"><a href="#Gameplay" class="headerlink" title="Gameplay"></a>Gameplay</h5><ul><li>event system</li><li>scripts system</li><li>graph driven</li></ul><p>如何让模拟世界变为“可玩”的游戏</p><blockquote><p>take away: 编程不意味着 scripts coding，所有逻辑构建其实在某种程度上都可以算是编程</p></blockquote><h5 id="Misc-systems"><a href="#Misc-systems" class="headerlink" title="Misc. systems"></a>Misc. systems</h5><ul><li>effects</li><li>navigation</li><li>camera</li></ul><h5 id="Tool-set"><a href="#Tool-set" class="headerlink" title="Tool set"></a>Tool set</h5><ul><li>c++ reflection</li><li>data schema</li></ul><p>如何构建工具</p><h5 id="Online-gaming"><a href="#Online-gaming" class="headerlink" title="Online gaming"></a>Online gaming</h5><ul><li>lockstep synchronization</li><li>state synchronization</li><li>consistency</li></ul><blockquote><blockquote><p>预告令人头疼的拜占庭算法和爱斯基摩人小屋再次出现！</p></blockquote></blockquote><h5 id="Advanced-technology"><a href="#Advanced-technology" class="headerlink" title="Advanced technology"></a>Advanced technology</h5><ul><li>motion matching<ul><li>动作融合匹配让其自然</li></ul></li><li>procedural content generation (PCG)<ul><li>游戏内容自动生成</li></ul></li><li>data-oriented programming (DOP)</li><li>job system</li><li>Lumen<ul><li>虚幻 5 的光照系统</li></ul></li><li>Nanite<ul><li>虚幻 5 的虚拟几何系统</li></ul></li></ul><h4 id="Topic-6-Course-logistics"><a href="#Topic-6-Course-logistics" class="headerlink" title="Topic 6 Course logistics"></a>Topic 6 Course logistics</h4><h5 id="References"><a href="#References" class="headerlink" title="References"></a>References</h5><ul><li>no required textbooks</li><li>most recommended reference<ul><li>Game Engine Architecture, Jason Gregroy</li></ul></li></ul><h4 id="Mini-Engine"><a href="#Mini-Engine" class="headerlink" title="Mini Engine"></a>Mini Engine</h4><ul><li>mini runtime framework</li><li>mini editor</li><li>building basic knowledge system of game engine</li></ul><h4 id="Assignments"><a href="#Assignments" class="headerlink" title="Assignments"></a>Assignments</h4><blockquote><p>野心：最后能做个小小的联网对战游戏</p></blockquote><h3 id="course-contributor"><a href="#course-contributor" class="headerlink" title="course contributor"></a>course contributor</h3><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220516120041.png"></p><hr><h2 id="Backlink"><a href="#Backlink" class="headerlink" title="Backlink"></a>Backlink</h2><ul><li><a href="https://medill-east.github.io/2022/05/15/20220515-games104-toc/">GAMES104——现代游戏引擎：从入门到实践笔记</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Study-Game-GameEngine </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Game Engine </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>20220515 - 漫画荣格 - 第七章：塔 伟大的自己</title>
       <link href="2022/05/15/20220515-comicjung-chap7/"/>
       <url>2022/05/15/20220515-comicjung-chap7/</url>
@@ -25,6 +50,31 @@
             <tag> Psychology </tag>
             
             <tag> Carl Gustav Jung </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>20220515-GAMES104-Modern Game Engine - From Getting Started To Practice</title>
+      <link href="2022/05/15/20220515-games104-toc/"/>
+      <url>2022/05/15/20220515-games104-toc/</url>
+      
+        <content type="html"><![CDATA[<h1 id="GAMES104——现代游戏引擎：从入门到实践笔记"><a href="#GAMES104——现代游戏引擎：从入门到实践笔记" class="headerlink" title="GAMES104——现代游戏引擎：从入门到实践笔记"></a>GAMES104——现代游戏引擎：从入门到实践笔记</h1><h2 id="Why-Note"><a href="#Why-Note" class="headerlink" title="Why Note"></a>Why Note</h2><p>最近在尝试着搞关卡，不是很顺，算是在尝试多个方向，突然看到 GAMES 又出新课了，虽然二者并不直接相关，但，学吧，学无止境！</p><h2 id="What"><a href="#What" class="headerlink" title="What"></a>What</h2><p>以下基本信息引用自<a href="https://games-cn.org/games104/">课程官网</a>：</p><ul><li><strong>课程简介</strong><ul><li>本课程将介绍现代游戏引擎所涉及的系统架构，技术点，引擎系统相关的知识。通过该课程，你能够对游戏引擎建立起一个全面且完整的了解。如果你动手能力足够强，你将能够跟随课程，<strong>从0到1搭建起一个完整的迷你游戏引擎</strong>。本课程适合相关专业领域的学生、研究者，以及所有对游戏引擎设计和开发感兴趣的人。课程会分成以下三个部分：现代引擎架构综述、各核心系统原理和开发 、前沿领域简介。在每个部分中，将通过讲解、问答、课后作业的形式，带领你学习一个现代游戏引擎背后牵涉到的计算机体系结构，软件架构，各个系统特定的知识，了解大型软件系统设计和实施背后的复杂性，以及提高自身的编程能力。在本课程中，我们会准备一段开源的引擎框架，选取部分易上手的知识点，让你能够跟随课程节奏，亲手构建一个迷你引擎，体验系统架构的乐趣。本课程的核心是让同学们构建一个开发平台，不会去侧重于讲特定引擎的使用方法，也不会深入到具体效果实现；比如：用shader实现水面效果等。</li></ul></li><li><strong>教师简介</strong><ul><li>王希，知名游戏引擎研发技术专家和布道者，BOOMING TECH创始人。本科毕业于浙江大学CAD&amp;CG实验室，硕士毕业于清华大学计算机系。前期在微软亚洲研究院进行计算机科学和图形学领域研究，发表多篇SIGGRAPH论文。后加入Bungie工作室，是《Halo》系列和《Destiny》引擎团队核心成员，专注于现代3A级游戏的引擎底层架构和工程实践。2011年，王希回国创立BOOMING TECH，十年来一直从事游戏引擎设计和研发，探索引擎在前沿领域中的应用方向，以及云原生引擎技术突破。GAMES系列课程是王希的首次对外公开课，希望以图形学研究者，和产业亲历者的视角，系统性地带大家认识和了解游戏引擎。让更多人动手体验到游戏引擎设计和开发的魅力。</li></ul></li><li><strong>直播方式</strong><ul><li>GAMES虎牙直播间 <a href="http://webinar.games-cn.org/">webinar.games-cn.org</a></li></ul></li><li><strong>课程 BBS：</strong><br><a href="https://games-cn.org/forums/forum/games104-forum/">https://games-cn.org/forums/forum/games104-forum/</a></li><li><strong>课程 PPT 和视频：</strong><br><a href="https://games-cn.org/games104-slides/">https://games-cn.org/games104-slides/</a></li><li><strong>课程作业：</strong><br><a href="http://www.smartchair.org/GAMES104">http://www.smartchair.org/GAMES104</a></li><li><strong>课程大纲：</strong><ul><li>【第一讲：2022年3月14日】游戏引擎导论</li><li>【第二讲：2022年3月21日】基础架构 1 – 引擎架构分层，整体Pipeline</li><li>【第三讲：2022年3月28日】基础架构 2 – 数据组织和管理</li><li>【第四讲：2022年4月4日】渲染系统 1 – 渲染数据组织</li><li>【第五讲：2022年4月11日】渲染系统 2 – 光照</li><li>【第六讲：2022年4月18日】渲染系统 3 – 渲染管线</li><li>【第七讲：2022年4月25日】渲染系统 4 – 天空，地形，后处理等</li><li>【第八讲：2022年5月2日】动画系统 1 – 骨骼动画</li><li>【第九讲：2022年5月9日】动画系统 2 – 动画混合</li><li>【第十讲：2022年5月16日】动画系统 3 – 高级动画</li><li>【第十一讲：2022年5月23日】物理系统 1 – 碰撞和刚体</li><li>【第十二讲：2022年5月30日】物理系统 2 – 布料模拟</li><li>【第十三讲：2022年6月6日】GamePlay 1 – 基础机制</li><li>【第十四讲：2022年6月13日】GamePlay 2 – Graph Driven</li><li>【第十五讲：2022年6月20日】特效系统</li><li>【第十六讲：2022年6月27日】其他系统 （相机，控制，寻路等）</li><li>【第十七讲：2022年7月4日】工具链 1 – 基础框架</li><li>【第十八讲：2022年7月11日】工具链 2 – 代码反射，数据打包等</li><li>【第十九讲：2022年7月18日】网络同步</li><li>【第二十讲：2022年7月25日】前沿介绍 1 – Data Oriented Programming，Job System</li><li>【第二十一讲：2022年8月1日】前沿介绍 2 – Motion Matching, Nanite, Lumen</li><li>【第二十二讲：2022年8月8日】前沿介绍 3 – Procedurally Generated Content</li></ul></li><li><strong>教材：</strong><ul><li>【非必须】：Game Engine Architecture, Jason Gregroy</li></ul></li></ul><h2 id="Content"><a href="#Content" class="headerlink" title="Content"></a>Content</h2><ul><li><a href="https://medill-east.github.io/2022/05/16/20220516-games104-lecture1/">20220516 - GAMES104 - Lecture 1：游戏引擎导论</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Study-Game-GameEngine </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Game Engine </tag>
             
         </tags>
       

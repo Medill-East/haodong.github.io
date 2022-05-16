@@ -6,7 +6,7 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2022-05-15T21:08:39.011Z</updated>
+  <updated>2022-05-16T10:30:47.727Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20220516 - GAMES104 - Lecture 1：游戏引擎导论</title>
+    <link href="https://medill-east.github.io/2022/05/16/20220516-games104-lecture1/"/>
+    <id>https://medill-east.github.io/2022/05/16/20220516-games104-lecture1/</id>
+    <published>2022-05-16T10:24:46.000Z</published>
+    <updated>2022-05-16T10:30:47.727Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Lecture-1：游戏引擎导论&quot;&gt;&lt;a href=&quot;#Lecture-1：游戏引擎导论&quot; class=&quot;headerlink&quot; title=&quot;Lecture 1：游戏引擎导论&quot;&gt;&lt;/a&gt;Lecture 1：游戏引擎导论&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-GameEngine" scheme="https://medill-east.github.io/categories/Study-Game-GameEngine/"/>
+    
+    
+    <category term="Game Engine" scheme="https://medill-east.github.io/tags/Game-Engine/"/>
+    
+  </entry>
   
   <entry>
     <title>20220515 - 漫画荣格 - 第七章：塔 伟大的自己</title>
@@ -43,6 +69,31 @@
     <category term="Psychology" scheme="https://medill-east.github.io/tags/Psychology/"/>
     
     <category term="Carl Gustav Jung" scheme="https://medill-east.github.io/tags/Carl-Gustav-Jung/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20220515-GAMES104-Modern Game Engine - From Getting Started To Practice</title>
+    <link href="https://medill-east.github.io/2022/05/15/20220515-games104-toc/"/>
+    <id>https://medill-east.github.io/2022/05/15/20220515-games104-toc/</id>
+    <published>2022-05-15T10:04:19.000Z</published>
+    <updated>2022-05-16T10:30:32.961Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;GAMES104——现代游戏引擎：从入门到实践笔记&quot;&gt;&lt;a href=&quot;#GAMES104——现代游戏引擎：从入门到实践笔记&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-GameEngine" scheme="https://medill-east.github.io/categories/Study-Game-GameEngine/"/>
+    
+    
+    <category term="Game Engine" scheme="https://medill-east.github.io/tags/Game-Engine/"/>
     
   </entry>
   
@@ -530,58 +581,6 @@
     <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
     
     <category term="Game Level Design" scheme="https://medill-east.github.io/tags/Game-Level-Design/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>案例汇总</title>
-    <link href="https://medill-east.github.io/2022/04/28/index-showcase/"/>
-    <id>https://medill-east.github.io/2022/04/28/index-showcase/</id>
-    <published>2022-04-28T21:38:19.000Z</published>
-    <updated>2022-04-28T21:52:24.202Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Demo&quot;&gt;&lt;a href=&quot;#Demo&quot; class=&quot;headerlink&quot; title=&quot;Demo&quot;&gt;&lt;/a&gt;Demo&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Blog-Index" scheme="https://medill-east.github.io/categories/Blog-Index/"/>
-    
-    
-    <category term="Index" scheme="https://medill-east.github.io/tags/Index/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>游戏拆解/分析/设计反思汇总</title>
-    <link href="https://medill-east.github.io/2022/04/28/index-gameanalysis/"/>
-    <id>https://medill-east.github.io/2022/04/28/index-gameanalysis/</id>
-    <published>2022-04-28T21:30:19.000Z</published>
-    <updated>2022-05-06T21:48:20.827Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;拆解分析&quot;&gt;&lt;a href=&quot;#拆解分析&quot; class=&quot;headerlink&quot; title=&quot;拆解分析&quot;&gt;&lt;/a&gt;拆解分析&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Blog-Index" scheme="https://medill-east.github.io/categories/Blog-Index/"/>
-    
-    
-    <category term="Index" scheme="https://medill-east.github.io/tags/Index/"/>
     
   </entry>
   
