@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://medill-east.github.io/2022/05/07/20220507-comicjung-toc/</loc>
+    
+    <lastmod>2022-05-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://medill-east.github.io/2022/05/16/20220516-comicjung-chap8/</loc>
+    
+    <lastmod>2022-05-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://medill-east.github.io/2021/05/24/my-first-post/</loc>
+    
+    <lastmod>2022-05-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://medill-east.github.io/2022/04/28/index-notes/</loc>
     
     <lastmod>2022-05-16</lastmod>
@@ -23,15 +50,6 @@
     <loc>https://medill-east.github.io/2022/05/15/20220515-games104-toc/</loc>
     
     <lastmod>2022-05-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://medill-east.github.io/2022/05/07/20220507-comicjung-toc/</loc>
-    
-    <lastmod>2022-05-15</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -320,15 +338,6 @@
     <loc>https://medill-east.github.io/2021/07/16/games101-introduction-to-mordern-computer-graphics/</loc>
     
     <lastmod>2022-04-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://medill-east.github.io/2021/05/24/my-first-post/</loc>
-    
-    <lastmod>2021-11-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

@@ -1,7 +1,9 @@
+https://medill-east.github.io/2022/05/07/20220507-comicjung-toc/
+https://medill-east.github.io/2022/05/16/20220516-comicjung-chap8/
+https://medill-east.github.io/2021/05/24/my-first-post/
 https://medill-east.github.io/2022/04/28/index-notes/
 https://medill-east.github.io/2022/05/16/20220516-games104-lecture1/
 https://medill-east.github.io/2022/05/15/20220515-games104-toc/
-https://medill-east.github.io/2022/05/07/20220507-comicjung-toc/
 https://medill-east.github.io/2022/05/15/20220515-comicjung-chap7/
 https://medill-east.github.io/2022/05/14/20220514-comicjung-chap6/
 https://medill-east.github.io/2022/05/13/20220513-comicjung-chap5/
@@ -34,7 +36,6 @@ https://medill-east.github.io/2021/10/26/for-love-demo-showcase-and-analysis/
 https://medill-east.github.io/2021/11/02/drinking-games/
 https://medill-east.github.io/2021/07/26/analysis-of-league-of-legends-and-glory-of-kings-players-segmented/
 https://medill-east.github.io/2021/07/16/games101-introduction-to-mordern-computer-graphics/
-https://medill-east.github.io/2021/05/24/my-first-post/
 https://medill-east.github.io/2021/07/16/games101-8-20200306-20210708-shading-2-shading-pipeline-and-texture-mapping/
 https://medill-east.github.io/2021/07/16/games101-5-20200225-20210706-07-rasterization-1-triangles/
 https://medill-east.github.io/2021/07/16/games101-4-20200221-20210705-transformation-cont/
