@@ -6,7 +6,7 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2022-05-16T20:35:52.101Z</updated>
+  <updated>2022-05-18T10:07:51.815Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20220518 - GAMES104 - Lecture 2：Layered Architecture of Game Engine</title>
+    <link href="https://medill-east.github.io/2022/05/18/20220518-games104-lecture2/"/>
+    <id>https://medill-east.github.io/2022/05/18/20220518-games104-lecture2/</id>
+    <published>2022-05-18T10:06:46.000Z</published>
+    <updated>2022-05-18T10:07:51.815Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Lecture-2-引擎架构分层与整体-Pipeline&quot;&gt;&lt;a href=&quot;#Lecture-2-引擎架构分层与整体-Pipeline&quot; class=&quot;headerlink&quot; title=&quot;Lecture 2 引擎架构分层与整体</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-GameEngine" scheme="https://medill-east.github.io/categories/Study-Game-GameEngine/"/>
+    
+    
+    <category term="Game Engine" scheme="https://medill-east.github.io/tags/Game-Engine/"/>
+    
+  </entry>
   
   <entry>
     <title>20220516 - 漫画荣格 - 第八章：荣格的性格论讲座</title>
@@ -107,7 +132,7 @@
     <link href="https://medill-east.github.io/2022/05/15/20220515-games104-toc/"/>
     <id>https://medill-east.github.io/2022/05/15/20220515-games104-toc/</id>
     <published>2022-05-15T10:04:19.000Z</published>
-    <updated>2022-05-16T10:30:32.961Z</updated>
+    <updated>2022-05-18T10:57:37.481Z</updated>
     
     
       
@@ -546,33 +571,6 @@
         
     <summary type="html">&lt;h2 id=&quot;Worldbuilding&quot;&gt;&lt;a href=&quot;#Worldbuilding&quot; class=&quot;headerlink&quot; title=&quot;Worldbuilding&quot;&gt;&lt;/a&gt;Worldbuilding&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Study-Game-LevelDesign" scheme="https://medill-east.github.io/categories/Study-Game-LevelDesign/"/>
-    
-    
-    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
-    
-    <category term="Game Level Design" scheme="https://medill-east.github.io/tags/Game-Level-Design/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20220430 - Level Design Book - BOOK 1. PROCESS - Pre-production - Research</title>
-    <link href="https://medill-east.github.io/2022/04/30/20220430-leveldesignbook-pre-production-research/"/>
-    <id>https://medill-east.github.io/2022/04/30/20220430-leveldesignbook-pre-production-research/</id>
-    <published>2022-04-30T10:21:46.000Z</published>
-    <updated>2022-05-04T10:39:38.527Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Pre-production-Research&quot;&gt;&lt;a href=&quot;#Pre-production-Research&quot; class=&quot;headerlink&quot;</summary>
         
       
     

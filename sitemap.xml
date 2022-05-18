@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://medill-east.github.io/2022/05/15/20220515-games104-toc/</loc>
+    
+    <lastmod>2022-05-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://medill-east.github.io/2022/05/18/20220518-games104-lecture2/</loc>
+    
+    <lastmod>2022-05-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://medill-east.github.io/2022/05/07/20220507-comicjung-toc/</loc>
     
     <lastmod>2022-05-16</lastmod>
@@ -39,15 +57,6 @@
   
   <url>
     <loc>https://medill-east.github.io/2022/05/16/20220516-games104-lecture1/</loc>
-    
-    <lastmod>2022-05-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://medill-east.github.io/2022/05/15/20220515-games104-toc/</loc>
     
     <lastmod>2022-05-16</lastmod>
     
@@ -472,7 +481,7 @@
 
   <url>
     <loc>https://medill-east.github.io/</loc>
-    <lastmod>2022-05-16</lastmod>
+    <lastmod>2022-05-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -480,84 +489,84 @@
   
   <url>
     <loc>https://medill-east.github.io/tags/Game/</loc>
-    <lastmod>2022-05-16</lastmod>
+    <lastmod>2022-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://medill-east.github.io/tags/Game-Level-Design/</loc>
-    <lastmod>2022-05-16</lastmod>
+    <lastmod>2022-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://medill-east.github.io/tags/GDC/</loc>
-    <lastmod>2022-05-16</lastmod>
+    <lastmod>2022-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://medill-east.github.io/tags/Learning-Notes/</loc>
-    <lastmod>2022-05-16</lastmod>
+    <lastmod>2022-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://medill-east.github.io/tags/Psychology/</loc>
-    <lastmod>2022-05-16</lastmod>
+    <lastmod>2022-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://medill-east.github.io/tags/Carl-Gustav-Jung/</loc>
-    <lastmod>2022-05-16</lastmod>
+    <lastmod>2022-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://medill-east.github.io/tags/Game-Engine/</loc>
-    <lastmod>2022-05-16</lastmod>
+    <lastmod>2022-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://medill-east.github.io/tags/Portfolio/</loc>
-    <lastmod>2022-05-16</lastmod>
+    <lastmod>2022-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://medill-east.github.io/tags/Thinking/</loc>
-    <lastmod>2022-05-16</lastmod>
+    <lastmod>2022-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://medill-east.github.io/tags/ComputerGraphics/</loc>
-    <lastmod>2022-05-16</lastmod>
+    <lastmod>2022-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://medill-east.github.io/tags/Index/</loc>
-    <lastmod>2022-05-16</lastmod>
+    <lastmod>2022-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://medill-east.github.io/tags/blog-building/</loc>
-    <lastmod>2022-05-16</lastmod>
+    <lastmod>2022-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -566,84 +575,84 @@
   
   <url>
     <loc>https://medill-east.github.io/categories/Study-Game-LevelDesign/</loc>
-    <lastmod>2022-05-16</lastmod>
+    <lastmod>2022-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://medill-east.github.io/categories/Study-Game-Notes/</loc>
-    <lastmod>2022-05-16</lastmod>
+    <lastmod>2022-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://medill-east.github.io/categories/Study-Psychology-Notes/</loc>
-    <lastmod>2022-05-16</lastmod>
+    <lastmod>2022-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://medill-east.github.io/categories/Study-Game-GameEngine/</loc>
-    <lastmod>2022-05-16</lastmod>
+    <lastmod>2022-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://medill-east.github.io/categories/Study-Game-Analysis/</loc>
-    <lastmod>2022-05-16</lastmod>
+    <lastmod>2022-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://medill-east.github.io/categories/Thinking/</loc>
-    <lastmod>2022-05-16</lastmod>
+    <lastmod>2022-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://medill-east.github.io/categories/Study-Game-Demo/</loc>
-    <lastmod>2022-05-16</lastmod>
+    <lastmod>2022-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://medill-east.github.io/categories/Study-CS-CG/</loc>
-    <lastmod>2022-05-16</lastmod>
+    <lastmod>2022-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://medill-east.github.io/categories/Blog-Index/</loc>
-    <lastmod>2022-05-16</lastmod>
+    <lastmod>2022-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://medill-east.github.io/categories/Blog/</loc>
-    <lastmod>2022-05-16</lastmod>
+    <lastmod>2022-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://medill-east.github.io/categories/Study-Game-Proposal/</loc>
-    <lastmod>2022-05-16</lastmod>
+    <lastmod>2022-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://medill-east.github.io/categories/Study-Game-ExperienceReport/</loc>
-    <lastmod>2022-05-16</lastmod>
+    <lastmod>2022-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
