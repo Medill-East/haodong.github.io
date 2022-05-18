@@ -1,3 +1,4 @@
+https://medill-east.github.io/2022/05/18/20220518-games104-assignment1/
 https://medill-east.github.io/2022/05/15/20220515-games104-toc/
 https://medill-east.github.io/2022/05/18/20220518-games104-lecture2/
 https://medill-east.github.io/2022/05/07/20220507-comicjung-toc/
@@ -69,8 +70,8 @@ https://medill-east.github.io/categories/Study-Game-Notes/
 https://medill-east.github.io/categories/Study-Psychology-Notes/
 https://medill-east.github.io/categories/Study-Game-GameEngine/
 https://medill-east.github.io/categories/Study-Game-Analysis/
-https://medill-east.github.io/categories/Study-Game-Demo/
 https://medill-east.github.io/categories/Thinking/
+https://medill-east.github.io/categories/Study-Game-Demo/
 https://medill-east.github.io/categories/Study-CS-CG/
 https://medill-east.github.io/categories/Blog-Index/
 https://medill-east.github.io/categories/Blog/

@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>20220518 - GAMES104 - Assignment 1：Build and Run Pilot Engine</title>
+      <link href="2022/05/18/20220518-games104-assignment1/"/>
+      <url>2022/05/18/20220518-games104-assignment1/</url>
+      
+        <content type="html"><![CDATA[<h2 id="作业-1-编译和运行-PILOT-引擎"><a href="#作业-1-编译和运行-PILOT-引擎" class="headerlink" title="作业 1 编译和运行 PILOT 引擎"></a>作业 1 编译和运行 PILOT 引擎</h2><ul><li><a href="https://medill-east.github.io/2022/05/15/20220515-games104-toc/">GAMES104——现代游戏引擎：从入门到实践笔记</a></li></ul><p>Build and Run Pilot Engine</p><h3 id="star-fork-一条龙"><a href="#star-fork-一条龙" class="headerlink" title="star, fork 一条龙"></a>star, fork 一条龙</h3><p>首先来到 Github <a href="https://github.com/BoomingTech/Pilot">相应页面</a></p><p>右上角 Star，然后 fork 到自己仓库里</p><h3 id="尝试-build"><a href="#尝试-build" class="headerlink" title="尝试 build"></a>尝试 build</h3><p>跟随教程 先打开命令行 cd 到相应根目录</p><pre class="line-numbers language-none"><code class="language-none">cd &#x2F;...你自己的目录&#x2F;GAMES104-PilotEngine<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>然后利用 Xcode 来 build，还是在命令行中运行：</p><pre class="line-numbers language-none"><code class="language-none">cmake -S . -B build -G &quot;Xcode&quot;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>有可能出现 cmake 版本不够的情况，所以来到 <a href="https://cmake.org/download/">CMake官网</a>，我下载了 3.22.4 的版本，安装后跟随其指示将其加入 PATH：</p><pre class="line-numbers language-none"><code class="language-none">PATH&#x3D;&quot;&#x2F;Applications&#x2F;CMake.app&#x2F;Contents&#x2F;bin&quot;:&quot;$PATH&quot;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>此时可以看到 CMake 版本已经是新的了：</p><pre class="line-numbers language-none"><code class="language-none">cmake -version<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220518125042.png"></p><p>此时确保自己还在 pilot 的根目录下（我之前更新 cmake 的时候退到系统根目录了），然后跟随指令先生成 xcode 项目</p><pre class="line-numbers language-none"><code class="language-none">cmake -S . -B build -G &quot;Xcode&quot;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>然后 build</p><pre class="line-numbers language-none"><code class="language-none">cmake --build build --config Release<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="进编辑器！"><a href="#进编辑器！" class="headerlink" title="进编辑器！"></a>进编辑器！</h3><p>都成功后就可以找到 pilot 目录下的 bin 文件夹，里面应该有 build 好的 可运行的 PilotEditor 文件，打开！</p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220518125351.png"></p><p>之后就可以试着选中目标，进行相应操作啦！</p><hr><h2 id="Backlink"><a href="#Backlink" class="headerlink" title="Backlink"></a>Backlink</h2><ul><li><a href="https://medill-east.github.io/2022/05/15/20220515-games104-toc/">GAMES104——现代游戏引擎：从入门到实践笔记</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Study-Game-GameEngine </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Game Engine </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>20220518 - GAMES104 - Lecture 2：Layered Architecture of Game Engine</title>
       <link href="2022/05/18/20220518-games104-lecture2/"/>
       <url>2022/05/18/20220518-games104-lecture2/</url>

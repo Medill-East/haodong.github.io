@@ -6,7 +6,7 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2022-05-18T10:07:51.815Z</updated>
+  <updated>2022-05-18T18:35:32.672Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20220518 - GAMES104 - Assignment 1：Build and Run Pilot Engine</title>
+    <link href="https://medill-east.github.io/2022/05/18/20220518-games104-assignment1/"/>
+    <id>https://medill-east.github.io/2022/05/18/20220518-games104-assignment1/</id>
+    <published>2022-05-18T10:56:46.000Z</published>
+    <updated>2022-05-18T18:35:32.672Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;作业-1-编译和运行-PILOT-引擎&quot;&gt;&lt;a href=&quot;#作业-1-编译和运行-PILOT-引擎&quot; class=&quot;headerlink&quot; title=&quot;作业 1 编译和运行 PILOT 引擎&quot;&gt;&lt;/a&gt;作业 1 编译和运行 PILOT</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-GameEngine" scheme="https://medill-east.github.io/categories/Study-Game-GameEngine/"/>
+    
+    
+    <category term="Game Engine" scheme="https://medill-east.github.io/tags/Game-Engine/"/>
+    
+  </entry>
   
   <entry>
     <title>20220518 - GAMES104 - Lecture 2：Layered Architecture of Game Engine</title>
@@ -542,34 +567,6 @@
         
         
     <summary type="html">&lt;h2 id=&quot;Scope&quot;&gt;&lt;a href=&quot;#Scope&quot; class=&quot;headerlink&quot; title=&quot;Scope&quot;&gt;&lt;/a&gt;Scope&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Study-Game-LevelDesign" scheme="https://medill-east.github.io/categories/Study-Game-LevelDesign/"/>
-    
-    
-    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
-    
-    <category term="Game Level Design" scheme="https://medill-east.github.io/tags/Game-Level-Design/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20220501 - Level Design Book - BOOK 1. PROCESS - Pre-production - Worldbuilding</title>
-    <link href="https://medill-east.github.io/2022/05/01/20220501-leveldesignbook-pre-production-worldbuilding/"/>
-    <id>https://medill-east.github.io/2022/05/01/20220501-leveldesignbook-pre-production-worldbuilding/</id>
-    <published>2022-05-01T20:21:46.000Z</published>
-    <updated>2022-05-04T10:40:33.855Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Worldbuilding&quot;&gt;&lt;a href=&quot;#Worldbuilding&quot; class=&quot;headerlink&quot; title=&quot;Worldbuilding&quot;&gt;&lt;/a&gt;Worldbuilding&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a</summary>
         
       
