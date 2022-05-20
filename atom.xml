@@ -6,7 +6,7 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2022-05-18T18:35:32.672Z</updated>
+  <updated>2022-05-20T10:21:17.118Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20220520 - GAMES104 - Lecture 3：How to Build a Game World</title>
+    <link href="https://medill-east.github.io/2022/05/20/20220520-games104-lecture3/"/>
+    <id>https://medill-east.github.io/2022/05/20/20220520-games104-lecture3/</id>
+    <published>2022-05-20T10:08:46.000Z</published>
+    <updated>2022-05-20T10:21:17.118Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Lecture-3-How-to-Build-a-Game-World&quot;&gt;&lt;a href=&quot;#Lecture-3-How-to-Build-a-Game-World&quot; class=&quot;headerlink&quot; title=&quot;Lecture 3 How to</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-GameEngine" scheme="https://medill-east.github.io/categories/Study-Game-GameEngine/"/>
+    
+    
+    <category term="Game Engine" scheme="https://medill-east.github.io/tags/Game-Engine/"/>
+    
+  </entry>
   
   <entry>
     <title>20220518 - GAMES104 - Assignment 1：Build and Run Pilot Engine</title>
@@ -551,34 +576,6 @@
     <category term="GDC" scheme="https://medill-east.github.io/tags/GDC/"/>
     
     <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20220502 - Level Design Book - BOOK 1. PROCESS - Pre-production - Scope</title>
-    <link href="https://medill-east.github.io/2022/05/02/20220502-leveldesignbook-pre-production-scope/"/>
-    <id>https://medill-east.github.io/2022/05/02/20220502-leveldesignbook-pre-production-scope/</id>
-    <published>2022-05-02T09:20:46.000Z</published>
-    <updated>2022-05-04T10:41:39.254Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Scope&quot;&gt;&lt;a href=&quot;#Scope&quot; class=&quot;headerlink&quot; title=&quot;Scope&quot;&gt;&lt;/a&gt;Scope&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Study-Game-LevelDesign" scheme="https://medill-east.github.io/categories/Study-Game-LevelDesign/"/>
-    
-    
-    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
-    
-    <category term="Game Level Design" scheme="https://medill-east.github.io/tags/Game-Level-Design/"/>
     
   </entry>
   
