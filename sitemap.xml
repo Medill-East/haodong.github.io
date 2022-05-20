@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://medill-east.github.io/2022/05/21/20220521-everything-everywhere-all-at-once/</loc>
+    
+    <lastmod>2022-05-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://medill-east.github.io/2022/04/28/index-thinking/</loc>
+    
+    <lastmod>2022-05-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://medill-east.github.io/2022/05/20/20220520-games104-lecture3/</loc>
     
     <lastmod>2022-05-20</lastmod>
@@ -149,15 +167,6 @@
     <loc>https://medill-east.github.io/2022/05/08/20220508-comicjung-chap0/</loc>
     
     <lastmod>2022-05-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://medill-east.github.io/2022/04/28/index-thinking/</loc>
-    
-    <lastmod>2022-05-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -555,14 +564,21 @@
   </url>
   
   <url>
-    <loc>https://medill-east.github.io/tags/Portfolio/</loc>
+    <loc>https://medill-east.github.io/tags/Thinking/</loc>
     <lastmod>2022-05-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://medill-east.github.io/tags/Thinking/</loc>
+    <loc>https://medill-east.github.io/tags/Movie/</loc>
+    <lastmod>2022-05-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://medill-east.github.io/tags/Portfolio/</loc>
     <lastmod>2022-05-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -620,14 +636,14 @@
   </url>
   
   <url>
-    <loc>https://medill-east.github.io/categories/Study-Game-Analysis/</loc>
+    <loc>https://medill-east.github.io/categories/Thinking/</loc>
     <lastmod>2022-05-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://medill-east.github.io/categories/Thinking/</loc>
+    <loc>https://medill-east.github.io/categories/Study-Game-Analysis/</loc>
     <lastmod>2022-05-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

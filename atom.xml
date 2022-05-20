@@ -6,7 +6,7 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2022-05-20T10:21:17.118Z</updated>
+  <updated>2022-05-20T22:11:46.531Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20220521 - Meaningful Meaningless</title>
+    <link href="https://medill-east.github.io/2022/05/21/20220521-everything-everywhere-all-at-once/"/>
+    <id>https://medill-east.github.io/2022/05/21/20220521-everything-everywhere-all-at-once/</id>
+    <published>2022-05-20T22:02:46.000Z</published>
+    <updated>2022-05-20T22:11:46.531Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Why&quot;&gt;&lt;a href=&quot;#Why&quot; class=&quot;headerlink&quot; title=&quot;Why&quot;&gt;&lt;/a&gt;Why&lt;/h2&gt;&lt;p&gt;今天和 WH</summary>
+        
+      
+    
+    
+    
+    <category term="Thinking" scheme="https://medill-east.github.io/categories/Thinking/"/>
+    
+    
+    <category term="Thinking" scheme="https://medill-east.github.io/tags/Thinking/"/>
+    
+    <category term="Movie" scheme="https://medill-east.github.io/tags/Movie/"/>
+    
+  </entry>
   
   <entry>
     <title>20220520 - GAMES104 - Lecture 3：How to Build a Game World</title>
@@ -547,35 +574,6 @@
     <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
     
     <category term="Game Level Design" scheme="https://medill-east.github.io/tags/Game-Level-Design/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20220502 - GDC2017 塞尔达：旷野之息的三角之力</title>
-    <link href="https://medill-east.github.io/2022/05/02/20220502-gdc2017-zelda/"/>
-    <id>https://medill-east.github.io/2022/05/02/20220502-gdc2017-zelda/</id>
-    <published>2022-05-02T20:20:46.000Z</published>
-    <updated>2022-05-02T22:31:50.120Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;塞尔达：旷野之息的三角之力&quot;&gt;&lt;a href=&quot;#塞尔达：旷野之息的三角之力&quot; class=&quot;headerlink&quot; title=&quot;塞尔达：旷野之息的三角之力&quot;&gt;&lt;/a&gt;塞尔达：旷野之息的三角之力&lt;/h2&gt;&lt;p&gt;</summary>
-        
-      
-    
-    
-    
-    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
-    
-    
-    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
-    
-    <category term="GDC" scheme="https://medill-east.github.io/tags/GDC/"/>
-    
-    <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
     
   </entry>
   
