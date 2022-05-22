@@ -6,7 +6,7 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2022-05-20T22:11:46.531Z</updated>
+  <updated>2022-05-22T12:09:45.169Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>20220522 - GAMES104 - Lecture 4：Rendering on Game Engine</title>
+    <link href="https://medill-east.github.io/2022/05/22/20220522-games104-lecture4/"/>
+    <id>https://medill-east.github.io/2022/05/22/20220522-games104-lecture4/</id>
+    <published>2022-05-22T12:08:46.000Z</published>
+    <updated>2022-05-22T12:09:45.169Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Lecture-4-Rendering-on-Game-Engine&quot;&gt;&lt;a href=&quot;#Lecture-4-Rendering-on-Game-Engine&quot; class=&quot;headerlink&quot; title=&quot;Lecture 4 Rendering on</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-GameEngine" scheme="https://medill-east.github.io/categories/Study-Game-GameEngine/"/>
+    
+    
+    <category term="Game Engine" scheme="https://medill-east.github.io/tags/Game-Engine/"/>
+    
+  </entry>
+  
+  <entry>
     <title>20220521 - Meaningful Meaningless</title>
     <link href="https://medill-east.github.io/2022/05/21/20220521-everything-everywhere-all-at-once/"/>
     <id>https://medill-east.github.io/2022/05/21/20220521-everything-everywhere-all-at-once/</id>
     <published>2022-05-20T22:02:46.000Z</published>
-    <updated>2022-05-20T22:11:46.531Z</updated>
+    <updated>2022-05-21T20:13:44.221Z</updated>
     
     
       
@@ -179,7 +204,7 @@
     <link href="https://medill-east.github.io/2022/05/15/20220515-comicjung-chap7/"/>
     <id>https://medill-east.github.io/2022/05/15/20220515-comicjung-chap7/</id>
     <published>2022-05-15T21:08:46.000Z</published>
-    <updated>2022-05-15T21:08:39.011Z</updated>
+    <updated>2022-05-21T20:13:28.922Z</updated>
     
     
       
@@ -534,34 +559,6 @@
         
         
     <summary type="html">&lt;h2 id=&quot;Enemy-design&quot;&gt;&lt;a href=&quot;#Enemy-design&quot; class=&quot;headerlink&quot; title=&quot;Enemy design&quot;&gt;&lt;/a&gt;Enemy design&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Study-Game-LevelDesign" scheme="https://medill-east.github.io/categories/Study-Game-LevelDesign/"/>
-    
-    
-    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
-    
-    <category term="Game Level Design" scheme="https://medill-east.github.io/tags/Game-Level-Design/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20220503 - Level Design Book - BOOK 1. PROCESS - Combat</title>
-    <link href="https://medill-east.github.io/2022/05/03/20220503-leveldesignbook-combat/"/>
-    <id>https://medill-east.github.io/2022/05/03/20220503-leveldesignbook-combat/</id>
-    <published>2022-05-03T21:34:46.000Z</published>
-    <updated>2022-05-04T10:41:59.339Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Combat&quot;&gt;&lt;a href=&quot;#Combat&quot; class=&quot;headerlink&quot; title=&quot;Combat&quot;&gt;&lt;/a&gt;Combat&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a</summary>
         
       
