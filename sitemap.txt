@@ -1,3 +1,5 @@
+https://medill-east.github.io/2022/04/28/index-showcase/
+https://medill-east.github.io/2022/05/29/20220529-yinyangmeseenger-demo-showcase-analysis/
 https://medill-east.github.io/2022/04/28/index-notes/
 https://medill-east.github.io/2022/05/29/20220529-theartofgamedesign-toc/
 https://medill-east.github.io/2022/05/25/20220525-writing/
@@ -32,7 +34,6 @@ https://medill-east.github.io/2022/04/30/20220430-leveldesignbook-pre-production
 https://medill-east.github.io/2022/04/29/20220429-leveldesignbook-pre-production-pacing/
 https://medill-east.github.io/2022/04/28/20220428-leveldesignbook-pre-production/
 https://medill-east.github.io/2022/05/02/20220502-gdc2017-zelda/
-https://medill-east.github.io/2022/04/28/index-showcase/
 https://medill-east.github.io/2021/07/26/shen-jiang-san-guo-game-experience-report/
 https://medill-east.github.io/2021/07/26/shen-jiang-san-guo-first-recharge-plan/
 https://medill-east.github.io/2021/11/16/thinking-of-the-florence/

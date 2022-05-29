@@ -6,7 +6,7 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2022-05-29T00:04:30.589Z</updated>
+  <updated>2022-05-29T14:17:52.834Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《Yin Yang Messenger》 Demo 展示及分析</title>
+    <link href="https://medill-east.github.io/2022/05/29/20220529-yinyangmeseenger-demo-showcase-analysis/"/>
+    <id>https://medill-east.github.io/2022/05/29/20220529-yinyangmeseenger-demo-showcase-analysis/</id>
+    <published>2022-05-29T12:32:19.000Z</published>
+    <updated>2022-05-29T14:17:52.834Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;《Yin-Yang-Messenger》Demo-展示&quot;&gt;&lt;a href=&quot;#《Yin-Yang-Messenger》Demo-展示&quot; class=&quot;headerlink&quot; title=&quot;《Yin Yang Messenger》Demo 展示&quot;&gt;&lt;/a&gt;《Yin</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-Demo" scheme="https://medill-east.github.io/categories/Study-Game-Demo/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Portfolio" scheme="https://medill-east.github.io/tags/Portfolio/"/>
+    
+  </entry>
   
   <entry>
     <title>游戏设计艺术 摘抄/笔记</title>
@@ -539,34 +566,6 @@
     <category term="Psychology" scheme="https://medill-east.github.io/tags/Psychology/"/>
     
     <category term="Carl Gustav Jung" scheme="https://medill-east.github.io/tags/Carl-Gustav-Jung/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20220506 - Level Design Book - BOOK 1. PROCESS - Combat - Balance</title>
-    <link href="https://medill-east.github.io/2022/05/06/20220506-leveldesignbook-combat-balance/"/>
-    <id>https://medill-east.github.io/2022/05/06/20220506-leveldesignbook-combat-balance/</id>
-    <published>2022-05-06T21:42:46.000Z</published>
-    <updated>2022-05-06T21:44:38.110Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Balance&quot;&gt;&lt;a href=&quot;#Balance&quot; class=&quot;headerlink&quot; title=&quot;Balance&quot;&gt;&lt;/a&gt;Balance&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Study-Game-LevelDesign" scheme="https://medill-east.github.io/categories/Study-Game-LevelDesign/"/>
-    
-    
-    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
-    
-    <category term="Game Level Design" scheme="https://medill-east.github.io/tags/Game-Level-Design/"/>
     
   </entry>
   
