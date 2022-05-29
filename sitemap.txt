@@ -1,3 +1,4 @@
+https://medill-east.github.io/2022/05/29/20220529-theartofgamedesign-toc/
 https://medill-east.github.io/2022/05/25/20220525-writing/
 https://medill-east.github.io/2022/04/28/index-notes/
 https://medill-east.github.io/2022/05/22/20220522-games104-lecture4/
@@ -71,6 +72,7 @@ https://medill-east.github.io/tags/Carl-Gustav-Jung/
 https://medill-east.github.io/tags/Game-Engine/
 https://medill-east.github.io/tags/Movie/
 https://medill-east.github.io/tags/Writing/
+https://medill-east.github.io/tags/Game-Design/
 https://medill-east.github.io/categories/Blog/
 https://medill-east.github.io/categories/Study-CS-CG/
 https://medill-east.github.io/categories/Study-Game-Proposal/

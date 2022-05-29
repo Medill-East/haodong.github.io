@@ -6,7 +6,7 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2022-05-26T21:12:26.576Z</updated>
+  <updated>2022-05-29T00:05:31.506Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>游戏设计艺术 摘抄/笔记</title>
+    <link href="https://medill-east.github.io/2022/05/29/20220529-theartofgamedesign-toc/"/>
+    <id>https://medill-east.github.io/2022/05/29/20220529-theartofgamedesign-toc/</id>
+    <published>2022-05-28T23:45:19.000Z</published>
+    <updated>2022-05-29T00:05:31.506Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;游戏设计艺术-摘抄-笔记&quot;&gt;&lt;a href=&quot;#游戏设计艺术-摘抄-笔记&quot; class=&quot;headerlink&quot; title=&quot;游戏设计艺术 摘抄/笔记&quot;&gt;&lt;/a&gt;游戏设计艺术 摘抄/笔记&lt;/h1&gt;&lt;h2 id=&quot;Why-Note&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Game Design" scheme="https://medill-east.github.io/tags/Game-Design/"/>
+    
+  </entry>
+  
+  <entry>
     <title>20220525 - Writing</title>
     <link href="https://medill-east.github.io/2022/05/25/20220525-writing/"/>
     <id>https://medill-east.github.io/2022/05/25/20220525-writing/</id>
     <published>2022-05-25T20:05:46.000Z</published>
-    <updated>2022-05-26T21:12:26.576Z</updated>
+    <updated>2022-05-28T20:04:12.049Z</updated>
     
     
       
@@ -528,34 +555,6 @@
         
         
     <summary type="html">&lt;h2 id=&quot;Balance&quot;&gt;&lt;a href=&quot;#Balance&quot; class=&quot;headerlink&quot; title=&quot;Balance&quot;&gt;&lt;/a&gt;Balance&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Study-Game-LevelDesign" scheme="https://medill-east.github.io/categories/Study-Game-LevelDesign/"/>
-    
-    
-    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
-    
-    <category term="Game Level Design" scheme="https://medill-east.github.io/tags/Game-Level-Design/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20220505 - Level Design Book - BOOK 1. PROCESS - Combat - Encounter</title>
-    <link href="https://medill-east.github.io/2022/05/05/20220505-leveldesignbook-combat-encounter/"/>
-    <id>https://medill-east.github.io/2022/05/05/20220505-leveldesignbook-combat-encounter/</id>
-    <published>2022-05-05T21:15:46.000Z</published>
-    <updated>2022-05-05T21:23:02.603Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Encounter&quot;&gt;&lt;a href=&quot;#Encounter&quot; class=&quot;headerlink&quot; title=&quot;Encounter&quot;&gt;&lt;/a&gt;Encounter&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a</summary>
         
       
