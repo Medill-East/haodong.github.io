@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://medill-east.github.io/2022/04/28/index-thinking/</loc>
+    
+    <lastmod>2022-06-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://medill-east.github.io/2022/05/25/20220525-writing/</loc>
     
     <lastmod>2022-06-02</lastmod>
@@ -77,15 +86,6 @@
     <loc>https://medill-east.github.io/2022/05/15/20220515-comicjung-chap7/</loc>
     
     <lastmod>2022-05-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://medill-east.github.io/2022/04/28/index-thinking/</loc>
-    
-    <lastmod>2022-05-20</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

@@ -1,3 +1,4 @@
+https://medill-east.github.io/2022/04/28/index-thinking/
 https://medill-east.github.io/2022/05/25/20220525-writing/
 https://medill-east.github.io/2022/05/29/20220529-theartofgamedesign-toc/
 https://medill-east.github.io/2022/04/28/index-notes/
@@ -7,7 +8,6 @@ https://medill-east.github.io/2022/05/29/20220529-yinyangmeseenger-demo-showcase
 https://medill-east.github.io/2022/05/22/20220522-games104-lecture4/
 https://medill-east.github.io/2022/05/21/20220521-everything-everywhere-all-at-once/
 https://medill-east.github.io/2022/05/15/20220515-comicjung-chap7/
-https://medill-east.github.io/2022/04/28/index-thinking/
 https://medill-east.github.io/2022/05/20/20220520-games104-lecture3/
 https://medill-east.github.io/2022/05/18/20220518-games104-assignment1/
 https://medill-east.github.io/2022/05/15/20220515-games104-toc/
