@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>20220617 - Stop Getting Lost： Make Cognitive Maps, Not Levels</title>
+      <link href="2022/06/17/20220617-gdc-makecognitivemap/"/>
+      <url>2022/06/17/20220617-gdc-makecognitivemap/</url>
+      
+        <content type="html"><![CDATA[<h2 id="原视频链接"><a href="#原视频链接" class="headerlink" title="原视频链接"></a>原视频链接</h2><ul><li>Youtube 链接<br><a href="https://www.youtube.com/watch?v=Q1Tczf8vxCM&list=PL2e4mYbwSTbbjN6TTMo6toJfByWpKvEDH&index=1">Stop Getting Lost: Make Cognitive Maps, Not Levels</a></li></ul><h2 id="What"><a href="#What" class="headerlink" title="What"></a>What</h2><h3 id="认知地图的来源"><a href="#认知地图的来源" class="headerlink" title="认知地图的来源"></a>认知地图的来源</h3><p>Tolman E C. Cognitive maps in rats and men[J]. Psychological review, 1948, 55(4): 189.</p><p>即著名的在迷宫中找奶酪的老鼠的实验。</p><p>在一个迷宫中的某位置放置奶酪，看老鼠能不能找到。<br>每次找到后将老鼠重新带回迷宫入口</p><p>随着实验次数增加，老鼠找到奶酪的速度越来越快</p><p>它们脑中也逐渐形成了认知地图 - 在过去经验基础上，在脑中形成的对某种情境/空间关系的图画</p><p>在后续实验中，实验人员将迷宫进行了改动，但老鼠们还是能凭借对地图的认知快速找到奶酪 - 它们选择与目的地方向相近的通道，而不是选择看起来“和前一次的正确道路”长得差不多的通道</p><h3 id="一种快速看到脑中认知地图的方法"><a href="#一种快速看到脑中认知地图的方法" class="headerlink" title="一种快速看到脑中认知地图的方法"></a>一种快速看到脑中认知地图的方法</h3><p>不借助任何工具，5 min 内绘制一幅家附近的地图</p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/Temp.jpg"></p><h3 id="认知地图五要素"><a href="#认知地图五要素" class="headerlink" title="认知地图五要素"></a>认知地图五要素</h3><p>《The Image Of The City》让许多人绘制了他们的认知地图，并提出了关于认知地图的五个要素：</p><ul><li>Paths</li><li>Landmarks</li><li>Districts</li><li>Edges</li><li>Nodes</li></ul><h4 id="path"><a href="#path" class="headerlink" title="path"></a>path</h4><p>处于路上的时候不易察觉到路本身<br>它具有时间属性 - 现在所在位置是之前所在位置以及两者之间的部分，并不是孤立存在的点，而是点连成的线</p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220617213432.png"></p><ul><li>path 的作用<ul><li>引导玩家前往某地区</li><li>帮助 lost 的玩家找到路 - 因为他们偏离了道路 而不是在路中</li><li>建立关卡中的玩家走向</li><li>连接更大的区域</li></ul></li></ul><h4 id="landmarks"><a href="#landmarks" class="headerlink" title="landmarks"></a>landmarks</h4><p>具有独特视觉辨识度的物体<br>有让人拍照的冲动</p><ul><li><p>作用</p><ul><li>帮助玩家定位</li><li>创建新的期待 - 是否意味着到了新的区域</li></ul></li><li><p>note</p><ul><li>通常是静态的，动态的大型移动物体一般不能视为地标，发挥的作用不一样</li><li>具有方向性的话更容易被记住<ul><li>在雕塑背后 vs. 我看见了塔</li></ul></li><li>会被多次作为参考系使用 - 这样才能帮助玩家建立认知地图</li></ul></li></ul><h4 id="district"><a href="#district" class="headerlink" title="district"></a>district</h4><ul><li><p>定义</p><ul><li>被分为不同块的区域</li><li>一般具有不同的特征（颜色、规模）</li><li>具有边界</li></ul></li><li><p>如何判断是好的 district 设计 - 眯眼大法</p><ul><li>眯起眼之后能区分出不同区域</li></ul></li><li><p>相似元素的簇分布</p><ul><li>可以帮助区分不同 district </li><li>也可以让具有相似元素的区域更容易被记住</li></ul></li></ul><h4 id="edge"><a href="#edge" class="headerlink" title="edge"></a>edge</h4><ul><li><p>定义</p><ul><li>线性</li><li>非路径</li></ul></li><li><p>跨越边界应该要有意义</p><ul><li>可以是叙事/机制/美学层面</li></ul></li><li><p>bold edge 比起模糊的边界更容易被人记住</p></li></ul><h4 id="node"><a href="#node" class="headerlink" title="node"></a>node</h4><ul><li><p>定义</p><ul><li>是 path 的交界处</li><li>大多会作为交通枢纽存在</li></ul></li><li><p>作用</p><ul><li>让 path 的指向有所意义 - all roads lead to Rome</li><li>可以被重用</li><li>可以作为目的地</li></ul></li><li><p>note</p><ul><li>一个好的 note 应该是可以被深入体验的，而不仅仅是经过</li></ul></li></ul><hr><h3 id="投入实践"><a href="#投入实践" class="headerlink" title="投入实践"></a>投入实践</h3><ul><li><p>audit<br>让自己的地图设计是清晰的 - 不要有模棱两可的“好像是 landmark”之类的设计</p></li><li><p>organize<br>用这些清晰的元素来构建关卡</p></li><li><p>test without HUD/Minimap UI<br>尽量在没有 UI 的情况下来进行地图测试 - 这样才能真正测试到地图本身<br>否则就会只缘身在此山中 - 以中心视角而不是世界视角来形成认知地图</p></li></ul><p>egocentric 视角：自我中心视角，就像拿着手机地图前往目的地，探索路径是被分割的 - 向前 100 米，向左 100 米 - 不利于形成认知地图<br>allocentric 视角：世界中心视角，作为个体行走在环境中</p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220617210507.png"></p><h3 id="外部参考"><a href="#外部参考" class="headerlink" title="外部参考"></a>外部参考</h3><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220617210526.png"><br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220617210535.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Study-Game-Notes </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Game </tag>
+            
+            <tag> GDC </tag>
+            
+            <tag> Learning Notes </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>20220604 - Thinking after the reading of 《The Crowd - A Study of the Popular Mind》</title>
       <link href="2022/06/04/20220604-after-reading-the-crowd/"/>
       <url>2022/06/04/20220604-after-reading-the-crowd/</url>
