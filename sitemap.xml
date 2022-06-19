@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://medill-east.github.io/2022/04/28/index-notes/</loc>
+    
+    <lastmod>2022-06-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://medill-east.github.io/2022/06/19/20220619-gmtk-ittakestwo/</loc>
     
     <lastmod>2022-06-19</lastmod>
@@ -11,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://medill-east.github.io/2022/04/28/index-notes/</loc>
+    <loc>https://medill-east.github.io/2022/04/28/index-notes-2/</loc>
     
     <lastmod>2022-06-19</lastmod>
     
@@ -47,6 +56,15 @@
   </url>
   
   <url>
+    <loc>https://medill-east.github.io/2022/05/25/20220525-writing-2/</loc>
+    
+    <lastmod>2022-06-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://medill-east.github.io/2022/06/04/20220604-after-reading-the-crowd/</loc>
     
     <lastmod>2022-06-04</lastmod>
@@ -65,6 +83,15 @@
   </url>
   
   <url>
+    <loc>https://medill-east.github.io/2022/04/28/index-thinking-2/</loc>
+    
+    <lastmod>2022-06-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://medill-east.github.io/2022/06/01/20220601-gcores-playbeyondthegame/</loc>
     
     <lastmod>2022-06-01</lastmod>
@@ -75,6 +102,15 @@
   
   <url>
     <loc>https://medill-east.github.io/2022/04/28/index-showcase/</loc>
+    
+    <lastmod>2022-05-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://medill-east.github.io/2022/04/28/index-showcase-2/</loc>
     
     <lastmod>2022-05-30</lastmod>
     
@@ -137,6 +173,15 @@
   </url>
   
   <url>
+    <loc>https://medill-east.github.io/2022/05/18/20220518-games104-assignment1-2/</loc>
+    
+    <lastmod>2022-05-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://medill-east.github.io/2022/05/15/20220515-games104-toc/</loc>
     
     <lastmod>2022-05-18</lastmod>
@@ -156,6 +201,15 @@
   
   <url>
     <loc>https://medill-east.github.io/2022/05/07/20220507-comicjung-toc/</loc>
+    
+    <lastmod>2022-05-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://medill-east.github.io/2022/05/07/20220507-comicjung-toc-2/</loc>
     
     <lastmod>2022-05-16</lastmod>
     
@@ -263,7 +317,25 @@
   </url>
   
   <url>
+    <loc>https://medill-east.github.io/2022/04/28/index-gameanalysis-2/</loc>
+    
+    <lastmod>2022-05-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://medill-east.github.io/2022/04/28/20220428-leveldesignbook-toc/</loc>
+    
+    <lastmod>2022-05-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://medill-east.github.io/2022/04/28/20220428-leveldesignbook-toc-2/</loc>
     
     <lastmod>2022-05-06</lastmod>
     
@@ -399,6 +471,15 @@
   
   <url>
     <loc>https://medill-east.github.io/2021/12/12/teardown-analysis-gunfire-reborn/</loc>
+    
+    <lastmod>2022-04-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://medill-east.github.io/2021/12/12/teardown-analysis-gunfire-reborn-2/</loc>
     
     <lastmod>2022-04-28</lastmod>
     
