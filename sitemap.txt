@@ -1,3 +1,4 @@
+https://medill-east.github.io/2022/06/19/20220619-gmtk-ittakestwo/
 https://medill-east.github.io/2022/06/17/20220617-gdc-makecognitivemap/
 https://medill-east.github.io/2022/05/29/20220529-theartofgamedesign-toc/
 https://medill-east.github.io/2022/05/25/20220525-writing/
@@ -78,6 +79,7 @@ https://medill-east.github.io/tags/Movie/
 https://medill-east.github.io/tags/Writing/
 https://medill-east.github.io/tags/Game-Design/
 https://medill-east.github.io/tags/GCORES/
+https://medill-east.github.io/tags/GMTK/
 https://medill-east.github.io/categories/Blog/
 https://medill-east.github.io/categories/Study-CS-CG/
 https://medill-east.github.io/categories/Study-Game-Proposal/
