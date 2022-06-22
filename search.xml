@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>20220622 - Building Narrative Games with Yarn Spinner</title>
+      <link href="2022/06/22/20220622-gdc-yarnspinner/"/>
+      <url>2022/06/22/20220622-gdc-yarnspinner/</url>
+      
+        <content type="html"><![CDATA[<h2 id="视频链接"><a href="#视频链接" class="headerlink" title="视频链接"></a>视频链接</h2><ul><li>Youtube 链接<br><a href="https://www.youtube.com/watch?v=549J0eHE88k&list=PL2e4mYbwSTbbjN6TTMo6toJfByWpKvEDH&index=10">Building Narrative Games with Yarn Spinner</a></li></ul><h2 id="工具介绍"><a href="#工具介绍" class="headerlink" title="工具介绍"></a>工具介绍</h2><p> ### DIALOGUE TOOLS<br> - Twine<br> - Ink<br> - Fungus<br> - Yarn Spinner<br> - Others/DIY</p><h3 id="Comparison-of-tools"><a href="#Comparison-of-tools" class="headerlink" title="Comparison of tools"></a>Comparison of tools</h3><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220618131901.png"></p><ul><li>Twine<ul><li>很容易上手</li><li>但不容易扩展（只适用于小文本/轻叙事）</li></ul></li><li>Yarn Spinner<ul><li>介于二者之间</li><li>也易于上手</li><li>也具有较好扩展性</li></ul></li><li>Ink<ul><li>难于上手</li><li>高扩展性、多特性</li></ul></li></ul><h3 id="why-yarn-spinner"><a href="#why-yarn-spinner" class="headerlink" title="why yarn spinner"></a>why yarn spinner</h3><ul><li>用于对话的脚本语言</li><li>就像写剧本一样，有场景和演员提示</li><li>容易写多分支剧情线</li><li>一开始是为《林中之夜》（Night in the Woods）构建的</li><li>被用于多个游戏</li></ul><h2 id="how-to-use"><a href="#how-to-use" class="headerlink" title="how to use"></a>how to use</h2><h3 id="make-a-visual-novel"><a href="#make-a-visual-novel" class="headerlink" title="make a visual novel"></a>make a visual novel</h3><ul><li><p>什么是 visual novel</p><ul><li>常用于动画游戏、约会模拟、类 RPG 游戏</li><li>用于主要机制是基于对话/选择的游戏类型</li><li>十分适合用 yarn spinner 构建</li></ul></li><li><p>特点</p><ul><li>管理资源</li><li>构建场景</li><li>没有物理或移动</li></ul></li></ul><h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h2><h3 id="前置介绍"><a href="#前置介绍" class="headerlink" title="前置介绍"></a>前置介绍</h3><h4 id="goals"><a href="#goals" class="headerlink" title="goals"></a>goals</h4><ul><li>做一个小型 sci-fi 游戏</li><li>在 unity 配合使用 Yarn Spinner</li><li>在 vs code 里面编辑</li></ul><h4 id="已有素材"><a href="#已有素材" class="headerlink" title="已有素材"></a>已有素材</h4><ul><li><p>简单场景</p></li><li><p>3 个人物模型</p></li><li><p>一些纹理和动画</p></li><li><p>素材来源</p><ul><li>kenney.nl</li><li>github.com/thesecretlab/SpaceJourney</li></ul></li></ul><h4 id="任务清单"><a href="#任务清单" class="headerlink" title="任务清单"></a>任务清单</h4><ul><li>下载安装 yarn spinner</li><li>创建基本的 yarn 脚本并 hook it up</li><li>构建故事结构和逻辑</li><li>设置场景中的多个角色和地点</li><li>润色</li><li>用最终的故事来替代对话框里的内容</li></ul><h4 id="主要会涉及到的内容"><a href="#主要会涉及到的内容" class="headerlink" title="主要会涉及到的内容"></a>主要会涉及到的内容</h4><ul><li>分支对话</li><li>基于变量的选项</li><li>相机、角色和转场的自定义需求</li></ul><h3 id="开始动手"><a href="#开始动手" class="headerlink" title="开始动手"></a>开始动手</h3><h4 id="下载安装-yarn-spinner"><a href="#下载安装-yarn-spinner" class="headerlink" title="下载安装 yarn spinner"></a>下载安装 yarn spinner</h4><ul><li>到 <a href="https://github.com/YarnSpinnerTool/ExampleProjects">github 链接</a> 中跟随说明<ul><li>创建 unity 项目</li><li>加入 yarn spinner 包</li><li>导入素材的 unity package</li></ul></li><li>到 vscode 中安装相应插件 - Yarn Spinner</li></ul><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220618140610.png"></p><h4 id="创建基本的-yarn-脚本并-hook-it-up"><a href="#创建基本的-yarn-脚本并-hook-it-up" class="headerlink" title="创建基本的 yarn 脚本并 hook it up"></a>创建基本的 yarn 脚本并 hook it up</h4><h5 id="导入素材"><a href="#导入素材" class="headerlink" title="导入素材"></a>导入素材</h5><p>前面已经导入了 space journey 的 unity 包</p><h5 id="创建并链接脚本"><a href="#创建并链接脚本" class="headerlink" title="创建并链接脚本"></a>创建并链接脚本</h5><p>打开 scene 文件夹下的 start point</p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220620213039.png"></p><p>来到 <code>Dialogue</code> 文件夹下，右键 <code>Create - Yarn Spinner - Yarn Script</code> 并命名为 <code>Space Journey</code></p><p>同一文件夹下，右键 <code>Create - Yarn Spinner - Yarn Project</code> 并命名为 <code>Space Journey Project</code></p><blockquote><p>在构建更大型的项目时，会用到多个 yarn script，建议使用多个脚本而不是只使用一个脚本来进行更大规模故事的构建</p></blockquote><p>将刚刚创建的 script 加入到 刚创建的 project 中并点击右下角的  <code>Apply</code></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220620213742.png"></p><h5 id="添加对话系统"><a href="#添加对话系统" class="headerlink" title="添加对话系统"></a>添加对话系统</h5><p>找到 <code>Packages/Yarn Spinner/Prefabs/Dialogue System</code> 将其加入场景中</p><p>将之前的 project 赋值给 <code>Dialogue System</code> 的相应位置</p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220620214055.png"></p><h4 id="构建故事结构和逻辑"><a href="#构建故事结构和逻辑" class="headerlink" title="构建故事结构和逻辑"></a>构建故事结构和逻辑</h4><h5 id="故事背景"><a href="#故事背景" class="headerlink" title="故事背景"></a>故事背景</h5><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220620212334.png"><br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220620212837.png"></p><ul><li>在飞船上，可以和三人中的一个对话<ul><li>工程师 - 会抱怨</li><li>船员 - 谈论配给</li><li>队长 - 谈到应对危机的准备情况<ul><li>可以说服他你准备好了</li><li>或者没能说服</li></ul></li></ul></li><li>警报声 - 飞船遇袭<ul><li>要是前面说服队长你准备好了 - 就会派你去</li><li>否则会派船员去</li></ul></li></ul><blockquote><blockquote><p>前面这小部分在视频中被放到 <code>创建基本的 yarn 脚本并 hook it up</code> 前面了，但我觉得应该放这里比较合适</p></blockquote></blockquote><h5 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h5><p>用 vscode 打开脚本文件后开写！<br>注意设置 title 为 <code>Start</code><br>yarn 每次会读取一行</p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220620214722.png"></p><ul><li>预览<ul><li>回到 unity 中，deactive 场景中的 <code>UI</code> 和 <code>Title Canvas</code></li></ul></li><li>run!</li></ul><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220620215038.png"><br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220620215100.png"></p><h5 id="构建脚本"><a href="#构建脚本" class="headerlink" title="构建脚本"></a>构建脚本</h5><p><code>-&gt;</code> 在 yarn 脚本中意味着不同的选项分支</p><pre class="line-numbers language-YarnScript" data-language="YarnScript"><code class="language-YarnScript">title: Starttags:---Player: Another day in Space Fleet. Might go have a chat...&#x2F;&#x2F; pick a person to speak to-&gt; Go see the Engineer as per orders  Engineer: Hello! I am the Engineer.-&gt; Meet up with your friend  Crewmate: Hello! I am your Cremate.-&gt; Go and talk to the Captain  Captain: Hello! I am the Captain.&#x3D;&#x3D;&#x3D;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220620215914.png"><br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220620215931.png"><br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220620215950.png" alt="选择第二项"></p><h5 id="采用-node-跳转"><a href="#采用-node-跳转" class="headerlink" title="采用 node 跳转"></a>采用 node 跳转</h5><blockquote><blockquote><p>个人感觉类似函数吧，可以让结构更加紧凑，调用更加方便</p></blockquote></blockquote><pre class="line-numbers language-YarnScript" data-language="YarnScript"><code class="language-YarnScript">title: Starttags:---Player: Another day in Space Fleet. Might go have a chat...&#x2F;&#x2F; pick a person to speak to-&gt; Go see the Engineer as per orders  &lt;&lt;jump TalkToEngineer&gt;&gt;-&gt; Meet up with your friend  &lt;&lt;jump TalkToCremate&gt;&gt;-&gt; Go and talk to the Captain  &lt;&lt;jump TalkToCaptain&gt;&gt;&#x3D;&#x3D;&#x3D;title: TalkToEngineer---Engineer: Hello! I am the Engineer.&#x3D;&#x3D;&#x3D;title: TalkToCremate---Crewmate: Hello! I am your Cremate.&#x3D;&#x3D;&#x3D;title: TalkToCaptain---Captain: Hello! I am the Captain.&#x3D;&#x3D;&#x3D;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h5 id="添加谈话后的跳转-敌袭！"><a href="#添加谈话后的跳转-敌袭！" class="headerlink" title="添加谈话后的跳转 - 敌袭！"></a>添加谈话后的跳转 - 敌袭！</h5><p>添加新的 node <code>BridgeEnding</code> 然后在之前的每个谈话分支后面加上 <code>&lt;&lt;jump BridgeEnding&gt;&gt;</code></p><pre class="line-numbers language-YarnScript" data-language="YarnScript"><code class="language-YarnScript">title: Starttags:---Player: Another day in Space Fleet. Might go have a chat...&#x2F;&#x2F; pick a person to speak to-&gt; Go see the Engineer as per orders  &lt;&lt;jump TalkToEngineer&gt;&gt;-&gt; Meet up with your friend  &lt;&lt;jump TalkToCremate&gt;&gt;-&gt; Go and talk to the Captain  &lt;&lt;jump TalkToCaptain&gt;&gt;&#x3D;&#x3D;&#x3D;title: TalkToEngineer---Engineer: Hello! I am the Engineer.&lt;&lt;jump BridgeEnding&gt;&gt;&#x3D;&#x3D;&#x3D;title: TalkToCremate---Crewmate: Hello! I am your Cremate.&lt;&lt;jump BridgeEnding&gt;&gt;&#x3D;&#x3D;&#x3D;title: TalkToCaptain---Captain: Hello! I am the Captain.&lt;&lt;jump BridgeEnding&gt;&gt;&#x3D;&#x3D;&#x3D;title: BridgeEnding---&#x2F;&#x2F; everyone reports to the bridgeCaptain: Pirates!Player: Oh no!Captain: Cremate, go deal with those pirates!Cremate: Yes, Captain.&#x3D;&#x3D;&#x3D;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220620220910.png" alt="谈话结束后跳转到敌袭部分的文本"></p><h5 id="添加不同分支结局"><a href="#添加不同分支结局" class="headerlink" title="添加不同分支结局"></a>添加不同分支结局</h5><ul><li>若是选择和队长交谈 需要说服他你准备好了</li><li>这里引入了变量的用法 <code>$away_mission_readiness</code><ul><li>变量以 <code>$</code> 开头</li><li>数值变量初始值为 0 </li></ul></li><li>为节省篇幅，后面只展现有改动的部分</li></ul><pre class="line-numbers language-YarnScript" data-language="YarnScript"><code class="language-YarnScript">&#x3D;&#x3D;&#x3D;title: TalkToCaptain---Captain: Hello! I am the Captain.Player: I want to talk to go on more missions.Captain: Do you think you are ready?-&gt; Yes    &lt;&lt;set $away_mission_readiness +&#x3D; 1&gt;&gt;  &#x2F;&#x2F; if so, ask again  Captain: Really?  -&gt; ..yes?    &lt;&lt;set $away_mission_readiness +&#x3D; 1&gt;&gt;  -&gt; Actually, no.-&gt; No&#x2F;&#x2F; now go to the ending&lt;&lt;jump BridgeEnding&gt;&gt;&#x3D;&#x3D;&#x3D;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><ul><li>设置不同结局<ul><li>只有选择和船长谈话，并说服他你准备好了（变量值为 2）的情况下才会跳转到新结局</li></ul></li></ul><pre class="line-numbers language-none"><code class="language-none">&#x3D;&#x3D;&#x3D;title: BridgeEnding---&#x2F;&#x2F; everyone reports to the bridgeCaptain: Pirates!Player: Oh no!&#x2F;&#x2F; now change who goes depending on player actions&lt;&lt;if $away_mission_readiness &lt; 2&gt;&gt;Captain: Cremate, go deal with those pirates!Cremate: Yes, Captain.&lt;&lt;else&gt;&gt;  Captain: Player, you were just telling me how ready for this you are. Go deal with those pirates!  Player: Hooray!&lt;&lt;endif&gt;&gt;&#x3D;&#x3D;&#x3D;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h4 id="设置场景中的多个角色和地点"><a href="#设置场景中的多个角色和地点" class="headerlink" title="设置场景中的多个角色和地点"></a>设置场景中的多个角色和地点</h4><h5 id="设置摄像机"><a href="#设置摄像机" class="headerlink" title="设置摄像机"></a>设置摄像机</h5><p>利用 yarn spinner 的 <code>command</code> 特性来安排摄像机</p><ul><li>在场景中创建新的 gameobject 并命名为 <code>VisualNovel</code></li><li>找到 <code>Scripts/VisualNovel</code> 并添加到刚创建的 obj 上</li></ul><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220620223309.png"></p><ul><li>打开 <code>VisualNovel.cs</code> 取消第二步处的注释即可定义 command</li></ul><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220622104806.png"></p><ul><li>到 <code>Space Journey.yarn</code> 中添加切换摄像机的代码</li></ul><p>场景摄像机最开始的位置应该在 Corridor 处，所以添加代码</p><pre class="line-numbers language-none"><code class="language-none">&lt;&lt;camera Corridor&gt;&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220622105302.png"></p><p>场景摄像机最后会在 Bridge 处，所以添加代码</p><pre class="line-numbers language-none"><code class="language-none">&lt;&lt;camera Bridge&gt;&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220622110028.png"></p><h5 id="设置角色"><a href="#设置角色" class="headerlink" title="设置角色"></a>设置角色</h5><p>可以看到 <code>VisualNovel.cs</code> 中有关于放置角色的代码，这部分代码可以帮助我们在场景中创建角色 并放置到预设的位置：</p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220622110324.png"></p><p>然后需要在 <code>VisualNovel.cs</code> 的 <code>Awake</code> 部分中定义相关的 command，第一个 string 是你想要移动的角色模型，第二个 string 是想将其移动到的地点</p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220622110623.png"></p><p>之后在各场景中放置角色模型</p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220622111124.png"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220622111148.png"></p><p>在使用之前 还需要为 Visual Novel 指定 Character List</p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220622111244.png"></p><h5 id="让角色在不同情境呈现不同状态（表情）"><a href="#让角色在不同情境呈现不同状态（表情）" class="headerlink" title="让角色在不同情境呈现不同状态（表情）"></a>让角色在不同情境呈现不同状态（表情）</h5><p>这样细粒度的操作需要从角色上的脚本着手，<code>Character.cs</code> 中包含了设置位置和表情的函数</p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220622121127.png"></p><p>这里对比了 yarn command 和 command handler 的区别<br>简言之就是 Yarn command 可以处理更细粒度的行为<br>command handler 更适用于处理更粗粒度 如场景中的整体变化</p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220622121154.png"></p><p>所以在相应函数之前加上 yarn commend 的定义语句</p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220622121438.png"></p><p>之后就可以在 yarn 脚本中调用了</p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220622122554.png"></p><h4 id="润色"><a href="#润色" class="headerlink" title="润色"></a>润色</h4><h5 id="用淡入淡出方式来切换场景"><a href="#用淡入淡出方式来切换场景" class="headerlink" title="用淡入淡出方式来切换场景"></a>用淡入淡出方式来切换场景</h5><p>因为 fadein fadeout 是全局行为，所以将其添加为 command handler</p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220622122833.png"></p><p>他们调用的是下面定义的相关函数</p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220622122854.png"></p><p>然后在 yarn 脚本中相应位置来调用 fade 函数</p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/Xnip-2022-06-22-12-32-45.jpg"></p><p>记得把场景中之前 deactive 的 UI object 重新勾选出来</p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220622123607.png"></p><h5 id="加入标题"><a href="#加入标题" class="headerlink" title="加入标题"></a>加入标题</h5><p>在 yarn 脚本最开始部分引入 展示标题部分的代码</p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220622124015.png"></p><p><code>wait</code> 函数是 yarn 自带的函数，功能如其名，等待，其参数单位为秒</p><p>记得把之前 deactive 的 title 重新勾选</p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220622124138.png"></p><p>然后 play 时就可以看见帅气标题了</p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220622124218.png"></p><h4 id="用最终的故事来替代对话框里的内容"><a href="#用最终的故事来替代对话框里的内容" class="headerlink" title="用最终的故事来替代对话框里的内容"></a>用最终的故事来替代对话框里的内容</h4><p>前面的都是机制教学 理解了前面的内容 就可以直接用他们构建好的故事来替代整个故事</p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220622124539.png"></p><p>直接运行会有报错，对比了一下两个 yarn 文件 发现他们给的这个最终版本最前面少了一行 tags，加上之后就可以正常运行了：</p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220622132740.png"></p><h3 id="where-to-next"><a href="#where-to-next" class="headerlink" title="where to next"></a>where to next</h3><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220622132829.png"></p><h3 id="find-yarn-spinner"><a href="#find-yarn-spinner" class="headerlink" title="find yarn spinner"></a>find yarn spinner</h3><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220622132917.png"></p><h3 id="thanks"><a href="#thanks" class="headerlink" title="thanks!"></a>thanks!</h3><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220622132955.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Study-Game-Notes </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Game </tag>
+            
+            <tag> GDC </tag>
+            
+            <tag> Learning Notes </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>20220619 - Making one of the Best Levels of It Takes Two</title>
       <link href="2022/06/19/20220619-gmtk-ittakestwo/"/>
       <url>2022/06/19/20220619-gmtk-ittakestwo/</url>
@@ -197,31 +226,6 @@
     
     
     <entry>
-      <title>20220525 - Writing</title>
-      <link href="2022/05/25/20220525-writing-2/"/>
-      <url>2022/05/25/20220525-writing-2/</url>
-      
-        <content type="html"><![CDATA[<h5 id="20220525"><a href="#20220525" class="headerlink" title="20220525"></a>20220525</h5><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220525.JPG"></p><h5 id="20220526"><a href="#20220526" class="headerlink" title="20220526"></a>20220526</h5><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220526.JPEG"></p><h5 id="20220528"><a href="#20220528" class="headerlink" title="20220528"></a>20220528</h5><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220528.JPG"></p><h5 id="20220601"><a href="#20220601" class="headerlink" title="20220601"></a>20220601</h5><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220601.JPG"></p><h5 id="20220602"><a href="#20220602" class="headerlink" title="20220602"></a>20220602</h5><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220602.JPG"></p><h5 id="20220608"><a href="#20220608" class="headerlink" title="20220608"></a>20220608</h5><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/IMG_3993.JPG"></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Study-Writing </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Writing </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>20220522 - GAMES104 - Lecture 4：Rendering on Game Engine</title>
       <link href="2022/05/22/20220522-games104-lecture4/"/>
       <url>2022/05/22/20220522-games104-lecture4/</url>
@@ -302,31 +306,6 @@
       <title>20220518 - GAMES104 - Assignment 1：Build and Run Pilot Engine</title>
       <link href="2022/05/18/20220518-games104-assignment1/"/>
       <url>2022/05/18/20220518-games104-assignment1/</url>
-      
-        <content type="html"><![CDATA[<h2 id="作业-1-编译和运行-PILOT-引擎"><a href="#作业-1-编译和运行-PILOT-引擎" class="headerlink" title="作业 1 编译和运行 PILOT 引擎"></a>作业 1 编译和运行 PILOT 引擎</h2><ul><li><a href="https://medill-east.github.io/2022/05/15/20220515-games104-toc/">GAMES104——现代游戏引擎：从入门到实践笔记</a></li></ul><p>Build and Run Pilot Engine</p><h3 id="star-fork-一条龙"><a href="#star-fork-一条龙" class="headerlink" title="star, fork 一条龙"></a>star, fork 一条龙</h3><p>首先来到 Github <a href="https://github.com/BoomingTech/Pilot">相应页面</a></p><p>右上角 Star，然后 fork 到自己仓库里</p><h3 id="尝试-build"><a href="#尝试-build" class="headerlink" title="尝试 build"></a>尝试 build</h3><p>跟随教程 先打开命令行 cd 到相应根目录</p><pre class="line-numbers language-none"><code class="language-none">cd &#x2F;...你自己的目录&#x2F;GAMES104-PilotEngine<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>然后利用 Xcode 来 build，还是在命令行中运行：</p><pre class="line-numbers language-none"><code class="language-none">cmake -S . -B build -G &quot;Xcode&quot;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>有可能出现 cmake 版本不够的情况，所以来到 <a href="https://cmake.org/download/">CMake官网</a>，我下载了 3.22.4 的版本，安装后跟随其指示将其加入 PATH：</p><pre class="line-numbers language-none"><code class="language-none">PATH&#x3D;&quot;&#x2F;Applications&#x2F;CMake.app&#x2F;Contents&#x2F;bin&quot;:&quot;$PATH&quot;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>此时可以看到 CMake 版本已经是新的了：</p><pre class="line-numbers language-none"><code class="language-none">cmake -version<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220518125042.png"></p><p>此时确保自己还在 pilot 的根目录下（我之前更新 cmake 的时候退到系统根目录了），然后跟随指令先生成 xcode 项目</p><pre class="line-numbers language-none"><code class="language-none">cmake -S . -B build -G &quot;Xcode&quot;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>然后 build</p><pre class="line-numbers language-none"><code class="language-none">cmake --build build --config Release<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="进编辑器！"><a href="#进编辑器！" class="headerlink" title="进编辑器！"></a>进编辑器！</h3><p>都成功后就可以找到 pilot 目录下的 bin 文件夹，里面应该有 build 好的 可运行的 PilotEditor 文件，打开！</p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220518125351.png"></p><p>之后就可以试着选中目标，进行相应操作啦！</p><hr><h2 id="Backlink"><a href="#Backlink" class="headerlink" title="Backlink"></a>Backlink</h2><ul><li><a href="https://medill-east.github.io/2022/05/15/20220515-games104-toc/">GAMES104——现代游戏引擎：从入门到实践笔记</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> Study-Game-GameEngine </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Game Engine </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>20220518 - GAMES104 - Assignment 1：Build and Run Pilot Engine</title>
-      <link href="2022/05/18/20220518-games104-assignment1-2/"/>
-      <url>2022/05/18/20220518-games104-assignment1-2/</url>
       
         <content type="html"><![CDATA[<h2 id="作业-1-编译和运行-PILOT-引擎"><a href="#作业-1-编译和运行-PILOT-引擎" class="headerlink" title="作业 1 编译和运行 PILOT 引擎"></a>作业 1 编译和运行 PILOT 引擎</h2><ul><li><a href="https://medill-east.github.io/2022/05/15/20220515-games104-toc/">GAMES104——现代游戏引擎：从入门到实践笔记</a></li></ul><p>Build and Run Pilot Engine</p><h3 id="star-fork-一条龙"><a href="#star-fork-一条龙" class="headerlink" title="star, fork 一条龙"></a>star, fork 一条龙</h3><p>首先来到 Github <a href="https://github.com/BoomingTech/Pilot">相应页面</a></p><p>右上角 Star，然后 fork 到自己仓库里</p><h3 id="尝试-build"><a href="#尝试-build" class="headerlink" title="尝试 build"></a>尝试 build</h3><p>跟随教程 先打开命令行 cd 到相应根目录</p><pre class="line-numbers language-none"><code class="language-none">cd &#x2F;...你自己的目录&#x2F;GAMES104-PilotEngine<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>然后利用 Xcode 来 build，还是在命令行中运行：</p><pre class="line-numbers language-none"><code class="language-none">cmake -S . -B build -G &quot;Xcode&quot;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>有可能出现 cmake 版本不够的情况，所以来到 <a href="https://cmake.org/download/">CMake官网</a>，我下载了 3.22.4 的版本，安装后跟随其指示将其加入 PATH：</p><pre class="line-numbers language-none"><code class="language-none">PATH&#x3D;&quot;&#x2F;Applications&#x2F;CMake.app&#x2F;Contents&#x2F;bin&quot;:&quot;$PATH&quot;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>此时可以看到 CMake 版本已经是新的了：</p><pre class="line-numbers language-none"><code class="language-none">cmake -version<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220518125042.png"></p><p>此时确保自己还在 pilot 的根目录下（我之前更新 cmake 的时候退到系统根目录了），然后跟随指令先生成 xcode 项目</p><pre class="line-numbers language-none"><code class="language-none">cmake -S . -B build -G &quot;Xcode&quot;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>然后 build</p><pre class="line-numbers language-none"><code class="language-none">cmake --build build --config Release<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="进编辑器！"><a href="#进编辑器！" class="headerlink" title="进编辑器！"></a>进编辑器！</h3><p>都成功后就可以找到 pilot 目录下的 bin 文件夹，里面应该有 build 好的 可运行的 PilotEditor 文件，打开！</p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220518125351.png"></p><p>之后就可以试着选中目标，进行相应操作啦！</p><hr><h2 id="Backlink"><a href="#Backlink" class="headerlink" title="Backlink"></a>Backlink</h2><ul><li><a href="https://medill-east.github.io/2022/05/15/20220515-games104-toc/">GAMES104——现代游戏引擎：从入门到实践笔记</a></li></ul>]]></content>
       
@@ -714,35 +693,6 @@
     
     
     <entry>
-      <title>漫画荣格：内心深处结构的解析 摘抄/笔记</title>
-      <link href="2022/05/07/20220507-comicjung-toc-2/"/>
-      <url>2022/05/07/20220507-comicjung-toc-2/</url>
-      
-        <content type="html"><![CDATA[<h1 id="漫画荣格：内心深处结构的解析-摘抄-笔记"><a href="#漫画荣格：内心深处结构的解析-摘抄-笔记" class="headerlink" title="漫画荣格：内心深处结构的解析 摘抄/笔记"></a>漫画荣格：内心深处结构的解析 摘抄/笔记</h1><h2 id="Why-Note"><a href="#Why-Note" class="headerlink" title="Why Note"></a>Why Note</h2><p>为了解荣格理论中的集体潜意识，对《漫画荣格：内心深处结构的解析》一书进行摘抄/笔记，特此记录。</p><h2 id="What"><a href="#What" class="headerlink" title="What"></a>What</h2><p>以下基本信息引用自<a href="https://book.douban.com/subject/1020001/">豆瓣</a>：</p><blockquote><p>本书以漫画的形式，以通俗易懂的语言配以情景对话，对20世纪的心理学家——荣格的生平和他的分析心理学进行描述。重点介绍了荣格的心理历程，对其思想影响较大的人物和事件，分析了唯灵论、心理的结构、个人无意识与集体无意识、原型、共时性等荣格思想中的精华。读者可以借助漫画的魅力重新理解荣格的思想世界。本书适合对心理学感兴趣的广大读者，尤其是青少年读者。</p></blockquote><h2 id="Content"><a href="#Content" class="headerlink" title="Content"></a>Content</h2><ol start="0"><li><a href="https://medill-east.github.io/2022/05/08/20220508-comicjung-chap0/">20220508 - 漫画荣格 - 序章：精神分析的黎明</a></li><li><a href="https://medill-east.github.io/2022/05/08/20220508-comicjung-chap1/">20220508 - 漫画荣格 - 第一章：青年时代 荣格与唯灵论体验</a></li><li><a href="https://medill-east.github.io/2022/05/09/20220509-comicjung-chap2/">20220509 - 漫画荣格 - 第二章：寻找失去的父亲 同弗洛伊德的相识与创造性的回忆</a></li><li><a href="https://medill-east.github.io/2022/05/10/20220510-comicjung-chap3/">20220510 - 漫画荣格 - 第三章：冒险进入内心深处、发现集体无意识</a></li><li><a href="https://medill-east.github.io/2022/05/11/20220511-comicjung-chap4/">20220511 - 漫画荣格 - 第四章：旅途 欧洲文明失去了什么</a></li><li><a href="https://medill-east.github.io/2022/05/13/20220513-comicjung-chap5/">20220513 - 漫画荣格 - 第五章：炼金术时代 心理的变化与成长</a></li><li><a href="https://medill-east.github.io/2022/05/14/20220514-comicjung-chap6/">20220514 - 漫画荣格 - 第六章：荣格与东方思想</a></li><li><a href="https://medill-east.github.io/2022/05/15/20220515-comicjung-chap7/">20220515 - 漫画荣格 - 第七章：塔 伟大的自己</a></li><li><a href="https://medill-east.github.io/2022/05/16/20220516-comicjung-chap8/">20220516 - 漫画荣格 - 第八章：荣格的性格论讲座</a></li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> Study-Psychology-Notes </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Learning Notes </tag>
-            
-            <tag> Psychology </tag>
-            
-            <tag> Carl Gustav Jung </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>20220506 - Level Design Book - BOOK 1. PROCESS - Combat - Balance</title>
       <link href="2022/05/06/20220506-leveldesignbook-combat-balance/"/>
       <url>2022/05/06/20220506-leveldesignbook-combat-balance/</url>
@@ -1013,31 +963,6 @@
     
     
     <entry>
-      <title>案例汇总</title>
-      <link href="2022/04/28/index-showcase-2/"/>
-      <url>2022/04/28/index-showcase-2/</url>
-      
-        <content type="html"><![CDATA[<h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><ul><li><a href="https://medill-east.github.io/2022/05/29/20220529-yinyangmeseenger-demo-showcase-analysis/">Yin Yang Messenger Game Demo 展示及分析</a></li><li><a href="https://haodongliao.itch.io/my-3d-platformer">Space Jumper Game Demo</a></li><li><a href="https://medill-east.github.io/2021/10/26/for-love-demo-showcase-and-analysis/">For Love Demo 展示及分析</a></li></ul><h2 id="策划案"><a href="#策划案" class="headerlink" title="策划案"></a>策划案</h2><ul><li><a href="https://medill-east.github.io/2021/07/26/shen-jiang-san-guo-first-recharge-plan/">神将三国首充策划案</a></li></ul><h2 id="体验报告"><a href="#体验报告" class="headerlink" title="体验报告"></a>体验报告</h2><ul><li><a href="https://medill-east.github.io/2021/07/26/shen-jiang-san-guo-game-experience-report/">神将三国游戏体验报告</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> Blog-Index </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Index </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>游戏拆解/分析/设计反思汇总</title>
       <link href="2022/04/28/index-gameanalysis/"/>
       <url>2022/04/28/index-gameanalysis/</url>
@@ -1066,56 +991,6 @@
       <title>随想汇总</title>
       <link href="2022/04/28/index-thinking/"/>
       <url>2022/04/28/index-thinking/</url>
-      
-        <content type="html"><![CDATA[<h2 id="读后感"><a href="#读后感" class="headerlink" title="读后感"></a>读后感</h2><ul><li>《乌合之众》<ul><li><a href="https://medill-east.github.io/2022/06/04/20220604-after-reading-the-crowd/">群体语境下无归属玩家的个人叙事是否可能</a></li></ul></li></ul><h2 id="观影感"><a href="#观影感" class="headerlink" title="观影感"></a>观影感</h2><ul><li>《瞬息全宇宙》<ul><li><a href="https://medill-east.github.io/2022/05/21/20220521-everything-everywhere-all-at-once/">Meaningful Meaningless</a></li></ul></li></ul><h2 id="随想"><a href="#随想" class="headerlink" title="随想"></a>随想</h2><ul><li><a href="https://medill-east.github.io/2021/11/02/drinking-games/">喝酒游戏列举与思考</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> Blog-Index </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Index </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>游戏拆解/分析/设计反思汇总</title>
-      <link href="2022/04/28/index-gameanalysis-2/"/>
-      <url>2022/04/28/index-gameanalysis-2/</url>
-      
-        <content type="html"><![CDATA[<h2 id="拆解分析"><a href="#拆解分析" class="headerlink" title="拆解分析"></a>拆解分析</h2><ul><li><a href="https://medill-east.github.io/2022/03/06/teardown-analysis-diabolo/">暗黑破坏神 3 拆解分析</a></li><li><a href="https://medill-east.github.io/2021/12/12/teardown-analysis-gunfire-reborn/">枪火重生 Teardown Analysis</a></li></ul><h2 id="目标体验及设计反思"><a href="#目标体验及设计反思" class="headerlink" title="目标体验及设计反思"></a>目标体验及设计反思</h2><ul><li><a href="https://medill-east.github.io/2021/11/16/thinking-of-the-florence/">Florence 目标体验及设计反思</a></li><li><a href="https://medill-east.github.io/2021/11/06/thinking-of-the-clash-heroes/">Clash Heroes 目标体验思考及设计反思</a></li><li><a href="https://medill-east.github.io/2021/07/26/analysis-of-league-of-legends-and-glory-of-kings-players-segmented/">英雄联盟与王者荣耀玩家分段分析</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> Blog-Index </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Index </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>随想汇总</title>
-      <link href="2022/04/28/index-thinking-2/"/>
-      <url>2022/04/28/index-thinking-2/</url>
       
         <content type="html"><![CDATA[<h2 id="读后感"><a href="#读后感" class="headerlink" title="读后感"></a>读后感</h2><ul><li>《乌合之众》<ul><li><a href="https://medill-east.github.io/2022/06/04/20220604-after-reading-the-crowd/">群体语境下无归属玩家的个人叙事是否可能</a></li></ul></li></ul><h2 id="观影感"><a href="#观影感" class="headerlink" title="观影感"></a>观影感</h2><ul><li>《瞬息全宇宙》<ul><li><a href="https://medill-east.github.io/2022/05/21/20220521-everything-everywhere-all-at-once/">Meaningful Meaningless</a></li></ul></li></ul><h2 id="随想"><a href="#随想" class="headerlink" title="随想"></a>随想</h2><ul><li><a href="https://medill-east.github.io/2021/11/02/drinking-games/">喝酒游戏列举与思考</a></li></ul>]]></content>
       
@@ -1196,59 +1071,7 @@
       <link href="2022/04/28/index-notes/"/>
       <url>2022/04/28/index-notes/</url>
       
-        <content type="html"><![CDATA[<h2 id="游戏设计相关"><a href="#游戏设计相关" class="headerlink" title="游戏设计相关"></a>游戏设计相关</h2><ul><li><a href="https://medill-east.github.io/2022/05/29/20220529-theartofgamedesign-toc/">游戏设计艺术 摘抄/笔记</a></li><li><a href="https://medill-east.github.io/2022/06/01/20220601-gcores-playbeyondthegame/">机核 游戏理论系列播客笔记</a></li><li><a href="https://medill-east.github.io/2022/05/02/20220502-gdc2017-zelda/">【GDC】GDC2017——塞尔达：旷野之息的三角之力</a></li></ul><h2 id="游戏关卡设计相关"><a href="#游戏关卡设计相关" class="headerlink" title="游戏关卡设计相关"></a>游戏关卡设计相关</h2><ul><li><a href="https://medill-east.github.io/2022/04/28/20220428-leveldesignbook-toc/">Level Design Book 随译/笔记</a></li><li><a href="https://medill-east.github.io/2022/06/17/20220617-gdc-makecognitivemap/">【GDC】用构建认知地图的方式构建关卡 Layout</a></li><li><a href="https://medill-east.github.io/2022/06/19/20220619-gmtk-ittakestwo/">【GMTK】双人成行关卡设计师分享树之章的设计心得</a></li></ul><h2 id="游戏引擎相关"><a href="#游戏引擎相关" class="headerlink" title="游戏引擎相关"></a>游戏引擎相关</h2><ul><li><a href="https://medill-east.github.io/2022/05/15/20220515-games104-toc/">GAMES104——现代游戏引擎：从入门到实践笔记</a></li></ul><h2 id="图形学相关"><a href="#图形学相关" class="headerlink" title="图形学相关"></a>图形学相关</h2><ul><li><a href="https://medill-east.github.io/2021/07/16/games101-introduction-to-mordern-computer-graphics/">GAMES101——现代计算机图形学入门笔记</a></li></ul><h2 id="心理学相关"><a href="#心理学相关" class="headerlink" title="心理学相关"></a>心理学相关</h2><ul><li><a href="https://medill-east.github.io/2022/05/07/20220507-comicjung-toc/">漫画荣格：内心深处结构的解析 摘抄/笔记</a></li></ul><h2 id="练字"><a href="#练字" class="headerlink" title="练字"></a>练字</h2><ul><li><a href="https://medill-east.github.io/2022/05/25/20220525-writing/">随便写写</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> Blog-Index </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Index </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Level Design Book 随译/笔记</title>
-      <link href="2022/04/28/20220428-leveldesignbook-toc-2/"/>
-      <url>2022/04/28/20220428-leveldesignbook-toc-2/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Level-Design-Book-随译-笔记"><a href="#Level-Design-Book-随译-笔记" class="headerlink" title="Level Design Book 随译/笔记"></a>Level Design Book 随译/笔记</h1><h2 id="Why-Note"><a href="#Why-Note" class="headerlink" title="Why Note"></a>Why Note</h2><p>最近在学习关卡设计有关知识，对《Level Design Book》中相关章节进行随译/笔记，特此记录。</p><h2 id="What"><a href="#What" class="headerlink" title="What"></a>What</h2><p>以下基本信息引用自<a href="https://book.leveldesignbook.com/">官网</a>：</p><blockquote><p><strong>The Level Design Book</strong> gathers level design knowledge for 3D video games in an approachable, up-to-date, and critical way. It is for level designers of all experience levels and game engines.</p></blockquote><h2 id="Content"><a href="#Content" class="headerlink" title="Content"></a>Content</h2><h3 id="BOOK-1-PROCESS"><a href="#BOOK-1-PROCESS" class="headerlink" title="BOOK 1. PROCESS"></a>BOOK 1. PROCESS</h3><h4 id="Pre-production"><a href="#Pre-production" class="headerlink" title="Pre-production"></a>Pre-production</h4><ol><li><a href="https://medill-east.github.io/2022/04/28/20220428-leveldesignbook-pre-production/">20220428 - Level Design Book - BOOK 1. PROCESS - Pre-production</a></li><li><a href="https://medill-east.github.io/2022/04/29/20220429-leveldesignbook-pre-production-pacing/">20220429 - Level Design Book - BOOK 1. PROCESS - Pre-production - Pacing</a></li><li><a href="https://medill-east.github.io/2022/04/30/20220430-leveldesignbook-pre-production-research/">20220430 - Level Design Book - BOOK 1. PROCESS - Pre-production - Research</a></li><li><a href="https://medill-east.github.io/2022/05/01/20220501-leveldesignbook-pre-production-worldbuilding/">20220501 - Level Design Book - BOOK 1. PROCESS - Pre-production - Worldbuilding</a></li><li><a href="https://medill-east.github.io/2022/05/02/20220502-leveldesignbook-pre-production-scope/">20220502 - Level Design Book - BOOK 1. PROCESS - Pre-production - Scope</a></li></ol><h4 id="Combat"><a href="#Combat" class="headerlink" title="Combat"></a>Combat</h4><ol><li><a href="https://medill-east.github.io/2022/05/03/20220503-leveldesignbook-combat/">20220503 - Level Design Book - BOOK 1. PROCESS - Combat</a></li><li><a href="https://medill-east.github.io/2022/05/04/20220504-leveldesignbook-combat-enemydesign/">20220504 - Level Design Book - BOOK 1. PROCESS - Combat - Enemy Design</a></li><li><a href="https://medill-east.github.io/2022/05/05/20220505-leveldesignbook-combat-encounter/">20220505 - Level Design Book - BOOK 1. PROCESS - Combat - Encounter</a></li><li><a href="https://medill-east.github.io/2022/05/06/20220506-leveldesignbook-combat-balance/">20220506 - Level Design Book - BOOK 1. PROCESS - Combat - Balance</a></li></ol><h2 id="暂告段落"><a href="#暂告段落" class="headerlink" title="暂告段落"></a>暂告段落</h2><p>后面有些部分感觉并未写完。毕竟本“书”还处于不断填坑过程中，暂时打算等坑再填填再来继续随译/笔记。</p><p>至目前为止其实看下来更多是一个体系梳理的感觉，但要真正落到生产设计中，感觉还需要更精细化和深入的内容。后面可能会暂时转向关卡设计的另一本书。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Study-Game-LevelDesign </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Game </tag>
-            
-            <tag> Game Level Design </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>学习笔记汇总</title>
-      <link href="2022/04/28/index-notes-2/"/>
-      <url>2022/04/28/index-notes-2/</url>
-      
-        <content type="html"><![CDATA[<h2 id="游戏设计相关"><a href="#游戏设计相关" class="headerlink" title="游戏设计相关"></a>游戏设计相关</h2><ul><li><a href="https://medill-east.github.io/2022/05/29/20220529-theartofgamedesign-toc/">游戏设计艺术 摘抄/笔记</a></li><li><a href="https://medill-east.github.io/2022/06/01/20220601-gcores-playbeyondthegame/">机核 游戏理论系列播客笔记</a></li><li><a href="https://medill-east.github.io/2022/05/02/20220502-gdc2017-zelda/">GDC2017——塞尔达：旷野之息的三角之力</a></li></ul><h2 id="游戏关卡设计相关"><a href="#游戏关卡设计相关" class="headerlink" title="游戏关卡设计相关"></a>游戏关卡设计相关</h2><ul><li><a href="https://medill-east.github.io/2022/04/28/20220428-leveldesignbook-toc/">Level Design Book 随译/笔记</a></li><li><a href="https://medill-east.github.io/2022/06/17/20220617-makecognitivemap/">用构建认知地图的方式构建关卡 Layout</a></li><li><a href="https://medill-east.github.io/2022/06/19/20220619-ittakestwo/">双人成行关卡设计师分享树之章的设计心得</a></li></ul><h2 id="游戏引擎相关"><a href="#游戏引擎相关" class="headerlink" title="游戏引擎相关"></a>游戏引擎相关</h2><ul><li><a href="https://medill-east.github.io/2022/05/15/20220515-games104-toc/">GAMES104——现代游戏引擎：从入门到实践笔记</a></li></ul><h2 id="图形学相关"><a href="#图形学相关" class="headerlink" title="图形学相关"></a>图形学相关</h2><ul><li><a href="https://medill-east.github.io/2021/07/16/games101-introduction-to-mordern-computer-graphics/">GAMES101——现代计算机图形学入门笔记</a></li></ul><h2 id="心理学相关"><a href="#心理学相关" class="headerlink" title="心理学相关"></a>心理学相关</h2><ul><li><a href="https://medill-east.github.io/2022/05/07/20220507-comicjung-toc/">漫画荣格：内心深处结构的解析 摘抄/笔记</a></li></ul><h2 id="练字"><a href="#练字" class="headerlink" title="练字"></a>练字</h2><ul><li><a href="https://medill-east.github.io/2022/05/25/20220525-writing/">随便写写</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 id="游戏设计相关"><a href="#游戏设计相关" class="headerlink" title="游戏设计相关"></a>游戏设计相关</h2><ul><li><a href="https://medill-east.github.io/2022/05/29/20220529-theartofgamedesign-toc/">游戏设计艺术 摘抄/笔记</a></li><li><a href="https://medill-east.github.io/2022/06/01/20220601-gcores-playbeyondthegame/">机核 游戏理论系列播客笔记</a></li><li><a href="https://medill-east.github.io/2022/05/02/20220502-gdc2017-zelda/">【GDC】GDC2017——塞尔达：旷野之息的三角之力</a></li></ul><h2 id="游戏关卡设计相关"><a href="#游戏关卡设计相关" class="headerlink" title="游戏关卡设计相关"></a>游戏关卡设计相关</h2><ul><li><a href="https://medill-east.github.io/2022/04/28/20220428-leveldesignbook-toc/">Level Design Book 随译/笔记</a></li><li><a href="https://medill-east.github.io/2022/06/17/20220617-gdc-makecognitivemap/">【GDC】用构建认知地图的方式构建关卡 Layout</a></li><li><a href="https://medill-east.github.io/2022/06/19/20220619-gmtk-ittakestwo/">【GMTK】双人成行关卡设计师分享树之章的设计心得</a></li></ul><h2 id="游戏叙事设计相关"><a href="#游戏叙事设计相关" class="headerlink" title="游戏叙事设计相关"></a>游戏叙事设计相关</h2><ul><li><a href="https://medill-east.github.io/2022/06/17/20220622-gdc-yarnspinner/">【GDC】利用 Yarn Spinner 构建叙事类游戏</a></li></ul><h2 id="游戏引擎相关"><a href="#游戏引擎相关" class="headerlink" title="游戏引擎相关"></a>游戏引擎相关</h2><ul><li><a href="https://medill-east.github.io/2022/05/15/20220515-games104-toc/">GAMES104——现代游戏引擎：从入门到实践笔记</a></li></ul><h2 id="图形学相关"><a href="#图形学相关" class="headerlink" title="图形学相关"></a>图形学相关</h2><ul><li><a href="https://medill-east.github.io/2021/07/16/games101-introduction-to-mordern-computer-graphics/">GAMES101——现代计算机图形学入门笔记</a></li></ul><h2 id="心理学相关"><a href="#心理学相关" class="headerlink" title="心理学相关"></a>心理学相关</h2><ul><li><a href="https://medill-east.github.io/2022/05/07/20220507-comicjung-toc/">漫画荣格：内心深处结构的解析 摘抄/笔记</a></li></ul><h2 id="练字"><a href="#练字" class="headerlink" title="练字"></a>练字</h2><ul><li><a href="https://medill-east.github.io/2022/05/25/20220525-writing/">随便写写</a></li></ul>]]></content>
       
       
       <categories>
@@ -1297,31 +1120,6 @@
       <title>枪火重生 Teardown Analysis</title>
       <link href="2021/12/12/teardown-analysis-gunfire-reborn/"/>
       <url>2021/12/12/teardown-analysis-gunfire-reborn/</url>
-      
-        <content type="html"><![CDATA[<h2 id="《枪火重生》-Teardown-Analysis"><a href="#《枪火重生》-Teardown-Analysis" class="headerlink" title="《枪火重生》 Teardown Analysis"></a>《枪火重生》 Teardown Analysis</h2><p>最近在 B 站上看 <a href="https://space.bilibili.com/618369?spm_id_from=333.788.b_765f7570696e666f.1">鱼一元 001</a> 大大的相关视频，并在 <a href="https://space.bilibili.com/618369/channel/detail?cid=96395">挺进游戏公司</a> 系列下学到了 <a href="https://www.bilibili.com/video/BV1GJ411y7fj?spm_id_from=333.999.0.0">Teardown Analysis</a> 这一游戏拆解方法，现动手实践之！</p><h3 id="Keynote-展示"><a href="#Keynote-展示" class="headerlink" title="Keynote 展示"></a>Keynote 展示</h3><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.001.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.002.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.003.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.004.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.005.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.006.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.007.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.008.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.009.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.010.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.011.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.012.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.013.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.014.jpeg"></p><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>第一次做 Teardown Analysis，全部算下来应该花了快有十二个小时左右…推翻重画了好几次，期间也有一些疑惑、反思或是延伸思考：</p><ul><li>Core Loop 按理来说应该是围绕资源进行绘制，但总会牵涉到一些无法进行资源展示的系统，如何合理引入是一个需要考虑的问题</li><li>Teardown Analysis 的目的应该是为了帮助我们更好理解游戏资源流向及设计目的，本次分析中其实在 Core Loop 之后更多是对于系统的描述以及设计概述，对设计目的的反思还不够深入</li><li>一开始直接在 PPT/Keynote 上对线框图进行绘制，后觉麻烦，改用飞书云文档中的流程图工具（我将其当做免费版的  ProcessOn）进行绘制，顺畅许多</li><li>感觉下次再分析的时候，可以将目标体验作为设计反思的重点，但届时势必会出现更加纷繁的走线，需要好好思考如何合理结合</li></ul><p>综上，本文借助 Teardown Analysis 方法对游戏《枪火重生》进行了分析，而后阐述了此次分析期间的一些疑惑、反思、延伸思考。</p><p>感谢您的阅读，欢迎大家批评指正！</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Study-Game-Analysis </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Game </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>枪火重生 Teardown Analysis</title>
-      <link href="2021/12/12/teardown-analysis-gunfire-reborn-2/"/>
-      <url>2021/12/12/teardown-analysis-gunfire-reborn-2/</url>
       
         <content type="html"><![CDATA[<h2 id="《枪火重生》-Teardown-Analysis"><a href="#《枪火重生》-Teardown-Analysis" class="headerlink" title="《枪火重生》 Teardown Analysis"></a>《枪火重生》 Teardown Analysis</h2><p>最近在 B 站上看 <a href="https://space.bilibili.com/618369?spm_id_from=333.788.b_765f7570696e666f.1">鱼一元 001</a> 大大的相关视频，并在 <a href="https://space.bilibili.com/618369/channel/detail?cid=96395">挺进游戏公司</a> 系列下学到了 <a href="https://www.bilibili.com/video/BV1GJ411y7fj?spm_id_from=333.999.0.0">Teardown Analysis</a> 这一游戏拆解方法，现动手实践之！</p><h3 id="Keynote-展示"><a href="#Keynote-展示" class="headerlink" title="Keynote 展示"></a>Keynote 展示</h3><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.001.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.002.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.003.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.004.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.005.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.006.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.007.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.008.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.009.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.010.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.011.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.012.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.013.jpeg"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/TeardownAnalysis-GunfireReborn.014.jpeg"></p><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>第一次做 Teardown Analysis，全部算下来应该花了快有十二个小时左右…推翻重画了好几次，期间也有一些疑惑、反思或是延伸思考：</p><ul><li>Core Loop 按理来说应该是围绕资源进行绘制，但总会牵涉到一些无法进行资源展示的系统，如何合理引入是一个需要考虑的问题</li><li>Teardown Analysis 的目的应该是为了帮助我们更好理解游戏资源流向及设计目的，本次分析中其实在 Core Loop 之后更多是对于系统的描述以及设计概述，对设计目的的反思还不够深入</li><li>一开始直接在 PPT/Keynote 上对线框图进行绘制，后觉麻烦，改用飞书云文档中的流程图工具（我将其当做免费版的  ProcessOn）进行绘制，顺畅许多</li><li>感觉下次再分析的时候，可以将目标体验作为设计反思的重点，但届时势必会出现更加纷繁的走线，需要好好思考如何合理结合</li></ul><p>综上，本文借助 Teardown Analysis 方法对游戏《枪火重生》进行了分析，而后阐述了此次分析期间的一些疑惑、反思、延伸思考。</p><p>感谢您的阅读，欢迎大家批评指正！</p>]]></content>
       
