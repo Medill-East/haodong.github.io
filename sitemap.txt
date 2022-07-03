@@ -1,5 +1,6 @@
-https://medill-east.github.io/2022/05/29/20220529-theartofgamedesign-toc/
 https://medill-east.github.io/2022/04/28/index-notes/
+https://medill-east.github.io/2022/07/03/20220703-toolsoflife/
+https://medill-east.github.io/2022/05/29/20220529-theartofgamedesign-toc/
 https://medill-east.github.io/2022/06/22/20220622-gdc-yarnspinner/
 https://medill-east.github.io/2022/06/19/20220619-gmtk-ittakestwo/
 https://medill-east.github.io/2022/06/17/20220617-gdc-makecognitivemap/
@@ -81,6 +82,7 @@ https://medill-east.github.io/tags/Writing/
 https://medill-east.github.io/tags/Game-Design/
 https://medill-east.github.io/tags/GCORES/
 https://medill-east.github.io/tags/GMTK/
+https://medill-east.github.io/tags/Life/
 https://medill-east.github.io/categories/Blog/
 https://medill-east.github.io/categories/Study-CS-CG/
 https://medill-east.github.io/categories/Study-Game-Proposal/
@@ -94,3 +96,4 @@ https://medill-east.github.io/categories/Study-Game-Notes/
 https://medill-east.github.io/categories/Study-Psychology-Notes/
 https://medill-east.github.io/categories/Study-Game-GameEngine/
 https://medill-east.github.io/categories/Study-Writing/
+https://medill-east.github.io/categories/Life/
