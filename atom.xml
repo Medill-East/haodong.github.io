@@ -357,7 +357,7 @@
     <link href="https://medill-east.github.io/2022/05/29/20220529-theartofgamedesign-toc/"/>
     <id>https://medill-east.github.io/2022/05/29/20220529-theartofgamedesign-toc/</id>
     <published>2022-05-28T23:45:19.000Z</published>
-    <updated>2022-07-12T10:23:58.870Z</updated>
+    <updated>2022-07-12T10:27:44.616Z</updated>
     
     
       
@@ -392,33 +392,6 @@
         
         
     <summary type="html">&lt;h1 id=&quot;游戏设计艺术-摘抄-笔记&quot;&gt;&lt;a href=&quot;#游戏设计艺术-摘抄-笔记&quot; class=&quot;headerlink&quot; title=&quot;游戏设计艺术 摘抄/笔记&quot;&gt;&lt;/a&gt;游戏设计艺术 摘抄/笔记&lt;/h1&gt;&lt;h2 id=&quot;第八章-游戏通过迭代提高&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
-    
-    
-    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
-    
-    <category term="Game Design" scheme="https://medill-east.github.io/tags/Game-Design/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>游戏设计艺术 摘抄/笔记 汇总</title>
-    <link href="https://medill-east.github.io/2022/05/29/20220529-theartofgamedesign-sum/"/>
-    <id>https://medill-east.github.io/2022/05/29/20220529-theartofgamedesign-sum/</id>
-    <published>2022-05-28T23:45:19.000Z</published>
-    <updated>2022-07-12T10:12:24.237Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;游戏设计艺术-摘抄-笔记&quot;&gt;&lt;a href=&quot;#游戏设计艺术-摘抄-笔记&quot; class=&quot;headerlink&quot; title=&quot;游戏设计艺术 摘抄/笔记&quot;&gt;&lt;/a&gt;游戏设计艺术 摘抄/笔记&lt;/h1&gt;&lt;h2 id=&quot;序言&quot;&gt;&lt;a href=&quot;#序言&quot;</summary>
         
       
     
@@ -548,6 +521,31 @@
         
         
     <summary type="html">&lt;h2 id=&quot;作业-1-编译和运行-PILOT-引擎&quot;&gt;&lt;a href=&quot;#作业-1-编译和运行-PILOT-引擎&quot; class=&quot;headerlink&quot; title=&quot;作业 1 编译和运行 PILOT 引擎&quot;&gt;&lt;/a&gt;作业 1 编译和运行 PILOT</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-GameEngine" scheme="https://medill-east.github.io/categories/Study-Game-GameEngine/"/>
+    
+    
+    <category term="Game Engine" scheme="https://medill-east.github.io/tags/Game-Engine/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20220518 - GAMES104 - Lecture 2：Layered Architecture of Game Engine</title>
+    <link href="https://medill-east.github.io/2022/05/18/20220518-games104-lecture2/"/>
+    <id>https://medill-east.github.io/2022/05/18/20220518-games104-lecture2/</id>
+    <published>2022-05-18T10:06:46.000Z</published>
+    <updated>2022-05-18T10:07:51.815Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Lecture-2-引擎架构分层与整体-Pipeline&quot;&gt;&lt;a href=&quot;#Lecture-2-引擎架构分层与整体-Pipeline&quot; class=&quot;headerlink&quot; title=&quot;Lecture 2 引擎架构分层与整体</summary>
         
       
     
