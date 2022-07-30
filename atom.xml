@@ -6,10 +6,37 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2022-07-20T10:21:44.071Z</updated>
+  <updated>2022-07-30T15:40:28.289Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20220730 - Why I Think Elden Ring Is Attractive</title>
+    <link href="https://medill-east.github.io/2022/07/30/202207301707-why-i-think-elden-ring-is-attractive/"/>
+    <id>https://medill-east.github.io/2022/07/30/202207301707-why-i-think-elden-ring-is-attractive/</id>
+    <published>2022-07-30T15:10:46.000Z</published>
+    <updated>2022-07-30T15:40:28.289Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Why&quot;&gt;&lt;a href=&quot;#Why&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Thinking" scheme="https://medill-east.github.io/categories/Thinking/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Thinking" scheme="https://medill-east.github.io/tags/Thinking/"/>
+    
+  </entry>
   
   <entry>
     <title>游戏设计艺术 第十三章 游戏机制必须平衡</title>
@@ -516,31 +543,6 @@
         
         
     <summary type="html">&lt;h2 id=&quot;作业-1-编译和运行-PILOT-引擎&quot;&gt;&lt;a href=&quot;#作业-1-编译和运行-PILOT-引擎&quot; class=&quot;headerlink&quot; title=&quot;作业 1 编译和运行 PILOT 引擎&quot;&gt;&lt;/a&gt;作业 1 编译和运行 PILOT</summary>
-        
-      
-    
-    
-    
-    <category term="Study-Game-GameEngine" scheme="https://medill-east.github.io/categories/Study-Game-GameEngine/"/>
-    
-    
-    <category term="Game Engine" scheme="https://medill-east.github.io/tags/Game-Engine/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20220518 - GAMES104 - Lecture 2：Layered Architecture of Game Engine</title>
-    <link href="https://medill-east.github.io/2022/05/18/20220518-games104-lecture2/"/>
-    <id>https://medill-east.github.io/2022/05/18/20220518-games104-lecture2/</id>
-    <published>2022-05-18T10:06:46.000Z</published>
-    <updated>2022-05-18T10:07:51.815Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Lecture-2-引擎架构分层与整体-Pipeline&quot;&gt;&lt;a href=&quot;#Lecture-2-引擎架构分层与整体-Pipeline&quot; class=&quot;headerlink&quot; title=&quot;Lecture 2 引擎架构分层与整体</summary>
         
       
     
