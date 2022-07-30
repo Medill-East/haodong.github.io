@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://medill-east.github.io/2022/04/28/index-gameanalysis/</loc>
+    
+    <lastmod>2022-07-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://medill-east.github.io/2022/04/28/index-thinking/</loc>
     
     <lastmod>2022-07-30</lastmod>
@@ -392,15 +401,6 @@
     <loc>https://medill-east.github.io/2022/05/08/20220508-comicjung-chap0/</loc>
     
     <lastmod>2022-05-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://medill-east.github.io/2022/04/28/index-gameanalysis/</loc>
-    
-    <lastmod>2022-05-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
