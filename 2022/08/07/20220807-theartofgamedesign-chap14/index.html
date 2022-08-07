@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Florence 目标体验及设计反思, 無涘">
+    <meta name="keywords" content="游戏设计艺术 第十四章 游戏机制支持谜题, 無涘">
     <meta name="description" content="Whatever will be, will be.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -28,7 +28,7 @@
 
 
 
-    <title>Florence 目标体验及设计反思 | 無涘</title>
+    <title>游戏设计艺术 第十四章 游戏机制支持谜题 | 無涘</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -239,12 +239,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211116163215.png')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220807003235.png')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Florence 目标体验及设计反思</h1>
+                    <h1 class="description center-align post-title">游戏设计艺术 第十四章 游戏机制支持谜题</h1>
                 </div>
             </div>
         </div>
@@ -366,6 +366,10 @@
                                 <span class="chip bg-color">Game</span>
                             </a>
                         
+                            <a href="/tags/Game-Design/">
+                                <span class="chip bg-color">Game Design</span>
+                            </a>
+                        
                     </div>
                     
                 </div>
@@ -374,8 +378,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Study-Game-Analysis/" class="post-category">
-                                Study-Game-Analysis
+                            <a href="/categories/Study-Game-Notes/" class="post-category">
+                                Study-Game-Notes
                             </a>
                         
                     </div>
@@ -387,28 +391,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2021-11-16
+                    2022-08-07
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2022-04-28
+                    2022-08-07
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    3.9k
+                    2.6k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    12 Min
+                    8 Min
                 </div>
                 
 
@@ -431,208 +435,114 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="《Florence》目标体验及设计反思"><a href="#《Florence》目标体验及设计反思" class="headerlink" title="《Florence》目标体验及设计反思"></a>《Florence》目标体验及设计反思</h2><blockquote>
-<p>全文约 4 千字，预计需要 13 分钟阅读。配合背景音乐阅读体验更佳哦 (￣▽￣)”</p>
+                <h1 id="游戏设计艺术-摘抄-笔记"><a href="#游戏设计艺术-摘抄-笔记" class="headerlink" title="游戏设计艺术 摘抄/笔记"></a>游戏设计艺术 摘抄/笔记</h1><h2 id="20220807-第十四章-游戏机制支持谜题"><a href="#20220807-第十四章-游戏机制支持谜题" class="headerlink" title="20220807 第十四章 游戏机制支持谜题"></a>20220807 第十四章 游戏机制支持谜题</h2><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220807003235.png"></p>
+<p>所有谜题的共同点：让玩家停下并陷入思考。</p>
+<h3 id="谜题的谜题"><a href="#谜题的谜题" class="headerlink" title="谜题的谜题"></a>谜题的谜题</h3><p>谜题的一种定义：</p>
+<blockquote>
+<p>谜题就是有最优策略的游戏。</p>
 </blockquote>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=571339489&auto=1&height=66"></iframe>
-
-
-<h3 id="游戏概述"><a href="#游戏概述" class="headerlink" title="游戏概述"></a>游戏概述</h3><p>作为一款精简的互动小说类游戏，你将在这短短的三十分钟里和主角一起经历一段平凡、起伏但也温暖的时光。</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211116172206.png" style="zoom:50%;" />
-
-<h3 id="目标、路径、挑战、体验分析"><a href="#目标、路径、挑战、体验分析" class="headerlink" title="目标、路径、挑战、体验分析"></a>目标、路径、挑战、体验分析</h3><p>基于 PC 端的手柄游玩体验，以下将从目标、路径、挑战、体验四个方面对游戏进行整体概述：</p>
-<h5 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h5><p>即游戏的结束条件：玩家需要跟随主角一起推动故事，直至结局。</p>
-<h5 id="路径"><a href="#路径" class="headerlink" title="路径"></a>路径</h5><p>即玩家达到目标的手段：玩家需要通过点击按键、操纵遥感等方式进行交互，以推进故事。</p>
-<p>其中涉及的元素包括但不仅限于：</p>
-<ul>
-<li>【按键点击】</li>
-<li>【遥感滑动】</li>
-</ul>
-<table><tr> <center>
-    <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211116173140.png" alt="按键点击" style="zoom:70%; align:middle;" border=0></td> 
-    <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211116173346.png" alt="遥感滑动" style="zoom:70%; align:middle;" border=0></td> 
-</center></tr></table>
-
-<h5 id="挑战"><a href="#挑战" class="headerlink" title="挑战"></a>挑战</h5><p>即玩家在实现目标的路径中可能碰到的障碍。</p>
-<p>在 Florence 中，也许可以为挑战换一种说法，即任务，或事件。玩家需要在游玩过程中作为主角完成一些事情，从而推进故事的进行。</p>
-<p>其中涉及的事件包括但不仅限于：</p>
-<ul>
-<li>【刷社交媒体】</li>
-<li>【上班】</li>
-<li>【涂色】</li>
-</ul>
-<table><tr> <center>
-    <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211116174206.png" alt="刷社交媒体" style="zoom:50%; align:middle;" border=0></td> 
-    <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211116174240.png" alt="上班" style="zoom:50%; align:middle;" border=0></td> 
-    <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211116174322.png" alt="涂色" style="zoom:50%; align:middle;" border=0></td> 
-</center></tr></table>
-
-
-
-<h5 id="体验"><a href="#体验" class="headerlink" title="体验"></a>体验</h5><p>即期望玩家在游玩时获得的情感体验。<br>在后面部分会展开描述，这里只进行列举：</p>
-<ul>
-<li>轻快</li>
-<li>代入</li>
-<li>温暖</li>
-</ul>
-<h3 id="目标体验反思"><a href="#目标体验反思" class="headerlink" title="目标体验反思"></a>目标体验反思</h3><h4 id="轻快"><a href="#轻快" class="headerlink" title="轻快"></a>轻快</h4><p>何为轻快：玩得没有负担，没有压力。<br>何以轻快：游戏从美学、交互机制和流程设计三方面共同构建了最终的轻快体验。</p>
-<ul>
-<li>美学</li>
-</ul>
-<p>这里提到的美学，主要指的是音乐、画面和色彩。</p>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=571339489&auto=1&height=66"></iframe>
-
-<p><strong>音乐：</strong> 上面所提供的便是开头呈现的背景音乐，进入游戏后会自动播放。该曲明快的音调能让还未开始正式游玩的玩家一听到音乐就不由自主地放松下来。在故事不断推进的过程中，除冲突部分外，其余部分的音乐都给人一种轻松愉悦的感觉，整体呈现出的音乐营造了一种明快的氛围。</p>
-<p><strong>画面和色彩：</strong> 【开局画面】中 Florence Yeoh（女主）以微笑姿态映入眼帘，头发不停摇曳，给人一种微风拂面的清爽感。而以色彩中代表着光明、积极和温暖的黄色作为主色，也能舒缓玩家游玩时的心绪。在游玩过程中，极简风格的画面和笔触产生了大量留白，结合【局部色彩】的使用来突出画面主体，同时也起到了视线引导的作用。最终构建了玩家没有负担，没有压力的轻快游玩体验。</p>
-<table><tr> <center>
-    <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211116172206.png" alt="开局画面" style="zoom:40%; align:middle;" border=0></td> 
-    <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211116185109.png" alt="局部色彩" style="zoom:60%; align:middle;" border=0></td> 
-</center></tr></table>
-
-<ul>
-<li>交互机制</li>
-</ul>
-<p>这里提到的交互机制，主要指的是以手柄操作的【按钮点击】和【遥感滑动】。<br>简单的交互操作既减少了玩家对于操控方式的记忆需求，也减少了玩家需要熟练操作的需要，这些“省下来”的认知资源让玩家可以毫无负担和压力地专注到故事中。</p>
-<table><tr> <center>
-    <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211117133727.png" alt="按键点击" style="zoom:70%; align:middle;" border=0></td>
-    <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211117133802.png" alt="遥感滑动" style="zoom:70%; align:middle;" border=0></td> 
-</center></tr></table>
-
-<ul>
-<li>流程设计</li>
-</ul>
-<p>这里指的流程设计，主要指的是没有失败和故事简练。</p>
-<p><strong>没有失败：</strong> 通常在进行游戏过程中，难免会遇到因操作失败等因素导致的“非理想结局”，从而产生挫败感。但在游玩 Florence 的时候，这样的挫败感几乎是不存在的，玩家唯一有可能“犯错”的点是在进行【计算】和【工作】时，即使在这样的事件中，其成功难度也是很低的，所以几乎不会出现失败的挫败感。</p>
-<table><tr> <center>
-    <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211117134509.png" alt="计算" style="zoom:70%; align:middle;" border=0></td>
-    <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211117134533.png" alt="工作" style="zoom:70%; align:middle;" border=0></td> 
-</center></tr></table>
-
-<p>在除此之外的其他游玩过程中，玩家可以随意选择决策顺序，甚至可以选择【放弃决策】，任凭其自由发展。如此设计使得玩家在决策时的心理负担降到最低，从而构建玩家游玩时的轻快体验。</p>
-<p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211117134946.png" alt="放弃决策"></p>
-<p><strong>故事简练：</strong> 这里的故事简练指的不仅是游戏总体的游玩时长较短，也体现在其分段化的叙事手法中。游戏中采用了【按事件划分章节】的方式来进行整体情节推进，如此一来，将关卡设计细化为了事件设计，一方面能够很清晰地呈现出游戏整体的起承转合的变化，另一方面也使得玩家能以很快地速度在不觉间就推进了故事的进行，从而构建游戏整体的轻快感。</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211117135329.png" alt="按事件划分章节" style="zoom: 67%;" />
-
-<h4 id="代入"><a href="#代入" class="headerlink" title="代入"></a>代入</h4><blockquote>
-<p>注意：此部分存在明显剧透，请小心食用！</p>
+<p>从该观点看，谜题就是知晓答案后便失去乐趣的游戏。</p>
+<p>游戏和谜题的核心都是拥有有待解决的问题——但谜题是一种微缩版的游戏，其目的就是找到最优策略。</p>
+<h3 id="谜题死了吗"><a href="#谜题死了吗" class="headerlink" title="谜题死了吗"></a>谜题死了吗</h3><p>谜题并不是明日黄花，但随着游戏设计师的设计技巧愈加成熟，原来与游戏格格不入的谜题现在更好地融入到了游戏中</p>
+<h3 id="好的谜题"><a href="#好的谜题" class="headerlink" title="好的谜题"></a>好的谜题</h3><p>以下是谜题设计的十个原则</p>
+<h4 id="谜题原则-1：让目标变得简单易懂"><a href="#谜题原则-1：让目标变得简单易懂" class="headerlink" title="谜题原则 1：让目标变得简单易懂"></a>谜题原则 1：让目标变得简单易懂</h4><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220807004406.png" alt="让人摸不清目的的谜题"></p>
+<p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220807004426.png" alt="目标清晰的谜题——把套环取出"></p>
+<p>如果玩家不清楚他们要做什么，他们会很快失去兴趣，除非他们知道要做的这件事实际上很有趣</p>
+<p>有很多谜题把猜出谜题本身要做什么也变为了谜题的一部分——但必须谨慎使用，只有铁杆解密玩家才喜欢这类挑战</p>
+<p>设计谜题时，确认你在通过 32 号透镜 “目标” 观察它们，且确定你清楚地告诉玩家谜题中的哪些事是和目标相关的</p>
+<h4 id="谜题原则-2：让它容易上手"><a href="#谜题原则-2：让它容易上手" class="headerlink" title="谜题原则 2：让它容易上手"></a>谜题原则 2：让它容易上手</h4><blockquote>
+<p>要设计一个好的谜题，首先要打造一个好的玩具。 —— Scott Kim</p>
 </blockquote>
-<p>何为代入：体验主角的故事时，也想到了自己。<br>何以代入：游戏主要从整体故事设计，细节设计和美学呈现的角度来构建玩家代入感。</p>
+<p>拿出 17 号透镜 “玩具”。</p>
+<p>当设计谜题的时候，好的玩具会让玩家清晰知道如何操作它。<br>不止如此，玩家会被吸引去操作它。</p>
+<p>这也是魔方最成功的的原因之一——即使某些毫无意愿去解开魔方的人也会想知道，拿起魔方，手握魔方，以及旋转魔方到底是什么样的感觉</p>
+<h4 id="54-号透镜：可达性"><a href="#54-号透镜：可达性" class="headerlink" title="54 号透镜：可达性"></a>54 号透镜：可达性</h4><p>当将一个谜题展示给玩家的时候（或任何一种游戏），他们应该可以清楚知道最开始几个步骤应该是什么样子的</p>
 <ul>
-<li>整体故事设计</li>
+<li>玩家怎么知道如何解开我的谜题或者玩我的游戏？我是否需要解释，或者它是显而易见的？</li>
+<li>我的谜题或游戏是否和他们之前见过的东西相像？如果是，我怎样才能让他们注意到这些相似点？若不是，怎样让他们理解谜题或游戏的动作？</li>
+<li>谜题或游戏是否吸引玩家并且让他们想感受它 操作它？若不是，如何改变它才能让它变得吸引人</li>
 </ul>
-<p>如前所述，Florence 采用按事件划分章节的方式来推进故事，从其章节名其实便可一窥其代入感设计的精髓。游戏中将几个连续的章节归为一幕，但没有为每一幕起名，我将在这里尝试为其命名，便于分析其代入感设计：</p>
+<h4 id="谜题原理-3：给予进步感"><a href="#谜题原理-3：给予进步感" class="headerlink" title="谜题原理 3：给予进步感"></a>谜题原理 3：给予进步感</h4><p>谜题和谜语的一大区别就是进步感。</p>
+<p>一个谜语其实就是一道需要答案的问题。只有对错的最终结果。</p>
+<p>谜题也需要答案，但通常在解谜题的过程中，你能清楚知道你离答案越来越近，或者至少“有所进展”。</p>
+<p>这种进步的感觉给予玩家即将找到答案的希望。</p>
+<p>有方法可以使得谜语变成谜题——一种被称之为《二十问》的游戏。在该游戏中，玩家心中想着一件事/一个人，另一个玩家问 20 个只能用是或否作答的问题，以猜测第一个玩家心中所想之事。</p>
+<blockquote>
+<blockquote>
+<p>我们通常将这个游戏叫做 “是/否/与此无关”<br>网上通常将其成为 “海龟汤”</p>
+</blockquote>
+</blockquote>
+<p>《二十问》的伟大之处在于玩家获得的进步感。通过提出问题来逐步缩小可能的答案范围。</p>
+<p>魔方能够给予玩家进步感，这也是能让玩家坚持解开魔方的众多原因之一。</p>
+<p>研究表明，可见的进步（或者缺失）是工作中影响心情的最大因素</p>
+<p>考虑通货膨胀：为什么物价和薪酬随着时间趋向于增长？这不是一个经济原理，这其实是个心理问题：人们希望每年都能涨薪，因为这能让人感到进步，这笔钱当然必须从某个地方生出来，所以物价会上涨</p>
+<h4 id="55-号透镜：可见进步"><a href="#55-号透镜：可见进步" class="headerlink" title="55 号透镜：可见进步"></a>55 号透镜：可见进步</h4><p>玩家在解决难题的时候需要看见他们正在进步，为确保他们能够得到这个反馈，问</p>
 <ul>
-<li>幕一：无聊生活中的回忆之甜和乍见之欢</li>
-<li>幕二：再见，再见，“怦然”相撞的再次相见</li>
-<li>幕三：趁年轻，去探索，去追梦</li>
-<li>幕四：唇齿也会打架，但我们同居啦！</li>
-<li>幕五：生活终将归于平淡，而我们彼此可能也只能陪伴人生中的一段</li>
-<li>幕六：收拾心情再出发，不知道明天的我又会遇见什么颜色呢</li>
+<li>在你的游戏或谜题中取得进步意味着什么</li>
+<li>在我的游戏中有足够的成长吗？是否有方法能让我添加更多的中间步骤来让玩家逐步取得成功</li>
+<li>哪些成长是可见的，哪些成长是隐藏的？是否能找到一种方法来揭示那些隐藏的成长</li>
 </ul>
-<p>从我蹩脚的文字中也可窥见，这样的故事每天都在发生，而我们自己，可能就是那个故事中的人。特别是在最后一章中，主角 Florence 成功办了画展，其间人来人往，而此时的分镜中出现了【让我无比期待的转身】这样的画面，当时在游玩的我也在不断想“那个当时鼓励我追梦的他会不会突然出现呢”。但是，他最终没有出现，设计者并没有选择呈现完美结局，难免失望，总会释然，生活如此，这样的设计极大地增强了玩家的代入感。</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211117143703.png" alt="让我无比期待的转身" style="zoom:67%;" />
-
+<h4 id="谜题原理-4：给予可解决感"><a href="#谜题原理-4：给予可解决感" class="headerlink" title="谜题原理 4：给予可解决感"></a>谜题原理 4：给予可解决感</h4><p>和进步感相关的是可解决感</p>
+<p>如果玩家开始觉得你的谜题是无解的，他们会开始害怕自己是在无望中浪费时间，继而在厌恶中放弃解题。</p>
+<p>需要说服玩家谜题是有解的。</p>
+<blockquote>
+<blockquote>
+<p>这就是我之前在分析《艾尔登法环》为什么吸引我时得出的其中一个结论——它始终予我以胜利的希望。详见 <a href="https://medill-east.github.io/2022/07/30/20220730-why-i-think-elden-ring-is-attractive/">为什么《艾尔登法环》如此吸引我？</a></p>
+</blockquote>
+</blockquote>
+<p>给予可见进步是个好办法，但这样等于坦率陈述你的谜题有一个答案。</p>
+<p>还是以魔方为例，他用一种非常优雅的方式向玩家说明魔方是有解谜题——购买魔方时，它已经处在被解开的状态（各面都是同色）——玩家搞乱一般也就是转动几十次。此时魔方是必定有解的——只需要将弄乱它的操作反过来执行就好。</p>
+<p>但当然，大部分玩家会认为解开魔方需要用到比弄乱它更多的步数。即使玩家会感到灰心，也从不会怀疑魔方确实可以被解开</p>
+<h4 id="谜题原理-5：逐步增加难度"><a href="#谜题原理-5：逐步增加难度" class="headerlink" title="谜题原理 5：逐步增加难度"></a>谜题原理 5：逐步增加难度</h4><p>以常见的完成拼图的步骤为例：</p>
+<p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220807011228.png" alt="常见的完成拼图谜题的步骤"></p>
+<p>这种难度上的逐步提升便是拼图经久不衰的原因之一</p>
+<p>一些新推出的拼图号称比普通拼图更难，通常就是通过改变拼图的性质以至于去掉 1-6 步中某些（或全部）的步骤来实现的</p>
+<p>有一个能保证难度逐步升级的简单方法——给予玩家控制拼图步骤顺序的能力</p>
+<p>玩家很大可能会从简单的做起，给予玩家自由选择的这一设计被称为平行性。</p>
+<h4 id="谜题原理-6：平行性让玩家休息"><a href="#谜题原理-6：平行性让玩家休息" class="headerlink" title="谜题原理 6：平行性让玩家休息"></a>谜题原理 6：平行性让玩家休息</h4><p>谜题会让玩家停下来思考</p>
+<p>若一个玩家无法通过思考来解决谜题，从而不能前进（卡关），就会彻底放弃游戏</p>
+<p>一个好的解决办法是——同时给予他们好几个不同的相关谜题，要是他们被其中某些卡住了，还可以投身到其他谜题中去</p>
+<h4 id="56-号透镜：平行性"><a href="#56-号透镜：平行性" class="headerlink" title="56 号透镜：平行性"></a>56 号透镜：平行性</h4><p>谜题中的平行性有益于提升玩家体验</p>
 <ul>
-<li>细节设计</li>
+<li>我的设计中存在瓶颈以致若玩家不能通过一个特定挑战就无法前进吗？若是，当玩家碰到这个挑战时，是否可以给玩家增加一个平行挑战</li>
+<li>若平行挑战太相似，平行性则无益。每个平行挑战之间是否足够不同，可以给予玩家多样性的益处</li>
+<li>我的平行挑战可以以某种方式联系起来吗？是否有办法使战胜挑战所取得的进步可以让解决另外的挑战变得更容易</li>
 </ul>
-<p>这里的细节设计主要指的是在游玩过程中，一些很细微的用户体验和情节细节。如【叫不醒的闹钟】，【自己不接电话就不断打来的妈妈】，【时光流逝，物是人非】等等，再辅以恰当的手柄震动，这些能够引起玩家共鸣的细节设计极大地增强了玩家的代入感。</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211117160811.png" alt="叫不醒的闹钟" style="zoom:67%;" />
-
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211117160836.png" alt="自己不接电话就不断打来的妈妈" style="zoom:67%;" />
-
-<table><tr> <center>
-    <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211117160928.png" alt="时光流逝" style="zoom:70%; align:middle;" border=0></td>
-    <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211117161018.png" alt="物是人非" style="zoom:70%; align:middle;" border=0></td> 
-</center></tr></table>
-
+<h4 id="谜题原理-7：金字塔结构会延长兴趣"><a href="#谜题原理-7：金字塔结构会延长兴趣" class="headerlink" title="谜题原理 7：金字塔结构会延长兴趣"></a>谜题原理 7：金字塔结构会延长兴趣</h4><p>平行性适用于的另一件事是金字塔谜题结构——给更大谜题提供线索的一连串小谜题。</p>
+<h4 id="57-号透镜：金字塔"><a href="#57-号透镜：金字塔" class="headerlink" title="57 号透镜：金字塔"></a>57 号透镜：金字塔</h4><p>金字塔使我们着迷，是因为他有一个单一最高点。为赋予谜题古老金字塔的魅力，问</p>
 <ul>
-<li>美学呈现</li>
+<li>是否有办法将谜题中的所有部分注入游戏最终的单一挑战中</li>
+<li>巨大金字塔经常由小金字塔组成——是否可以拥有一个具有前所未有挑战性的谜题元素层次，逐步走向最终挑战</li>
+<li>我的金字塔顶部的挑战是否有趣、吸引人、清晰？是否让人想要为了达到它而愿意去工作？</li>
 </ul>
-<p>这里的美学呈现主要指的是色彩和形状的呈现。</p>
-<p><strong>色彩：</strong> 这里的色彩主要指的是游戏中对于色彩的运用：如【枯燥乏味的上班】，【多姿多彩的朋友圈】，【充满想象力的涂色】，【令人气愤的争吵】，【破碎的记忆】以及【对新生活的憧憬】等画面，都用了恰当的色彩来凸显了人物主体，也渲染了相应的氛围，从而最终增强了玩家的代入感。</p>
-<table><tr> <center>
-    <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211117150542.png" alt="枯燥乏味的上班" style="zoom:70%; align:middle;" border=0></td>
-    <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211117150613.png" alt="多姿多彩的朋友圈" style="zoom:70%; align:middle;" border=0></td> 
-</center></tr></table>
-
-<table><tr> <center>
-    <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211117152116.png" alt="充满想象力的涂色" style="zoom:70%; align:middle;" border=0></td>
-    <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211117152202.png" alt="令人气愤的争吵" style="zoom:70%; align:middle;" border=0></td> 
-</center></tr></table>
-
-<table><tr> <center>
-    <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211117152249.png" alt="破碎的记忆" style="zoom:70%; align:middle;" border=0></td>
-    <td><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211117152408.png" alt="对新生活的憧憬" style="zoom:70%; align:middle;" border=0></td> 
-</center></tr></table>
-
-<p><strong>形状：</strong> 这里的形状主要指的是游戏中对于特定场景下的形状的运用。特别让人印象深刻的是【争吵升温】这一画面中，将二人的对话转化为了拼图，而且在升温过程中，拼图的形状由一开始的【圆滑】，变得【有棱角】，最后甚至变得【尖锐】，这一非常优秀的设计让人眼前一亮，很好地增强了玩家的代入感。</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211117155959.png" alt="圆滑" style="zoom:67%;" />
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211117160037.png" alt="棱角" style="zoom:67%;" />
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211117160144.png" alt="尖锐" style="zoom:67%;" />
-
-
-<h4 id="温暖"><a href="#温暖" class="headerlink" title="温暖"></a>温暖</h4><p>何为温暖：在最终游玩结束之后，会心一笑，心中微暖。<br>何以温暖：游戏主要从情节设计，交互节奏和美学呈现的角度为玩家营造温暖感。</p>
+<h4 id="谜题原理-8：提示会延长兴趣"><a href="#谜题原理-8：提示会延长兴趣" class="headerlink" title="谜题原理 8：提示会延长兴趣"></a>谜题原理 8：提示会延长兴趣</h4><p>解开一个带提示的谜题也比完全解不开要好得多</p>
+<p>提示也可以逐步增加提示深度，且可以为获取提示这一行为增加轻微惩罚（比如扣分或需要消耗资源购买）</p>
+<h4 id="谜题原理-9：给出答案"><a href="#谜题原理-9：给出答案" class="headerlink" title="谜题原理 9：给出答案"></a>谜题原理 9：给出答案</h4><p>人们解开谜题的体验通常是由看到答案所触发的</p>
+<p>若是自己解出了答案，会更快乐一点</p>
+<p>但只要认真考虑了问题，正在解题的大脑会准备好迎接仅仅因为看到或者听到答案时产生的那种喜悦感</p>
+<p>如果玩家真的在游戏中被难住了，比起让他们去网上找答案，何不为玩家省点麻烦，给他们一个能在游戏中自己找到答案的方法呢</p>
+<h4 id="谜题原理-10：感知转移是把双刃剑"><a href="#谜题原理-10：感知转移是把双刃剑" class="headerlink" title="谜题原理 10：感知转移是把双刃剑"></a>谜题原理 10：感知转移是把双刃剑</h4><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220807014006.png"></p>
+<blockquote>
+<blockquote>
+<p>这里的感知转移（perceptual shift）怎么感觉就是一种直觉猜测嘞？</p>
+</blockquote>
+</blockquote>
+<p>当玩家能够感知转移，就会感到解开谜题的巨大喜悦<br>但若他们没法做到感知转移，就什么也得不到</p>
+<p>这种几乎不包括进展性质或阶段性难度增加——只有一直紧张又目不转睛地盯到灵感来临</p>
+<blockquote>
+<blockquote>
+<p>确实，就是，一口气猜出答案嘛哈哈..</p>
+</blockquote>
+</blockquote>
+<h3 id="最后一段"><a href="#最后一段" class="headerlink" title="最后一段"></a>最后一段</h3><p>该透镜用于检测游戏里是否有足够的正确谜题</p>
+<h4 id="58-号透镜：谜题"><a href="#58-号透镜：谜题" class="headerlink" title="58 号透镜：谜题"></a>58 号透镜：谜题</h4><p>谜题使得玩家停下来思考。要确保你的谜题为达到你所塑造的玩家体验而全力以赴，问</p>
 <ul>
-<li>情节设计</li>
+<li>我的游戏中的谜题是什么</li>
+<li>应不应该制作更多谜题，或者减少谜题？为什么</li>
+<li>十条谜题原则中有哪些适用于我的谜题</li>
+<li>游戏是否有任何不适宜的谜题，怎样才能把它们更好融入游戏？（使用 49 号透镜，优雅，来实现）</li>
 </ul>
-<p>如前所述，游戏最终并没有给玩家呈现一种完美结局，主角 Florence 也并不是如超人一般，受到打击之后能立马释怀，放步前行。她也经历了任何普通如你我的人都会经历的痛苦与迷茫，通过旅行来放空自我。但她并没有停步于此，她最终走出来了，重新积攒了力量，重新拾起画笔，做自己想做的事，【在乎身边的人】，努力向前。所谓“不完美”的结局也正是生活的常态，这样的情节设计最终也予人以温暖和希望。</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211117161813.png" alt="在乎身边的人" style="zoom:67%;" />
-
-<ul>
-<li>交互节奏</li>
-</ul>
-<p>这里的交互节奏指的是游戏中的交互方式和交互频率。玩家在游玩过程中大可以不紧不慢地轻轻点击，【慢慢滑动】，而不用担心错过什么，或做错什么，这样舒缓的交互节奏最终给玩家营造了温暖的游玩体验。</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211117162220.png" alt="慢慢滑动" style="zoom:67%;" />
-
-<ul>
-<li>美学呈现</li>
-</ul>
-<p>这里的美学呈现主要指的是色彩和音乐。<br>除去特殊的争吵场景外，游戏整体以低对比度的【温暖色系】来进行画面着色，如此设计使得玩家在游玩过程中始终能以舒缓的心情来进行游戏。此外，再搭配游戏出色的配乐，最终予人以温暖。</p>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211117162626.png" alt="温暖色系" style="zoom:67%;" />
-
-<p>以上对游戏的目标体验及其设计进行了一些反思，下面会对其他的一些出彩设计进行分析和反思。</p>
-<h3 id="其余出彩设计分析与反思"><a href="#其余出彩设计分析与反思" class="headerlink" title="其余出彩设计分析与反思"></a>其余出彩设计分析与反思</h3><p>以下部分的分析与反思主要设计交互机制，美学呈现等方面。</p>
-<h4 id="交互机制"><a href="#交互机制" class="headerlink" title="交互机制"></a>交互机制</h4><ul>
-<li>【形象有趣的聚焦方式】</li>
-</ul>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211117165710.png" alt="形象有趣的聚焦方式" style="zoom:67%;" />
-
-<p>如图所示，这里采用了可左右调整的不同的聚焦尺来模拟摔倒之后重新聚焦的这一过程，既表现了看见中意的人时因为小鹿乱撞而跌得七荤八素的狼狈，又很好地为双方交换了联系方式这一情节做了铺垫，十分形象有趣。</p>
-<p>延伸思考：在未来，如果可能的话，在跌倒之后使双摇杆随机晃动，以模拟被摔得七荤八素的感觉，而玩家需要努力将其恢复到“平静”状态，从而模拟努力按住头来重新聚焦的过程，这样的交互方式应该也很有趣！</p>
-<ul>
-<li>【摇晃拍立得！】</li>
-</ul>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211117171417.png" alt="摇晃拍立得！" style="zoom:67%;" />
-
-<p>如图所示，设计者需要玩家在点开相片后通过晃动摇杆来模拟现实中人们真实的甩底片动作，确实很有意思。</p>
-<p>延伸思考：在这里其实可以考虑引入手柄体感机制，让玩家真正地甩起来！<br>题外话：甩底片这一操作其实源自早期的老式拍立得时期，当时拍完之后需要将附有显像药剂的纸材快速与底片分离，通过甩动可以让药剂快速边干，但随着技术的发展和进步，现在的拍立得所拍出的照片其实已经可以不用甩啦，用力过猛甚至有可能会出现显像错误哦！（不过轻轻甩底片的动作也确实别有一番趣味(￣▽￣)”）</p>
-<ul>
-<li>【不进则退】</li>
-</ul>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211117172810.png" alt="不进则退" style="zoom:67%;" />
-
-<p>如图所示，这里需要玩家不断点击，以模拟不断向前推男主人公的动作。有趣的是如果在推了一半的时候不再继续点击，男主人公就会不断退缩回到原地，这样的设计十分真实的同时也让我们切实体会到了有人能在这时推自己一把是多么不容易而又令人温暖的事情。</p>
-<p>延伸思考：在这里的反馈呈现其实是不变的，也就是说玩家每次按键能够推动的距离是一定的，也许可以为其引入非线性的反馈机制，即一开始的时候一次按键点击就能推动很多，但越往后越难推动，临门一脚的时候需要玩家更努力地来进行点击才能最终实现鼓励男主人公报名的目的，如果在前面鼓励的时候中途放弃了，下一次重新鼓励的时候的阻力就会更大。这样的设计也许能让玩家最终实现目标的时候有更强的获得感和成就感。</p>
-<h4 id="美学呈现"><a href="#美学呈现" class="headerlink" title="美学呈现"></a>美学呈现</h4><ul>
-<li>【以色彩进行画面引导】</li>
-</ul>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211117165418.png" alt="以色彩进行画面引导" style="zoom:67%;" />
-
-<p>如图所示，这里采用了显式的音符及音乐流向来引导玩家向前，十分自然。</p>
-<p>延伸思考：这里让我想到的其实是好奇心、探索欲以及有限操作空间下的强制性选择。设计师采用了局部色彩的方式来突出了主体与可交互性，当画面出现如此抓眼的元素时玩家会不自主地想要进行探索，但凡事有例外，这里的交互空间有限，玩家能做的只有向右前进这一个选项，这里并不是想要反驳设计师对于操作空间的限制，因为有时确实需要做这样的决策以让玩家推进，只是一个题外话，如何在放开交互可能性的情况下更好地让玩家“正常推进”，特别对于线性叙事类游戏而言，这可能是一个需要关注的点。</p>
-<ul>
-<li>以色彩和形状反映心情</li>
-</ul>
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211117175435.png" alt="组织语言" style="zoom:67%;" />
-
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211117175404.png" alt="相谈甚欢" style="zoom:67%;" />
-
-<img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20211117175958.png" alt="激烈争吵" style="zoom:67%;" />
-
-<p>如图所示，在前两个图中，设计师很好地用恰当的颜色和形状很好地反映了恋爱开始时仔细组织语言的小心翼翼，到相恋之时相谈甚欢的不谋而合。前面的颜色温暖而含蓄，后面的颜色温馨而幸福；前面的形状多样且需要多次拼接，后面的形状彼此相配，且拖拽一个时，另一个也会自然靠近。色彩、形状、再辅以恰当的交互，很好地体现了主角，甚至是玩家当时的心境。<br>而在最后的图中，刺眼的红色以及都不用再组织的语言让人也直观感受到了争吵之时的激烈与口不择言，不断变快的话语速度也反映了二人心中激荡的情绪。真实，而又心疼。</p>
-<p>延伸思考：又是一个题外延伸，有没有可能，未来可以结合音频输入设备来进行交互呢？这里指的并不是真的让玩家参与到争吵当中（当然了也不失为一种选择 (￣▽￣)”），而是识别玩家声音中的情绪，从而让画面产生相应的一些变化，包括玩家发声的频次，音调等，都以另一种方式来组成了主角的语言。（甚至能延伸出“骂爽 TA”的奇怪玩法哈哈…）</p>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>综上，本文从目标、路径、挑战、体验的角度对游戏《Florence》进行了整体分析，而后又对游戏轻快、代入、和温暖的目标体验进行了反思，最后对游戏中其余的出彩设计进行了分析和反思。</p>
-<p>总的而言，如概述中所言，这是一个平凡、起伏而又温暖的故事。<br>感谢您的阅读，欢迎大家批评指正！</p>
+<hr>
 
                 
             </div>
@@ -659,7 +569,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://medill-east.github.io/2021/11/16/thinking-of-the-florence/">https://medill-east.github.io/2021/11/16/thinking-of-the-florence/</a>
+                    <a href="https://medill-east.github.io/2022/08/07/20220807-theartofgamedesign-chap14/">https://medill-east.github.io/2022/08/07/20220807-theartofgamedesign-chap14/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -699,6 +609,10 @@
                             
                                 <a href="/tags/Game/">
                                     <span class="chip bg-color">Game</span>
+                                </a>
+                            
+                                <a href="/tags/Game-Design/">
+                                    <span class="chip bg-color">Game Design</span>
                                 </a>
                             
                         </div>
@@ -870,45 +784,51 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
             <div class="card">
-                <a href="/2021/12/12/teardown-analysis-gunfire-reborn/">
+                <a href="/2022/08/07/20220807-theartofgamedesign-chap14/">
                     <div class="card-image">
                         
-                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/cover.jpg" class="responsive-img" alt="枪火重生 Teardown Analysis">
+                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220807003235.png" class="responsive-img" alt="游戏设计艺术 第十四章 游戏机制支持谜题">
                         
-                        <span class="card-title">枪火重生 Teardown Analysis</span>
+                        <span class="card-title">游戏设计艺术 第十四章 游戏机制支持谜题</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            这是一份由我写于 2021 年 12 月对游戏《枪火重生》的 Teardown Analysis。
+                            谜题就是有最优策略的游戏
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-12-12
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-08-07
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Study-Game-Analysis/" class="post-category">
-                                    Study-Game-Analysis
+                            <a href="/categories/Study-Game-Notes/" class="post-category">
+                                    Study-Game-Notes
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
                     <a href="/tags/Game/">
                         <span class="chip bg-color">Game</span>
+                    </a>
+                    
+                    <a href="/tags/Game-Design/">
+                        <span class="chip bg-color">Game Design</span>
                     </a>
                     
                 </div>
@@ -922,23 +842,23 @@
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/11/06/thinking-of-the-clash-heroes/">
+                <a href="/2022/07/30/20220730-why-i-think-elden-ring-is-attractive/">
                     <div class="card-image">
                         
-                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/clash heroes.jpeg" class="responsive-img" alt="Clash Heroes 目标体验思考及设计反思">
+                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220730170940.png" class="responsive-img" alt="20220730 - Why I Think Elden Ring Is Attractive">
                         
-                        <span class="card-title">Clash Heroes 目标体验思考及设计反思</span>
+                        <span class="card-title">20220730 - Why I Think Elden Ring Is Attractive</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            这是一份由我写于 2021 年 11 月对所放出的 Clash Heroes 游戏视频进行的目标体验思考及设计反思。
+                            又美，又难，又过瘾。
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-11-06
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-30
                             </span>
                         <span class="publish-author">
                             

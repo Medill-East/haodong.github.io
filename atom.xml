@@ -6,10 +6,37 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2022-07-30T16:08:57.593Z</updated>
+  <updated>2022-08-06T23:57:44.616Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>游戏设计艺术 第十四章 游戏机制支持谜题</title>
+    <link href="https://medill-east.github.io/2022/08/07/20220807-theartofgamedesign-chap14/"/>
+    <id>https://medill-east.github.io/2022/08/07/20220807-theartofgamedesign-chap14/</id>
+    <published>2022-08-06T23:57:19.000Z</published>
+    <updated>2022-08-06T23:57:44.616Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;游戏设计艺术-摘抄-笔记&quot;&gt;&lt;a href=&quot;#游戏设计艺术-摘抄-笔记&quot; class=&quot;headerlink&quot; title=&quot;游戏设计艺术 摘抄/笔记&quot;&gt;&lt;/a&gt;游戏设计艺术 摘抄/笔记&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Game Design" scheme="https://medill-east.github.io/tags/Game-Design/"/>
+    
+  </entry>
   
   <entry>
     <title>20220730 - Why I Think Elden Ring Is Attractive</title>
@@ -377,7 +404,7 @@
     <link href="https://medill-east.github.io/2022/05/29/20220529-theartofgamedesign-toc/"/>
     <id>https://medill-east.github.io/2022/05/29/20220529-theartofgamedesign-toc/</id>
     <published>2022-05-28T23:45:19.000Z</published>
-    <updated>2022-08-05T10:36:55.354Z</updated>
+    <updated>2022-08-07T00:05:50.912Z</updated>
     
     
       
@@ -516,31 +543,6 @@
         
         
     <summary type="html">&lt;h2 id=&quot;Lecture-3-How-to-Build-a-Game-World&quot;&gt;&lt;a href=&quot;#Lecture-3-How-to-Build-a-Game-World&quot; class=&quot;headerlink&quot; title=&quot;Lecture 3 How to</summary>
-        
-      
-    
-    
-    
-    <category term="Study-Game-GameEngine" scheme="https://medill-east.github.io/categories/Study-Game-GameEngine/"/>
-    
-    
-    <category term="Game Engine" scheme="https://medill-east.github.io/tags/Game-Engine/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20220518 - GAMES104 - Assignment 1：Build and Run Pilot Engine</title>
-    <link href="https://medill-east.github.io/2022/05/18/20220518-games104-assignment1/"/>
-    <id>https://medill-east.github.io/2022/05/18/20220518-games104-assignment1/</id>
-    <published>2022-05-18T10:56:46.000Z</published>
-    <updated>2022-05-18T18:35:32.672Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;作业-1-编译和运行-PILOT-引擎&quot;&gt;&lt;a href=&quot;#作业-1-编译和运行-PILOT-引擎&quot; class=&quot;headerlink&quot; title=&quot;作业 1 编译和运行 PILOT 引擎&quot;&gt;&lt;/a&gt;作业 1 编译和运行 PILOT</summary>
         
       
     
