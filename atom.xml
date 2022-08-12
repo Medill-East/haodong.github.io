@@ -6,10 +6,37 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2022-08-06T23:57:44.616Z</updated>
+  <updated>2022-08-12T11:07:20.258Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>游戏设计艺术 第十五章 玩家通过界面玩游戏</title>
+    <link href="https://medill-east.github.io/2022/08/12/20220811-theartofgamedesign-chap15/"/>
+    <id>https://medill-east.github.io/2022/08/12/20220811-theartofgamedesign-chap15/</id>
+    <published>2022-08-12T11:06:19.000Z</published>
+    <updated>2022-08-12T11:07:20.258Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;游戏设计艺术-摘抄-笔记&quot;&gt;&lt;a href=&quot;#游戏设计艺术-摘抄-笔记&quot; class=&quot;headerlink&quot; title=&quot;游戏设计艺术 摘抄/笔记&quot;&gt;&lt;/a&gt;游戏设计艺术 摘抄/笔记&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Game Design" scheme="https://medill-east.github.io/tags/Game-Design/"/>
+    
+  </entry>
   
   <entry>
     <title>游戏设计艺术 第十四章 游戏机制支持谜题</title>
@@ -404,7 +431,7 @@
     <link href="https://medill-east.github.io/2022/05/29/20220529-theartofgamedesign-toc/"/>
     <id>https://medill-east.github.io/2022/05/29/20220529-theartofgamedesign-toc/</id>
     <published>2022-05-28T23:45:19.000Z</published>
-    <updated>2022-08-07T00:05:50.912Z</updated>
+    <updated>2022-08-12T11:09:30.520Z</updated>
     
     
       
@@ -527,31 +554,6 @@
     <category term="Thinking" scheme="https://medill-east.github.io/tags/Thinking/"/>
     
     <category term="Movie" scheme="https://medill-east.github.io/tags/Movie/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20220520 - GAMES104 - Lecture 3：How to Build a Game World</title>
-    <link href="https://medill-east.github.io/2022/05/20/20220520-games104-lecture3/"/>
-    <id>https://medill-east.github.io/2022/05/20/20220520-games104-lecture3/</id>
-    <published>2022-05-20T10:08:46.000Z</published>
-    <updated>2022-05-20T10:21:17.118Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Lecture-3-How-to-Build-a-Game-World&quot;&gt;&lt;a href=&quot;#Lecture-3-How-to-Build-a-Game-World&quot; class=&quot;headerlink&quot; title=&quot;Lecture 3 How to</summary>
-        
-      
-    
-    
-    
-    <category term="Study-Game-GameEngine" scheme="https://medill-east.github.io/categories/Study-Game-GameEngine/"/>
-    
-    
-    <category term="Game Engine" scheme="https://medill-east.github.io/tags/Game-Engine/"/>
     
   </entry>
   
