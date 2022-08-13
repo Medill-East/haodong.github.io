@@ -6,10 +6,35 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2022-08-12T11:07:20.258Z</updated>
+  <updated>2022-08-13T19:51:34.416Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Avatar：The Game 拆解分析</title>
+    <link href="https://medill-east.github.io/2022/08/13/20220813-teardown-analysis-avatar-the-game/"/>
+    <id>https://medill-east.github.io/2022/08/13/20220813-teardown-analysis-avatar-the-game/</id>
+    <published>2022-08-13T19:42:19.000Z</published>
+    <updated>2022-08-13T19:51:34.416Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;《-Avatar-The-Game》-Teardown-Analysis&quot;&gt;&lt;a href=&quot;#《-Avatar-The-Game》-Teardown-Analysis&quot; class=&quot;headerlink&quot; title=&quot;《 Avatar: The Game》</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-Analysis" scheme="https://medill-east.github.io/categories/Study-Game-Analysis/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+  </entry>
   
   <entry>
     <title>游戏设计艺术 第十五章 玩家通过界面玩游戏</title>
@@ -527,33 +552,6 @@
     
     
     <category term="Game Engine" scheme="https://medill-east.github.io/tags/Game-Engine/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20220521 - Meaningful Meaningless</title>
-    <link href="https://medill-east.github.io/2022/05/21/20220521-everything-everywhere-all-at-once/"/>
-    <id>https://medill-east.github.io/2022/05/21/20220521-everything-everywhere-all-at-once/</id>
-    <published>2022-05-20T22:02:46.000Z</published>
-    <updated>2022-05-21T20:13:44.221Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Why&quot;&gt;&lt;a href=&quot;#Why&quot; class=&quot;headerlink&quot; title=&quot;Why&quot;&gt;&lt;/a&gt;Why&lt;/h2&gt;&lt;p&gt;今天和 WH</summary>
-        
-      
-    
-    
-    
-    <category term="Thinking" scheme="https://medill-east.github.io/categories/Thinking/"/>
-    
-    
-    <category term="Thinking" scheme="https://medill-east.github.io/tags/Thinking/"/>
-    
-    <category term="Movie" scheme="https://medill-east.github.io/tags/Movie/"/>
     
   </entry>
   
