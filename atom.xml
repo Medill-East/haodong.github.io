@@ -6,10 +6,37 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2022-08-13T19:51:34.416Z</updated>
+  <updated>2022-08-31T14:08:59.415Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《悬灯与玄灯》 Demo 展示及制作复盘分析</title>
+    <link href="https://medill-east.github.io/2022/08/29/20220829-earnthenamebackforshadowpuppets-demo-showcase-analysis/"/>
+    <id>https://medill-east.github.io/2022/08/29/20220829-earnthenamebackforshadowpuppets-demo-showcase-analysis/</id>
+    <published>2022-08-29T03:04:19.000Z</published>
+    <updated>2022-08-31T14:08:59.415Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;《悬灯与玄灯》-Demo-展示及制作复盘分析&quot;&gt;&lt;a href=&quot;#《悬灯与玄灯》-Demo-展示及制作复盘分析&quot; class=&quot;headerlink&quot; title=&quot;《悬灯与玄灯》 Demo 展示及制作复盘分析&quot;&gt;&lt;/a&gt;《悬灯与玄灯》 Demo</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-Demo" scheme="https://medill-east.github.io/categories/Study-Game-Demo/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Portfolio" scheme="https://medill-east.github.io/tags/Portfolio/"/>
+    
+  </entry>
   
   <entry>
     <title>Avatar：The Game 拆解分析</title>
@@ -527,31 +554,6 @@
     
     
     <category term="Writing" scheme="https://medill-east.github.io/tags/Writing/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20220522 - GAMES104 - Lecture 4：Rendering on Game Engine</title>
-    <link href="https://medill-east.github.io/2022/05/22/20220522-games104-lecture4/"/>
-    <id>https://medill-east.github.io/2022/05/22/20220522-games104-lecture4/</id>
-    <published>2022-05-22T12:08:46.000Z</published>
-    <updated>2022-05-22T12:09:45.169Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Lecture-4-Rendering-on-Game-Engine&quot;&gt;&lt;a href=&quot;#Lecture-4-Rendering-on-Game-Engine&quot; class=&quot;headerlink&quot; title=&quot;Lecture 4 Rendering on</summary>
-        
-      
-    
-    
-    
-    <category term="Study-Game-GameEngine" scheme="https://medill-east.github.io/categories/Study-Game-GameEngine/"/>
-    
-    
-    <category term="Game Engine" scheme="https://medill-east.github.io/tags/Game-Engine/"/>
     
   </entry>
   
