@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://medill-east.github.io/2022/09/01/20220901-stop-for-big-moments/</loc>
+    
+    <lastmod>2022-09-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://medill-east.github.io/2022/08/29/20220829-earnthenamebackforshadowpuppets-demo-showcase-analysis/</loc>
     
     <lastmod>2022-08-31</lastmod>
@@ -887,6 +896,13 @@
   
   <url>
     <loc>https://medill-east.github.io/tags/Life/</loc>
+    <lastmod>2022-09-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://medill-east.github.io/tags/Masahiro-Sakurai-on-Creating-Games/</loc>
     <lastmod>2022-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
