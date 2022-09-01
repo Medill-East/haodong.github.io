@@ -1,3 +1,4 @@
+https://medill-east.github.io/2022/04/28/index-notes/
 https://medill-east.github.io/2022/09/01/20220901-stop-for-big-moments/
 https://medill-east.github.io/2022/08/29/20220829-earnthenamebackforshadowpuppets-demo-showcase-analysis/
 https://medill-east.github.io/2022/04/28/index-showcase/
@@ -23,7 +24,6 @@ https://medill-east.github.io/2021/08/13/20210813-theartofgamedesign-chap1/
 https://medill-east.github.io/2022/06/01/20220601-theartofgamedesign-chap10/
 https://medill-east.github.io/2021/08/13/20210813-theartofgamedesign-chap5/
 https://medill-east.github.io/2022/07/04/20220703-toolsoflife/
-https://medill-east.github.io/2022/04/29/index-notes/
 https://medill-east.github.io/2022/06/22/20220622-gdc-yarnspinner/
 https://medill-east.github.io/2022/06/19/20220619-gmtk-ittakestwo/
 https://medill-east.github.io/2022/06/18/20220617-gdc-makecognitivemap/
