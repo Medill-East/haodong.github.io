@@ -1,5 +1,5 @@
-https://medill-east.github.io/2022/04/28/index-notes/
 https://medill-east.github.io/2022/09/06/20220906-how-games-move-us/
+https://medill-east.github.io/2022/04/28/index-notes/
 https://medill-east.github.io/2022/09/02/20220902-kirby-dream-land/
 https://medill-east.github.io/2022/09/01/20220901-stop-for-big-moments/
 https://medill-east.github.io/2022/08/29/20220829-earnthenamebackforshadowpuppets-demo-showcase-analysis/
@@ -105,6 +105,8 @@ https://medill-east.github.io/tags/GCORES/
 https://medill-east.github.io/tags/GMTK/
 https://medill-east.github.io/tags/Life/
 https://medill-east.github.io/tags/Masahiro-Sakurai-on-Creating-Games/
+https://medill-east.github.io/tags/Reading/
+https://medill-east.github.io/tags/Mindmap/
 https://medill-east.github.io/categories/Blog/
 https://medill-east.github.io/categories/Study-CS-CG/
 https://medill-east.github.io/categories/Study-Game-Proposal/
