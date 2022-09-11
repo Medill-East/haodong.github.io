@@ -33,19 +33,6 @@
     
     
     <entry>
-      <title></title>
-      <link href="2022/09/11/20220900-toc/"/>
-      <url>2022/09/11/20220900-toc/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Masahiro-Sakurai-on-Creating-Games-摘抄-笔记"><a href="#Masahiro-Sakurai-on-Creating-Games-摘抄-笔记" class="headerlink" title="Masahiro Sakurai on Creating Games 摘抄/笔记"></a>Masahiro Sakurai on Creating Games 摘抄/笔记</h1><h2 id="Why-Note"><a href="#Why-Note" class="headerlink" title="Why Note"></a>Why Note</h2><p>观看 Masahiro Sakurai on Creating Games 的视频，学习游戏制作，特此记录。</p><h2 id="Content"><a href="#Content" class="headerlink" title="Content"></a>Content</h2><h3 id="Planning-amp-Game-Design"><a href="#Planning-amp-Game-Design" class="headerlink" title="Planning &amp; Game Design"></a>Planning &amp; Game Design</h3><ul><li><a href="https://medill-east.github.io/2022/09/01/20220901-stop-for-big-moments/">Stop for big moments</a></li><li><a href="https://medill-east.github.io/2022/09/02/20220902-kirby-dream-land/">Kirby’s Dream Land</a></li><li><a href="https://medill-east.github.io/2022/09/11/20220911-frame-rates">Frame Rates</a></li></ul>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>20220911 - BAYONETTA - 如何建立完美的游戏世界观</title>
       <link href="2022/09/11/20220911-bayonetta-worldview/"/>
       <url>2022/09/11/20220911-bayonetta-worldview/</url>
@@ -198,6 +185,35 @@
       <url>2022/09/01/20220901-stop-for-big-moments/</url>
       
         <content type="html"><![CDATA[<h2 id="What"><a href="#What" class="headerlink" title="What"></a>What</h2><p>观看 Masahiro Sakurai on Creating Games 的视频，学习停止特效！</p><h2 id="视频链接"><a href="#视频链接" class="headerlink" title="视频链接"></a>视频链接</h2><p><a href="https://www.youtube.com/watch?v=OdVkEOzdCPw&list=TLPQMDEwOTIwMjJDTw1U5VeeTw&index=2">Stop for Big Moments!</a></p><h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="Stop-for-Big-Moments"><a href="#Stop-for-Big-Moments" class="headerlink" title="Stop for Big Moments!"></a>Stop for Big Moments!</h3><h4 id="Stop-Effects"><a href="#Stop-Effects" class="headerlink" title="Stop Effects"></a>Stop Effects</h4><ul><li>don’t skimp on them!</li><li>不要吝惜！</li></ul><h4 id="Hit-Stop"><a href="#Hit-Stop" class="headerlink" title="Hit Stop"></a>Hit Stop</h4><ul><li>即在动作发生时的短暂停顿<ul><li>比如在击打到目标时</li></ul></li></ul><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/Sep-01-2022-11-44-24.gif"></p><ul><li>是否有 Hit Stop 会完全改变击打的力度，所以它非常重要！</li></ul><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/Sep-01-2022-11-58-26.gif"></p><h5 id="Finish-Zoom-Effect-BOSS-Stop"><a href="#Finish-Zoom-Effect-BOSS-Stop" class="headerlink" title="Finish Zoom Effect /  BOSS Stop"></a>Finish Zoom Effect /  BOSS Stop</h5><ul><li>是 Hit Stop 的某种延伸</li><li>是击败 BOSS 时所看见的一种 Stop 特效</li><li>这对于让玩家感受到 “绝杀一击” 是很重要的</li></ul><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/Sep-01-2022-12-14-28.gif"></p><ul><li><p>当玩家失去生命的时候，画面中的角色动作也随之停止</p></li><li><p>考虑到 hit stop 的重要性，无论品类 它都应该在各处被使用</p><ul><li>比如在飞行游戏中，若是没有 hit stop，玩家很容易在 “不知不觉” 中死去<ul><li>玩家应该有清晰地 “受击感”，从而得知 “something’s wrong” </li></ul></li></ul></li><li><p>Fantasy Zone - 1986</p><ul><li>这款游戏中，当你受击时，屏幕会停止一秒</li><li>这虽然只是一个简单的暂停效果，但你却可以清晰地看到受击时刻，从而让你充分体会 “啊不是吧！” 的感觉</li></ul></li><li><p>包含的这种（能加强人们情绪体验的）东西越多越好</p></li><li><p>Fantasy Zone 从 Defender 汲取了很多灵感</p><ul><li>虽然受击是视觉特效的一部分</li><li>但在这里的 stop 效果是相同的</li></ul></li></ul><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/Sep-01-2022-12-22-17.gif"></p><ul><li>感觉北美同时代的很多游戏都使用了类似的效果</li><li>让屏幕停止只是工具箱中的其中一种工具，以下是一些其他特效影响射击游戏的例子</li></ul><h5 id="特效对射击游戏影响的例子"><a href="#特效对射击游戏影响的例子" class="headerlink" title="特效对射击游戏影响的例子"></a>特效对射击游戏影响的例子</h5><h6 id="No-Effect"><a href="#No-Effect" class="headerlink" title="No Effect"></a>No Effect</h6><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/Sep-01-2022-12-27-55.gif"></p><h6 id="Stop"><a href="#Stop" class="headerlink" title="Stop"></a>Stop</h6><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/Sep-01-2022-12-29-18.gif"></p><h6 id="Stop-Shake"><a href="#Stop-Shake" class="headerlink" title="Stop + Shake"></a>Stop + Shake</h6><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/Sep-01-2022-12-30-42.gif"></p><h6 id="Stop-Shake-Slow-Motion"><a href="#Stop-Shake-Slow-Motion" class="headerlink" title="Stop + Shake + Slow Motion"></a>Stop + Shake + Slow Motion</h6><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/Sep-01-2022-12-31-45.gif"></p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>在你的游戏中的重大时刻活用 Stop！<br>让你的玩家感受到这些成功或是失败的时刻<br>简单而有效，为什么不这么做呢？</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Study-Game-Notes </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Game </tag>
+            
+            <tag> Learning Notes </tag>
+            
+            <tag> Masahiro Sakurai on Creating Games </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Masahiro Sakurai on Creating Games</title>
+      <link href="2022/08/31/20220900-toc/"/>
+      <url>2022/08/31/20220900-toc/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Masahiro-Sakurai-on-Creating-Games-摘抄-笔记"><a href="#Masahiro-Sakurai-on-Creating-Games-摘抄-笔记" class="headerlink" title="Masahiro Sakurai on Creating Games 摘抄/笔记"></a>Masahiro Sakurai on Creating Games 摘抄/笔记</h1><h2 id="Why-Note"><a href="#Why-Note" class="headerlink" title="Why Note"></a>Why Note</h2><p>观看 Masahiro Sakurai on Creating Games 的视频，学习游戏制作，特此记录。</p><h2 id="Content"><a href="#Content" class="headerlink" title="Content"></a>Content</h2><h3 id="Planning-amp-Game-Design"><a href="#Planning-amp-Game-Design" class="headerlink" title="Planning &amp; Game Design"></a>Planning &amp; Game Design</h3><ul><li><a href="https://medill-east.github.io/2022/09/01/20220901-stop-for-big-moments/">Stop for big moments</a></li><li><a href="https://medill-east.github.io/2022/09/02/20220902-kirby-dream-land/">Kirby’s Dream Land</a></li><li><a href="https://medill-east.github.io/2022/09/11/20220911-frame-rates">Frame Rates</a></li></ul>]]></content>
       
       
       <categories>
