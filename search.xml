@@ -4,6 +4,48 @@
   
     
     <entry>
+      <title>20220911 - Frame Rates</title>
+      <link href="2022/09/11/20220911-frame-rates/"/>
+      <url>2022/09/11/20220911-frame-rates/</url>
+      
+        <content type="html"><![CDATA[<h2 id="What"><a href="#What" class="headerlink" title="What"></a>What</h2><p>观看 Masahiro Sakurai on Creating Games 的视频，了解星之卡比诞生的故事！</p><h2 id="视频链接"><a href="#视频链接" class="headerlink" title="视频链接"></a>视频链接</h2><p><a href="https://www.youtube.com/watch?v=Rjdmi7628GM">Frame Rates</a></p><h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h2 id="Frame-Rates"><a href="#Frame-Rates" class="headerlink" title="Frame Rates"></a>Frame Rates</h2><h3 id="基础概念"><a href="#基础概念" class="headerlink" title="基础概念"></a>基础概念</h3><p>指的是计算机每秒所渲染显示的画面数量</p><p>如帧率（也被称为刷新率）为 60 即每秒有 60 个画面—— 60 frames per second (fps)</p><p>不同的帧率会影响所看到的画面的流畅度</p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/Sep-11-2022-14-57-34.gif"></p><p>虽然 60 帧具有更好的视觉效果<br>但 30 帧也常见于电子游戏中</p><p>帧率在游戏中并不总是保持不变的，会和游戏平台以及游戏如何被编码有关</p><p>一些游戏会有动态帧率——当处理器忙不过来了就会降低帧率，但这个概念不该和 “slowdown” 概念混淆</p><p>游戏本身并没有减速，只是屏幕上有更少的画面在单位时间内被重绘了</p><p>一些 PC 和高端设备能支持 120 甚至 200 帧率——但如果显示器不支持也是没有意义的，二者需要互相匹配才行</p><hr><h3 id="NES-SNES-Nintendo-64"><a href="#NES-SNES-Nintendo-64" class="headerlink" title="NES SNES Nintendo 64"></a>NES SNES Nintendo 64</h3><p>回望 NES，SNES，和 Nintendo 64 时代</p><p>当时主要为具有 CRT 显像管的电视制作游戏，当时有两个标准 NTSC 和 PAL</p><ul><li>NTSC<ul><li>主要是北美和日本</li><li>以 30 帧率重新渲染画面</li><li>借助隔行扫描技术 可以实现 60 的运行帧率</li></ul></li><li>PAL<ul><li>主要是欧洲和澳大利亚</li><li>以 25 帧率重新渲染画面</li><li>同样利用隔行扫描技术 所以运行帧率为 50 </li></ul></li></ul><p>至少樱井政博自己在当时为这些平台所做的游戏都是利用了光栅中断的数量作为 Unit of time，也就是说 在 PAL 运行的游戏的运行速率是 NTSC 的 5/6，所有东西动得都要稍慢一些 </p><p>然而从 Nintendo 64 之后，游戏都利用了 <code>polygon processing</code> ，这使得绘制更少的帧率以及让游戏按预期运行变得更加简单了，也就减少了一些不必要的开销。</p><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>帧率和时间、图像数量、分辨率有关<br>fps 60 是一个通用标准</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Study-Game-Notes </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Game </tag>
+            
+            <tag> Learning Notes </tag>
+            
+            <tag> Masahiro Sakurai on Creating Games </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="2022/09/11/20220900-toc/"/>
+      <url>2022/09/11/20220900-toc/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Masahiro-Sakurai-on-Creating-Games-摘抄-笔记"><a href="#Masahiro-Sakurai-on-Creating-Games-摘抄-笔记" class="headerlink" title="Masahiro Sakurai on Creating Games 摘抄/笔记"></a>Masahiro Sakurai on Creating Games 摘抄/笔记</h1><h2 id="Why-Note"><a href="#Why-Note" class="headerlink" title="Why Note"></a>Why Note</h2><p>观看 Masahiro Sakurai on Creating Games 的视频，学习游戏制作，特此记录。</p><h2 id="Content"><a href="#Content" class="headerlink" title="Content"></a>Content</h2><h3 id="Planning-amp-Game-Design"><a href="#Planning-amp-Game-Design" class="headerlink" title="Planning &amp; Game Design"></a>Planning &amp; Game Design</h3><ul><li><a href="https://medill-east.github.io/2022/09/01/20220901-stop-for-big-moments/">Stop for big moments</a></li><li><a href="https://medill-east.github.io/2022/09/02/20220902-kirby-dream-land/">Kirby’s Dream Land</a></li><li><a href="https://medill-east.github.io/2022/09/11/20220911-frame-rates">Frame Rates</a></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>20220911 - BAYONETTA - 如何建立完美的游戏世界观</title>
       <link href="2022/09/11/20220911-bayonetta-worldview/"/>
       <url>2022/09/11/20220911-bayonetta-worldview/</url>
@@ -1567,7 +1609,7 @@
       <link href="2022/04/28/index-notes/"/>
       <url>2022/04/28/index-notes/</url>
       
-        <content type="html"><![CDATA[<h2 id="游戏设计相关"><a href="#游戏设计相关" class="headerlink" title="游戏设计相关"></a>游戏设计相关</h2><ul><li><a href="https://medill-east.github.io/2022/09/06/20220906-bayonetta-toc">【白金游戏工作室：爆款游戏 创作心法】系列视频</a></li><li><a href="https://medill-east.github.io/2022/09/02/20220902-kirby-dream-land/">【Masahiro Sakurai on Creating Games】- Kirby’s Dream Land</a></li><li><a href="https://medill-east.github.io/2022/09/01/20220901-stop-for-big-moments/">【Masahiro Sakurai on Creating Games】- Stop for Big Moments!</a></li><li><a href="https://medill-east.github.io/2022/05/29/20220529-theartofgamedesign-toc/">游戏设计艺术 摘抄/笔记</a></li><li><a href="https://medill-east.github.io/2022/06/01/20220601-gcores-playbeyondthegame/">机核 游戏理论系列播客笔记</a></li><li><a href="https://medill-east.github.io/2022/05/02/20220502-gdc2017-zelda/">【GDC】GDC2017——塞尔达：旷野之息的三角之力</a></li></ul><h2 id="游戏关卡设计相关"><a href="#游戏关卡设计相关" class="headerlink" title="游戏关卡设计相关"></a>游戏关卡设计相关</h2><ul><li><a href="https://medill-east.github.io/2022/04/28/20220428-leveldesignbook-toc/">Level Design Book 随译/笔记</a></li><li><a href="https://medill-east.github.io/2022/06/17/20220617-gdc-makecognitivemap/">【GDC】用构建认知地图的方式构建关卡 Layout</a></li><li><a href="https://medill-east.github.io/2022/06/19/20220619-gmtk-ittakestwo/">【GMTK】双人成行关卡设计师分享树之章的设计心得</a></li></ul><h2 id="游戏叙事设计相关"><a href="#游戏叙事设计相关" class="headerlink" title="游戏叙事设计相关"></a>游戏叙事设计相关</h2><ul><li><a href="https://medill-east.github.io/2022/09/06/20220906-how-games-move-us/">【读书笔记】游戏情感设计如何触动玩家的心灵</a></li><li><a href="https://medill-east.github.io/2022/06/22/20220622-gdc-yarnspinner/">【GDC】利用 Yarn Spinner 构建叙事类游戏</a></li></ul><h2 id="游戏引擎相关"><a href="#游戏引擎相关" class="headerlink" title="游戏引擎相关"></a>游戏引擎相关</h2><ul><li><a href="https://medill-east.github.io/2022/05/15/20220515-games104-toc/">GAMES104——现代游戏引擎：从入门到实践笔记</a></li></ul><h2 id="图形学相关"><a href="#图形学相关" class="headerlink" title="图形学相关"></a>图形学相关</h2><ul><li><a href="https://medill-east.github.io/2021/07/16/games101-introduction-to-mordern-computer-graphics/">GAMES101——现代计算机图形学入门笔记</a></li></ul><h2 id="心理学相关"><a href="#心理学相关" class="headerlink" title="心理学相关"></a>心理学相关</h2><ul><li><a href="https://medill-east.github.io/2022/05/07/20220507-comicjung-toc/">漫画荣格：内心深处结构的解析 摘抄/笔记</a></li></ul><h2 id="练字"><a href="#练字" class="headerlink" title="练字"></a>练字</h2><ul><li><a href="https://medill-east.github.io/2022/05/25/20220525-writing/">随便写写</a></li></ul><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ul><li><a href="https://medill-east.github.io/2022/07/03/20220703-toolsoflife/">对《人生艰难，如何才能过得好一点》一文的摘录</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 id="游戏设计相关"><a href="#游戏设计相关" class="headerlink" title="游戏设计相关"></a>游戏设计相关</h2><ul><li><a href="https://medill-east.github.io/2022/09/06/20220906-bayonetta-toc">【白金游戏工作室：爆款游戏 创作心法】系列视频</a></li><li><a href="https://medill-east.github.io/2022/09/00/20220900-toc">【Masahiro Sakurai on Creating Games】系列视频</a></li><li><a href="https://medill-east.github.io/2022/05/29/20220529-theartofgamedesign-toc/">游戏设计艺术 摘抄/笔记</a></li><li><a href="https://medill-east.github.io/2022/06/01/20220601-gcores-playbeyondthegame/">机核 游戏理论系列播客笔记</a></li><li><a href="https://medill-east.github.io/2022/05/02/20220502-gdc2017-zelda/">【GDC】GDC2017——塞尔达：旷野之息的三角之力</a></li></ul><h2 id="游戏关卡设计相关"><a href="#游戏关卡设计相关" class="headerlink" title="游戏关卡设计相关"></a>游戏关卡设计相关</h2><ul><li><a href="https://medill-east.github.io/2022/04/28/20220428-leveldesignbook-toc/">Level Design Book 随译/笔记</a></li><li><a href="https://medill-east.github.io/2022/06/17/20220617-gdc-makecognitivemap/">【GDC】用构建认知地图的方式构建关卡 Layout</a></li><li><a href="https://medill-east.github.io/2022/06/19/20220619-gmtk-ittakestwo/">【GMTK】双人成行关卡设计师分享树之章的设计心得</a></li></ul><h2 id="游戏叙事设计相关"><a href="#游戏叙事设计相关" class="headerlink" title="游戏叙事设计相关"></a>游戏叙事设计相关</h2><ul><li><a href="https://medill-east.github.io/2022/09/06/20220906-how-games-move-us/">【读书笔记】游戏情感设计如何触动玩家的心灵</a></li><li><a href="https://medill-east.github.io/2022/06/22/20220622-gdc-yarnspinner/">【GDC】利用 Yarn Spinner 构建叙事类游戏</a></li></ul><h2 id="游戏引擎相关"><a href="#游戏引擎相关" class="headerlink" title="游戏引擎相关"></a>游戏引擎相关</h2><ul><li><a href="https://medill-east.github.io/2022/05/15/20220515-games104-toc/">GAMES104——现代游戏引擎：从入门到实践笔记</a></li></ul><h2 id="图形学相关"><a href="#图形学相关" class="headerlink" title="图形学相关"></a>图形学相关</h2><ul><li><a href="https://medill-east.github.io/2021/07/16/games101-introduction-to-mordern-computer-graphics/">GAMES101——现代计算机图形学入门笔记</a></li></ul><h2 id="心理学相关"><a href="#心理学相关" class="headerlink" title="心理学相关"></a>心理学相关</h2><ul><li><a href="https://medill-east.github.io/2022/05/07/20220507-comicjung-toc/">漫画荣格：内心深处结构的解析 摘抄/笔记</a></li></ul><h2 id="练字"><a href="#练字" class="headerlink" title="练字"></a>练字</h2><ul><li><a href="https://medill-east.github.io/2022/05/25/20220525-writing/">随便写写</a></li></ul><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ul><li><a href="https://medill-east.github.io/2022/07/03/20220703-toolsoflife/">对《人生艰难，如何才能过得好一点》一文的摘录</a></li></ul>]]></content>
       
       
       <categories>
