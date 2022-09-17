@@ -6,10 +6,40 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2022-09-17T04:27:22.618Z</updated>
+  <updated>2022-09-17T05:11:27.159Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20220917 - Risk and Rewards</title>
+    <link href="https://medill-east.github.io/2022/09/17/20220917-risk-and-rewards/"/>
+    <id>https://medill-east.github.io/2022/09/17/20220917-risk-and-rewards/</id>
+    <published>2022-09-17T05:10:46.000Z</published>
+    <updated>2022-09-17T05:11:27.159Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What&quot;&gt;&lt;/a&gt;What&lt;/h2&gt;&lt;p&gt;观看 Masahiro Sakurai on Creating Games 的视频，了解风险与回报！&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
+    
+    <category term="Masahiro Sakurai on Creating Games" scheme="https://medill-east.github.io/tags/Masahiro-Sakurai-on-Creating-Games/"/>
+    
+  </entry>
   
   <entry>
     <title>20220917 - BAYONETTA - 如何编写引人入胜的故事</title>
@@ -74,14 +104,15 @@
     <link href="https://medill-east.github.io/2022/09/11/20220911-frame-rates/"/>
     <id>https://medill-east.github.io/2022/09/11/20220911-frame-rates/</id>
     <published>2022-09-11T07:14:46.000Z</published>
-    <updated>2022-09-11T07:19:04.738Z</updated>
+    <updated>2022-09-17T05:10:47.235Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What&quot;&gt;&lt;/a&gt;What&lt;/h2&gt;&lt;p&gt;观看 Masahiro Sakurai on Creating Games</summary>
+    <summary type="html">&lt;h2 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What&quot;&gt;&lt;/a&gt;What&lt;/h2&gt;&lt;p&gt;观看 Masahiro Sakurai on Creating Games 的视频，了解帧率！&lt;/p&gt;
+&lt;h2</summary>
         
       
     
@@ -280,7 +311,7 @@
     <link href="https://medill-east.github.io/2022/08/31/20220900-toc/"/>
     <id>https://medill-east.github.io/2022/08/31/20220900-toc/</id>
     <published>2022-08-31T04:12:46.000Z</published>
-    <updated>2022-09-11T07:28:37.766Z</updated>
+    <updated>2022-09-17T05:12:13.987Z</updated>
     
     
       
@@ -546,36 +577,6 @@
     <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
     
     <category term="GMTK" scheme="https://medill-east.github.io/tags/GMTK/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20220617 - Stop Getting Lost： Make Cognitive Maps, Not Levels</title>
-    <link href="https://medill-east.github.io/2022/06/18/20220617-gdc-makecognitivemap/"/>
-    <id>https://medill-east.github.io/2022/06/18/20220617-gdc-makecognitivemap/</id>
-    <published>2022-06-17T19:53:46.000Z</published>
-    <updated>2022-06-17T19:59:07.308Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;原视频链接&quot;&gt;&lt;a href=&quot;#原视频链接&quot; class=&quot;headerlink&quot; title=&quot;原视频链接&quot;&gt;&lt;/a&gt;原视频链接&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;Youtube 链接&lt;br&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
-    
-    
-    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
-    
-    <category term="GDC" scheme="https://medill-east.github.io/tags/GDC/"/>
-    
-    <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
     
   </entry>
   
