@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://medill-east.github.io/2022/09/06/20220906-bayonetta-toc/</loc>
+    
+    <lastmod>2022-09-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://medill-east.github.io/2022/09/24/20220924-bayonetta-action/</loc>
     
     <lastmod>2022-09-24</lastmod>
@@ -48,15 +57,6 @@
   
   <url>
     <loc>https://medill-east.github.io/2022/09/11/20220911-frame-rates/</loc>
-    
-    <lastmod>2022-09-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://medill-east.github.io/2022/09/06/20220906-bayonetta-toc/</loc>
     
     <lastmod>2022-09-17</lastmod>
     
