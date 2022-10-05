@@ -6,10 +6,39 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2022-09-24T05:21:41.357Z</updated>
+  <updated>2022-10-05T05:52:42.306Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20221005 - BAYONETTA - 敌人设计的注意点</title>
+    <link href="https://medill-east.github.io/2022/10/05/20221005-bayonetta-enemy/"/>
+    <id>https://medill-east.github.io/2022/10/05/20221005-bayonetta-enemy/</id>
+    <published>2022-10-05T05:52:46.000Z</published>
+    <updated>2022-10-05T05:52:42.306Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;敌人设计的注意点&quot;&gt;&lt;a href=&quot;#敌人设计的注意点&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
+    
+    <category term="Platinum Games" scheme="https://medill-east.github.io/tags/Platinum-Games/"/>
+    
+  </entry>
   
   <entry>
     <title>20220924 - Game Development Isn&#39;t a Game</title>
@@ -278,7 +307,7 @@
     <link href="https://medill-east.github.io/2022/09/06/20220906-bayonetta-toc/"/>
     <id>https://medill-east.github.io/2022/09/06/20220906-bayonetta-toc/</id>
     <published>2022-09-06T04:12:19.000Z</published>
-    <updated>2022-09-24T04:52:26.734Z</updated>
+    <updated>2022-10-05T05:53:30.531Z</updated>
     
     
       
@@ -549,33 +578,6 @@
     
     
     <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>游戏设计艺术 第十三章 游戏机制必须平衡</title>
-    <link href="https://medill-east.github.io/2022/07/11/20220711-theartofgamedesign-chap13/"/>
-    <id>https://medill-east.github.io/2022/07/11/20220711-theartofgamedesign-chap13/</id>
-    <published>2022-07-10T23:45:19.000Z</published>
-    <updated>2022-08-05T10:38:29.119Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;游戏设计艺术-摘抄-笔记&quot;&gt;&lt;a href=&quot;#游戏设计艺术-摘抄-笔记&quot; class=&quot;headerlink&quot; title=&quot;游戏设计艺术 摘抄/笔记&quot;&gt;&lt;/a&gt;游戏设计艺术 摘抄/笔记&lt;/h1&gt;&lt;h2</summary>
-        
-      
-    
-    
-    
-    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
-    
-    
-    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
-    
-    <category term="Game Design" scheme="https://medill-east.github.io/tags/Game-Design/"/>
     
   </entry>
   

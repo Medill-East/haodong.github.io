@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>20221005 - BAYONETTA - 敌人设计的注意点</title>
+      <link href="2022/10/05/20221005-bayonetta-enemy/"/>
+      <url>2022/10/05/20221005-bayonetta-enemy/</url>
+      
+        <content type="html"><![CDATA[<h2 id="敌人设计的注意点"><a href="#敌人设计的注意点" class="headerlink" title="敌人设计的注意点"></a>敌人设计的注意点</h2><ul><li><p>普通敌人的设计</p><ol><li>神谷流动作游戏：<ul><li>小怪是动作游戏的颜面</li><li>要从最低等的敌人开始制作设计，且他们的设计最耗时耗力</li></ul></li><li>通过小怪的设计可拓展：<ul><li>主角战斗方式</li><li>玩家对应玩法</li><li>不同敌人的类型和存在形式</li></ul></li><li>游戏制作离不开大量测试，尝试不同方案才能得出最优结果</li><li>敌人设计需要达到的效果：玩家打倒敌人时充满了满足感与成就感</li></ol></li><li><p>关于敌人设计</p><ol><li>确定敌人种族后，要有固定要素增强统一感。但每个敌人要拥有各自特征才能给玩家带来新刺激</li><li>神谷流动作游戏：注重设计敌人角色独特性，先设计形象再考虑分类及动作</li></ol></li><li><p>制作人看敌人设计</p><ol><li>对于敌人角色设计， 制作人要与导演想法一致</li><li>设计师是以小怪为基准创作其他敌人角色，BOSS 就是小怪的特征极限化</li><li>小怪需要迎合大众且不会让玩家感到厌倦，因此设计上应该花费最多的劳力和时间</li></ol></li></ul><h3 id="普通敌人如何设计"><a href="#普通敌人如何设计" class="headerlink" title="普通敌人如何设计"></a>普通敌人如何设计</h3><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20221005131210.png"></p><ul><li>BAYONETTA 中的小兵 Affinity 是花了很多功夫进行制作的<ul><li>动画等资源也用得最多</li><li>考虑<ul><li>在充实主角性能基础上 需要设计能与之匹敌的敌人</li><li>需要藉由这个最先出现的敌人来处理好贝优妮塔的战斗方式和敌人的存在形式</li><li>边测试边增加敌人的行动模式</li></ul></li><li>最初设计的 affinity 其实比贝优妮塔小 但最终是更大的<ul><li>太小的敌人玩家打败后没有成就感</li><li>不同大小其实做过很多测试</li></ul></li></ul></li></ul><blockquote><p>从等级低 出场率高的敌人开始制作<br>是否能飞可以区分空中战斗和地面战斗</p></blockquote><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20221005131648.png"></p><blockquote><p>等级低的敌人是游戏的颜面</p></blockquote><blockquote><p>敌人太小 打败后玩家可能没有成就感</p></blockquote><h3 id="关于敌人的设计"><a href="#关于敌人的设计" class="headerlink" title="关于敌人的设计"></a>关于敌人的设计</h3><h4 id="基础设定"><a href="#基础设定" class="headerlink" title="基础设定"></a>基础设定</h4><ul><li>贝优妮塔的敌人是天使，其一般形象是<ul><li>包裹在光辉里</li><li>白色主色调</li><li>充满神圣感</li></ul></li><li>于是基于此开始了设计</li><li>而且因为天使是幻想 所以可以方便改动 充满可能性</li></ul><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20221005132356.png"></p><ul><li>后来的想法延伸<blockquote><p>只要有光环就是天使</p></blockquote></li><li>希望建立共识 —— 一看到就知道是天使<ul><li>白色为基调</li><li>在装饰中加入金色作为配色</li><li>剩下的让设计师自由发挥</li></ul></li></ul><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20221005132620.png"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20221005132638.png"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20221005132603.png"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20221005132728.png"></p><ul><li>一开始担心不断出现的白色天使 玩家会不会感到无聊<ul><li>不能让玩家觉得 “又是这家伙”</li><li>所以会想办法让敌人形象多样化从而不断给玩家刺激<ul><li>虽然都是白色基调</li><li>但配饰装甲衣服等都有不同类型</li></ul></li></ul></li></ul><blockquote><p>敌人角色要多样化</p></blockquote><h4 id="BOSS"><a href="#BOSS" class="headerlink" title="BOSS"></a>BOSS</h4><ul><li>BOSS 是更巨大 有着更独特形象 给人一种捉摸不透的感觉的角色</li><li>和设计师沟通时强调<ul><li>先不管敌人会做的动作或者强度</li><li>先做出些独特设计</li><li>看了完成的设定稿后 <ul><li>感觉这个家伙可能会有这样的攻击 </li><li>那个家伙看起来很巨大 可以用来当 BOSS</li></ul></li></ul></li></ul><blockquote><p>先设计形象 再区分敌人类型</p></blockquote><ul><li>有多种敌人设计方式<ul><li>除了先设计形象 再补充设定的方法外<ul><li>贝优妮塔选择这种方式是想优先做出天使的异样感</li><li>这样的方法会增添很多可能性</li></ul></li><li>也有先进行设定 再根据设定来设计形象的办法</li></ul></li></ul><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20221005133245.png"><br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20221005133314.png"><br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20221005133339.png"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20221005133457.png"><br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20221005133522.png"><br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20221005133543.png"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20221005133612.png"><br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20221005133741.png"></p><h4 id="开发秘话"><a href="#开发秘话" class="headerlink" title="开发秘话"></a>开发秘话</h4><ul><li>制作企划时为了让企划书更好看 想加入些天使图片<ul><li>不过现有天使只有丘比特那种普通无趣类型</li><li>于是拜托别人（二代导演桥本）画了一个像天使的怪物 很有趣</li><li>他原本是特效出身 但因为做的天使设计很有趣 所以被拉来帮忙做设计</li></ul></li></ul><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20221005134207.png"></p><h3 id="制作人对动作游戏中的敌人角色的认识"><a href="#制作人对动作游戏中的敌人角色的认识" class="headerlink" title="制作人对动作游戏中的敌人角色的认识"></a>制作人对动作游戏中的敌人角色的认识</h3><ul><li>是少有的制作人和导演保持相同意见的部分</li><li>应该注意<ul><li>小怪最重要<ul><li>就像是高达里的扎古<ul><li>很普通很基础的存在</li><li>但设计师要以此为基础创造更多机型</li></ul></li><li>要设计既不会太不起眼 也不会过于张扬却有着自己存在感的角色其实很难<ul><li>不仅要不同于主人公角色的存在感 </li><li>也要做到一直与之对峙也不让玩家厌倦</li><li>只要能做到 作为制作人就能信心满满地推出作品</li></ul></li><li>小怪不用担心剧透<ul><li>设计首先要迎合大众需求</li></ul></li><li>是导演和制作人都需要重视的东西</li><li>误区<ul><li>动作游戏中的动作设计是最难的</li></ul></li><li>其实做好基本的小怪角色才是最难的<ul><li>在这个部分应该花费最多的劳力和时间</li></ul></li><li>只要小怪做好 把一些特征调整到极限就成为了 BOSS</li></ul></li></ul></li></ul><blockquote><p>设计存在感比较平衡的角色很难</p></blockquote><blockquote><p>小怪调整到极致就成了 BOSS</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Study-Game-Notes </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Game </tag>
+            
+            <tag> Learning Notes </tag>
+            
+            <tag> Platinum Games </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>20220924 - Game Development Isn&#39;t a Game</title>
       <link href="2022/09/24/20220924-game-development-isnt-a-game/"/>
       <url>2022/09/24/20220924-game-development-isnt-a-game/</url>
@@ -267,7 +296,7 @@
       <link href="2022/09/06/20220906-bayonetta-toc/"/>
       <url>2022/09/06/20220906-bayonetta-toc/</url>
       
-        <content type="html"><![CDATA[<h1 id="白金游戏工作室：爆款游戏-创作心法-摘抄-笔记"><a href="#白金游戏工作室：爆款游戏-创作心法-摘抄-笔记" class="headerlink" title="白金游戏工作室：爆款游戏 创作心法 摘抄/笔记"></a>白金游戏工作室：爆款游戏 创作心法 摘抄/笔记</h1><h2 id="Why-Note"><a href="#Why-Note" class="headerlink" title="Why Note"></a>Why Note</h2><p>观看白金工作室在 B 站上的《爆款游戏创作心法》视频，特此记录。</p><h2 id="What"><a href="#What" class="headerlink" title="What"></a>What</h2><p>以下基本信息引用自<a href="https://www.bilibili.com/cheese/play/ep11042?csource=Hp_searchresult&spm_id_from=333.337.0.0">B 站</a>：</p><blockquote><p>日本殿堂级游戏大师稻叶敦志&amp;神谷英树 围绕动作游戏《BAYONETTA》，结合成功经验及大量设定资料，传授游戏创作的技巧心法全方位剖析打造爆款游戏的秘诀。</p></blockquote><h2 id="Content"><a href="#Content" class="headerlink" title="Content"></a>Content</h2><ol><li><a href="https://medill-east.github.io/2022/09/06/20220906-bayonetta-design-document">手把手教你做游戏企划</a></li><li><a href="https://medill-east.github.io/2022/09/11/20220911-bayonetta-worldview">如何建立完美的游戏世界观</a></li><li><a href="https://medill-east.github.io/2022/09/13/20220913-bayonetta-character">打造大人气主人公的秘诀</a></li><li><a href="https://medill-east.github.io/2022/09/17/20220917-bayonetta-story">如何编写引人入胜的故事</a></li><li><a href="https://medill-east.github.io/2022/09/24/20220924-bayonetta-action">令人印象深刻的角色动作</a></li></ol>]]></content>
+        <content type="html"><![CDATA[<h1 id="白金游戏工作室：爆款游戏-创作心法-摘抄-笔记"><a href="#白金游戏工作室：爆款游戏-创作心法-摘抄-笔记" class="headerlink" title="白金游戏工作室：爆款游戏 创作心法 摘抄/笔记"></a>白金游戏工作室：爆款游戏 创作心法 摘抄/笔记</h1><h2 id="Why-Note"><a href="#Why-Note" class="headerlink" title="Why Note"></a>Why Note</h2><p>观看白金工作室在 B 站上的《爆款游戏创作心法》视频，特此记录。</p><h2 id="What"><a href="#What" class="headerlink" title="What"></a>What</h2><p>以下基本信息引用自<a href="https://www.bilibili.com/cheese/play/ep11042?csource=Hp_searchresult&spm_id_from=333.337.0.0">B 站</a>：</p><blockquote><p>日本殿堂级游戏大师稻叶敦志&amp;神谷英树 围绕动作游戏《BAYONETTA》，结合成功经验及大量设定资料，传授游戏创作的技巧心法全方位剖析打造爆款游戏的秘诀。</p></blockquote><h2 id="Content"><a href="#Content" class="headerlink" title="Content"></a>Content</h2><ol><li><a href="https://medill-east.github.io/2022/09/06/20220906-bayonetta-design-document">手把手教你做游戏企划</a></li><li><a href="https://medill-east.github.io/2022/09/11/20220911-bayonetta-worldview">如何建立完美的游戏世界观</a></li><li><a href="https://medill-east.github.io/2022/09/13/20220913-bayonetta-character">打造大人气主人公的秘诀</a></li><li><a href="https://medill-east.github.io/2022/09/17/20220917-bayonetta-story">如何编写引人入胜的故事</a></li><li><a href="https://medill-east.github.io/2022/09/24/20220924-bayonetta-action">令人印象深刻的角色动作</a></li><li><a href="https://medill-east.github.io/2022/10/05/20221005-bayonetta-enemy">敌人设计的注意点</a></li></ol>]]></content>
       
       
       <categories>
