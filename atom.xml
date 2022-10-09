@@ -6,10 +6,40 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2022-10-09T03:56:15.101Z</updated>
+  <updated>2022-10-09T04:17:24.703Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20221009 - Squeeze and Release</title>
+    <link href="https://medill-east.github.io/2022/10/09/20221009-squeeze-and-release/"/>
+    <id>https://medill-east.github.io/2022/10/09/20221009-squeeze-and-release/</id>
+    <published>2022-10-09T04:17:46.000Z</published>
+    <updated>2022-10-09T04:17:24.703Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What&quot;&gt;&lt;/a&gt;What&lt;/h2&gt;&lt;p&gt;观看 Masahiro Sakurai on Creating Games 的视频，了解玩家的压力管理！&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
+    
+    <category term="Masahiro Sakurai on Creating Games" scheme="https://medill-east.github.io/tags/Masahiro-Sakurai-on-Creating-Games/"/>
+    
+  </entry>
   
   <entry>
     <title>20221009 - BAYONETTA -  凸显 BOSS 威猛的动作设计要素</title>
@@ -485,7 +515,7 @@
     <link href="https://medill-east.github.io/2022/08/31/20220900-toc/"/>
     <id>https://medill-east.github.io/2022/08/31/20220900-toc/</id>
     <published>2022-08-31T04:12:46.000Z</published>
-    <updated>2022-10-05T06:40:12.843Z</updated>
+    <updated>2022-10-09T04:21:42.742Z</updated>
     
     
       
@@ -558,33 +588,6 @@
     
     
     <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>游戏设计艺术 第十五章 玩家通过界面玩游戏</title>
-    <link href="https://medill-east.github.io/2022/08/12/20220811-theartofgamedesign-chap15/"/>
-    <id>https://medill-east.github.io/2022/08/12/20220811-theartofgamedesign-chap15/</id>
-    <published>2022-08-12T11:06:19.000Z</published>
-    <updated>2022-08-12T11:07:20.258Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;游戏设计艺术-摘抄-笔记&quot;&gt;&lt;a href=&quot;#游戏设计艺术-摘抄-笔记&quot; class=&quot;headerlink&quot; title=&quot;游戏设计艺术 摘抄/笔记&quot;&gt;&lt;/a&gt;游戏设计艺术 摘抄/笔记&lt;/h1&gt;&lt;h2</summary>
-        
-      
-    
-    
-    
-    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
-    
-    
-    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
-    
-    <category term="Game Design" scheme="https://medill-east.github.io/tags/Game-Design/"/>
     
   </entry>
   
