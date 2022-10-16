@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>20221016 - Draw the Light Not the Asset</title>
+      <link href="2022/10/16/20221016-draw-the-light-not-the-asset/"/>
+      <url>2022/10/16/20221016-draw-the-light-not-the-asset/</url>
+      
+        <content type="html"><![CDATA[<h2 id="What"><a href="#What" class="headerlink" title="What"></a>What</h2><p>观看 Masahiro Sakurai on Creating Games 的视频，了解美术素材制作！</p><h2 id="视频链接"><a href="#视频链接" class="headerlink" title="视频链接"></a>视频链接</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/FuAtKjEuck8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h2 id="F01-Draw-the-Light-Not-the-Asset"><a href="#F01-Draw-the-Light-Not-the-Asset" class="headerlink" title="F01 - Draw the Light Not the Asset"></a>F01 - Draw the Light Not the Asset</h2><h3 id="Draw-the-light-not-the-asset"><a href="#Draw-the-light-not-the-asset" class="headerlink" title="Draw the light, not the asset"></a>Draw the light, not the asset</h3><blockquote><p>Don’t draw the asset, draw the light it reflects.</p></blockquote><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20221016131112.png"></p><ul><li>我们看见的不是物体自己的光，而是它所反射出的光</li></ul><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20221016131215.png"></p><ul><li>不要在 texture 创作完后就停下来</li><li>如果有富足的算力 一般会加入 shader 和 Post-processing<ul><li>但这并不是通常情况</li></ul></li></ul><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20221016131418.png"></p><ul><li>一般而言要尽可能多运用简单技术<ul><li>这样在相同算力情况下能绘制更多物体</li></ul></li></ul><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20221016131518.png" alt="绘制了多次的树丛 - 不那么理想"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20221016131608.png" alt="加上光 - 创造对比"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20221016131705.png" alt="变换饱和度"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20221016131800.png" alt="调节氛围 - 也能创造景深"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20221016131908.png"></p><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><ul><li>如果要创造一棵树，不要仅仅只是创造树本身</li><li>也要考虑环境，表现该 asset 在环境中的光的反射</li></ul><hr>]]></content>
+      
+      
+      <categories>
+          
+          <category> Study-Game-Notes </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Game </tag>
+            
+            <tag> Learning Notes </tag>
+            
+            <tag> Masahiro Sakurai on Creating Games </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>20221016 - BAYONETTA -   好音乐才是真正的“视听盛宴”</title>
       <link href="2022/10/16/20221016-bayonetta-audio/"/>
       <url>2022/10/16/20221016-bayonetta-audio/</url>
