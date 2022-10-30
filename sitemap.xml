@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://medill-east.github.io/2022/08/31/20220900-toc/</loc>
+    
+    <lastmod>2022-10-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://medill-east.github.io/2022/10/30/20221030-kirby-adventure/</loc>
+    
+    <lastmod>2022-10-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://medill-east.github.io/2022/09/06/20220906-bayonetta-toc/</loc>
     
     <lastmod>2022-10-30</lastmod>
@@ -32,15 +50,6 @@
     <loc>https://medill-east.github.io/2022/10/16/20221016-bayonetta-audio/</loc>
     
     <lastmod>2022-10-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://medill-east.github.io/2022/08/31/20220900-toc/</loc>
-    
-    <lastmod>2022-10-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
