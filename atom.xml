@@ -6,10 +6,39 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2022-12-04T05:32:45.932Z</updated>
+  <updated>2022-12-04T06:02:23.839Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20221204 - Make It Pop!</title>
+    <link href="https://medill-east.github.io/2022/12/04/20221204-make-it-pop/"/>
+    <id>https://medill-east.github.io/2022/12/04/20221204-make-it-pop/</id>
+    <published>2022-12-04T06:01:46.000Z</published>
+    <updated>2022-12-04T06:02:23.839Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What&quot;&gt;&lt;/a&gt;What&lt;/h2&gt;&lt;p&gt;观看 Masahiro Sakurai on Creating Games</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
+    
+    <category term="Masahiro Sakurai on Creating Games" scheme="https://medill-east.github.io/tags/Masahiro-Sakurai-on-Creating-Games/"/>
+    
+  </entry>
   
   <entry>
     <title>20221204 - BAYONETTA - 稻叶敦志 游戏制作人看业界</title>
@@ -565,35 +594,6 @@
     <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
     
     <category term="Masahiro Sakurai on Creating Games" scheme="https://medill-east.github.io/tags/Masahiro-Sakurai-on-Creating-Games/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20220924 - BAYONETTA - 令人印象深刻的角色动作</title>
-    <link href="https://medill-east.github.io/2022/09/24/20220924-bayonetta-action/"/>
-    <id>https://medill-east.github.io/2022/09/24/20220924-bayonetta-action/</id>
-    <published>2022-09-24T04:50:46.000Z</published>
-    <updated>2022-09-24T04:51:17.590Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;令人印象深刻的角色动作&quot;&gt;&lt;a href=&quot;#令人印象深刻的角色动作&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
-    
-    
-    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
-    
-    <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
-    
-    <category term="Platinum Games" scheme="https://medill-east.github.io/tags/Platinum-Games/"/>
     
   </entry>
   
