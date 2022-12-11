@@ -6,10 +6,39 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2022-12-11T07:36:36.954Z</updated>
+  <updated>2022-12-11T07:54:53.234Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20221211 - Just Let Them Play!</title>
+    <link href="https://medill-east.github.io/2022/12/11/20221211-just-let-them-play/"/>
+    <id>https://medill-east.github.io/2022/12/11/20221211-just-let-them-play/</id>
+    <published>2022-12-11T07:53:46.000Z</published>
+    <updated>2022-12-11T07:54:53.234Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What&quot;&gt;&lt;/a&gt;What&lt;/h2&gt;&lt;p&gt;观看 Masahiro Sakurai on Creating Games</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
+    
+    <category term="Masahiro Sakurai on Creating Games" scheme="https://medill-east.github.io/tags/Masahiro-Sakurai-on-Creating-Games/"/>
+    
+  </entry>
   
   <entry>
     <title>20221204 - BAYONETTA - 稻叶敦志 游戏制作人看业界</title>
@@ -564,35 +593,6 @@
     <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
     
     <category term="Masahiro Sakurai on Creating Games" scheme="https://medill-east.github.io/tags/Masahiro-Sakurai-on-Creating-Games/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20221005 - BAYONETTA - 敌人设计的注意点</title>
-    <link href="https://medill-east.github.io/2022/10/05/20221005-bayonetta-enemy/"/>
-    <id>https://medill-east.github.io/2022/10/05/20221005-bayonetta-enemy/</id>
-    <published>2022-10-05T05:52:46.000Z</published>
-    <updated>2022-10-05T05:52:42.306Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;敌人设计的注意点&quot;&gt;&lt;a href=&quot;#敌人设计的注意点&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
-    
-    
-    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
-    
-    <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
-    
-    <category term="Platinum Games" scheme="https://medill-east.github.io/tags/Platinum-Games/"/>
     
   </entry>
   
