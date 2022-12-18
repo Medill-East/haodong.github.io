@@ -6,10 +6,40 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2022-12-11T07:54:53.234Z</updated>
+  <updated>2022-12-18T08:41:12.484Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20221218 - Clarity vs. Style</title>
+    <link href="https://medill-east.github.io/2022/12/18/20221218-clarity-vs-style/"/>
+    <id>https://medill-east.github.io/2022/12/18/20221218-clarity-vs-style/</id>
+    <published>2022-12-18T08:40:46.000Z</published>
+    <updated>2022-12-18T08:41:12.484Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What&quot;&gt;&lt;/a&gt;What&lt;/h2&gt;&lt;p&gt;观看 Masahiro Sakurai on Creating Games 的视频，了解游戏 UI！&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
+    
+    <category term="Masahiro Sakurai on Creating Games" scheme="https://medill-east.github.io/tags/Masahiro-Sakurai-on-Creating-Games/"/>
+    
+  </entry>
   
   <entry>
     <title>20221211 - Just Let Them Play!</title>
@@ -563,36 +593,6 @@
     <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
     
     <category term="Platinum Games" scheme="https://medill-east.github.io/tags/Platinum-Games/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20221005 - Down with Lag!</title>
-    <link href="https://medill-east.github.io/2022/10/05/20221005-down-with-lag/"/>
-    <id>https://medill-east.github.io/2022/10/05/20221005-down-with-lag/</id>
-    <published>2022-10-05T06:38:46.000Z</published>
-    <updated>2022-10-05T06:39:19.140Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What&quot;&gt;&lt;/a&gt;What&lt;/h2&gt;&lt;p&gt;观看 Masahiro Sakurai on Creating Games 的视频，了解游戏延迟！&lt;/p&gt;
-&lt;h2</summary>
-        
-      
-    
-    
-    
-    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
-    
-    
-    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
-    
-    <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
-    
-    <category term="Masahiro Sakurai on Creating Games" scheme="https://medill-east.github.io/tags/Masahiro-Sakurai-on-Creating-Games/"/>
     
   </entry>
   
