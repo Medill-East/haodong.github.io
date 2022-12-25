@@ -6,10 +6,39 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2022-12-18T16:27:44.671Z</updated>
+  <updated>2022-12-25T06:47:21.290Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20221225 - Giving “Weight” to Buttons</title>
+    <link href="https://medill-east.github.io/2022/12/25/20221225-d02/"/>
+    <id>https://medill-east.github.io/2022/12/25/20221225-d02/</id>
+    <published>2022-12-25T06:47:46.000Z</published>
+    <updated>2022-12-25T06:47:21.290Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What&quot;&gt;&lt;/a&gt;What&lt;/h2&gt;&lt;p&gt;观看 Masahiro Sakurai on Creating Games</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
+    
+    <category term="Masahiro Sakurai on Creating Games" scheme="https://medill-east.github.io/tags/Masahiro-Sakurai-on-Creating-Games/"/>
+    
+  </entry>
   
   <entry>
     <title>20221219 - Invisible Intuition：Blockmesh and Lighting Tips to Guide Players and Set the Mood</title>
@@ -563,36 +592,6 @@
     <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
     
     <category term="Platinum Games" scheme="https://medill-east.github.io/tags/Platinum-Games/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20221009 - Squeeze and Release</title>
-    <link href="https://medill-east.github.io/2022/10/09/20221009-squeeze-and-release/"/>
-    <id>https://medill-east.github.io/2022/10/09/20221009-squeeze-and-release/</id>
-    <published>2022-10-09T04:17:46.000Z</published>
-    <updated>2022-10-09T04:17:24.703Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What&quot;&gt;&lt;/a&gt;What&lt;/h2&gt;&lt;p&gt;观看 Masahiro Sakurai on Creating Games 的视频，了解玩家的压力管理！&lt;/p&gt;
-&lt;h2</summary>
-        
-      
-    
-    
-    
-    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
-    
-    
-    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
-    
-    <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
-    
-    <category term="Masahiro Sakurai on Creating Games" scheme="https://medill-east.github.io/tags/Masahiro-Sakurai-on-Creating-Games/"/>
     
   </entry>
   

@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://medill-east.github.io/2022/08/31/20220900-toc/</loc>
+    
+    <lastmod>2022-12-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://medill-east.github.io/2022/12/25/20221225-d02/</loc>
+    
+    <lastmod>2022-12-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://medill-east.github.io/2022/04/28/index-notes/</loc>
     
     <lastmod>2022-12-25</lastmod>
@@ -21,15 +39,6 @@
   
   <url>
     <loc>https://medill-east.github.io/2022/12/19/20221219-gdc-invisible-intuition-blockmesh/</loc>
-    
-    <lastmod>2022-12-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://medill-east.github.io/2022/08/31/20220900-toc/</loc>
     
     <lastmod>2022-12-18</lastmod>
     
