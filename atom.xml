@@ -6,10 +6,40 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2023-01-08T05:26:25.976Z</updated>
+  <updated>2023-01-15T10:36:36.227Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20230115 - Name Files Logically</title>
+    <link href="https://medill-east.github.io/2023/01/15/20230115-name-files-logically/"/>
+    <id>https://medill-east.github.io/2023/01/15/20230115-name-files-logically/</id>
+    <published>2023-01-15T10:36:46.000Z</published>
+    <updated>2023-01-15T10:36:36.227Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What&quot;&gt;&lt;/a&gt;What&lt;/h2&gt;&lt;p&gt;观看 Masahiro Sakurai on Creating Games 的视频，了解游戏文件命名！&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
+    
+    <category term="Masahiro Sakurai on Creating Games" scheme="https://medill-east.github.io/tags/Masahiro-Sakurai-on-Creating-Games/"/>
+    
+  </entry>
   
   <entry>
     <title>20230108 - Try Telling That to the Player</title>
@@ -562,35 +592,6 @@
     <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
     
     <category term="Platinum Games" scheme="https://medill-east.github.io/tags/Platinum-Games/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20221030 - Kirby&#39;s Adventure</title>
-    <link href="https://medill-east.github.io/2022/10/30/20221030-kirby-adventure/"/>
-    <id>https://medill-east.github.io/2022/10/30/20221030-kirby-adventure/</id>
-    <published>2022-10-30T07:48:46.000Z</published>
-    <updated>2022-10-30T07:49:43.672Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What&quot;&gt;&lt;/a&gt;What&lt;/h2&gt;&lt;p&gt;观看 Masahiro Sakurai on Creating Games 的视频，了解 Kirby’s</summary>
-        
-      
-    
-    
-    
-    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
-    
-    
-    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
-    
-    <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
-    
-    <category term="Masahiro Sakurai on Creating Games" scheme="https://medill-east.github.io/tags/Masahiro-Sakurai-on-Creating-Games/"/>
     
   </entry>
   
