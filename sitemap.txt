@@ -120,7 +120,6 @@ https://medill-east.github.io/2021/07/16/games101-1-20200211-20210703-overview-o
 https://medill-east.github.io/2021/07/16/games101-7-20200303-20210708-shading-1-illumination-shading-and-graphics-pipeline/
 https://medill-east.github.io/2021/07/16/games101-6-20200228-20210708-rasterization-2-anti-aliasing-and-z-buffering/
 https://medill-east.github.io/404.html
-https://medill-east.github.io/friends/friends.json
 https://medill-east.github.io/friends/index.html
 https://medill-east.github.io/about/index.html
 https://medill-east.github.io/tags/index.html
