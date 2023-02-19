@@ -6,10 +6,40 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2023-02-12T05:58:37.141Z</updated>
+  <updated>2023-02-19T11:08:16.712Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20230219 - Make the Tempo Match the Game</title>
+    <link href="https://medill-east.github.io/2023/02/19/20230219-i01/"/>
+    <id>https://medill-east.github.io/2023/02/19/20230219-i01/</id>
+    <published>2023-02-19T11:07:46.000Z</published>
+    <updated>2023-02-19T11:08:16.712Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What&quot;&gt;&lt;/a&gt;What&lt;/h2&gt;&lt;p&gt;观看 Masahiro Sakurai on Creating Games 的视频，了解游戏 Tempo！&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
+    
+    <category term="Masahiro Sakurai on Creating Games" scheme="https://medill-east.github.io/tags/Masahiro-Sakurai-on-Creating-Games/"/>
+    
+  </entry>
   
   <entry>
     <title>20230212 - Exercise While You Game</title>
@@ -563,35 +593,6 @@
     <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
     
     <category term="Masahiro Sakurai on Creating Games" scheme="https://medill-east.github.io/tags/Masahiro-Sakurai-on-Creating-Games/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20221113 - BAYONETTA - 开发进程：掌控游戏开发的全局</title>
-    <link href="https://medill-east.github.io/2022/11/13/20221113-bayonetta-schedule/"/>
-    <id>https://medill-east.github.io/2022/11/13/20221113-bayonetta-schedule/</id>
-    <published>2022-11-13T06:14:46.000Z</published>
-    <updated>2022-11-13T06:15:23.453Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;开发进程：掌控游戏开发的全局&quot;&gt;&lt;a href=&quot;#开发进程：掌控游戏开发的全局&quot; class=&quot;headerlink&quot; title=&quot;开发进程：掌控游戏开发的全局&quot;&gt;&lt;/a&gt;开发进程：掌控游戏开发的全局&lt;/h2&gt;&lt;h3 id=&quot;要点总结&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
-    
-    
-    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
-    
-    <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
-    
-    <category term="Platinum Games" scheme="https://medill-east.github.io/tags/Platinum-Games/"/>
     
   </entry>
   
