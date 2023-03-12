@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://medill-east.github.io/2022/04/28/index-notes/</loc>
+    
+    <lastmod>2023-03-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://medill-east.github.io/2022/08/31/20220900-toc/</loc>
     
     <lastmod>2023-03-12</lastmod>
@@ -77,15 +86,6 @@
     <loc>https://medill-east.github.io/2023/01/08/20230108-try-telling-that-to-the-player/</loc>
     
     <lastmod>2023-01-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://medill-east.github.io/2022/04/28/index-notes/</loc>
-    
-    <lastmod>2023-01-02</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
