@@ -6,10 +6,39 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2023-03-12T08:30:55.672Z</updated>
+  <updated>2023-03-19T06:41:10.023Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20230319 - Spec Changes</title>
+    <link href="https://medill-east.github.io/2023/03/19/20230319-a04/"/>
+    <id>https://medill-east.github.io/2023/03/19/20230319-a04/</id>
+    <published>2023-03-19T06:40:46.000Z</published>
+    <updated>2023-03-19T06:41:10.023Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What&quot;&gt;&lt;/a&gt;What&lt;/h2&gt;&lt;p&gt;观看 Masahiro Sakurai on Creating Games 的视频，学习如何面对项目开发过程中的 Spec</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
+    
+    <category term="Masahiro Sakurai on Creating Games" scheme="https://medill-east.github.io/tags/Masahiro-Sakurai-on-Creating-Games/"/>
+    
+  </entry>
   
   <entry>
     <title>20230312 - Too Much is Just Right</title>
@@ -562,35 +591,6 @@
     <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
     
     <category term="Masahiro Sakurai on Creating Games" scheme="https://medill-east.github.io/tags/Masahiro-Sakurai-on-Creating-Games/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20221127 - BAYONETTA - 神谷英树 游戏导演看业界</title>
-    <link href="https://medill-east.github.io/2022/11/27/20221127-bayonetta-hideki-kamiya/"/>
-    <id>https://medill-east.github.io/2022/11/27/20221127-bayonetta-hideki-kamiya/</id>
-    <published>2022-11-27T06:00:46.000Z</published>
-    <updated>2022-11-27T06:01:18.508Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;神谷英树：游戏导演看业界&quot;&gt;&lt;a href=&quot;#神谷英树：游戏导演看业界&quot; class=&quot;headerlink&quot; title=&quot;神谷英树：游戏导演看业界&quot;&gt;&lt;/a&gt;神谷英树：游戏导演看业界&lt;/h2&gt;&lt;h3 id=&quot;要点总结&quot;&gt;&lt;a href=&quot;#要点总结&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
-    
-    
-    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
-    
-    <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
-    
-    <category term="Platinum Games" scheme="https://medill-east.github.io/tags/Platinum-Games/"/>
     
   </entry>
   
