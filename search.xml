@@ -33,6 +33,35 @@
     
     
     <entry>
+      <title>20230416 - Strike a Balance with Sound Effects</title>
+      <link href="2023/04/16/20230416-i02/"/>
+      <url>2023/04/16/20230416-i02/</url>
+      
+        <content type="html"><![CDATA[<h2 id="What"><a href="#What" class="headerlink" title="What"></a>What</h2><p>观看 Masahiro Sakurai on Creating Games 的视频，了解游戏音效！</p><h2 id="视频链接"><a href="#视频链接" class="headerlink" title="视频链接"></a>视频链接</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/qKjD5qbLUeI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>## 内容<h2 id="I02-Strike-a-Balance-with-Sound-Effects"><a href="#I02-Strike-a-Balance-with-Sound-Effects" class="headerlink" title="I02 - Strike a Balance with Sound Effects"></a>I02 - Strike a Balance with Sound Effects</h2><ul><li><p>很多时候需要在更加现实 vs. 更夸张的音效之间进行选择</p><ul><li>即使如此，需要仔细想好需要 how loud, how flashy, how discernible 的音效</li></ul></li><li><p>比如</p><ul><li>林克的走路和轻攻击听起来都很听，应该强调哪一个呢？</li></ul></li></ul><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202304161618090.png"></p><ul><li><p>游戏中的音效都是被用于模拟其相应行为的音效的，所以有时候的抉择很困难</p></li><li><p>樱井自己的建议是：一个音效越和玩家相关，其声音就需要越大<br>  <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202304161622873.png"></p></li><li><p>下面会用 smash bro 举例（为了简化情况会隐藏一些效果（subtle effects）</p><ul><li>top priority<ul><li>应该被强化的声音：KO<ul><li>无论是 KO 别人还是被 KO，都是如此</li><li>这对于 push and pull 以及比赛结果而言都很重要</li><li>所以这是最响的声音，最高优先级</li></ul></li></ul></li><li>less priority<ul><li>之后是 impacts sound<ul><li>无论是打击到对手，或是被打到</li><li>玩家需要对其所处状态的直观反馈，这也是 impacts sound 所发挥的作用</li></ul></li><li>完美格挡 perfect shielding <ul><li>和 impacts sound 是同等优先级的音效</li></ul></li></ul></li><li>less priority<ul><li>explosions<ul><li>如果爆炸越大，其音效也需要相应放大</li></ul></li></ul></li><li>less priority<ul><li>special moves<ul><li>指的不是造成伤害的时候，而是使用的时候</li><li>每个角色可能都有相应的特殊操作，所以需要确保每个角色的特殊音效的可辨识度</li><li>取决于各个特殊操作的强度等属性，每个的音量大小可能各有不同</li></ul></li><li>voices<ul><li>即角色说话声，和 special moves 是同等优先级</li><li>但清楚的角色说话声会打断别的音效，所以需要在这里寻求平衡（清楚地说话 vs. 只是表意的喊声）</li></ul></li></ul></li><li>less priority<ul><li>dodges/shield blocks/ledge grabs<ul><li>即闪避/格挡/抓边</li><li>这些行为基于特定条件，这些音效用于突出玩家的成功操作</li></ul></li></ul></li><li>less priority<ul><li>attack swings<ul><li>即没有击中目标时的攻击</li><li>此时，这类音效已经很难听到了，但这类音效依然为玩家的按键输入提供了反馈，所以也需要有一定的辨识度</li></ul></li><li>dashing<ul><li>即奔跑</li><li>通过倾斜摇杆触发，和 attack swings 是同等音量的</li></ul></li></ul></li><li>less priority<ul><li>jumping &amp; landing<ul><li>这两者中，因为 landing 算是一种 reaction，所以其音量稍微比 jumping 更大一些</li><li>需要让这些音效和每个角色的属性（尤其是所穿戴的衣物）相匹配<ul><li>比如克劳德的 landing 音效和他所穿的衣服就有关</li></ul></li></ul></li></ul></li><li>less priority<ul><li>walking<ul><li>这也是作为玩家的输入反馈的一部分，所以当然也需要可以听到且有辨识度</li><li>并且总需要为同种音效做一些变化（比如左脚落地/右脚落地听着不同），否则如果总是相同音效重复播放会让人感觉无聊和不自然</li></ul></li></ul></li></ul></li><li><p>谈及 脚步声，你曾经想过在 3D 游戏中，它们应该有更高的优先级吗</p><ul><li>如果不怎么能听见脚步声，这会让你感觉缺了点什么，让你感觉角色是悬空的，而不是在行走</li><li>但其实脚步声有时候真的很难搞<ul><li>因为地面会有不同的材质和属性，这就意味着需要为不同材质的地面设计不同的脚步声</li><li>和现实相近的脚步声总是最好的，所以不得不为此费心劳神</li></ul></li></ul></li></ul><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><ul><li>在 评审游戏音效时，需要考虑其对于游戏及游戏角色的重要性，然后来确定相应的优先级，如果只考虑一个动作的大小/幅度，可能不能达到预期的效果</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Study-Game-Notes </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Game </tag>
+            
+            <tag> Learning Notes </tag>
+            
+            <tag> Masahiro Sakurai on Creating Games </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>20230402 - The Price of Games</title>
       <link href="2023/04/02/20230402-m04/"/>
       <url>2023/04/02/20230402-m04/</url>
