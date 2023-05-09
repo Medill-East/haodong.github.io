@@ -1,3 +1,5 @@
+https://medill-east.github.io/2022/05/29/20220529-theartofgamedesign-toc/
+https://medill-east.github.io/2023/05/10/20230510-theartofgamedesign-chap16/
 https://medill-east.github.io/2022/08/31/20220900-toc/
 https://medill-east.github.io/2023/05/07/20230507-h02/
 https://medill-east.github.io/2023/05/01/20230501-c04/
@@ -59,7 +61,6 @@ https://medill-east.github.io/2022/08/29/20220829-earnthenamebackforshadowpuppet
 https://medill-east.github.io/2022/04/28/index-showcase/
 https://medill-east.github.io/2022/08/14/20220813-teardown-analysis-avatar-the-game/
 https://medill-east.github.io/2022/04/29/index-gameanalysis/
-https://medill-east.github.io/2022/05/29/20220529-theartofgamedesign-toc/
 https://medill-east.github.io/2022/08/12/20220811-theartofgamedesign-chap15/
 https://medill-east.github.io/2022/05/26/20220525-writing/
 https://medill-east.github.io/2022/08/07/20220807-theartofgamedesign-chap14/
