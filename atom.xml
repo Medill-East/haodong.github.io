@@ -6,10 +6,39 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2023-05-09T16:54:25.000Z</updated>
+  <updated>2023-05-14T06:32:11.000Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20230514 - Breaking Down Attack Animations</title>
+    <link href="https://medill-east.github.io/2023/05/14/20230514-g03/"/>
+    <id>https://medill-east.github.io/2023/05/14/20230514-g03/</id>
+    <published>2023-05-14T06:32:46.000Z</published>
+    <updated>2023-05-14T06:32:11.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What&quot;&gt;&lt;/a&gt;What&lt;/h2&gt;&lt;p&gt;观看 Masahiro Sakurai on Creating Games</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
+    
+    <category term="Masahiro Sakurai on Creating Games" scheme="https://medill-east.github.io/tags/Masahiro-Sakurai-on-Creating-Games/"/>
+    
+  </entry>
   
   <entry>
     <title>游戏设计艺术 第十六章 体验可以用兴趣曲线来评价</title>
@@ -564,35 +593,6 @@
     <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
     
     <category term="Masahiro Sakurai on Creating Games" scheme="https://medill-east.github.io/tags/Masahiro-Sakurai-on-Creating-Games/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20221219 - Invisible Intuition：Blockmesh and Lighting Tips to Guide Players and Set the Mood</title>
-    <link href="https://medill-east.github.io/2022/12/19/20221219-gdc-invisible-intuition-blockmesh/"/>
-    <id>https://medill-east.github.io/2022/12/19/20221219-gdc-invisible-intuition-blockmesh/</id>
-    <published>2022-12-18T16:27:46.000Z</published>
-    <updated>2022-12-18T16:27:44.671Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;原视频链接&quot;&gt;&lt;a href=&quot;#原视频链接&quot; class=&quot;headerlink&quot; title=&quot;原视频链接&quot;&gt;&lt;/a&gt;原视频链接&lt;/h2&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
-    
-    
-    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
-    
-    <category term="GDC" scheme="https://medill-east.github.io/tags/GDC/"/>
-    
-    <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
     
   </entry>
   
