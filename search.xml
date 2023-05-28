@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>20230528 - Writing Game Proposals</title>
+      <link href="2023/05/28/20230528-a05/"/>
+      <url>2023/05/28/20230528-a05/</url>
+      
+        <content type="html"><![CDATA[<h2 id="What"><a href="#What" class="headerlink" title="What"></a>What</h2><p>观看 Masahiro Sakurai on Creating Games 的视频，学习如何写游戏提案！</p><h2 id="视频链接"><a href="#视频链接" class="headerlink" title="视频链接"></a>视频链接</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/2Iiu1k16Ukc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h2 id="A05-Writing-Game-Proposals"><a href="#A05-Writing-Game-Proposals" class="headerlink" title="A05 - Writing Game Proposals"></a>A05 - Writing Game Proposals</h2><ul><li>这期内容虽然看起来像是 Planning &amp; Game Design 的内容，但其实其适用性更广泛，所以就算作 Work Ethic 了~</li><li>樱井将分析近年来他自己用于分享游戏提案的一种格式<ul><li>提案以 PPT 形式展开<ul><li>每页一个主题<ul><li>一张图</li><li>两句话</li></ul></li><li>有非常多页 但每一页都足够精简 让人能快速抓住重点<ul><li>有一些涉及深入机制 即一些只有开发团队需要知道的内容</li></ul></li><li>有一种观点是需要保持提案足够精简，但并不总是如此的<ul><li>需要保证的是清晰，抓住重点</li><li>只要可以让其成为一个有高信息密度的可以快速阅读的 presentation，页数就不再是问题</li></ul></li></ul></li><li>将内容分类别/子类别陈列<ul><li>这样读者可以清晰知道目前的阅读进度<ul><li>没有人喜欢无尽的 presentation</li></ul></li></ul></li></ul></li><li>樱井自自己开始做外包开始就用这种提案格式<ul><li>在实际展示的时候确实会在每一页多在语言上多做一些说明</li><li>但从不只是照着文字读而已</li><li>如果只是演讲者一直在照着文字念是很烦的<ul><li>人们会自己读下面的东西</li></ul></li></ul></li></ul><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202305281301090.png" alt="Smash Bros. Ultimate 的提案封面"><br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202305281302184.png"><br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202305281323699.png"><br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202305281323284.png"><br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202305281324211.png"><br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202305281324292.png"><br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202305281325347.png"><br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202305281326564.png"><br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202305281326087.png"><br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202305281327279.png"><br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202305281327524.png"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202305281333060.png" alt="分类呈现"></p><h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><ul><li>如果想让提案容易被消化，可以试试这种方法</li><li>但是不要忘记了：最重要的是其中的内容！</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Study-Game-Notes </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Game </tag>
+            
+            <tag> Learning Notes </tag>
+            
+            <tag> Masahiro Sakurai on Creating Games </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>20230521 - Jump Physics</title>
       <link href="2023/05/21/20230521-d03/"/>
       <url>2023/05/21/20230521-d03/</url>
