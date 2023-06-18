@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>20230618 - The Fiend&#39;s Cauldron</title>
+      <link href="2023/06/18/20230618-b05/"/>
+      <url>2023/06/18/20230618-b05/</url>
+      
+        <content type="html"><![CDATA[<h2 id="What"><a href="#What" class="headerlink" title="What"></a>What</h2><p>观看 Masahiro Sakurai on Creating Games 的视频，了解提供游戏难度选项的新思路！</p><h2 id="视频链接"><a href="#视频链接" class="headerlink" title="视频链接"></a>视频链接</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/ai7pBxHAcvU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h2 id="B05-The-Fiend’s-Cauldron"><a href="#B05-The-Fiend’s-Cauldron" class="headerlink" title="B05 - The Fiend’s Cauldron"></a>B05 - The Fiend’s Cauldron</h2><ul><li><p>近年来的大多游戏都会让你从简单、普通、困难三种模式中进行选择</p></li><li><p>在 Kid Lcarus: Uprising 中，樱井创造了一个被称为“Fiend’s Cauldron”（恶魔的坩埚）的系统</p><ul><li>樱井个人认为这是一个从游戏本质出发的非常聪明的机制</li></ul></li><li><p>机制介绍</p><ul><li>在每个阶段开始前，恶魔的坩埚会出现，玩家在这时可以设定强度（intensity），默认强度为 2</li><li>随着强度增加，游戏难度也会增加<ul><li>敌人变多</li><li>敌人变得更具侵略性</li><li>敌人具有更高的攻击和防御属性</li></ul></li><li>更高的强度也能获得更多的得分<ul><li>更多的生命奖励</li><li>更强的武器</li><li>更强力的道具</li></ul></li><li>如果失败后，在坩埚中加入的心心会部分洒出<ul><li>难度相应降低</li><li>但此时因为已经损失了部分心心，要想获得相应的奖励可能会变得更加困难</li></ul></li><li>如果想要降低难度，也可以花费心心来降低强度<ul><li>如果强度被降为 0，你就几乎是无敌的状态</li><li>也就是说无论是升高还是降低强度，都需要花费心心</li></ul></li></ul></li></ul><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202306181247256.png"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202306181325455.gif"></p><ul><li><p>Risk and reward</p><ul><li>很清晰</li><li>如果承受更多的风险，就可能会有更多的收益</li></ul></li><li><p>新颖之处</p><ul><li>这个系统在你失败后自动降低了难度，所以基本不会一直卡关</li><li>虽然这可能无法完全移除失败的痛苦，但至少不会像在被迫简单模式的时候那样感觉“受到侮辱”</li><li>并且玩家不需要像传统游戏一样，在整个游戏中都使用简单模式游玩，玩家可以调整每一关的难度，这可以帮助玩家获得更好的体验</li><li>如果强度被调整为 0，几乎就是无敌的，所以基本不可能有卡关的情况出现</li></ul></li><li><p>有问题的地方</p><ul><li>初学者可能会觉得游戏过于硬核<ul><li>一个不断让你逼近极限的游戏很难被称之为“休闲”</li><li>游戏的关卡相对比较大，也就意味着会有很多敌人</li><li>玩家死亡后也没有重生的机会</li></ul></li><li>Game essence 能够让游戏更具游戏感，但可能也会让游戏的受众范围变小（conversely make games feel less approachable）。这对于小屏幕的 3DS 机器更是如此<ul><li>Push and pull</li><li>Risk and reward</li></ul></li><li>樱井也怀疑，降低强度到 2 以下就意味着降低难度是否被玩家很好地理解了<ul><li>新手玩家是最需要这些部分的玩家</li><li>但这是开发中没有足够时间来进行更进一步优化的部分</li><li>如果再来一次的话，樱井希望能在这个部分做得更好</li></ul></li></ul></li><li><p>目前的游戏可以让玩家几乎没有限制地在任意时间更改难度</p><ul><li>这当然是很有必要的设计</li><li>但樱井内心仍然认为应该奖励那些愿意使用更高难度游玩的玩家</li></ul></li><li><p>虽然恶魔的坩埚这一机制并不完美，但樱井觉得这确实是一个很好的设计，这也可以为开发者们提供一种新的提供难度选项的思路</p></li><li><p>一些 Smash Bros. For Will U/3DS 和 Smash Bros. Ultimate 中的单人游玩模式也用了一种类似的方式来提供难度调整</p><ul><li>不过在这两个游戏中获取游戏点数不像 Kid Icarus: Uprising 之中那么重要，所以相对而言这个机制在这里没有那么重要</li></ul></li></ul><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202306181353232.gif"></p><h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><p>要是能在家用主机上 玩一玩 Kid Icarus: Uprising 当然非常好，樱井很好奇有没有人愿意移植</p><blockquote><blockquote><p>然后露出了意味深长的笑容 (￣▽￣)／</p></blockquote></blockquote><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202306181356391.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Study-Game-Notes </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Game </tag>
+            
+            <tag> Learning Notes </tag>
+            
+            <tag> Masahiro Sakurai on Creating Games </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>20230611 - Super Smash Bros Melee</title>
       <link href="2023/06/11/20230611-n05/"/>
       <url>2023/06/11/20230611-n05/</url>
