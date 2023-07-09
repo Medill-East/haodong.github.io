@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="游戏设计艺术 第五章 游戏由元素构成, 無涘">
+    <meta name="keywords" content="20220709 - ChatGPT Prompt Engineering for Developers, 無涘">
     <meta name="description" content="Whatever will be, will be.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -28,7 +28,7 @@
 
 
 
-    <title>游戏设计艺术 第五章 游戏由元素构成 | 無涘</title>
+    <title>20220709 - ChatGPT Prompt Engineering for Developers | 無涘</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -239,12 +239,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220712114724.png')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202307091706946.png')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">游戏设计艺术 第五章 游戏由元素构成</h1>
+                    <h1 class="description center-align post-title">20220709 - ChatGPT Prompt Engineering for Developers</h1>
                 </div>
             </div>
         </div>
@@ -366,8 +366,12 @@
                                 <span class="chip bg-color">Game</span>
                             </a>
                         
-                            <a href="/tags/Game-Design/">
-                                <span class="chip bg-color">Game Design</span>
+                            <a href="/tags/Learning-Notes/">
+                                <span class="chip bg-color">Learning Notes</span>
+                            </a>
+                        
+                            <a href="/tags/GCORES/">
+                                <span class="chip bg-color">GCORES</span>
                             </a>
                         
                     </div>
@@ -391,14 +395,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2021-08-13
+                    2023-07-09
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2022-07-12
+                    2023-07-09
                 </div>
                 
 
@@ -412,7 +416,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    7 Min
+                    12 Min
                 </div>
                 
 
@@ -435,166 +439,329 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="游戏设计艺术-摘抄-笔记"><a href="#游戏设计艺术-摘抄-笔记" class="headerlink" title="游戏设计艺术 摘抄/笔记"></a>游戏设计艺术 摘抄/笔记</h1><h2 id="第五章-游戏由元素构成"><a href="#第五章-游戏由元素构成" class="headerlink" title="第五章 游戏由元素构成"></a>第五章 游戏由元素构成</h2><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210813200614.png" style="zoom: 50%;" />
+                <h2 id="Why-Note"><a href="#Why-Note" class="headerlink" title="Why Note"></a>Why Note</h2><p>开发过程中如果能够使用大规模语言模型（Large Language Model, LLM，如 ChatGPT）来快速构建应用是一件很棒的事！所以就有了这篇与 DeepLearning 和 OpenAI 一起学习如何使用 LLM 为开发过程助力的笔记！</p>
+<h2 id="What"><a href="#What" class="headerlink" title="What"></a>What</h2><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202307091709315.png"></p>
+<h2 id="Content"><a href="#Content" class="headerlink" title="Content"></a>Content</h2><ul>
+<li>官网链接：<br><a target="_blank" rel="noopener" href="https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/">https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/</a></li>
+</ul>
+<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><ul>
+<li>重要的是使用 gpt api 来快速构建应用</li>
+<li>两种类型的 LLM<ul>
+<li><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202307081715572.png"></li>
+<li>Base LLM<ul>
+<li>基于文本训练的数据来预测下一个词</li>
+</ul>
+</li>
+<li>Instruction Tuned LLM (course focus)<ul>
+<li>被训练用于跟随指示</li>
+<li>如果觉得其回答得不好，可能是因为给的问题不够准确</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="Guidelines-for-Prompting"><a href="#Guidelines-for-Prompting" class="headerlink" title="Guidelines for Prompting"></a>Guidelines for Prompting</h2><h3 id="两个原则"><a href="#两个原则" class="headerlink" title="两个原则"></a>两个原则</h3><h4 id="1-Write-clear-and-specific-instructions"><a href="#1-Write-clear-and-specific-instructions" class="headerlink" title="1. Write clear and specific instructions"></a>1. Write clear and specific instructions</h4><h5 id="Tactics-1-Use-delimiters-to-clearly-indicate-distinct-parts-of-the-input"><a href="#Tactics-1-Use-delimiters-to-clearly-indicate-distinct-parts-of-the-input" class="headerlink" title="Tactics 1 - Use delimiters to clearly indicate distinct parts of the input"></a>Tactics 1 - Use delimiters to clearly indicate distinct parts of the input</h5><pre class="line-numbers language-none"><code class="language-none">Delimiters can be anything like: &#96;&#96;&#96;, &quot;&quot;&quot;, &lt; &gt;, &#96;&lt;tag&gt; &lt;&#x2F;tag&gt;&#96;, &#96;:&#96;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<h3 id="什么组成了小游戏"><a href="#什么组成了小游戏" class="headerlink" title="什么组成了小游戏"></a>什么组成了小游戏</h3><h3 id="四种基本元素"><a href="#四种基本元素" class="headerlink" title="四种基本元素"></a>四种基本元素</h3><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20210813200747.png" style="zoom:67%;" />
+<pre class="line-numbers language-none"><code class="language-none">text &#x3D; f&quot;&quot;&quot;
+You should express what you want a model to do by \ 
+providing instructions that are as clear and \ 
+specific as you can possibly make them. \ 
+This will guide the model towards the desired output, \ 
+and reduce the chances of receiving irrelevant \ 
+or incorrect responses. Don&#39;t confuse writing a \ 
+clear prompt with writing a short prompt. \ 
+In many cases, longer prompts provide more clarity \ 
+and context for the model, which can lead to \ 
+more detailed and relevant outputs.
+&quot;&quot;&quot;
+prompt &#x3D; f&quot;&quot;&quot;
+Summarize the text delimited by triple backticks \ 
+into a single sentence.
+&#96;&#96;&#96;&#123;text&#125;&#96;&#96;&#96;
+&quot;&quot;&quot;
+response &#x3D; get_completion(prompt)
+print(response)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-none"><code class="language-none">To guide a model towards the desired output and reduce irrelevant or incorrect responses, it is important to provide clear and specific instructions, which can be achieved through longer prompts that offer more clarity and context.
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<ol>
-<li>机制<ul>
-<li>定义<ul>
-<li>游戏中的过程和规则</li>
-<li>机制描述了玩家怎样才能完成你的游戏目标，当他们尝试时，会发生什么。</li>
-</ul>
-</li>
-<li>对比<ul>
-<li>线性体验（小说、电影）并不包含机制，是机制让游戏成为了游戏</li>
-</ul>
-</li>
-<li>与其他元素的关系<ul>
-<li>当你选择了一系列对玩法有重要作用的机制时，需要选择技术来支持；需要选择美学来呈现；需要故事来让（有时很奇怪）机制吸引玩家</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>故事<ul>
-<li>定义<ul>
-<li>是游戏中事件展开的顺序</li>
-<li>可能是线性/预先设定的；也可能是有分支/随机发生的</li>
-</ul>
-</li>
-<li>与其他元素的关系<ul>
-<li>当想通过游戏讲述故事</li>
-<li>需要合适的机制来推动故事发展，让故事浮出水面</li>
-<li>通过美学来加强故事表现力</li>
-<li>通过技术来配合游戏中将要出现的特定故事</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>美学<ul>
-<li>定义<ul>
-<li>是游戏的外观、声音、气味、味道和感觉</li>
-<li>对玩家体验有最直接影响，因而是游戏设计中非常重要的一个方面</li>
-</ul>
-</li>
-<li>与其他元素的关系<ul>
-<li>如果想让玩家体验到特定的外观、语音并让玩家沉浸其中</li>
-<li>需要选择技术，不仅能够将美学表达出来，而且能够放大它们</li>
-<li>需要选择一种机制让玩家们感受到游戏世界中的美学已经被确定了</li>
-<li>需要一个有一系列事件的故事让美学在合适的时机凸显出来，展现出最强的影响力</li>
-<li>美学能够强化其他游戏元素，创造一个更有纪念意义的体验</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>技术<ul>
-<li>定义<ul>
-<li>不是特指高科技</li>
-<li>对于任何让你游戏实现的材质和交互，就像纸和铅笔，塑料原型或者高能激光一样，你选择的技术英爱能让你的游戏完成特定目标，并禁止它完成其他事情</li>
-</ul>
-</li>
-<li>与其他元素的关系<ul>
-<li>技术从本质上来讲是一种媒介</li>
-<li>美学通过它展现</li>
-<li>机制通过它产生作用</li>
-<li>故事通过它被讲述</li>
-</ul>
-</li>
-</ul>
-</li>
-</ol>
+
+<p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202307082014721.png"></p>
+<h5 id="Tactic-2-Ask-for-a-structured-output"><a href="#Tactic-2-Ask-for-a-structured-output" class="headerlink" title="Tactic 2: Ask for a structured output"></a>Tactic 2: Ask for a structured output</h5><p>HTML/JSON</p>
+<pre class="line-numbers language-none"><code class="language-none">prompt &#x3D; f&quot;&quot;&quot;
+Generate a list of three made-up book titles along \ 
+with their authors and genres. 
+Provide them in JSON format with the following keys: 
+book_id, title, author, genre.
+&quot;&quot;&quot;
+response &#x3D; get_completion(prompt)
+print(response)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-none"><code class="language-none">&#123;
+  &quot;books&quot;: [
+    &#123;
+      &quot;book_id&quot;: 1,
+      &quot;title&quot;: &quot;The Enigma of Elysium&quot;,
+      &quot;author&quot;: &quot;Evelyn Sinclair&quot;,
+      &quot;genre&quot;: &quot;Mystery&quot;
+    &#125;,
+    &#123;
+      &quot;book_id&quot;: 2,
+      &quot;title&quot;: &quot;Whispers in the Wind&quot;,
+      &quot;author&quot;: &quot;Nathaniel Blackwood&quot;,
+      &quot;genre&quot;: &quot;Fantasy&quot;
+    &#125;,
+    &#123;
+      &quot;book_id&quot;: 3,
+      &quot;title&quot;: &quot;Echoes of the Past&quot;,
+      &quot;author&quot;: &quot;Amelia Hart&quot;,
+      &quot;genre&quot;: &quot;Romance&quot;
+    &#125;
+  ]
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h5 id="Tactic-3-Ask-the-model-to-check-whether-conditions-are-satisfied"><a href="#Tactic-3-Ask-the-model-to-check-whether-conditions-are-satisfied" class="headerlink" title="Tactic 3: Ask the model to check whether conditions are satisfied"></a>Tactic 3: Ask the model to check whether conditions are satisfied</h5><pre class="line-numbers language-none"><code class="language-none">text_1 &#x3D; f&quot;&quot;&quot;
+Making a cup of tea is easy! First, you need to get some \ 
+water boiling. While that&#39;s happening, \ 
+grab a cup and put a tea bag in it. Once the water is \ 
+hot enough, just pour it over the tea bag. \ 
+Let it sit for a bit so the tea can steep. After a \ 
+few minutes, take out the tea bag. If you \ 
+like, you can add some sugar or milk to taste. \ 
+And that&#39;s it! You&#39;ve got yourself a delicious \ 
+cup of tea to enjoy.
+&quot;&quot;&quot;
+prompt &#x3D; f&quot;&quot;&quot;
+You will be provided with text delimited by triple quotes. 
+If it contains a sequence of instructions, \ 
+re-write those instructions in the following format:
+
+Step 1 - ...
+Step 2 - …
+…
+Step N - …
+
+If the text does not contain a sequence of instructions, \ 
+then simply write \&quot;No steps provided.\&quot;
+
+\&quot;\&quot;\&quot;&#123;text_1&#125;\&quot;\&quot;\&quot;
+&quot;&quot;&quot;
+response &#x3D; get_completion(prompt)
+print(&quot;Completion for Text 1:&quot;)
+print(response)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<pre class="line-numbers language-none"><code class="language-none">Completion for Text 1:
+Step 1 - Get some water boiling.
+Step 2 - Grab a cup and put a tea bag in it.
+Step 3 - Once the water is hot enough, pour it over the tea bag.
+Step 4 - Let the tea sit for a bit to steep.
+Step 5 - After a few minutes, take out the tea bag.
+Step 6 - Add sugar or milk to taste, if desired.
+Step 7 - Enjoy your delicious cup of tea.<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h5 id="Tactic-4-“Few-shot”-prompting"><a href="#Tactic-4-“Few-shot”-prompting" class="headerlink" title="Tactic 4: “Few-shot” prompting"></a>Tactic 4: “Few-shot” prompting</h5><p>Give successful examples of completing tasks then ask model to perform the task</p>
+<pre class="line-numbers language-none"><code class="language-none">prompt &#x3D; f&quot;&quot;&quot;
+Your task is to answer in a consistent style.
+
+&lt;child&gt;: Teach me about patience.
+
+&lt;grandparent&gt;: The river that carves the deepest \ 
+valley flows from a modest spring; the \ 
+grandest symphony originates from a single note; \ 
+the most intricate tapestry begins with a solitary thread.
+
+&lt;child&gt;: Teach me about resilience.
+&quot;&quot;&quot;
+response &#x3D; get_completion(prompt)
+print(response)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<pre class="line-numbers language-none"><code class="language-none">&lt;grandparent&gt;: Resilience is like a mighty oak tree that withstands the strongest storms, bending but never breaking. It is the unwavering determination to rise again after every fall, and the ability to find strength in the face of adversity. Just as a diamond is formed under immense pressure, resilience is forged through challenges and hardships, making us stronger and more resilient in the process.<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h4 id="2-Give-the-model-time-to-think"><a href="#2-Give-the-model-time-to-think" class="headerlink" title="2. Give the model time to think"></a>2. Give the model time to think</h4><h5 id="Tactic-1-Specify-the-steps-required-to-complete-a-task"><a href="#Tactic-1-Specify-the-steps-required-to-complete-a-task" class="headerlink" title="Tactic 1: Specify the steps required to complete a task"></a>Tactic 1: Specify the steps required to complete a task</h5><pre class="line-numbers language-none"><code class="language-none">text &#x3D; f&quot;&quot;&quot;
+In a charming village, siblings Jack and Jill set out on \ 
+a quest to fetch water from a hilltop \ 
+well. As they climbed, singing joyfully, misfortune \ 
+struck—Jack tripped on a stone and tumbled \ 
+down the hill, with Jill following suit. \ 
+Though slightly battered, the pair returned home to \ 
+comforting embraces. Despite the mishap, \ 
+their adventurous spirits remained undimmed, and they \ 
+continued exploring with delight.
+&quot;&quot;&quot;
+# example 1
+prompt_1 &#x3D; f&quot;&quot;&quot;
+Perform the following actions: 
+1 - Summarize the following text delimited by triple \
+backticks with 1 sentence.
+2 - Translate the summary into French.
+3 - List each name in the French summary.
+4 - Output a json object that contains the following \
+keys: french_summary, num_names.
+
+Separate your answers with line breaks.
+
+Text:
+&#96;&#96;&#96;&#123;text&#125;&#96;&#96;&#96;
+&quot;&quot;&quot;
+response &#x3D; get_completion(prompt_1)
+print(&quot;Completion for prompt 1:&quot;)
+print(response)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<pre class="line-numbers language-none"><code class="language-none">Completion for prompt 1:
+1 - Jack and Jill, siblings, go on a quest to fetch water from a hilltop well, but encounter misfortune when Jack trips on a stone and tumbles down the hill, with Jill following suit, yet they return home and remain undeterred in their adventurous spirits.
+
+2 - Jack et Jill, frère et sœur, partent en quête d&#39;eau d&#39;un puits au sommet d&#39;une colline, mais rencontrent un malheur lorsque Jack trébuche sur une pierre et dévale la colline, suivi de Jill, pourtant ils rentrent chez eux et restent déterminés dans leur esprit d&#39;aventure.
+
+3 - Jack, Jill
+
+4 - &#123;
+  &quot;french_summary&quot;: &quot;Jack et Jill, frère et sœur, partent en quête d&#39;eau d&#39;un puits au sommet d&#39;une colline, mais rencontrent un malheur lorsque Jack trébuche sur une pierre et dévale la colline, suivi de Jill, pourtant ils rentrent chez eux et restent déterminés dans leur esprit d&#39;aventure.&quot;,
+  &quot;num_names&quot;: 2
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>Ask for output in a specified format</p>
+<pre class="line-numbers language-none"><code class="language-none">prompt_2 &#x3D; f&quot;&quot;&quot;
+Your task is to perform the following actions: 
+1 - Summarize the following text delimited by 
+  &lt;&gt; with 1 sentence.
+2 - Translate the summary into French.
+3 - List each name in the French summary.
+4 - Output a json object that contains the 
+  following keys: french_summary, num_names.
+
+Use the following format:
+Text: &lt;text to summarize&gt;
+Summary: &lt;summary&gt;
+Translation: &lt;summary translation&gt;
+Names: &lt;list of names in Italian summary&gt;
+Output JSON: &lt;json with summary and num_names&gt;
+
+Text: &lt;&#123;text&#125;&gt;
+&quot;&quot;&quot;
+response &#x3D; get_completion(prompt_2)
+print(&quot;\nCompletion for prompt 2:&quot;)
+print(response)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<pre class="line-numbers language-none"><code class="language-none">Completion for prompt 2:
+Summary: Jack and Jill, siblings, go on a quest to fetch water from a hilltop well but encounter misfortune along the way. 
+Translation: Jack et Jill, frère et sœur, partent en quête d&#39;eau d&#39;un puits au sommet d&#39;une colline mais rencontrent des malheurs en chemin.
+Names: Jack, Jill
+Output JSON: &#123;&quot;french_summary&quot;: &quot;Jack et Jill, frère et sœur, partent en quête d&#39;eau d&#39;un puits au sommet d&#39;une colline mais rencontrent des malheurs en chemin.&quot;, &quot;num_names&quot;: 2&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h5 id="Tactic-2-Instruct-the-model-to-work-out-its-own-solution-before-rushing-to-a-conclusion"><a href="#Tactic-2-Instruct-the-model-to-work-out-its-own-solution-before-rushing-to-a-conclusion" class="headerlink" title="Tactic 2: Instruct the model to work out its own solution before rushing to a conclusion"></a>Tactic 2: Instruct the model to work out its own solution before rushing to a conclusion</h5><pre class="line-numbers language-none"><code class="language-none">prompt &#x3D; f&quot;&quot;&quot;
+Determine if the student&#39;s solution is correct or not.
+
+Question:
+I&#39;m building a solar power installation and I need \
+ help working out the financials. 
+- Land costs $100 &#x2F; square foot
+- I can buy solar panels for $250 &#x2F; square foot
+- I negotiated a contract for maintenance that will cost \ 
+me a flat $100k per year, and an additional $10 &#x2F; square \
+foot
+What is the total cost for the first year of operations 
+as a function of the number of square feet.
+
+Student&#39;s Solution:
+Let x be the size of the installation in square feet.
+Costs:
+1. Land cost: 100x
+2. Solar panel cost: 250x
+3. Maintenance cost: 100,000 + 100x
+Total cost: 100x + 250x + 100,000 + 100x &#x3D; 450x + 100,000
+&quot;&quot;&quot;
+response &#x3D; get_completion(prompt)
+print(response)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-none"><code class="language-none">The student&#39;s solution is correct. They correctly identified the costs for land, solar panels, and maintenance, and calculated the total cost for the first year of operations as a function of the number of square feet.<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>Note that the student’s solution is actually not correct.<br>We can fix this by instructing the model to work out its own solution first.</p>
+<p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202307082032637.png"></p>
 <blockquote>
-<p>没有任何一种元素比其他的更重要</p>
+<blockquote>
+<p>这里模型的输出出错了哈哈… 应该是 360x + 100000 来着。</p>
 </blockquote>
-<h4 id="9-号透镜：四种元素"><a href="#9-号透镜：四种元素" class="headerlink" title="9 号透镜：四种元素"></a>9 号透镜：四种元素</h4><ul>
-<li><p>9号透镜:四种元素</p>
+</blockquote>
+<h3 id="Model-Limitations-Hallucinations"><a href="#Model-Limitations-Hallucinations" class="headerlink" title="Model Limitations: Hallucinations"></a>Model Limitations: Hallucinations</h3><p>This will Makes statements that sound plausible But are not true<br>也就是说模型可能会胡乱编造。</p>
+<p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202307082046620.png"></p>
+<p>为了减少类似情况的发生的 tactics：<br>First find relevant information,<br>Then answer the question based on the relevant information.</p>
+<h2 id="Iterative-Prompt-Development"><a href="#Iterative-Prompt-Development" class="headerlink" title="Iterative Prompt Development"></a>Iterative Prompt Development</h2><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202307091356205.png"></p>
 <ul>
-<li>要使用这个透镜,观察你的游戏实际上是由什么构成的,单独考虑各种元素然后将它们统一看待,问你自己这几个问题:<ul>
-<li>我的游戏设计使用了全部的四种元素吗?</li>
-<li>我的设计能够通过增强一种或者多种分类的元素来获得提高吗?</li>
-<li>四种元素是否和谐,互相作用并向同一个主题努力?</li>
-</ul>
+<li><p>第一次可能总不会得到理想结果，这不重要，重要的是分析为什么没有，然后基于此不断迭代</p>
 </li>
-</ul>
+<li><p>LLM 对于字符（character）统计不是很擅长，所以可能会给出不符合字数要求的答案</p>
 </li>
-<li><p>例子</p>
+<li><p>如果答案文本过长</p>
 <ul>
-<li>太空侵入者<ul>
-<li>技术:<ul>
-<li>所有的新游戏在某种程度上都有所革新。《太空入侵者》背后的技术是为这款游戏量身定做的。这是第一款允许玩家与不断逼近的军队战斗的视频游戏。这个设计只有通过为它特地定制的主板才可以实现。通过这项技术,一系列新的游戏机制能够展现出来。这项技术也为这个目的而产生。</li>
+<li>就让其限制答案字数</li>
 </ul>
 </li>
-<li>机制: <ul>
-<li>《太空入侵者》的游戏机制是崭新的,非常刺激。更重要的是,这很有趣并且是平衡的。玩家不仅能与外星人互相射击,还能躲在可被摧毁的盾牌之后(玩家自己也可以选择摧毁) 。不仅如此,通过设计神秘的飞碟,玩家还能获得额外的分数奖励。没有时间限制,因为游戏能够通过2种方式结束:玩家的飞船被外星人摧毁,或者外星人抵达玩家的星球。外星人靠得越近,就越容易射击,但是分数也越低。远处的外星人拥有更高的分数。另一个有趣的机制是,你每击落48个外星人,外星人的入侵就会加速。这带来了兴奋感,让有趣的故事体现出来。从根本上说, 《太空入侵者》背后的机制在当时十分坚固、平衡,而充满了革新。</li>
-</ul>
-</li>
-<li>故事:<ul>
-<li>这个游戏不需要故事。它本可以是个抽象的游戏,玩家操纵三角形向方块射击。但是故事能够让游戏更加令人兴奋并且更容易理解。《太空入侵者》的故事最初并不是一个关于外星人入侵的故事。它原本是这样一个游戏,你向逼近的人类军队开火。据说太东公司认为这会传达一种不好的信息,所以故事就改变了。一个关于外星人的新故事会更有效,理由如下:<ul>
-<li>市面上已经发布了一些战争主题的游戏(例如, 1976年发布的《海狼》 (Sea Wolf) ) ,但当时关于外太空战争的游戏却十分新颖。</li>
-<li>一些人对于在游戏中向人类射击感到恶心(1976年发布的《死亡竞速》 (Death Race)已经让暴力成为了视频游戏中的敏感问题)</li>
-<li>高科技的电脑绘图技术让他们能够创造未来主题。</li>
-<li>进攻的战士需要在地上跑步,这意味着游戏必须有一个从上至下的视角。《太空入侵者》给你这样一种感觉:外星人正在向你的行星表面降落,你正在朝上向他们射击。从某种程度上,悬停飞行的外星人是可信的,并让这个故事更有戏剧性。如果他们降落了,我们的末日就到了。故事的改变带来了摄像视角的改变。这对美术的变化也是戏剧性的。</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>美学:<ul>
-<li>有人嘲笑它的视觉表现看起来很原始。但是设计师在游戏中设计了许多细节。外星人并不完全相同,他们有3种不同的设计,每一种都拥有不同的分数。他们有2帧效果不错的行进动画。它原本并不能显示颜色-但一种基本技术的改变解决了这个问题!既然玩家被限制在屏幕的底部,外星人在中部而飞碟在顶部,设计师设置了透明的彩色塑料条来分割屏幕,你地飞船和护盾是绿色的,外星人是白色的,飞碟是红色的。因为游戏的机制极大的增强了美术表现,这改变了游戏中的技术。声音是美学中一个重要的组成部分。行进的入侵者会产生一种心跳声。当它们加速时,心跳声也会加速,让玩家觉得身临其境。游戏中还有其他音效帮助讲述这个故事。最有纪念意义的是,当你的飞船被外星人的导弹击中时,会有惩罚性的嗡嗡声。但不是所有的美学都被禁锢在游戏本身里面,在《外星人入侵者》的街机筐体上,有一个引人注目的招贴画,简单地表现了外星人入侵者的故事。</li>
-</ul>
-</li>
-<li>《太空入侵者》的成功的关键在一定程度上可以归功于这四种基本元素,它们都向同一个目标努力-让玩家体验到与外星人之间绚丽的太空战斗。每一种元素会兼顾其他的元素,一种元素的不足会激发设计师的灵感来调整其他元素。在通过元素四分透镜看待你的设计时,你需要拥有一些敏锐的洞察力。</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="皮肤与骨骼"><a href="#皮肤与骨骼" class="headerlink" title="皮肤与骨骼"></a>皮肤与骨骼</h3><ul>
-<li><p>游戏的皮肤</p>
+<li><p>如果错误关注了不应该关注的细节</p>
 <ul>
-<li>玩家体验</li>
+<li>需要指明需要其关注的细节</li>
 </ul>
 </li>
-<li><p>游戏的骨骼</p>
+<li><p>需要的话可以让其提供表格形式的输出</p>
+</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202307091416874.png"></p>
+<h2 id="Summarizing"><a href="#Summarizing" class="headerlink" title="Summarizing"></a>Summarizing</h2><ul>
+<li>可以让其根据受众来 summarize<ul>
+<li>会根据内容来总结</li>
+</ul>
+</li>
+<li>如果是 extract <ul>
+<li>则会是第三方的客观视角</li>
+</ul>
+</li>
+</ul>
+<h2 id="Inferring"><a href="#Inferring" class="headerlink" title="Inferring"></a>Inferring</h2><ul>
+<li>比如可以用于推断评论的情绪效价</li>
+<li>也可以让其辨别一段话中包含的情绪类型</li>
+<li>可以让其从评论中 extract 产品信息</li>
+<li>可以一次做好多不同的任务</li>
+<li>Inferring topics<ul>
+<li>根据文本推测 topic</li>
+<li>也可以根据 topic 看文本是否包含了相应 topic（舆情监测） zero-shot training algorithm</li>
+</ul>
+</li>
+</ul>
+<h2 id="Transforming"><a href="#Transforming" class="headerlink" title="Transforming"></a>Transforming</h2><ul>
+<li>翻译</li>
+<li>转译</li>
+<li>语气转换</li>
+<li>形式/格式转换</li>
+<li>语法检查<ul>
+<li>甚至可以列出更改的部分<br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202307091627821.png"><h2 id="Expanding"><a href="#Expanding" class="headerlink" title="Expanding"></a>Expanding</h2></li>
+</ul>
+</li>
+<li>扩写</li>
+<li>提醒模型在扩写的同时使用已知的细节</li>
+<li>不应该使用该功能来写垃圾邮件</li>
+<li>使用 temperature 参数来控制 variety 和 creativity<ul>
+<li>如果 temperature = 0 基本可以保证每次结果都一致</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202307091633201.png"></p>
+<p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202307091634765.png"></p>
+<h2 id="Chatbot-Chat-Workflow"><a href="#Chatbot-Chat-Workflow" class="headerlink" title="Chatbot / Chat Workflow"></a>Chatbot / Chat Workflow</h2><h3 id="Chatbot"><a href="#Chatbot" class="headerlink" title="Chatbot"></a>Chatbot</h3><ul>
+<li>OpenAI 的 chat model 使用 user message 作为 input 使用 assistant message 作为 output</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202307091639418.png"></p>
 <ul>
-<li>组成游戏的元素</li>
+<li>在此基础之上，system message 其实会影响 assistant 的回答逻辑</li>
 </ul>
-</li>
-<li><p>游戏设计中的巨大挑战</p>
+<blockquote>
+<blockquote>
+<p>大概这也是为什么许多 prompt 教程中提到的，先预设身份是有效的。这相当于把“预设身份”这一信息作为 system message 来告知模型，让其调整 assistant 的输出模式，从而更好地输出结果。</p>
+</blockquote>
+</blockquote>
+<p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202307091641447.png"></p>
+<h3 id="OrderBot"><a href="#OrderBot" class="headerlink" title="OrderBot"></a>OrderBot</h3><ul>
+<li>有时候模型无法回答是因为其不知道上下文情景（context），需要为其提供</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202307091649786.png"></p>
+<p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202307091654535.png"></p>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202307091658054.png"></p>
 <ul>
-<li>在理解元素及其关系是如何产生体验的同时感受游戏体验</li>
-<li>你必须同时看到皮肤和骨骼<ul>
-<li>如果只专注于皮肤<ul>
-<li>会思考体验的感受</li>
-<li>却不理解为什么会有这样的感受或者怎样提高这种感受</li>
+<li>Use it responsibly!</li>
 </ul>
-</li>
-<li>如果只关注骨骼<ul>
-<li>可能让一个游戏结构在理论上十分完美</li>
-<li>而在实践中十分糟糕</li>
-</ul>
-</li>
-<li>同时专注于这两件事<ul>
-<li>就能在看到游戏运行的方式的同时感受到游戏体验的力量</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h4 id="10-号透镜：全息设计"><a href="#10-号透镜：全息设计" class="headerlink" title="10 号透镜：全息设计"></a>10 号透镜：全息设计</h4><ul>
-<li>10号透镜:全息设计<ul>
-<li>要使用这个透镜,你必须一次性看到游戏的全部:四种元素和玩家体验,以及它们是怎样关联起来的。你可以把注意力从皮肤转移到骨骼再到皮肤,但更好的方法是全息观察游戏和体验。</li>
-<li>问你自己这几个问题：<ul>
-<li>游戏中的哪一种元素产生了令人享受的体验?</li>
-<li>游戏中的哪一种元素会让玩家在体验中分心?</li>
-<li>怎样改变游戏元素来提高游戏体验?</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<hr>
 
                 
             </div>
@@ -621,7 +788,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://medill-east.github.io/2021/08/13/20210813-theartofgamedesign-chap5/">https://medill-east.github.io/2021/08/13/20210813-theartofgamedesign-chap5/</a>
+                    <a href="https://medill-east.github.io/2023/07/09/20230709-chatgpt-prompt-engineering-for-developers/">https://medill-east.github.io/2023/07/09/20230709-chatgpt-prompt-engineering-for-developers/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -663,8 +830,12 @@
                                     <span class="chip bg-color">Game</span>
                                 </a>
                             
-                                <a href="/tags/Game-Design/">
-                                    <span class="chip bg-color">Game Design</span>
+                                <a href="/tags/Learning-Notes/">
+                                    <span class="chip bg-color">Learning Notes</span>
+                                </a>
+                            
+                                <a href="/tags/GCORES/">
+                                    <span class="chip bg-color">GCORES</span>
                                 </a>
                             
                         </div>
@@ -836,28 +1007,29 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
             <div class="card">
-                <a href="/2021/08/13/20210813-theartofgamedesign-chap4/">
+                <a href="/2023/07/09/20230709-chatgpt-prompt-engineering-for-developers/">
                     <div class="card-image">
                         
-                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220712114319.png" class="responsive-img" alt="游戏设计艺术 第四章 体验从游戏中诞生">
+                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202307091706946.png" class="responsive-img" alt="20220709 - ChatGPT Prompt Engineering for Developers">
                         
-                        <span class="card-title">游戏设计艺术 第四章 体验从游戏中诞生</span>
+                        <span class="card-title">20220709 - ChatGPT Prompt Engineering for Developers</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            我们无法在洞悉生命本身的全部事实之前了解玩乐的全部事实。
+                            与 DeepLearning 和 OpenAI 一起学习如何使用 LLM 为开发过程助力！
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-08-13
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-07-09
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -870,6 +1042,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -877,8 +1050,12 @@
                         <span class="chip bg-color">Game</span>
                     </a>
                     
-                    <a href="/tags/Game-Design/">
-                        <span class="chip bg-color">Game Design</span>
+                    <a href="/tags/Learning-Notes/">
+                        <span class="chip bg-color">Learning Notes</span>
+                    </a>
+                    
+                    <a href="/tags/GCORES/">
+                        <span class="chip bg-color">GCORES</span>
                     </a>
                     
                 </div>
@@ -892,23 +1069,23 @@
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/08/13/20210813-theartofgamedesign-chap7/">
+                <a href="/2023/07/09/20230709-f03/">
                     <div class="card-image">
                         
-                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220712115126.png" class="responsive-img" alt="游戏设计艺术 第七章 游戏始于一个创意">
+                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202307091106128.png" class="responsive-img" alt="20230709 - Distinguishing Between Major and Minor Elements">
                         
-                        <span class="card-title">游戏设计艺术 第七章 游戏始于一个创意</span>
+                        <span class="card-title">20230709 - Distinguishing Between Major and Minor Elements</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            秘密就是——到其他地方去看看。
+                            观看 Masahiro Sakurai on Creating Games 的视频，了解通过区分元素的主次进行优化的方法！
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-08-13
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-07-09
                             </span>
                         <span class="publish-author">
                             
@@ -929,8 +1106,12 @@
                         <span class="chip bg-color">Game</span>
                     </a>
                     
-                    <a href="/tags/Game-Design/">
-                        <span class="chip bg-color">Game Design</span>
+                    <a href="/tags/Learning-Notes/">
+                        <span class="chip bg-color">Learning Notes</span>
+                    </a>
+                    
+                    <a href="/tags/Masahiro-Sakurai-on-Creating-Games/">
+                        <span class="chip bg-color">Masahiro Sakurai on Creating Games</span>
                     </a>
                     
                 </div>
@@ -1071,13 +1252,6 @@
 
 </main>
 
-
-<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script>
-    MathJax.Hub.Config({
-        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
-    });
-</script>
 
 
 

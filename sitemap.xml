@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://medill-east.github.io/2022/04/28/index-notes/</loc>
+    
+    <lastmod>2023-07-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://medill-east.github.io/2023/07/09/20230709-chatgpt-prompt-engineering-for-developers/</loc>
+    
+    <lastmod>2023-07-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://medill-east.github.io/2022/08/31/20220900-toc/</loc>
     
     <lastmod>2023-07-09</lastmod>
@@ -356,15 +374,6 @@
     <loc>https://medill-east.github.io/2023/03/19/20230319-a04/</loc>
     
     <lastmod>2023-03-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://medill-east.github.io/2022/04/28/index-notes/</loc>
-    
-    <lastmod>2023-03-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
