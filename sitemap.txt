@@ -1,6 +1,6 @@
+https://medill-east.github.io/2023/08/13/20230813-the-way-of-create-and-destory/
 https://medill-east.github.io/2022/04/28/index-showcase/
 https://medill-east.github.io/2022/08/31/20220900-toc/
-https://medill-east.github.io/2023/08/13/20230813-the-way-of-create-and-destory/
 https://medill-east.github.io/2023/08/13/20230813-g04/
 https://medill-east.github.io/2023/08/06/20230806-b06/
 https://medill-east.github.io/2023/07/30/20230730-d04/
@@ -210,3 +210,4 @@ https://medill-east.github.io/categories/Study-Psychology-Notes/
 https://medill-east.github.io/categories/Study-Game-GameEngine/
 https://medill-east.github.io/categories/Study-Writing/
 https://medill-east.github.io/categories/Life/
+https://medill-east.github.io/categories/Study-Game-OnePageDesign/
