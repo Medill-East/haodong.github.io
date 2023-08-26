@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="20220826 - 与 PKM 的相识和实践, 無涘">
+    <meta name="keywords" content="20220826 - Obsidian Content Linker 插件开发回顾, 無涘">
     <meta name="description" content="Whatever will be, will be.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -28,7 +28,7 @@
 
 
 
-    <title>20220826 - 与 PKM 的相识和实践 | 無涘</title>
+    <title>20220826 - Obsidian Content Linker 插件开发回顾 | 無涘</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -239,12 +239,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202308261955228.png')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202308261112082.png')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">20220826 - 与 PKM 的相识和实践</h1>
+                    <h1 class="description center-align post-title">20220826 - Obsidian Content Linker 插件开发回顾</h1>
                 </div>
             </div>
         </div>
@@ -387,7 +387,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2022-08-26
+                    2023-08-26
                 </div>
                 
 
@@ -401,14 +401,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    3k
+                    2.4k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    10 Min
+                    8 Min
                 </div>
                 
 
@@ -431,167 +431,124 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="WHY"><a href="#WHY" class="headerlink" title="WHY"></a>WHY</h2><p>虽然起因是想回顾一下为 Obsidian 开发 Content Linker 插件的过程，但一想也可以顺便回顾一下和 Obsidian 结缘的过程，以及这些年来和 PKM 有关的思考。</p>
-<h2 id="缘起"><a href="#缘起" class="headerlink" title="缘起"></a>缘起</h2><h3 id="如何方便快捷地进行记录并统一留存管理？"><a href="#如何方便快捷地进行记录并统一留存管理？" class="headerlink" title="如何方便快捷地进行记录并统一留存管理？"></a>如何方便快捷地进行记录并统一留存管理？</h3><p>16~17 年左右刚上大学时有了想把记过的东西留下来的想法，所以开始寻求电子化方案。<br>那时学生会的前辈正好让我们了解到了 markdown（MD） 这一标记语言，遂喜而用之。</p>
-<p>新的问题在于如何统一管理。<br>MD 的编辑器多种多样，当时几番挑选后选择了 Cmd Markdown（即作业部落）。看中的就是可以以文件夹结构统一管理，及其实时渲染的功能。</p>
-<p>至此，问题暂时解决了。</p>
-<blockquote>
-<p>题外话</p>
-<p>当时为了能够方便地实现云存储，当时还为 Cmd Markdown 充过两年的会员。后来发现相关 repository 上所提的问题越来越多，但作者貌似已经久不更新了。如今一看好像已经打不开了？几年前记得还看过作者发的一些声明说好像忙于其他项目去了…<br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202308261155830.png"><br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202308261156882.png"></p>
-</blockquote>
-<h3 id="如何对已经看过的文献（及要点）进行统一管理？"><a href="#如何对已经看过的文献（及要点）进行统一管理？" class="headerlink" title="如何对已经看过的文献（及要点）进行统一管理？"></a>如何对已经看过的文献（及要点）进行统一管理？</h3><p>18 年后开始接触科研，新的需求出现了：看过的文献/要点该如何方便地管理？</p>
-<p>这里面涉及几方面的需求：</p>
-<ol>
-<li>方便地存储</li>
-<li>可快速查询记录的要点</li>
-<li>可与文献关联查找</li>
-</ol>
-<p>为什么仅靠 markdown 不够用了呢？<br>因为无法方便地与文献 PDF 关联，也无法直观感受不同文献之间的联系。即大纲结构或是文件夹结构没有办法很好地如网状结构般展现关联性。（但当时还不太清楚网状结构的构建方法）</p>
-<p>基于这样的需求，当时采用了 XMind 作为文献管理工具。</p>
-<p>刚开始文献数量较低的时候还行，可以很清楚地看到各文献之间的联系（基本可以算作三类关系 Support/Against/Related），但随着文献增多之后，新的问题出现了：</p>
+                <h2 id="开发-Content-Linker-插件"><a href="#开发-Content-Linker-插件" class="headerlink" title="开发 Content-Linker 插件"></a>开发 Content-Linker 插件</h2><h3 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h3><p>在结合 Obsidian 使用卡片笔记法过程中其实存在一个痛点——需要手动添加双链。这个看似简单的操作在面对以往的大量笔记时变得异常困难。</p>
+<p>当然了，这里提到的并非严格遵循随记 -&gt; 文献笔记 -&gt; 永久笔记（详见 <a href="https://medill-east.github.io/2023/08/26/20230826-how-i-know-and-practice-pkm/">与 PKM 的相识和实践</a>中 <code>双链和卢曼卡片法</code> 部分）这样的转化过程中的双链添加场景，而是面对以往很多未添加过双链的笔记时感到头疼的情况。</p>
+<p>在尝试搜寻目前的插件市场后发现了以下插件：</p>
 <ul>
-<li>表的结构太大导致软件运行卡顿<ul>
-<li>包括了新增内容、搜索内容、查看内容等各方面</li>
-<li>卡顿会导致用户体验极差</li>
+<li><a target="_blank" rel="noopener" href="https://github.com/AlexW00/obsidian-note-linker">Note Linker</a><ul>
+<li>该插件按理来说和我的需求已经很接近了，但在使用过程中发现其好像无法处理太大量的数据<ul>
+<li>搜索一次库中内容差不多要 5 分钟</li>
+<li>而且在尝试勾选相关内容时出现了无法忍受的卡顿（估计也是数据量太大导致的）</li>
 </ul>
 </li>
-<li>同一文献可能在多处出现，此时可能需要在多个地方进行拷贝（后来知道了其实这是文件夹结构的通病）</li>
-<li>由于数据量增大，导致搜索变得愈加困难（需要回忆相关的关键字/词来搜索）</li>
 </ul>
-<p>问题存在，但无空解决，直至本科毕业。</p>
-<p>当时由于一些私事需要长时间待在医院，那时动起了打磨工具流的心思，直至现在。</p>
-<p>当时也想到，除了文献之外，值得记录的事情还有很多。不仅是文献有被联系的需求，其实生活也是。</p>
-<h3 id="如何让过往的经历（阅读-观影-体验…）有意义地留存并联系起来？"><a href="#如何让过往的经历（阅读-观影-体验…）有意义地留存并联系起来？" class="headerlink" title="如何让过往的经历（阅读/观影/体验…）有意义地留存并联系起来？"></a>如何让过往的经历（阅读/观影/体验…）有意义地留存并联系起来？</h3><p>看过的书、看过的电影、各种资料、各种体验，这些几乎涵盖了生活中所谓“有意义”的大部分时间，但很多都成了过眼云烟，埋藏在记忆深处，好像从未存在过。</p>
-<p>当时就在想，经历过的时间除了留下切身的体会之外，还有没有别的形式能够被留存、甚至被联系起来呢?</p>
-<p>学术+生活两方面的留存+联系需求最终导向了 PKM（Personal Knowledge Management ）。</p>
-<h2 id="PKM"><a href="#PKM" class="headerlink" title="PKM"></a>PKM</h2><p>在我的理解中，PKM 是一种将个人知识结构化、体系化的方式。即将个人的所知、所思、所感都外化为文字进行统一管理。其实更常见的一种形式是企业知识库，让员工能不断取之用之壮大之。</p>
-<p>另一个相关的说法是第二大脑，即一个人的个人知识库，理论上可视为这个人的某种化身。目前的 <a target="_blank" rel="noopener" href="https://github.com/brianpetro/obsidian-smart-connections">smart connection</a> 插件有这个潜力，即结合 AI 来对库中内容进行分析。但这是题外话了，先按下不表。</p>
-<h3 id="双链与卢曼卡片法"><a href="#双链与卢曼卡片法" class="headerlink" title="双链与卢曼卡片法"></a>双链与卢曼卡片法</h3><p>2020 年的夏天，由 <a target="_blank" rel="noopener" href="https://roamresearch.com/">Roam Research</a> 领衔，在笔记圈刮起了“双链”之风。恰逢当时需要为 PKM 选择合适的软件，算是正当其时。</p>
-<p>双链（bi-directional link）这一概念起源于一位德国的社会学家尼古拉斯·卢曼（Niklas Luhmann）。卢曼依靠其卡片笔记法（Zettelkasten），一生著作等身（50 本专著、600 篇论文和 150 份未完成的手稿），甚至在其去世后，后人还能根据其遗留的手稿继续成书。以下内容引用自 <a target="_blank" rel="noopener" href="https://zettelkasten.de/introduction/zh/#%E8%BD%AF%E4%BB%B6%E9%80%89%E6%8B%A9">Zettelkasten</a> ：</p>
-<blockquote>
-<p>尼克拉斯-卢曼是一位高产的社会学家，他出版了50本专著和600篇论文。他的生产力不是已发表的作品能够体现的，他的遗产中还有150份未完成的手稿，其中一份稿件的长度甚至超过1000页。当然，这些成就不是他一个人的取得的，他还有一位得力的伙伴——Zettelkasten。</p>
-<p>卢曼曾说，他的生产力源自于他与卡片盒笔记系统的合作。践行卡片盒笔记法 的人对此一定很有共鸣。卢曼的卡片盒笔记系统是记有笔记的纸质小卡片的集合，但是这些卡片被做了一点点改变：它们是<strong>超文本</strong>。利用超文本的笔记，卢曼能够以合理的时间和精力浏览抽屉柜中的所有存放笔记卡片。但是，“合理”二字仅对卢曼而言，他痴迷于社会学理论，是一个精力十足的工作狂。</p>
-<blockquote>
-<p>译者注：超文本中的文字包含有可以连接到其他字段或者文档的超链接，允许从当前阅读位置直接切换到超链接所指向的文字。—— <a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E8%B6%85%E6%96%87%E6%9C%AC">超文本 - 维基百科，自由的百科全书</a></p>
-</blockquote>
-<p>超文本的内在属性要求它可以通过链接从一段文字跳转到链接所指向的另一段文字。在维基百科上的某个页面下，你只需点击页面中的一个链接，就可以进入新的页面。如果超文本不是网页而是纸质的卡片，则需要付出更多的精力来跟随(follow)一个链接进入新的卡片。另外，你还需要一个入口，这个入口类似于维基百科的搜索框。卢曼创造了他的 Zettelkasten，并设计了进入卡片盒笔记系统的入口和一整套方法论，这让它他能够以一种高效的方式从一条笔记冲浪到另一条笔记。</p>
-</blockquote>
-<p>何为卡片笔记法？以下是我的个人理解：</p>
-<p>简言之，即将笔记大致分为四类：<br>1）随记（Fleeting Notes）；<br>2）文献笔记（Literatuer Notes）；<br>3）永久笔记（Permenant Notes）；<br>4）结构笔记（Structure Notes）。</p>
-<p>笔记需要经历迭代以从随记最终变为永久笔记。</p>
+</li>
+<li><a target="_blank" rel="noopener" href="https://github.com/tadashi-aikawa/obsidian-various-complements-plugin">Various Complements</a><ul>
+<li>该插件可以基于库中已有内容进行快速补全，但前提是已经构建过相关双链</li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://github.com/hadynz/obsidian-sidekick">Sidekick</a> <ul>
+<li>该插件还未上线插件商店</li>
+<li>该插件可用于在输入过程中很快发现已输入内容中潜在的双链，但前提是已经构建过相关双链</li>
+</ul>
+</li>
+<li>官方的 Outgoing links 功能<ul>
+<li>这个是官方提供的核心功能之一，可以发现其他笔记中与该页面同名的，还未添加双链的内容</li>
+</ul>
+</li>
+</ul>
+<p>如上所说，Note Linker 不适用于大量笔记的场景，而 Various Complements 和 Sidekick 虽然可以配合使用来在写作过程中快速构建双链，但前提是相关双链已经存在。而 Outgoing links 针对的是编写完之后的场景，而且只能寻找与当前页面标题同名的内容，场景有限。</p>
+<p>没办法，那就只能自己动手，丰衣足食了。</p>
+<h3 id="强大的-CodeGPT"><a href="#强大的-CodeGPT" class="headerlink" title="强大的 CodeGPT"></a>强大的 CodeGPT</h3><p>其实为过往库中的大量文件添加潜在双链的需求早就存在，为什么现在终于被提上日程了呢？——一是因为抽出时间学 Typescript 然后从头构建感觉太花时间；二是得益于强大的 CodeGPT。</p>
+<p>近来，以 ChatGPT 领衔的一众 AI 工具已经在各个领域展现了不俗的能力。又因为我的需求是非常明确的，所以就动起了“能不能让 AI 来写这个插件”的心。没想到还真就做成了。</p>
+<h3 id="AI-炼丹"><a href="#AI-炼丹" class="headerlink" title="AI 炼丹"></a>AI 炼丹</h3><p>一开始当然还是得过一遍插件开发教程。这里也感谢 @luhaifeng666 大佬翻译的<a target="_blank" rel="noopener" href="https://luhaifeng666.github.io/obsidian-plugin-docs-zh/">中文版开发教程</a> 。</p>
+<p>过完之后就正式开始“炼丹了”。</p>
+<p>工具是 <a target="_blank" rel="noopener" href="https://code.visualstudio.com/">Visual Studio Code</a> + <a target="_blank" rel="noopener" href="https://marketplace.visualstudio.com/items?itemName=DanielSanMedium.dscodegpt">CodeGPT</a>。</p>
+<p>在 <a href="https://medill-east.github.io/2023/07/09/20230709-chatgpt-prompt-engineering-for-developers/">20220709 - ChatGPT Prompt Engineering for Developers</a> 一文中，已经提过了应该为 AI 预设身份，使其做出更有针对性的回答的办法。</p>
+<p>所以最开始的 prompt 其实是这样的：</p>
+<pre class="line-numbers language-none"><code class="language-none">你是一位出色的 obsidian 插件开发者。现在想为 Obsidian 开发一款新的插件 Content Linker，以便能让用户能够为库中的已有内容添加双链。
+
+需要实现的功能如下： 
+1. 需要能够索引库中的所有内容 
+2. 需要根据索引结果筛选出可能被新建的“双链”列表 
+3. 可以让用户从 2. 的结果中的列表中选择想要新建的双链关键词 
+4. 根据 3. 中用户所选结果为对应内容建立双链 
+
+请问我该怎么做<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>后来经过多轮迭代，最终是类似下面的形式：</p>
+<pre class="line-numbers language-none"><code class="language-none">你是一位出色的 obsidian 插件开发者。现在想为 Obsidian 开发一款新的插件 Content Linker，以便能让用户能够为库中的已有内容添加双链。
+
+请逐条分析所选代码是否能实现以下功能，如果不能，请分析原因并给出修正后的完整代码：
+
+1. 该插件应该可以通过在编辑窗口中调用函数，或是在设置页面中点击“Search Possible Bi-Directional Link in Vault” 按钮来搜索库中已有的所有内容； 
+2. 该插件应该有一个单独的设置页面；
+3. 基于 1. 的搜索结果，存储库中所有重复出现过的内容，并且这些内容不双链形式，那么就将这些内容作为潜在的双链关键字。完成后给出弹窗提示“Search Finished!”；
+4. 将 2. 中存储的结果中重复次数从高到低的前 n 个结果以列表形式呈现在该插件的设置页面中。在设置页面中添加一个名为&quot;Option Count&quot;的只能输入数字的输入框和名为“Update”的按钮，根据用户在输入框所输入的数字作为列表中可显示的选项数量（即 n 的数量）；
+5. 基于前面的回答，将 4.的结果以一个四列的列表形式呈现在该插件的设置页面中。每一个潜在的双链关键字即列表中的一个选项。第一列为序号，第二列为该潜在双链关键字在库中重复出现的次数，第三列为该潜在双链关键字，第四列为当前该选项的选择情况。
+6. 当用户点击设置页面中的 “Update Bi-Link For Selected Options” 按钮后，遍历 5. 中用户所选择的所有选项，并将其所选内容在原文位置中替换为双链形式； 
+7. 该插件的设置页面中应该有一个单独的名为“Ignored Content List”的列表。该列表有四列，第一列为序号，第二列为该潜在双链关键字在库中重复出现的次数，第三列为该潜在双链关键字，第四列为当前该选项的选择情况。
+8. 当用户点击设置页面中的“Ignore Selected Option(s)”按钮后，遍历 5. 中用户所选择的所有选项，将这些选项从潜在双链关键字列表中排除，并将这些选项加入 Ignored Content List，并在 Ignored Content List 中显示。对 Ignored Content List 中的内容根据其第二列的 Count 数量进行倒序排列。
+9. 当用户点击设置页面中的“Remove From Ignored Content List”按钮时，遍历 7. 中所选的所有选项，并将这些选项重新加入潜在双链关键字列表。<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="一些炼丹体悟"><a href="#一些炼丹体悟" class="headerlink" title="一些炼丹体悟"></a>一些炼丹体悟</h3><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202308262031879.png"></p>
 <ul>
-<li>随记<ul>
-<li>其要点是需要用自己的话来描述所思的内容</li>
-<li>除此之外便没有任何所谓格式上/形式上的要求，只要能记下来，记在哪里都可以</li>
-</ul>
-</li>
-<li>文献笔记<ul>
-<li>在随记的基础之上，需要为其添加出处/来源，即该随记是如何产生的/受到了什么启发？</li>
-<li>被转化为文献笔记的随记便可以被废弃</li>
-</ul>
-</li>
-<li>永久笔记<ul>
-<li>在文献笔记的基础上，需要做以下几件事<ul>
-<li>每一条永久笔记应该有唯一的标识符<ul>
-<li>便于寻找</li>
-<li>这样可以观察到思路/想法的迭代过程</li>
-</ul>
-</li>
-<li>需要将其中的内容进行整理，使得该永久笔记的内容是不言自明（self-explanatory）的<ul>
-<li>即不需要借助任何其他外部材料，单独看一条永久笔记，要能够理解内容的表意</li>
-</ul>
-</li>
-<li>需要为其构建与其他永久笔记的联系<ul>
-<li>比如支持该观点的有哪些，反对该观点的有哪些，与之平行相关的又有哪些</li>
-<li>卢曼基于其唯一标识符的迭代+在物理空间摆放到同一位置（即卡片盒中）来实现这一过程<ul>
-<li>在电子化介质中，双链的作用就是实现内容之间的链接</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>每一条完成的永久笔记即是一张卡片盒中的卡片</li>
-</ul>
-</li>
-<li>结构笔记<ul>
-<li>若将卡片盒视为一本书，可将结构笔记视为书的目录</li>
-<li>结构笔记作为卡片盒的索引存在，通过结构笔记可以快速找到与一个话题相关的笔记簇</li>
-</ul>
-</li>
-</ul>
-<p>由此完成了内容的积累。</p>
-<p>要进行内容的输出时，你就不再是从头开始，而是基于你根据相关概念建立的一系列卡片。你所做的便是对这一堆卡片中的内容进行排列组合，并在不同的卡片内容间添加适合的连接词。</p>
-<hr>
-<p>卡片法舍弃了传统的文件夹结构，基于更细的粒度——知识/观点来构建思维之网（web of thoughts），从而以网状结构来实现 PKM。</p>
-<h3 id="Obsidian"><a href="#Obsidian" class="headerlink" title="Obsidian"></a>Obsidian</h3><p>既然已经有了道（构建思维之网）和术（卡片笔记法），那么便需要合适的器来实践。</p>
-<p>如前所说，双链之风由  <a target="_blank" rel="noopener" href="https://roamresearch.com/">Roam Research</a> （RR）带起，但在实践过程中发现了一些不适应的点：</p>
+<li><p>记得调整 Model</p>
 <ul>
-<li>RR 的界面是基于大纲格式的，并且可以说完全摒弃了文件夹形式<ul>
-<li>在日常使用中其实文件夹存储方式仍有可取之处，比如 <a target="_blank" rel="noopener" href="https://fortelabs.com/blog/para/">PARA</a> 方法</li>
+<li><code>gpt-3.5-turbo-16k</code> 是比较好的，既因为其表现稳定，也因为其上下文长度足够长</li>
 </ul>
 </li>
-<li>其收费不菲</li>
-</ul>
-<p>所以在想是否存在另一款软件可以更好地满足需求呢？——这便是和 Obsidian 结缘的契机。</p>
-<p><a target="_blank" rel="noopener" href="https://obsidian.md/">Obsidian</a> 是一款支持 markdown 编辑的笔记软件。一些特点如下：</p>
+<li><p>一定要记得调整 Max Tokens</p>
 <ul>
-<li>它既支持传统文件夹结构，也可以方便地通过 [[]] 来建立双链</li>
-<li>Obsidian 的插件生态非常好，有很多开发者为其开发各式各样的插件</li>
-<li>个人使用免费</li>
+<li>不然就会出现回答到一半停下来的情况</li>
 </ul>
-<p>看起来是非常完美的器，遂用之至今。</p>
-<h3 id="工具流的建立"><a href="#工具流的建立" class="headerlink" title="工具流的建立"></a>工具流的建立</h3><p>PKM 的实践中其实包含了很多细节，以下是一些个人工作流，仅供参考：</p>
+</li>
+<li><p>Query Language</p>
 <ul>
-<li>内容存储<ul>
-<li>Obsidian</li>
+<li>最好还是设成和 Prompt 相同的语言</li>
 </ul>
 </li>
-<li>文献库<ul>
-<li>Zotero</li>
+<li><p>Temperature</p>
+<ul>
+<li>可以理解为 0 是异常严格，近乎死板地执行要求，1 为具有创意地理解需求并提出解决方案</li>
+<li>从实验结果来看 0.1~0.2 之间能够提供最好的回答</li>
 </ul>
 </li>
-<li>图床<ul>
-<li>Github</li>
+<li><p>若是一次性给出的需求过多，那么它的回答就只会给出框架</p>
+<ul>
+<li>所以一开始可以先构建一个功能，在确认实现之后再构建下一个</li>
 </ul>
 </li>
-<li>图床工具<ul>
-<li>PicGo</li>
+<li><p>给出太具体的实现方案有时候反而效果不好</p>
+<ul>
+<li>即有时候如果给它列举了对应的技术框架，最终它的回答会过于局限于框架本身，而忽略插件整体的实现，最终导致结果不太理想</li>
 </ul>
 </li>
-<li>同步方案<ul>
-<li>Onedrive</li>
+<li><p>为了多给 AI 一些思考时间，尝试让其逐条分析功能是否已经实现</p>
+<ul>
+<li>但有时候这样它也无法很精确地分析到有 bug 的情况，这种时候可能只能人工调试 bug 了</li>
 </ul>
 </li>
-</ul>
-<p>日常使用过程中，通过 Obsidian 进行内容积累，转化过程中将相关文献存储到 Zotero 中，基于 Zotero 的 Citation Key 来构建笔记库与文献库的联系。</p>
-<p>在记录过程中若是有添加图片/附件等需求，借助 PicGo 将文件一键上传到 Github 上，在库中只保存对应文件的超链接形式。因为 Obsidian 实现了 Markdown 的实时渲染，所以图片在库中是可以直接预览的。</p>
-<p>需要的话，也可以结合 iPad + Zotero 来方便地进行阅读和同步。但近来论文型的材料看得比较少，这个方法最近使用频率较低。</p>
-<h2 id="开发-Content-Linker-插件"><a href="#开发-Content-Linker-插件" class="headerlink" title="开发 Content-Linker 插件"></a>开发 Content-Linker 插件</h2><p>这个其实才是最开始想写这篇文章的原因，但写到这里感觉可以分篇来写了哈哈。</p>
-<p>详见</p>
-<h2 id="拓展阅读"><a href="#拓展阅读" class="headerlink" title="拓展阅读"></a>拓展阅读</h2><ul>
-<li>卡片笔记法相关<ul>
-<li><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MzI1NTA4Nzk5Mw==&scene=1&album_id=1464601583634939905&from=groupmessage%23wechat_redirect&uin=&key=&devicetype=Windows+10+x64&version=63090621&lang=zh_CN&ascene=0">《会记笔记就会写作》完全版</a></li>
-<li><a target="_blank" rel="noopener" href="https://zettelkasten.de/introduction/zh/#%E8%BD%AF%E4%BB%B6%E9%80%89%E6%8B%A9">卢曼卡片盒笔记法介绍 (Introduction to the Zettelkasten Method)</a></li>
-<li><a target="_blank" rel="noopener" href="https://blog.jimmylv.info/2020-06-03-zettelkasten-in-action/">基于 Obsidian 的 Zettelkasten 卡片盒笔记法实践</a></li>
+<li><p>也可以让其对代码进行整体分析</p>
+<ul>
+<li>这样有时 AI 能给出一些原本可能没有注意到的优化方案</li>
 </ul>
 </li>
-<li>Zotero 相关<ul>
-<li>Zotfile + onedrive - 同步方案<ul>
-<li><a target="_blank" rel="noopener" href="https://www.shiyanjia.com/knowledge/articleinfo-2926.html">https://www.shiyanjia.com/knowledge/articleinfo-2926.html</a></li>
-</ul>
+<li><p>在得到可运行版本后记得及时存档哈哈</p>
 </li>
-<li>Zotfile - 同步插件<ul>
-<li><a target="_blank" rel="noopener" href="https://github.com/jlegewie/zotfile/releases">https://github.com/jlegewie/zotfile/releases</a></li>
-</ul>
-</li>
-<li>Zotero scihub - 下载文献<ul>
-<li><a target="_blank" rel="noopener" href="https://github.com/ethanwillis/zotero-scihub/releases">https://github.com/ethanwillis/zotero-scihub/releases</a></li>
+<li><p>有时候会出现无法解决的 bug</p>
+<ul>
+<li>比如同时存在 bugA 和 bugB，让其一起解决，它可能会解决了 bugA 然后忽略 bugB，或者反过来。有时候甚至还会继续引入新的 bug…</li>
+<li>这种时候一般只能人工调试了</li>
+<li>还有一个办法是去 ChatGPT 那里单开一个窗口，针对这个具体问题进行询问，有时候也能解决</li>
 </ul>
 </li>
 </ul>
-</li>
-</ul>
+<h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><p>插件的代码加完注释共有 545 行，可以说 95%，甚至 99%以上的代码都是由 CodeGPT 自己完成的。我在其中发挥的功能主要是针对它错误给出的方案进行人工调试，并对结果进行测试，然后根据测试结果进行迭代。</p>
+<p>整体而言，非常震撼。要知道我之前是没有接触过 Typescript 的，虽然是 JavaScript 的某种变体，可读性上来说很不错，但是我也就是能看懂，但具体要以什么语法调用什么 API 是毫无头绪的。CodeGPT 的能力可见一斑。</p>
+<p>当然了，并不是毫无问题。除了上面炼丹体悟中提到的一些问题之外，目前的 CodeGPT 因为受制于 <code>gpt-3.5-turbo-16k</code>，应该无法联网，且上下文长度有限。估计大概 700 行左右就是能输出的极限长度了。但这些问题，都可以随着模型的更新而被解决。</p>
+<p>未来可期。</p>
+<h3 id="插件页面"><a href="#插件页面" class="headerlink" title="插件页面"></a>插件页面</h3><p>目前 <a target="_blank" rel="noopener" href="https://github.com/Medill-East/obsidian-content-linker">Content Linker 插件的 Github 页面</a> 已经算是更新完了，也已经提了 Pull request，不知能否顺利加入官方插件库哈哈。</p>
 
                 
             </div>
@@ -618,7 +575,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://medill-east.github.io/2022/08/26/20230826-how-i-know-and-practice-pkm/">https://medill-east.github.io/2022/08/26/20230826-how-i-know-and-practice-pkm/</a>
+                    <a href="https://medill-east.github.io/2023/08/26/20230826-obsidian-content-linker-plugin-development-review/">https://medill-east.github.io/2023/08/26/20230826-obsidian-content-linker-plugin-development-review/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -829,11 +786,12 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
             <div class="card">
-                <a href="/2022/08/26/20230826-obsidian-content-linker-plugin-development-review/">
+                <a href="/2023/08/26/20230826-obsidian-content-linker-plugin-development-review/">
                     <div class="card-image">
                         
                         <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202308261112082.png" class="responsive-img" alt="20220826 - Obsidian Content Linker 插件开发回顾">
@@ -848,9 +806,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-08-26
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-08-26
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -863,6 +821,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -881,30 +840,30 @@
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/08/14/20220813-teardown-analysis-avatar-the-game/">
+                <a href="/2023/08/26/20230826-how-i-know-and-practice-pkm/">
                     <div class="card-image">
                         
-                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220803181126.png" class="responsive-img" alt="Avatar：The Game 拆解分析">
+                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202308261955228.png" class="responsive-img" alt="20220826 - 与 PKM 的相识和实践">
                         
-                        <span class="card-title">Avatar：The Game 拆解分析</span>
+                        <span class="card-title">20220826 - 与 PKM 的相识和实践</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            这是一份由我写于 2022 年 8 月对游戏《Avatar：The Game》的 Teardown Analysis。
+                            大致回顾如何接触到 PKM 的过程以及一点点个人构建的 PKM 工作流。
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-08-14
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-08-26
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Study-Game-Analysis/" class="post-category">
-                                    Study-Game-Analysis
+                            <a href="/categories/PKM/" class="post-category">
+                                    PKM
                                 </a>
                             
                             
@@ -914,8 +873,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Game/">
-                        <span class="chip bg-color">Game</span>
+                    <a href="/tags/PKM/">
+                        <span class="chip bg-color">PKM</span>
                     </a>
                     
                 </div>
