@@ -1,7 +1,10 @@
+https://medill-east.github.io/2022/04/28/index-showcase/
+https://medill-east.github.io/2022/08/26/20230826-obsidian-content-linker-plugin-development-review/
+https://medill-east.github.io/2022/04/28/index-thinking/
+https://medill-east.github.io/2022/08/26/20230826-how-i-know-and-practice-pkm/
 https://medill-east.github.io/2022/08/31/20220900-toc/
 https://medill-east.github.io/2023/08/20/20230820-e02/
 https://medill-east.github.io/2023/08/13/20230813-the-way-of-create-and-destory/
-https://medill-east.github.io/2022/04/28/index-showcase/
 https://medill-east.github.io/2023/08/13/20230813-g04/
 https://medill-east.github.io/2023/08/06/20230806-b06/
 https://medill-east.github.io/2023/07/30/20230730-d04/
@@ -67,7 +70,6 @@ https://medill-east.github.io/2022/09/06/20220906-bayonetta-toc/
 https://medill-east.github.io/2022/12/04/20221204-make-it-pop/
 https://medill-east.github.io/2022/12/04/20221204-bayonetta-inaba-atsushi/
 https://medill-east.github.io/2022/11/27/20221127-after-reading-the-meaning-of-life/
-https://medill-east.github.io/2022/04/28/index-thinking/
 https://medill-east.github.io/2022/11/27/20221127-b03/
 https://medill-east.github.io/2022/11/27/20221127-bayonetta-hideki-kamiya/
 https://medill-east.github.io/2022/11/20/20221120-assigning-animations/
@@ -197,6 +199,7 @@ https://medill-east.github.io/tags/Masahiro-Sakurai-on-Creating-Games/
 https://medill-east.github.io/tags/Reading/
 https://medill-east.github.io/tags/Mindmap/
 https://medill-east.github.io/tags/Platinum-Games/
+https://medill-east.github.io/tags/PKM/
 https://medill-east.github.io/categories/Blog/
 https://medill-east.github.io/categories/Study-CS-CG/
 https://medill-east.github.io/categories/Study-Game-Proposal/
@@ -212,3 +215,4 @@ https://medill-east.github.io/categories/Study-Game-GameEngine/
 https://medill-east.github.io/categories/Study-Writing/
 https://medill-east.github.io/categories/Life/
 https://medill-east.github.io/categories/Study-Game-OnePageDesign/
+https://medill-east.github.io/categories/PKM/
