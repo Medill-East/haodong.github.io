@@ -1,3 +1,4 @@
+https://medill-east.github.io/2022/04/28/index-notes/
 https://medill-east.github.io/2022/04/28/index-showcase/
 https://medill-east.github.io/2023/09/03/20230903-ten-continents-in-the-sea/
 https://medill-east.github.io/2023/08/13/20230813-the-way-of-create-and-destory/
@@ -13,7 +14,6 @@ https://medill-east.github.io/2023/08/06/20230806-b06/
 https://medill-east.github.io/2023/07/30/20230730-d04/
 https://medill-east.github.io/2023/07/23/20230723-k02/
 https://medill-east.github.io/2023/07/16/20230716-m06/
-https://medill-east.github.io/2022/04/28/index-notes/
 https://medill-east.github.io/2023/07/09/20230709-chatgpt-prompt-engineering-for-developers/
 https://medill-east.github.io/2023/07/09/20230709-f03/
 https://medill-east.github.io/2023/07/02/20230702-e01/
