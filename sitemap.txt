@@ -1,3 +1,5 @@
+https://medill-east.github.io/2022/04/28/index-thinking/
+https://medill-east.github.io/2023/10/01/20231001-after-watching-eva/
 https://medill-east.github.io/2022/08/31/20220900-toc/
 https://medill-east.github.io/2023/09/30/20230930-j03/
 https://medill-east.github.io/2023/09/24/20230924-cfgd-chap2-challenge3-exploration/
@@ -11,7 +13,6 @@ https://medill-east.github.io/2023/09/03/20230903-a06/
 https://medill-east.github.io/2023/08/27/20230827-c06/
 https://medill-east.github.io/2023/08/26/20230826-how-i-know-and-practice-pkm/
 https://medill-east.github.io/2023/08/26/20230826-obsidian-content-linker-plugin-development-review/
-https://medill-east.github.io/2022/04/28/index-thinking/
 https://medill-east.github.io/2023/08/20/20230820-e02/
 https://medill-east.github.io/2023/08/13/20230813-g04/
 https://medill-east.github.io/2023/08/06/20230806-b06/
