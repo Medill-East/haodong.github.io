@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>以 Collection 为核心的机制拆解</title>
+      <link href="2023/10/08/20231008-cfgd-chap2-challenge4-collection/"/>
+      <url>2023/10/08/20231008-cfgd-chap2-challenge4-collection/</url>
+      
+        <content type="html"><![CDATA[<h2 id="以-Collection-为核心的机制拆解"><a href="#以-Collection-为核心的机制拆解" class="headerlink" title="以 Collection 为核心的机制拆解"></a>以 Collection 为核心的机制拆解</h2><h3 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h3><p>起因是在看《Challenges for Game Designers》，然后就有了动手实现一下其中挑战的想法。<br>过往 One-page design:</p><ul><li><a href="https://medill-east.github.io/2023/08/13/20230813-the-way-of-create-and-destory/">CFGD-CHAP2-Challenge1-Path A to B-《生克之路》One-Page Design</a></li><li><a href="https://medill-east.github.io/2023/09/03/20230903-ten-continents-in-the-sea/">CFGD-CHAP2-Challenge2-Territorial Acquisition-《海内十洲》One-Page Design</a></li><li><a href="https://medill-east.github.io/2023/09/24/20230924-cfgd-chap2-challenge3-exploration/">CFGD-CHAP2-Challenge3-Exploration-《灵宅救孩》One-Page Design</a></li></ul><p>该篇是《Challenges for Game Designers》第二章的第 4 个挑战——以收集（Pick It Up/ Collection）为主题的游戏设计。</p><h3 id="挑战介绍"><a href="#挑战介绍" class="headerlink" title="挑战介绍"></a>挑战介绍</h3><p>既然是 Pick it up/Collection 为机制的游戏，那么首先要考虑是自然是什么是收集（Collection）。</p><p>可能需要先区分收集与获得（Obtain）。<br>收集给人的感觉是一种主动行为，而获得既可以是主动的，也可以是被动的。不严谨地讲，可以认为收集≈主动获得/获取，即将一些目标据为己有的行为。</p><p>A. 而这里提到的目标又可以被分为实体的或非实体的。</p><ul><li>可被收集的实体的目标，比如<ul><li>物品</li><li>角色</li></ul></li><li>可被收集的非实体的目标，比如<ul><li>信息</li><li>能量/经验值</li><li>情感/好感度</li><li>成就</li></ul></li></ul><p>B. 而根据目标是否具有所属性，可将收集目标的操作进行区分：</p><ul><li>如果是收集有主的目标，可能的操作形式有<ul><li>交换</li><li>借用</li><li>偷取</li><li>抢夺</li><li>掠夺（击杀后获取）</li></ul></li><li>如果是收集无主的目标，可能的操作形式有<ul><li>采集（非生物）</li><li>捕获（生物）<ul><li>无意</li><li>有意</li></ul></li></ul></li></ul><p>通过将 A X B 进行组合，便可大致得到基于收集机制的可能的游戏形态/机制（灰色涉及被动获取，橙色为没有明确想到对应的机制/例子）：</p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202310081301896.png"></p><hr><p>几番挣扎之后，没有什么非常想做的点，这里只略微叙述一下思考。</p><p>感觉比较有意思的是那些想不到现成玩法的形态（即橙色部分）。</p><p>值得一提的是，采集情感的例子也是最后才想到，其实比较适合作为破冰/喝酒游戏来构建。比如将感兴趣的问题（如 [[Arthur Aron]] 的 <a href="https://amorebeautifulquestion.com/36-questions/">36 个问题</a>、<a href="https://owlcation.com/social-sciences/quick-personality-test">立方体测试</a>等）作为路径，采用当前时间作为骰子的模数，对备选问题进行取模运算，从而得出当前需要回答的问题。参与者通过回答问题来“采集情感”——即通过互相了解来产生原本可能不存在的情感。</p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202310081216393.png" alt="Arthur Aron 的 36 个问题"></p><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202310081221697.png" alt="立方体测试"></p><ul><li>借用情感和偷取情感虽然想到了类似的形式，但在游戏中貌似没有直接体会过相关的玩法（还是玩得不够多呀哈哈）</li><li>至于抢夺信息，抢夺情感，采集角色，以及成就相关的很多玩法甚至连相应的例子也想不起来了<ul><li>有一些分类可能本身不够合理，比如采集角色</li></ul></li></ul><hr><h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><p>总体而言，这次没有进行直接的玩法构建，但是对 Collection 相关的机制和玩法进行了拆解和思考，也不算毫无收获。</p><p>接下来进入下一章，谜题构建吧！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Study-Game-Thinking </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Game </tag>
+            
+            <tag> Portfolio </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>20231008 - Flash, Blast, and Smoke</title>
       <link href="2023/10/08/20231008-h03/"/>
       <url>2023/10/08/20231008-h03/</url>
@@ -4320,7 +4347,7 @@
       <link href="2022/04/28/index-showcase/"/>
       <url>2022/04/28/index-showcase/</url>
       
-        <content type="html"><![CDATA[<h2 id="One-Page-Game-Design"><a href="#One-Page-Game-Design" class="headerlink" title="One-Page Game Design"></a>One-Page Game Design</h2><ul><li>Challenges for Game Designers<ul><li>CHAP2-Challenge1-Path A to B<ul><li><a href="https://medill-east.github.io/2023/08/13/20230813-the-way-of-create-and-destory/">《生克之路》One-Page Design</a></li></ul></li><li>CHAP2-Challenge2-Territorial Acquisition<ul><li><a href="https://medill-east.github.io/2023/09/03/20230903-ten-continents-in-the-sea/">《海内十洲》One-Page Design</a></li></ul></li><li>CHAP2-Challenge3-Exploration<ul><li><a href="https://medill-east.github.io/2023/09/24/20230924-cfgd-chap2-challenge3-exploration/">《灵宅救孩》One-Page Design</a></li></ul></li></ul></li></ul><h2 id="Game-Demo"><a href="#Game-Demo" class="headerlink" title="Game Demo"></a>Game Demo</h2><ul><li><a href="https://medill-east.github.io/2022/08/29/20220829-earnthenamebackforshadowpuppets-demo-showcase-analysis/">悬灯与玄灯 Demo 展示及制作复盘分析</a></li><li><a href="https://medill-east.github.io/2022/05/29/20220529-yinyangmeseenger-demo-showcase-analysis/">Yin Yang Messenger Game Demo 展示及分析</a></li><li><a href="https://haodongliao.itch.io/my-3d-platformer">Space Jumper Game Demo</a></li><li><a href="https://medill-east.github.io/2021/10/26/for-love-demo-showcase-and-analysis/">For Love Demo 展示及分析</a></li></ul><h2 id="策划案"><a href="#策划案" class="headerlink" title="策划案"></a>策划案</h2><ul><li><a href="https://medill-east.github.io/2021/07/26/shen-jiang-san-guo-first-recharge-plan/">神将三国首充策划案</a></li></ul><h2 id="体验报告"><a href="#体验报告" class="headerlink" title="体验报告"></a>体验报告</h2><ul><li><a href="https://medill-east.github.io/2021/07/26/shen-jiang-san-guo-game-experience-report/">神将三国游戏体验报告</a></li></ul><h2 id="Obsidian-Plugin"><a href="#Obsidian-Plugin" class="headerlink" title="Obsidian-Plugin"></a>Obsidian-Plugin</h2><ul><li><a href="https://medill-east.github.io/2023/08/26/20230826-obsidian-content-linker-plugin-development-review">Obsidian Content Linker 插件开发回顾</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 id="Game-Related"><a href="#Game-Related" class="headerlink" title="Game Related"></a>Game Related</h2><h3 id="Design-Thinking"><a href="#Design-Thinking" class="headerlink" title="Design/Thinking"></a>Design/Thinking</h3><ul><li><p>Challenges for Game Designers</p><ul><li>CHAP2-Challenge1-Path A to B<ul><li><a href="https://medill-east.github.io/2023/08/13/20230813-the-way-of-create-and-destory/">《生克之路》One-Page Design</a></li></ul></li><li>CHAP2-Challenge2-Territorial Acquisition<ul><li><a href="https://medill-east.github.io/2023/09/03/20230903-ten-continents-in-the-sea/">《海内十洲》One-Page Design</a></li></ul></li><li>CHAP2-Challenge3-Exploration<ul><li><a href="https://medill-east.github.io/2023/09/24/20230924-cfgd-chap2-challenge3-exploration/">《灵宅救孩》One-Page Design</a></li></ul></li><li>CHAP2-Challenge4-Collection<ul><li><a href="https://medill-east.github.io/2023/10/08/20231008-cfgd-chap2-challenge4-collection">以 Collection 为核心的机制拆解</a><h3 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h3></li></ul></li></ul></li><li><p><a href="https://medill-east.github.io/2022/08/29/20220829-earnthenamebackforshadowpuppets-demo-showcase-analysis/">悬灯与玄灯 Demo 展示及制作复盘分析</a></p></li><li><p><a href="https://medill-east.github.io/2022/05/29/20220529-yinyangmeseenger-demo-showcase-analysis/">Yin Yang Messenger Game Demo 展示及分析</a></p></li><li><p><a href="https://haodongliao.itch.io/my-3d-platformer">Space Jumper Game Demo</a></p></li><li><p><a href="https://medill-east.github.io/2021/10/26/for-love-demo-showcase-and-analysis/">For Love Demo 展示及分析</a></p></li></ul><h3 id="Document"><a href="#Document" class="headerlink" title="Document"></a>Document</h3><ul><li><a href="https://medill-east.github.io/2021/07/26/shen-jiang-san-guo-first-recharge-plan/">神将三国首充策划案</a></li></ul><h3 id="Experience-Report"><a href="#Experience-Report" class="headerlink" title="Experience Report"></a>Experience Report</h3><ul><li><a href="https://medill-east.github.io/2021/07/26/shen-jiang-san-guo-game-experience-report/">神将三国游戏体验报告</a></li></ul><h2 id="Software-Related"><a href="#Software-Related" class="headerlink" title="Software Related"></a>Software Related</h2><h3 id="Obsidian-Plugin"><a href="#Obsidian-Plugin" class="headerlink" title="Obsidian - Plugin"></a>Obsidian - Plugin</h3><ul><li><a href="https://medill-east.github.io/2023/08/26/20230826-obsidian-content-linker-plugin-development-review">Obsidian Content Linker 插件开发回顾</a></li></ul>]]></content>
       
       
       <categories>
