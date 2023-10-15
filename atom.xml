@@ -6,10 +6,50 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2023-10-08T05:10:40.353Z</updated>
+  <updated>2023-10-15T05:56:59.540Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20231015 - Desconstruct, Analyze, and Rebuild</title>
+    <link href="https://medill-east.github.io/2023/10/15/20231015-c07/"/>
+    <id>https://medill-east.github.io/2023/10/15/20231015-c07/</id>
+    <published>2023-10-15T05:56:46.000Z</published>
+    <updated>2023-10-15T05:56:59.540Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What&quot;&gt;&lt;/a&gt;What&lt;/h2&gt;&lt;p&gt;观看 Masahiro Sakurai on Creating Games 的视频，了解如何进行原创设计！&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Masahiro" scheme="https://medill-east.github.io/tags/Masahiro/"/>
+    
+    <category term="Sakurai" scheme="https://medill-east.github.io/tags/Sakurai/"/>
+    
+    <category term="on" scheme="https://medill-east.github.io/tags/on/"/>
+    
+    <category term="Creating" scheme="https://medill-east.github.io/tags/Creating/"/>
+    
+    <category term="Games" scheme="https://medill-east.github.io/tags/Games/"/>
+    
+    <category term="Learning" scheme="https://medill-east.github.io/tags/Learning/"/>
+    
+    <category term="Notes" scheme="https://medill-east.github.io/tags/Notes/"/>
+    
+  </entry>
   
   <entry>
     <title>以 Collection 为核心的机制拆解</title>
@@ -593,35 +633,6 @@
     <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
     
     <category term="Masahiro Sakurai on Creating Games" scheme="https://medill-east.github.io/tags/Masahiro-Sakurai-on-Creating-Games/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20220709 - ChatGPT Prompt Engineering for Developers</title>
-    <link href="https://medill-east.github.io/2023/07/09/20230709-chatgpt-prompt-engineering-for-developers/"/>
-    <id>https://medill-east.github.io/2023/07/09/20230709-chatgpt-prompt-engineering-for-developers/</id>
-    <published>2023-07-09T09:06:46.000Z</published>
-    <updated>2023-07-09T09:12:27.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Why-Note&quot;&gt;&lt;a href=&quot;#Why-Note&quot; class=&quot;headerlink&quot; title=&quot;Why Note&quot;&gt;&lt;/a&gt;Why Note&lt;/h2&gt;&lt;p&gt;开发过程中如果能够使用大规模语言模型（Large Language Model,</summary>
-        
-      
-    
-    
-    
-    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
-    
-    
-    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
-    
-    <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
-    
-    <category term="GCORES" scheme="https://medill-east.github.io/tags/GCORES/"/>
     
   </entry>
   
