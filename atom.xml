@@ -6,10 +6,35 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2023-11-05T08:39:45.455Z</updated>
+  <updated>2023-11-05T09:41:10.455Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PKM 在 Obsidian 上的卡片盒笔记法实践</title>
+    <link href="https://medill-east.github.io/2023/11/05/20231105-pkm-my-workflow/"/>
+    <id>https://medill-east.github.io/2023/11/05/20231105-pkm-my-workflow/</id>
+    <published>2023-11-05T09:25:19.000Z</published>
+    <updated>2023-11-05T09:41:10.455Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;PKM-在-Obsidian-上的卡片盒笔记法实践&quot;&gt;&lt;a href=&quot;#PKM-在-Obsidian-上的卡片盒笔记法实践&quot; class=&quot;headerlink&quot; title=&quot;PKM 在 Obsidian 上的卡片盒笔记法实践&quot;&gt;&lt;/a&gt;PKM 在</summary>
+        
+      
+    
+    
+    
+    <category term="PKM" scheme="https://medill-east.github.io/categories/PKM/"/>
+    
+    
+    <category term="PKM" scheme="https://medill-east.github.io/tags/PKM/"/>
+    
+  </entry>
   
   <entry>
     <title>对游戏中“禁锢”机制的解构及为百战天龙构思的炸弹谜题</title>
@@ -632,35 +657,6 @@
     <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
     
     <category term="Portfolio" scheme="https://medill-east.github.io/tags/Portfolio/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20230813 - Making Lead-ins Instant and Impactful</title>
-    <link href="https://medill-east.github.io/2023/08/13/20230813-g04/"/>
-    <id>https://medill-east.github.io/2023/08/13/20230813-g04/</id>
-    <published>2023-08-13T05:48:46.000Z</published>
-    <updated>2023-08-13T05:50:10.921Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What&quot;&gt;&lt;/a&gt;What&lt;/h2&gt;&lt;p&gt;观看 Masahiro Sakurai on Creating Games</summary>
-        
-      
-    
-    
-    
-    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
-    
-    
-    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
-    
-    <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
-    
-    <category term="Masahiro Sakurai on Creating Games" scheme="https://medill-east.github.io/tags/Masahiro-Sakurai-on-Creating-Games/"/>
     
   </entry>
   

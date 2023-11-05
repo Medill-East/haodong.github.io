@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>PKM 在 Obsidian 上的卡片盒笔记法实践</title>
+      <link href="2023/11/05/20231105-pkm-my-workflow/"/>
+      <url>2023/11/05/20231105-pkm-my-workflow/</url>
+      
+        <content type="html"><![CDATA[<h2 id="PKM-在-Obsidian-上的卡片盒笔记法实践"><a href="#PKM-在-Obsidian-上的卡片盒笔记法实践" class="headerlink" title="PKM 在 Obsidian 上的卡片盒笔记法实践"></a>PKM 在 Obsidian 上的卡片盒笔记法实践</h2><h3 id="WHY"><a href="#WHY" class="headerlink" title="WHY"></a>WHY</h3><p>最近正好有机会做一次有关介绍 PKM 和个人在 Obsidian 上使用卡片盒笔记法的实践，就此做了一个相关 PPT。</p><h3 id="WHAT"><a href="#WHAT" class="headerlink" title="WHAT"></a>WHAT</h3><iframe src="http://docs.google.com/gview?url=https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202311051740873.pdf&embedded=true" style="width:100%; height:3000px;" frameborder="0"></iframe>]]></content>
+      
+      
+      <categories>
+          
+          <category> PKM </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PKM </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>对游戏中“禁锢”机制的解构及为百战天龙构思的炸弹谜题</title>
       <link href="2023/11/05/20231105-cfgd-chap3-challenge1-bomb/"/>
       <url>2023/11/05/20231105-cfgd-chap3-challenge1-bomb/</url>
@@ -4530,7 +4555,7 @@
       <link href="2022/04/28/index-showcase/"/>
       <url>2022/04/28/index-showcase/</url>
       
-        <content type="html"><![CDATA[<h2 id="Game-Related"><a href="#Game-Related" class="headerlink" title="Game Related"></a>Game Related</h2><h3 id="Design-Thinking"><a href="#Design-Thinking" class="headerlink" title="Design/Thinking"></a>Design/Thinking</h3><ul><li><p>Challenges for Game Designers</p><ul><li>CHAP2-Challenge1-Path A to B<ul><li><a href="https://medill-east.github.io/2023/08/13/20230813-the-way-of-create-and-destory/">《生克之路》One-Page Design</a></li></ul></li><li>CHAP2-Challenge2-Territorial Acquisition<ul><li><a href="https://medill-east.github.io/2023/09/03/20230903-ten-continents-in-the-sea/">《海内十洲》One-Page Design</a></li></ul></li><li>CHAP2-Challenge3-Exploration<ul><li><a href="https://medill-east.github.io/2023/09/24/20230924-cfgd-chap2-challenge3-exploration/">《灵宅救孩》One-Page Design</a></li></ul></li><li>CHAP2-Challenge4-Collection<ul><li><a href="https://medill-east.github.io/2023/10/08/20231008-cfgd-chap2-challenge4-collection">以 Collection 为核心的机制拆解</a><h3 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h3></li></ul></li></ul></li><li><p><a href="https://medill-east.github.io/2022/08/29/20220829-earnthenamebackforshadowpuppets-demo-showcase-analysis/">悬灯与玄灯 Demo 展示及制作复盘分析</a></p></li><li><p><a href="https://medill-east.github.io/2022/05/29/20220529-yinyangmeseenger-demo-showcase-analysis/">Yin Yang Messenger Game Demo 展示及分析</a></p></li><li><p><a href="https://haodongliao.itch.io/my-3d-platformer">Space Jumper Game Demo</a></p></li><li><p><a href="https://medill-east.github.io/2021/10/26/for-love-demo-showcase-and-analysis/">For Love Demo 展示及分析</a></p></li></ul><h3 id="Document"><a href="#Document" class="headerlink" title="Document"></a>Document</h3><ul><li><a href="https://medill-east.github.io/2021/07/26/shen-jiang-san-guo-first-recharge-plan/">神将三国首充策划案</a></li></ul><h3 id="Experience-Report"><a href="#Experience-Report" class="headerlink" title="Experience Report"></a>Experience Report</h3><ul><li><a href="https://medill-east.github.io/2021/07/26/shen-jiang-san-guo-game-experience-report/">神将三国游戏体验报告</a></li></ul><h2 id="Software-Related"><a href="#Software-Related" class="headerlink" title="Software Related"></a>Software Related</h2><h3 id="Obsidian-Plugin"><a href="#Obsidian-Plugin" class="headerlink" title="Obsidian - Plugin"></a>Obsidian - Plugin</h3><ul><li><a href="https://medill-east.github.io/2023/08/26/20230826-obsidian-content-linker-plugin-development-review">Obsidian Content Linker 插件开发回顾</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 id="Game-Related"><a href="#Game-Related" class="headerlink" title="Game Related"></a>Game Related</h2><h3 id="Design-Thinking"><a href="#Design-Thinking" class="headerlink" title="Design/Thinking"></a>Design/Thinking</h3><ul><li><p>Challenges for Game Designers</p><ul><li>CHAP2-Challenge1-Path A to B<ul><li><a href="https://medill-east.github.io/2023/08/13/20230813-the-way-of-create-and-destory/">《生克之路》One-Page Design</a></li></ul></li><li>CHAP2-Challenge2-Territorial Acquisition<ul><li><a href="https://medill-east.github.io/2023/09/03/20230903-ten-continents-in-the-sea/">《海内十洲》One-Page Design</a></li></ul></li><li>CHAP2-Challenge3-Exploration<ul><li><a href="https://medill-east.github.io/2023/09/24/20230924-cfgd-chap2-challenge3-exploration/">《灵宅救孩》One-Page Design</a></li></ul></li><li>CHAP2-Challenge4-Collection<ul><li><a href="https://medill-east.github.io/2023/10/08/20231008-cfgd-chap2-challenge4-collection">以 Collection 为核心的机制拆解</a></li></ul></li><li>CHAP3-Challenge1-Bomb<ul><li><a href="https://medill-east.github.io/2023/11/05/20231105-cfgd-chap3-challenge1-bomb">对游戏中“禁锢”机制的解构及为百战天龙构思的炸弹谜题</a><h3 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h3></li></ul></li></ul></li><li><p><a href="https://medill-east.github.io/2022/08/29/20220829-earnthenamebackforshadowpuppets-demo-showcase-analysis/">悬灯与玄灯 Demo 展示及制作复盘分析</a></p></li><li><p><a href="https://medill-east.github.io/2022/05/29/20220529-yinyangmeseenger-demo-showcase-analysis/">Yin Yang Messenger Game Demo 展示及分析</a></p></li><li><p><a href="https://haodongliao.itch.io/my-3d-platformer">Space Jumper Game Demo</a></p></li><li><p><a href="https://medill-east.github.io/2021/10/26/for-love-demo-showcase-and-analysis/">For Love Demo 展示及分析</a></p></li></ul><h3 id="Document"><a href="#Document" class="headerlink" title="Document"></a>Document</h3><ul><li><a href="https://medill-east.github.io/2021/07/26/shen-jiang-san-guo-first-recharge-plan/">神将三国首充策划案</a></li></ul><h3 id="Experience-Report"><a href="#Experience-Report" class="headerlink" title="Experience Report"></a>Experience Report</h3><ul><li><a href="https://medill-east.github.io/2021/07/26/shen-jiang-san-guo-game-experience-report/">神将三国游戏体验报告</a></li></ul><h2 id="PKM-Related"><a href="#PKM-Related" class="headerlink" title="PKM Related"></a>PKM Related</h2><h3 id="Zettelkasten"><a href="#Zettelkasten" class="headerlink" title="Zettelkasten"></a>Zettelkasten</h3><ul><li><a href="https://medill-east.github.io/2023/11/05/20231105-pkm-my-workflow">PKM 在 Obsidian 上的卡片盒笔记法实践</a></li></ul><h3 id="Obsidian-Plugin"><a href="#Obsidian-Plugin" class="headerlink" title="Obsidian - Plugin"></a>Obsidian - Plugin</h3><ul><li><a href="https://medill-east.github.io/2023/08/26/20230826-obsidian-content-linker-plugin-development-review">Obsidian Content Linker 插件开发回顾</a></li></ul>]]></content>
       
       
       <categories>
