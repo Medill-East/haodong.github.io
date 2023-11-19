@@ -6,10 +6,49 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2023-11-12T05:03:18.580Z</updated>
+  <updated>2023-11-19T06:08:49.568Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20231119 - Attack Poses</title>
+    <link href="https://medill-east.github.io/2023/11/19/20231119-g05/"/>
+    <id>https://medill-east.github.io/2023/11/19/20231119-g05/</id>
+    <published>2023-11-19T06:06:46.000Z</published>
+    <updated>2023-11-19T06:08:49.568Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What&quot;&gt;&lt;/a&gt;What&lt;/h2&gt;&lt;p&gt;观看 Masahiro Sakurai on Creating Games 的视频，了解 Attack</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Masahiro" scheme="https://medill-east.github.io/tags/Masahiro/"/>
+    
+    <category term="Sakurai" scheme="https://medill-east.github.io/tags/Sakurai/"/>
+    
+    <category term="on" scheme="https://medill-east.github.io/tags/on/"/>
+    
+    <category term="Creating" scheme="https://medill-east.github.io/tags/Creating/"/>
+    
+    <category term="Games" scheme="https://medill-east.github.io/tags/Games/"/>
+    
+    <category term="Learning" scheme="https://medill-east.github.io/tags/Learning/"/>
+    
+    <category term="Notes" scheme="https://medill-east.github.io/tags/Notes/"/>
+    
+  </entry>
   
   <entry>
     <title>20231112 - Don&#39;t Anchor Your Center Point</title>
@@ -80,7 +119,7 @@
     <link href="https://medill-east.github.io/2023/11/05/20231105-cfgd-chap3-challenge1-bomb/"/>
     <id>https://medill-east.github.io/2023/11/05/20231105-cfgd-chap3-challenge1-bomb/</id>
     <published>2023-11-05T08:31:19.000Z</published>
-    <updated>2023-11-05T08:39:45.455Z</updated>
+    <updated>2023-11-05T09:36:03.106Z</updated>
     
     
       
@@ -640,35 +679,6 @@
     
     
     <category term="PKM" scheme="https://medill-east.github.io/tags/PKM/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20230820 - Jobs in Game Development</title>
-    <link href="https://medill-east.github.io/2023/08/20/20230820-e02/"/>
-    <id>https://medill-east.github.io/2023/08/20/20230820-e02/</id>
-    <published>2023-08-20T06:56:46.000Z</published>
-    <updated>2023-08-20T06:56:42.273Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What&quot;&gt;&lt;/a&gt;What&lt;/h2&gt;&lt;p&gt;观看 Masahiro Sakurai on Creating Games</summary>
-        
-      
-    
-    
-    
-    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
-    
-    
-    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
-    
-    <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
-    
-    <category term="Masahiro Sakurai on Creating Games" scheme="https://medill-east.github.io/tags/Masahiro-Sakurai-on-Creating-Games/"/>
     
   </entry>
   
