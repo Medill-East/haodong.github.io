@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>202301126 - Get the Sense of Scale Right</title>
+      <link href="2023/11/26/20231126-f04/"/>
+      <url>2023/11/26/20231126-f04/</url>
+      
+        <content type="html"><![CDATA[<h2 id="What"><a href="#What" class="headerlink" title="What"></a>What</h2><p>观看 Masahiro Sakurai on Creating Games 的视频，了解通过区分元素的主次进行优化的方法！</p><h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h2 id="F04-Get-the-Sense-of-Scale-Right"><a href="#F04-Get-the-Sense-of-Scale-Right" class="headerlink" title="F04 - Get the Sense of Scale Right"></a>F04 - Get the Sense of Scale Right</h2><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202311261124972.png"></p><iframe width="560" height="315" src="https://www.youtube.com/embed/A6Rbb5sK4nI?si=uaOdpqTdXfix3fXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><ul><li><p>在监督一个游戏的图形时， [[樱井政博|樱井政博]] 经常会提出的一个改动建议是“get the sense of scale right” —— 把尺寸调对</p><ul><li>比如说，一个很大的物体被放到场景中时会看起来很小<ul><li>只需要想象一个被等比例缩小的模型就好了<br>  <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202311261127850.png"></li><li>在大多数情况下，这将表现为大的东西看起来比想象的要小 <ul><li>你不太经常见到小东西看起来很大的情况</li></ul></li><li>这个问题也和游戏中的最终视觉效果有很大关系<ul><li>包括但不仅限于以下的各个方面都有明显影响<ul><li>鸟瞰视角（aerial perspective）</li><li>环境光</li><li>光线追踪</li><li>Toy camera effect</li><li>渲染中的微型伪造（Miniature faking in the rendering）<br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202311261136726.png"><br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202311261136838.png"></li></ul></li></ul></li><li>但暂时先不管提到的这些，先考虑一个单一模型怎样有不同的尺寸感<ul><li>Textures<ul><li>在构建好游戏的整体氛围（atmosphere）之后<ul><li>试着让饱和度、色彩有变化<ul><li>试着增大尺寸然后从远处观察</li></ul></li><li>如果物品饱和度太高，其受到环境光影响会减弱，从而使得它看起来不够真实<ul><li>如果想做真实感，就不要使得饱和度太高<br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202311261139104.png"><br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202311261140296.png"><br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202311261142384.png"><br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202311261143920.png"></li></ul></li></ul></li><li>[[樱井政博|樱井政博]] 觉得 specularity/glossy look —— 镜面感/高亮很难做好<ul><li>太亮会让东西看起来像玩具<br>  <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202311261145215.png"><br>  <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202311261146335.png"></li><li>有一些大型物体并不需要太亮，但是在物体的局部区域添加高亮会让结果有很大提升<br>  <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202311261147024.png"></li><li>基于此可以讨论一下[[法线贴图 normal maps]]<ul><li>[[法线贴图 normal maps|法线贴图 normal maps]] 可以让我们为纹理添加额外信息，从而让光能够正确反射<ul><li>[[法线贴图 normal maps|法线贴图 normal maps]] 和 [[凹凸映射 bump mapping]] 是类似的，只不过法线贴图是平的（flat）</li></ul></li><li>如果法线贴图的尺寸和物品尺寸不匹配，最终效果会很差<br>  <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202311261149089.png"></li></ul></li><li>更大型的机械类物体，也需要类似 dirt 之类的细节<ul><li>即使一个物体需要实现灰度效果（grayscale）或者其他类似的单一色调（monotone），最好也能让 [[色相 hue]] 产生变化<br>  <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202311261210844.png"></li></ul></li></ul></li></ul></li><li>其实还有很多细节，但你可能已经注意到了， [[樱井政博|樱井政博]] 并没有提到模型的形状，并不是说形状没有需要考虑的细节，但他觉得前面提到的那些比起形状而言优先级更高<ul><li>毕竟如前所示，塑料模型其实和真实模型的形状是一样的</li></ul></li></ul></li></ul></li></ul></li><li><p>再次对模型和真实物体进行比较</p><ul><li>模型<ul><li>饱和度更高</li><li>镜面效果更强、范围更大<ul><li>不太受环境光影响</li></ul></li></ul></li><li>真实模型<ul><li>看起来更加扁平，色调更单一</li></ul></li><li>通常而言，CG 中的物品会看起来更像一个等比所放的模型，所以需要想办法来弥补这些区别<br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202311261214774.png"><br><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202311261215554.png"><h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3></li></ul></li><li><p>一如既往，根据游戏需求来选定合适的风格是很重要的</p></li><li><p>不要把素材制作仅仅当做模型制作，将整体风格考虑在内，尽力做好吧！</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Study-Game-Notes </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Game </tag>
+            
+            <tag> Learning Notes </tag>
+            
+            <tag> Masahiro Sakurai on Creating Games </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>20231119 - Attack Poses</title>
       <link href="2023/11/19/20231119-g05/"/>
       <url>2023/11/19/20231119-g05/</url>
@@ -22,19 +51,9 @@
             
             <tag> Game </tag>
             
-            <tag> Masahiro </tag>
+            <tag> Learning Notes </tag>
             
-            <tag> Sakurai </tag>
-            
-            <tag> on </tag>
-            
-            <tag> Creating </tag>
-            
-            <tag> Games </tag>
-            
-            <tag> Learning </tag>
-            
-            <tag> Notes </tag>
+            <tag> Masahiro Sakurai on Creating Games </tag>
             
         </tags>
       
@@ -61,19 +80,9 @@
             
             <tag> Game </tag>
             
-            <tag> Masahiro </tag>
+            <tag> Learning Notes </tag>
             
-            <tag> Sakurai </tag>
-            
-            <tag> on </tag>
-            
-            <tag> Creating </tag>
-            
-            <tag> Games </tag>
-            
-            <tag> Learning </tag>
-            
-            <tag> Notes </tag>
+            <tag> Masahiro Sakurai on Creating Games </tag>
             
         </tags>
       
@@ -152,19 +161,9 @@
             
             <tag> Game </tag>
             
-            <tag> Masahiro </tag>
+            <tag> Learning Notes </tag>
             
-            <tag> Sakurai </tag>
-            
-            <tag> on </tag>
-            
-            <tag> Creating </tag>
-            
-            <tag> Games </tag>
-            
-            <tag> Learning </tag>
-            
-            <tag> Notes </tag>
+            <tag> Masahiro Sakurai on Creating Games </tag>
             
         </tags>
       
@@ -191,19 +190,9 @@
             
             <tag> Game </tag>
             
-            <tag> Masahiro </tag>
+            <tag> Learning Notes </tag>
             
-            <tag> Sakurai </tag>
-            
-            <tag> on </tag>
-            
-            <tag> Creating </tag>
-            
-            <tag> Games </tag>
-            
-            <tag> Learning </tag>
-            
-            <tag> Notes </tag>
+            <tag> Masahiro Sakurai on Creating Games </tag>
             
         </tags>
       
@@ -230,19 +219,9 @@
             
             <tag> Game </tag>
             
-            <tag> Masahiro </tag>
+            <tag> Learning Notes </tag>
             
-            <tag> Sakurai </tag>
-            
-            <tag> on </tag>
-            
-            <tag> Creating </tag>
-            
-            <tag> Games </tag>
-            
-            <tag> Learning </tag>
-            
-            <tag> Notes </tag>
+            <tag> Masahiro Sakurai on Creating Games </tag>
             
         </tags>
       
@@ -269,19 +248,9 @@
             
             <tag> Game </tag>
             
-            <tag> Masahiro </tag>
+            <tag> Learning Notes </tag>
             
-            <tag> Sakurai </tag>
-            
-            <tag> on </tag>
-            
-            <tag> Creating </tag>
-            
-            <tag> Games </tag>
-            
-            <tag> Learning </tag>
-            
-            <tag> Notes </tag>
+            <tag> Masahiro Sakurai on Creating Games </tag>
             
         </tags>
       
@@ -335,19 +304,9 @@
             
             <tag> Game </tag>
             
-            <tag> Masahiro </tag>
+            <tag> Learning Notes </tag>
             
-            <tag> Sakurai </tag>
-            
-            <tag> on </tag>
-            
-            <tag> Creating </tag>
-            
-            <tag> Games </tag>
-            
-            <tag> Learning </tag>
-            
-            <tag> Notes </tag>
+            <tag> Masahiro Sakurai on Creating Games </tag>
             
         </tags>
       
@@ -401,19 +360,9 @@
             
             <tag> Game </tag>
             
-            <tag> Masahiro </tag>
+            <tag> Learning Notes </tag>
             
-            <tag> Sakurai </tag>
-            
-            <tag> on </tag>
-            
-            <tag> Creating </tag>
-            
-            <tag> Games </tag>
-            
-            <tag> Learning </tag>
-            
-            <tag> Notes </tag>
+            <tag> Masahiro Sakurai on Creating Games </tag>
             
         </tags>
       
@@ -467,19 +416,9 @@
             
             <tag> Game </tag>
             
-            <tag> Masahiro </tag>
+            <tag> Learning Notes </tag>
             
-            <tag> Sakurai </tag>
-            
-            <tag> on </tag>
-            
-            <tag> Creating </tag>
-            
-            <tag> Games </tag>
-            
-            <tag> Learning </tag>
-            
-            <tag> Notes </tag>
+            <tag> Masahiro Sakurai on Creating Games </tag>
             
         </tags>
       
@@ -506,19 +445,9 @@
             
             <tag> Game </tag>
             
-            <tag> Masahiro </tag>
+            <tag> Learning Notes </tag>
             
-            <tag> Sakurai </tag>
-            
-            <tag> on </tag>
-            
-            <tag> Creating </tag>
-            
-            <tag> Games </tag>
-            
-            <tag> Learning </tag>
-            
-            <tag> Notes </tag>
+            <tag> Masahiro Sakurai on Creating Games </tag>
             
         </tags>
       
@@ -572,19 +501,9 @@
             
             <tag> Game </tag>
             
-            <tag> Masahiro </tag>
+            <tag> Learning Notes </tag>
             
-            <tag> Sakurai </tag>
-            
-            <tag> on </tag>
-            
-            <tag> Creating </tag>
-            
-            <tag> Games </tag>
-            
-            <tag> Learning </tag>
-            
-            <tag> Notes </tag>
+            <tag> Masahiro Sakurai on Creating Games </tag>
             
         </tags>
       
@@ -3296,7 +3215,7 @@
       <link href="2022/08/31/20220900-toc/"/>
       <url>2022/08/31/20220900-toc/</url>
       
-        <content type="html"><![CDATA[<h1 id="Masahiro-Sakurai-on-Creating-Games-摘抄-笔记"><a href="#Masahiro-Sakurai-on-Creating-Games-摘抄-笔记" class="headerlink" title="Masahiro Sakurai on Creating Games 摘抄/笔记"></a>Masahiro Sakurai on Creating Games 摘抄/笔记</h1><h2 id="Why-Note"><a href="#Why-Note" class="headerlink" title="Why Note"></a>Why Note</h2><p>观看 Masahiro Sakurai on Creating Games 的视频，学习游戏制作，特此记录。</p><h2 id="Content"><a href="#Content" class="headerlink" title="Content"></a>Content</h2><h3 id="A-Work-Ethic"><a href="#A-Work-Ethic" class="headerlink" title="A - Work Ethic"></a>A - Work Ethic</h3><ul><li><a href="https://medill-east.github.io/2022/09/24/20220924-game-development-isnt-a-game">A01 - Game Development Isn’t a Game</a> </li><li><a href="https://medill-east.github.io/2022/11/06/20221106-presentation-are-all-about-speed">A02 - Presentation Are All About Speed!</a></li><li><a href="https://medill-east.github.io/2023/01/08/20230108-try-telling-that-to-the-player">A03 - Try Telling That to the Player</a></li><li><a href="https://medill-east.github.io/2023/03/19/20230319-a04">A04 - Spec Changes</a></li><li><a href="https://medill-east.github.io/2023/05/28/20230528-a05">A05 - Writing Game Proposals</a></li><li><a href="https://medill-east.github.io/2023/05/28/20230903-a06">A06 - Prep Your Proposals Hot and Fast</a></li></ul><h3 id="B-Game-Essence"><a href="#B-Game-Essence" class="headerlink" title="B - Game Essence"></a>B - Game Essence</h3><ul><li><a href="https://medill-east.github.io/2022/09/17/20220917-risk-and-rewards">B01 - Risk and Rewards</a></li><li><a href="https://medill-east.github.io/2022/10/09/20221009-squeeze-and-release">B02 - Squeeze and Release</a></li><li><a href="https://medill-east.github.io/2022/11/27/20221127-b03">B03 - Game Essence in Role-Playing Games</a></li><li><a href="https://medill-east.github.io/2023/02/26/20230226-b04">B04 - Fun Beyond Game Essence</a></li><li><a href="https://medill-east.github.io/2023/06/18/20230618-b05">B05 - The Fiend’s Cauldron</a></li><li><a href="https://medill-east.github.io/2023/08/06/20230806-b06">B06 - Let Players Cheat the System</a></li></ul><h3 id="C-Planning-amp-Game-Design"><a href="#C-Planning-amp-Game-Design" class="headerlink" title="C - Planning &amp; Game Design"></a>C - Planning &amp; Game Design</h3><ul><li><a href="https://medill-east.github.io/2022/09/11/20220911-frame-rates">C01 -Frame Rates</a></li><li><a href="https://medill-east.github.io/2022/12/11/20221211-just-let-them-play">C02 -Just Let Them Play!</a></li><li><a href="https://medill-east.github.io/2023/02/05/20230205-c03">C03 - Keeping Rewards in Sight</a></li><li><a href="https://medill-east.github.io/2023/05/01/20230501-c04">C04 - Making a Living Making Games</a></li><li><a href="https://medill-east.github.io/2023/06/25/20230625-c05">C05 - A Small Window Into the World</a></li><li><a href="https://medill-east.github.io/2023/08/27/20230827-c06">C06 - The Potential of One Button</a></li><li><a href="https://medill-east.github.io/2023/10/15/20231015-c07">C07 - Desconstruct, Analyze, and Rebuild</a></li></ul><h3 id="D-Design-Specifics"><a href="#D-Design-Specifics" class="headerlink" title="D - Design Specifics"></a>D - Design Specifics</h3><ul><li><a href="https://medill-east.github.io/2022/09/01/20220901-stop-for-big-moments/">D01 - Stop for big moments</a></li><li><a href="https://medill-east.github.io/2022/12/25/20221225-d02/">D02 - Giving “Weight” to Buttons</a></li><li><a href="https://medill-east.github.io/2023/05/21/20230521-d03/">D03 - Jump Physics</a></li><li><a href="https://medill-east.github.io/2023/07/30/20230730-d04/">D04 - Eight Hit Stop Techniques</a></li><li><a href="https://medill-east.github.io/2023/11/12/20231112-d05/">D05 - Don’t Anchor Your Center Point</a></li></ul><h3 id="E-Team-Management"><a href="#E-Team-Management" class="headerlink" title="E - Team Management"></a>E - Team Management</h3><ul><li><a href="https://medill-east.github.io/2023/07/02/20230702-e01/">E01- Sharing Info Within a Team</a></li><li><a href="https://medill-east.github.io/2023/08/20/20230820-e02/">E02 - Jobs in Game Development</a></li><li><a href="https://medill-east.github.io/2023/11/05/20231105-e03/">E03 - Don’t Wait to Speak Your Mind</a></li></ul><h3 id="F-Graphics"><a href="#F-Graphics" class="headerlink" title="F - Graphics"></a>F - Graphics</h3><ul><li><a href="https://medill-east.github.io/2022/10/16/20221016-draw-the-light-not-the-asset">F01 - Draw the light not the Asset</a></li><li><a href="https://medill-east.github.io/2023/03/26/20230326-f02">F02 - Emphasize Objects with Collision</a></li><li><a href="https://medill-east.github.io/2023/07/09/20230709-f03">F03 - Distinguishing Between Major and Minor Elements</a></li></ul><h3 id="G-Animations"><a href="#G-Animations" class="headerlink" title="G - Animations"></a>G - Animations</h3><ul><li><a href="https://medill-east.github.io/2022/11/20/20221120-asinging-animations/">G01 - Assigning Animations</a></li><li><a href="https://medill-east.github.io/2023/03/12/20230312-g02/">G02 - Too Much is Just Right</a></li><li><a href="https://medill-east.github.io/2023/05/14/20230514-g03/">G03 - Breaking Down Attack Animations</a></li><li><a href="https://medill-east.github.io/2023/08/13/20230813-g04/">G04 - Making Lead-ins Instant and Impactful</a></li><li><a href="https://medill-east.github.io/2023/11/19/20231119-g05/">G05 - Attack Poses</a></li></ul><h3 id="H-Effects"><a href="#H-Effects" class="headerlink" title="H - Effects"></a>H - Effects</h3><ul><li><a href="https://medill-east.github.io/2022/12/04/20221204-make-it-pop">H01 - Make It “Pop”</a></li><li><a href="https://medill-east.github.io/2023/05/07/20230507-h02">H02 - Let Your Character Shine</a></li><li><a href="https://medill-east.github.io/2023/10/08/20231008-h03">H03 - Flash, Blast, and Smoke</a></li></ul><h3 id="I-Audio"><a href="#I-Audio" class="headerlink" title="I-Audio"></a>I-Audio</h3><ul><li><a href="https://medill-east.github.io/2023/02/19/20230219-i01">I01 - Make the Tempo Match the Game!</a></li><li><a href="https://medill-east.github.io/2023/04/16/20230416-i02">I02 - Strike a Balance with Sound Effects</a></li><li><a href="https://medill-east.github.io/2023/09/24/20230924-i03">I03 - Listen in Various Environments</a></li></ul><h3 id="J-UI"><a href="#J-UI" class="headerlink" title="J - UI"></a>J - UI</h3><ul><li><a href="https://medill-east.github.io/2022/12/18/20221219-clarity-vs-style">J01 - Clarity vs. Style</a></li><li><a href="https://medill-east.github.io/2023/04/23/20230423-j02">J02 - Text Size</a></li><li><a href="https://medill-east.github.io/2023/09/30/20230930-j03">J03 - Modern Quality of Life Features</a></li></ul><h3 id="K-Programming-amp-Tech"><a href="#K-Programming-amp-Tech" class="headerlink" title="K - Programming &amp; Tech"></a>K - Programming &amp; Tech</h3><ul><li><a href="https://medill-east.github.io/2023/01/15/20230115-name-files-logically">K01 - Name Files Logically</a></li><li><a href="https://medill-east.github.io/2023/07/23/20230723-k02">K02 - Making Your Game Easy to Tune</a></li></ul><h3 id="M-Grab-Bag"><a href="#M-Grab-Bag" class="headerlink" title="M - Grab Bag"></a>M - Grab Bag</h3><ul><li><p><a href="https://medill-east.github.io/2022/10/05/20221005-down-with-lag">M01 - Down with Lag!</a></p></li><li><p><a href="https://medill-east.github.io/2022/11/13/20221113-game-awards">M02 - Game Awards</a></p></li><li><p><a href="https://medill-east.github.io/2023/02/12/20230212-m03">M03 - Exercise While You Play!</a></p></li><li><p><a href="https://medill-east.github.io/2023/04/02/20230402-m04">M04 - The Price of Games</a></p></li><li><p><a href="https://medill-east.github.io/2023/06/04/20230604-m05">M05 - My Feline Friend Fukurashi</a></p></li><li><p><a href="https://medill-east.github.io/2023/07/16/20230716-m06">M06 - That was Then, This Is Now</a></p></li><li><p><a href="https://medill-east.github.io/2023/09/17/20230917-m07">M07 - Sora Ltd.</a></p></li><li><p><a href="https://medill-east.github.io/2023/10/22/20231022-m08">M08 - Team Digital or Team Physical?</a></p><h3 id="N-Game-Concepts"><a href="#N-Game-Concepts" class="headerlink" title="N - Game Concepts"></a>N - Game Concepts</h3></li><li><p><a href="https://medill-east.github.io/2022/09/02/20220902-kirby-dream-land/">N01 - Kirby’s Dream Land</a></p></li><li><p><a href="https://medill-east.github.io/2022/10/30/20221030-kirby-adventure/">N02 - Kirby’s Adventure</a></p></li><li><p><a href="https://medill-east.github.io/2023/01/02/20230102-kirby-super-star/">N03 - Kirby Super Star</a></p></li><li><p><a href="https://medill-east.github.io/2023/03/05/20230305-n04/">N04 - Super Smash Bros</a></p></li><li><p><a href="https://medill-east.github.io/2023/06/11/20230611-n05/">N05 - Super Smash Bros Melee</a></p></li><li><p><a href="https://medill-east.github.io/2023/10/29/20231029-n06/">N06 - Kirby Air Ride</a></p></li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="Masahiro-Sakurai-on-Creating-Games-摘抄-笔记"><a href="#Masahiro-Sakurai-on-Creating-Games-摘抄-笔记" class="headerlink" title="Masahiro Sakurai on Creating Games 摘抄/笔记"></a>Masahiro Sakurai on Creating Games 摘抄/笔记</h1><h2 id="Why-Note"><a href="#Why-Note" class="headerlink" title="Why Note"></a>Why Note</h2><p>观看 Masahiro Sakurai on Creating Games 的视频，学习游戏制作，特此记录。</p><h2 id="Content"><a href="#Content" class="headerlink" title="Content"></a>Content</h2><h3 id="A-Work-Ethic"><a href="#A-Work-Ethic" class="headerlink" title="A - Work Ethic"></a>A - Work Ethic</h3><ul><li><a href="https://medill-east.github.io/2022/09/24/20220924-game-development-isnt-a-game">A01 - Game Development Isn’t a Game</a> </li><li><a href="https://medill-east.github.io/2022/11/06/20221106-presentation-are-all-about-speed">A02 - Presentation Are All About Speed!</a></li><li><a href="https://medill-east.github.io/2023/01/08/20230108-try-telling-that-to-the-player">A03 - Try Telling That to the Player</a></li><li><a href="https://medill-east.github.io/2023/03/19/20230319-a04">A04 - Spec Changes</a></li><li><a href="https://medill-east.github.io/2023/05/28/20230528-a05">A05 - Writing Game Proposals</a></li><li><a href="https://medill-east.github.io/2023/05/28/20230903-a06">A06 - Prep Your Proposals Hot and Fast</a></li></ul><h3 id="B-Game-Essence"><a href="#B-Game-Essence" class="headerlink" title="B - Game Essence"></a>B - Game Essence</h3><ul><li><a href="https://medill-east.github.io/2022/09/17/20220917-risk-and-rewards">B01 - Risk and Rewards</a></li><li><a href="https://medill-east.github.io/2022/10/09/20221009-squeeze-and-release">B02 - Squeeze and Release</a></li><li><a href="https://medill-east.github.io/2022/11/27/20221127-b03">B03 - Game Essence in Role-Playing Games</a></li><li><a href="https://medill-east.github.io/2023/02/26/20230226-b04">B04 - Fun Beyond Game Essence</a></li><li><a href="https://medill-east.github.io/2023/06/18/20230618-b05">B05 - The Fiend’s Cauldron</a></li><li><a href="https://medill-east.github.io/2023/08/06/20230806-b06">B06 - Let Players Cheat the System</a></li></ul><h3 id="C-Planning-amp-Game-Design"><a href="#C-Planning-amp-Game-Design" class="headerlink" title="C - Planning &amp; Game Design"></a>C - Planning &amp; Game Design</h3><ul><li><a href="https://medill-east.github.io/2022/09/11/20220911-frame-rates">C01 -Frame Rates</a></li><li><a href="https://medill-east.github.io/2022/12/11/20221211-just-let-them-play">C02 -Just Let Them Play!</a></li><li><a href="https://medill-east.github.io/2023/02/05/20230205-c03">C03 - Keeping Rewards in Sight</a></li><li><a href="https://medill-east.github.io/2023/05/01/20230501-c04">C04 - Making a Living Making Games</a></li><li><a href="https://medill-east.github.io/2023/06/25/20230625-c05">C05 - A Small Window Into the World</a></li><li><a href="https://medill-east.github.io/2023/08/27/20230827-c06">C06 - The Potential of One Button</a></li><li><a href="https://medill-east.github.io/2023/10/15/20231015-c07">C07 - Desconstruct, Analyze, and Rebuild</a></li></ul><h3 id="D-Design-Specifics"><a href="#D-Design-Specifics" class="headerlink" title="D - Design Specifics"></a>D - Design Specifics</h3><ul><li><a href="https://medill-east.github.io/2022/09/01/20220901-stop-for-big-moments/">D01 - Stop for big moments</a></li><li><a href="https://medill-east.github.io/2022/12/25/20221225-d02/">D02 - Giving “Weight” to Buttons</a></li><li><a href="https://medill-east.github.io/2023/05/21/20230521-d03/">D03 - Jump Physics</a></li><li><a href="https://medill-east.github.io/2023/07/30/20230730-d04/">D04 - Eight Hit Stop Techniques</a></li><li><a href="https://medill-east.github.io/2023/11/12/20231112-d05/">D05 - Don’t Anchor Your Center Point</a></li></ul><h3 id="E-Team-Management"><a href="#E-Team-Management" class="headerlink" title="E - Team Management"></a>E - Team Management</h3><ul><li><a href="https://medill-east.github.io/2023/07/02/20230702-e01/">E01- Sharing Info Within a Team</a></li><li><a href="https://medill-east.github.io/2023/08/20/20230820-e02/">E02 - Jobs in Game Development</a></li><li><a href="https://medill-east.github.io/2023/11/05/20231105-e03/">E03 - Don’t Wait to Speak Your Mind</a></li></ul><h3 id="F-Graphics"><a href="#F-Graphics" class="headerlink" title="F - Graphics"></a>F - Graphics</h3><ul><li><a href="https://medill-east.github.io/2022/10/16/20221016-draw-the-light-not-the-asset">F01 - Draw the light not the Asset</a></li><li><a href="https://medill-east.github.io/2023/03/26/20230326-f02">F02 - Emphasize Objects with Collision</a></li><li><a href="https://medill-east.github.io/2023/07/09/20230709-f03">F03 - Distinguishing Between Major and Minor Elements</a></li><li><a href="https://medill-east.github.io/2023/11/26/20231126-f04">F04 - Get the Sense of Scale Right</a></li></ul><h3 id="G-Animations"><a href="#G-Animations" class="headerlink" title="G - Animations"></a>G - Animations</h3><ul><li><a href="https://medill-east.github.io/2022/11/20/20221120-asinging-animations/">G01 - Assigning Animations</a></li><li><a href="https://medill-east.github.io/2023/03/12/20230312-g02/">G02 - Too Much is Just Right</a></li><li><a href="https://medill-east.github.io/2023/05/14/20230514-g03/">G03 - Breaking Down Attack Animations</a></li><li><a href="https://medill-east.github.io/2023/08/13/20230813-g04/">G04 - Making Lead-ins Instant and Impactful</a></li><li><a href="https://medill-east.github.io/2023/11/19/20231119-g05/">G05 - Attack Poses</a></li></ul><h3 id="H-Effects"><a href="#H-Effects" class="headerlink" title="H - Effects"></a>H - Effects</h3><ul><li><a href="https://medill-east.github.io/2022/12/04/20221204-make-it-pop">H01 - Make It “Pop”</a></li><li><a href="https://medill-east.github.io/2023/05/07/20230507-h02">H02 - Let Your Character Shine</a></li><li><a href="https://medill-east.github.io/2023/10/08/20231008-h03">H03 - Flash, Blast, and Smoke</a></li></ul><h3 id="I-Audio"><a href="#I-Audio" class="headerlink" title="I-Audio"></a>I-Audio</h3><ul><li><a href="https://medill-east.github.io/2023/02/19/20230219-i01">I01 - Make the Tempo Match the Game!</a></li><li><a href="https://medill-east.github.io/2023/04/16/20230416-i02">I02 - Strike a Balance with Sound Effects</a></li><li><a href="https://medill-east.github.io/2023/09/24/20230924-i03">I03 - Listen in Various Environments</a></li></ul><h3 id="J-UI"><a href="#J-UI" class="headerlink" title="J - UI"></a>J - UI</h3><ul><li><a href="https://medill-east.github.io/2022/12/18/20221219-clarity-vs-style">J01 - Clarity vs. Style</a></li><li><a href="https://medill-east.github.io/2023/04/23/20230423-j02">J02 - Text Size</a></li><li><a href="https://medill-east.github.io/2023/09/30/20230930-j03">J03 - Modern Quality of Life Features</a></li></ul><h3 id="K-Programming-amp-Tech"><a href="#K-Programming-amp-Tech" class="headerlink" title="K - Programming &amp; Tech"></a>K - Programming &amp; Tech</h3><ul><li><a href="https://medill-east.github.io/2023/01/15/20230115-name-files-logically">K01 - Name Files Logically</a></li><li><a href="https://medill-east.github.io/2023/07/23/20230723-k02">K02 - Making Your Game Easy to Tune</a></li></ul><h3 id="M-Grab-Bag"><a href="#M-Grab-Bag" class="headerlink" title="M - Grab Bag"></a>M - Grab Bag</h3><ul><li><p><a href="https://medill-east.github.io/2022/10/05/20221005-down-with-lag">M01 - Down with Lag!</a></p></li><li><p><a href="https://medill-east.github.io/2022/11/13/20221113-game-awards">M02 - Game Awards</a></p></li><li><p><a href="https://medill-east.github.io/2023/02/12/20230212-m03">M03 - Exercise While You Play!</a></p></li><li><p><a href="https://medill-east.github.io/2023/04/02/20230402-m04">M04 - The Price of Games</a></p></li><li><p><a href="https://medill-east.github.io/2023/06/04/20230604-m05">M05 - My Feline Friend Fukurashi</a></p></li><li><p><a href="https://medill-east.github.io/2023/07/16/20230716-m06">M06 - That was Then, This Is Now</a></p></li><li><p><a href="https://medill-east.github.io/2023/09/17/20230917-m07">M07 - Sora Ltd.</a></p></li><li><p><a href="https://medill-east.github.io/2023/10/22/20231022-m08">M08 - Team Digital or Team Physical?</a></p><h3 id="N-Game-Concepts"><a href="#N-Game-Concepts" class="headerlink" title="N - Game Concepts"></a>N - Game Concepts</h3></li><li><p><a href="https://medill-east.github.io/2022/09/02/20220902-kirby-dream-land/">N01 - Kirby’s Dream Land</a></p></li><li><p><a href="https://medill-east.github.io/2022/10/30/20221030-kirby-adventure/">N02 - Kirby’s Adventure</a></p></li><li><p><a href="https://medill-east.github.io/2023/01/02/20230102-kirby-super-star/">N03 - Kirby Super Star</a></p></li><li><p><a href="https://medill-east.github.io/2023/03/05/20230305-n04/">N04 - Super Smash Bros</a></p></li><li><p><a href="https://medill-east.github.io/2023/06/11/20230611-n05/">N05 - Super Smash Bros Melee</a></p></li><li><p><a href="https://medill-east.github.io/2023/10/29/20231029-n06/">N06 - Kirby Air Ride</a></p></li></ul>]]></content>
       
       
       <categories>
