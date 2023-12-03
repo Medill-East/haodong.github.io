@@ -1,3 +1,5 @@
+https://medill-east.github.io/2022/08/31/20220900-toc/
+https://medill-east.github.io/2023/12/03/20231203-c08/
 https://medill-east.github.io/2023/11/26/20231126-cfgd-chap3-challenge2-maze/
 https://medill-east.github.io/2022/04/28/index-showcase/
 https://medill-east.github.io/2023/09/17/20230917-m07/
@@ -11,7 +13,6 @@ https://medill-east.github.io/2023/10/29/20231029-n06/
 https://medill-east.github.io/2023/11/05/20231105-e03/
 https://medill-east.github.io/2023/11/12/20231112-d05/
 https://medill-east.github.io/2023/11/19/20231119-g05/
-https://medill-east.github.io/2022/08/31/20220900-toc/
 https://medill-east.github.io/2023/11/26/20231126-f04/
 https://medill-east.github.io/2023/11/05/20231105-pkm-my-workflow/
 https://medill-east.github.io/2023/11/05/20231105-cfgd-chap3-challenge1-bomb/
