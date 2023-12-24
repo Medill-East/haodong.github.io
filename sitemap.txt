@@ -1,5 +1,6 @@
-https://medill-east.github.io/2023/11/26/20231126-cfgd-chap3-challenge2-maze/
 https://medill-east.github.io/2022/08/31/20220900-toc/
+https://medill-east.github.io/2023/12/24/20231224-a07/
+https://medill-east.github.io/2023/11/26/20231126-cfgd-chap3-challenge2-maze/
 https://medill-east.github.io/2023/12/17/20231217-m09/
 https://medill-east.github.io/2023/12/10/20231210-b07/
 https://medill-east.github.io/2023/12/03/20231203-c08/
@@ -223,6 +224,13 @@ https://medill-east.github.io/tags/Reading/
 https://medill-east.github.io/tags/Mindmap/
 https://medill-east.github.io/tags/Platinum-Games/
 https://medill-east.github.io/tags/PKM/
+https://medill-east.github.io/tags/Masahiro/
+https://medill-east.github.io/tags/Sakurai/
+https://medill-east.github.io/tags/on/
+https://medill-east.github.io/tags/Creating/
+https://medill-east.github.io/tags/Games/
+https://medill-east.github.io/tags/Learning/
+https://medill-east.github.io/tags/Notes/
 https://medill-east.github.io/categories/Blog/
 https://medill-east.github.io/categories/Study-CS-CG/
 https://medill-east.github.io/categories/Study-Game-Proposal/
