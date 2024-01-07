@@ -1,3 +1,5 @@
+https://medill-east.github.io/2024/01/07/20240107-cfgd-chap3-challenge3-password/
+https://medill-east.github.io/2022/04/28/index-showcase/
 https://medill-east.github.io/2024/01/07/20240107-i04/
 https://medill-east.github.io/2022/09/06/20220906-bayonetta-design-document/
 https://medill-east.github.io/2022/09/06/20220906-bayonetta-toc/
@@ -94,7 +96,6 @@ https://medill-east.github.io/2022/05/14/20220514-comicjung-chap6/
 https://medill-east.github.io/2022/05/16/20220516-comicjung-chap8/
 https://medill-east.github.io/2022/05/15/20220515-comicjung-chap7/
 https://medill-east.github.io/2023/11/26/20231126-cfgd-chap3-challenge2-maze/
-https://medill-east.github.io/2022/04/28/index-showcase/
 https://medill-east.github.io/2023/11/05/20231105-pkm-my-workflow/
 https://medill-east.github.io/2023/11/05/20231105-cfgd-chap3-challenge1-bomb/
 https://medill-east.github.io/2023/10/08/20231008-cfgd-chap2-challenge4-collection/

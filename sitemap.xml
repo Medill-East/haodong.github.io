@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://medill-east.github.io/2024/01/07/20240107-cfgd-chap3-challenge3-password/</loc>
+    
+    <lastmod>2024-01-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://medill-east.github.io/2022/04/28/index-showcase/</loc>
+    
+    <lastmod>2024-01-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://medill-east.github.io/2024/01/07/20240107-i04/</loc>
     
     <lastmod>2024-01-07</lastmod>
@@ -860,15 +878,6 @@
     <loc>https://medill-east.github.io/2023/11/26/20231126-cfgd-chap3-challenge2-maze/</loc>
     
     <lastmod>2023-12-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://medill-east.github.io/2022/04/28/index-showcase/</loc>
-    
-    <lastmod>2023-11-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

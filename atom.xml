@@ -6,10 +6,37 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2024-01-07T04:33:19.052Z</updated>
+  <updated>2024-01-07T14:07:05.961Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>密码谜题</title>
+    <link href="https://medill-east.github.io/2024/01/07/20240107-cfgd-chap3-challenge3-password/"/>
+    <id>https://medill-east.github.io/2024/01/07/20240107-cfgd-chap3-challenge3-password/</id>
+    <published>2024-01-07T13:37:19.000Z</published>
+    <updated>2024-01-07T14:07:05.961Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;密码谜题&quot;&gt;&lt;a href=&quot;#密码谜题&quot; class=&quot;headerlink&quot; title=&quot;密码谜题&quot;&gt;&lt;/a&gt;密码谜题&lt;/h2&gt;&lt;h3 id=&quot;起因&quot;&gt;&lt;a href=&quot;#起因&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Study-Game-Thinking" scheme="https://medill-east.github.io/categories/Study-Game-Thinking/"/>
+    
+    
+    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
+    
+    <category term="Portfolio" scheme="https://medill-east.github.io/tags/Portfolio/"/>
+    
+  </entry>
   
   <entry>
     <title>20240107 - Game Music and Ambient Sounds</title>
@@ -550,35 +577,6 @@
     <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
     
     <category term="Thinking" scheme="https://medill-east.github.io/tags/Thinking/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20230930 - Modern Quality of Life Features</title>
-    <link href="https://medill-east.github.io/2023/09/30/20230930-j03/"/>
-    <id>https://medill-east.github.io/2023/09/30/20230930-j03/</id>
-    <published>2023-09-30T09:52:46.000Z</published>
-    <updated>2024-01-07T04:26:58.889Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What&quot;&gt;&lt;/a&gt;What&lt;/h2&gt;&lt;p&gt;观看 Masahiro Sakurai on Creating Games 的视频，了解游戏的</summary>
-        
-      
-    
-    
-    
-    <category term="Study-Game-Notes" scheme="https://medill-east.github.io/categories/Study-Game-Notes/"/>
-    
-    
-    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
-    
-    <category term="Learning Notes" scheme="https://medill-east.github.io/tags/Learning-Notes/"/>
-    
-    <category term="Masahiro-Sakurai-on-Creating-Games" scheme="https://medill-east.github.io/tags/Masahiro-Sakurai-on-Creating-Games/"/>
     
   </entry>
   
