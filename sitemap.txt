@@ -1,3 +1,4 @@
+https://medill-east.github.io/2022/04/28/index-notes/
 https://medill-east.github.io/2022/08/31/20220900-toc/
 https://medill-east.github.io/2024/01/14/20240114-a08/
 https://medill-east.github.io/2024/01/07/20240107-cfgd-chap3-challenge3-password/
@@ -85,7 +86,6 @@ https://medill-east.github.io/2023/01/02/20230102-kirby-super-star/
 https://medill-east.github.io/2023/03/05/20230305-n04/
 https://medill-east.github.io/2023/06/11/20230611-n05/
 https://medill-east.github.io/2023/10/29/20231029-n06/
-https://medill-east.github.io/2022/04/28/index-notes/
 https://medill-east.github.io/2022/05/07/20220507-comicjung-toc/
 https://medill-east.github.io/2022/05/08/20220508-comicjung-chap0/
 https://medill-east.github.io/2022/05/08/20220508-comicjung-chap1/
