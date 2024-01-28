@@ -1,9 +1,11 @@
+https://medill-east.github.io/2021/11/02/drinking-games/
+https://medill-east.github.io/2022/04/28/index-notes/
+https://medill-east.github.io/2024/01/28/20240128-cfgd-chap3-challenge5-eleusis-express/
 https://medill-east.github.io/2022/08/31/20220900-toc/
 https://medill-east.github.io/2024/01/28/20240128-m10/
 https://medill-east.github.io/2024/01/21/20240121-cfgd-chap3-challenge4-electricity/
 https://medill-east.github.io/2022/04/28/index-showcase/
 https://medill-east.github.io/2024/01/21/20240121-b08/
-https://medill-east.github.io/2022/04/28/index-notes/
 https://medill-east.github.io/2024/01/14/20240114-a08/
 https://medill-east.github.io/2024/01/07/20240107-cfgd-chap3-challenge3-password/
 https://medill-east.github.io/2024/01/07/20240107-i04/
@@ -191,7 +193,6 @@ https://medill-east.github.io/2021/11/06/thinking-of-the-clash-heroes/
 https://medill-east.github.io/2021/12/13/teardown-analysis-gunfire-reborn/
 https://medill-east.github.io/2022/03/06/teardown-analysis-diabolo/
 https://medill-east.github.io/2021/10/27/for-love-demo-showcase-and-analysis/
-https://medill-east.github.io/2021/11/02/drinking-games/
 https://medill-east.github.io/2021/07/26/analysis-of-league-of-legends-and-glory-of-kings-players-segmented/
 https://medill-east.github.io/2021/07/16/games101-introduction-to-mordern-computer-graphics/
 https://medill-east.github.io/2021/07/16/games101-8-20200306-20210708-shading-2-shading-pipeline-and-texture-mapping/
