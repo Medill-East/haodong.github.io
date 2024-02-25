@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://medill-east.github.io/2022/04/28/index-showcase/</loc>
+    
+    <lastmod>2024-02-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://medill-east.github.io/2024/02/25/20240225-simulator-of-the-meaning-of-life/</loc>
+    
+    <lastmod>2024-02-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://medill-east.github.io/2022/08/31/20220900-toc/</loc>
     
     <lastmod>2024-02-25</lastmod>
@@ -122,15 +140,6 @@
     <loc>https://medill-east.github.io/2024/01/21/20240121-cfgd-chap3-challenge4-electricity/</loc>
     
     <lastmod>2024-01-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://medill-east.github.io/2022/04/28/index-showcase/</loc>
-    
-    <lastmod>2024-01-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
