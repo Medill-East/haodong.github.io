@@ -394,21 +394,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2023-08-26
+                    2024-04-04
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    2.4k
+                    2.5k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    8 Min
+                    9 Min
                 </div>
                 
 
@@ -549,6 +549,23 @@
 <p>当然了，并不是毫无问题。除了上面炼丹体悟中提到的一些问题之外，目前的 CodeGPT 因为受制于 <code>gpt-3.5-turbo-16k</code>，应该无法联网，且上下文长度有限。估计大概 700 行左右就是能输出的极限长度了。但这些问题，都可以随着模型的更新而被解决。</p>
 <p>未来可期。</p>
 <h3 id="插件页面"><a href="#插件页面" class="headerlink" title="插件页面"></a>插件页面</h3><p>目前 <a target="_blank" rel="noopener" href="https://github.com/Medill-East/obsidian-content-linker">Content Linker 插件的 Github 页面</a> 已经算是更新完了，也已经提了 Pull request，不知能否顺利加入官方插件库哈哈。</p>
+<h3 id="后续"><a href="#后续" class="headerlink" title="后续"></a>后续</h3><p>已经上架官方插件库。</p>
+<hr>
+<h2 id="指令小记"><a href="#指令小记" class="headerlink" title="指令小记"></a>指令小记</h2><p><a target="_blank" rel="noopener" href="https://luhaifeng666.github.io/obsidian-plugin-docs-zh/zh2.0/publishing/release-your-plugin-with-github-actions.html">使用 GitHub Actions 发布您的插件</a></p>
+<h5 id="开发环境"><a href="#开发环境" class="headerlink" title="开发环境"></a>开发环境</h5><ul>
+<li>进入插件文件夹后<pre class="line-numbers language-none"><code class="language-none">npm run dev<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
+</ul>
+<h5 id="插件发布"><a href="#插件发布" class="headerlink" title="插件发布"></a>插件发布</h5><p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/202404041134759.png"></p>
+<ul>
+<li>提交更改<pre class="line-numbers language-none"><code class="language-none">git commit -m &quot;feat: Add settings&quot;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
+<li>设置更新版本<pre class="line-numbers language-none"><code class="language-none">npm run release
+
+# Release as minor
+npm run release -- --release-as minor
+# Release as major
+npm run release -- --release-as major<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
+<li>发布<pre class="line-numbers language-none"><code class="language-none">git push --follow-tags origin master &amp;&amp; npm publish<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
+</ul>
 
                 
             </div>
@@ -1042,7 +1059,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;Total Words:&nbsp;<span
-                        class="white-color">394k</span>
+                        class="white-color">394.1k</span>
             
             
             

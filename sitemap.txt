@@ -1,3 +1,4 @@
+https://medill-east.github.io/2023/08/26/20230826-obsidian-content-linker-plugin-development-review/
 https://medill-east.github.io/2022/08/31/20220900-toc/
 https://medill-east.github.io/2024/03/31/20240331-h04/
 https://medill-east.github.io/2024/03/24/20240324-j04/
@@ -121,7 +122,6 @@ https://medill-east.github.io/2023/11/05/20231105-pkm-my-workflow/
 https://medill-east.github.io/2023/10/08/20231008-cfgd-chap2-challenge4-collection/
 https://medill-east.github.io/2023/10/01/20231001-after-watching-eva/
 https://medill-east.github.io/2023/08/26/20230826-how-i-know-and-practice-pkm/
-https://medill-east.github.io/2023/08/26/20230826-obsidian-content-linker-plugin-development-review/
 https://medill-east.github.io/2023/07/09/20230709-chatgpt-prompt-engineering-for-developers/
 https://medill-east.github.io/2022/05/29/20220529-theartofgamedesign-toc/
 https://medill-east.github.io/2023/06/04/20230604-theartofgamedesign-chap22/
