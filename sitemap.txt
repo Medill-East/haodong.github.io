@@ -1,3 +1,6 @@
+https://medill-east.github.io/2022/04/28/index-thinking/
+https://medill-east.github.io/2024/04/13/20240413-emotional-game-design-system-0-narrative-structure/
+https://medill-east.github.io/2024/04/14/20240414-emotional-game-design-system-1-create-the-system/
 https://medill-east.github.io/2022/08/31/20220900-toc/
 https://medill-east.github.io/2024/04/14/20240414-m11/
 https://medill-east.github.io/2024/04/07/20240407-l01/
@@ -8,7 +11,6 @@ https://medill-east.github.io/2024/03/17/20240317-g06/
 https://medill-east.github.io/2024/03/10/20240310-c09/
 https://medill-east.github.io/2024/03/03/20240303-b09/
 https://medill-east.github.io/2024/03/01/20240301-thinking-on-game-replayability/
-https://medill-east.github.io/2022/04/28/index-thinking/
 https://medill-east.github.io/2022/04/28/index-showcase/
 https://medill-east.github.io/2024/02/25/20240225-simulator-of-the-meaning-of-life/
 https://medill-east.github.io/2024/02/25/20240225-n07/
