@@ -6,10 +6,35 @@
   <link href="https://medill-east.github.io/atom.xml" rel="self"/>
   
   <link href="https://medill-east.github.io/"/>
-  <updated>2024-06-02T03:44:10.283Z</updated>
+  <updated>2024-06-12T16:14:46.659Z</updated>
   <id>https://medill-east.github.io/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20240613 - 游戏之于我</title>
+    <link href="https://medill-east.github.io/2024/06/13/20240613-thinking-on-game/"/>
+    <id>https://medill-east.github.io/2024/06/13/20240613-thinking-on-game/</id>
+    <published>2024-06-12T16:05:46.000Z</published>
+    <updated>2024-06-12T16:14:46.659Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h5 id=&quot;起因&quot;&gt;&lt;a href=&quot;#起因&quot; class=&quot;headerlink&quot; title=&quot;起因&quot;&gt;&lt;/a&gt;起因&lt;/h5&gt;&lt;p&gt;开了几次 design discussion</summary>
+        
+      
+    
+    
+    
+    <category term="Thinking" scheme="https://medill-east.github.io/categories/Thinking/"/>
+    
+    
+    <category term="Thinking" scheme="https://medill-east.github.io/tags/Thinking/"/>
+    
+  </entry>
   
   <entry>
     <title>20240602 - Ten People Can Produce Seven People&#39;s Work</title>
@@ -578,33 +603,6 @@
     
     
     <category term="Thinking" scheme="https://medill-east.github.io/tags/Thinking/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>人生意义模拟器</title>
-    <link href="https://medill-east.github.io/2024/02/25/20240225-simulator-of-the-meaning-of-life/"/>
-    <id>https://medill-east.github.io/2024/02/25/20240225-simulator-of-the-meaning-of-life/</id>
-    <published>2024-02-25T15:48:19.000Z</published>
-    <updated>2024-02-25T16:56:46.882Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;《人生意义模拟器》-Demo-展示及制作复盘分析&quot;&gt;&lt;a href=&quot;#《人生意义模拟器》-Demo-展示及制作复盘分析&quot; class=&quot;headerlink&quot; title=&quot;《人生意义模拟器》 Demo 展示及制作复盘分析&quot;&gt;&lt;/a&gt;《人生意义模拟器》</summary>
-        
-      
-    
-    
-    
-    <category term="Study-Game-Demo" scheme="https://medill-east.github.io/categories/Study-Game-Demo/"/>
-    
-    
-    <category term="Game" scheme="https://medill-east.github.io/tags/Game/"/>
-    
-    <category term="Portfolio" scheme="https://medill-east.github.io/tags/Portfolio/"/>
     
   </entry>
   
