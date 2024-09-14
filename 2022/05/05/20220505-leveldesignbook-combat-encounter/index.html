@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="20220503 - Level Design Book - BOOK 1. PROCESS - Combat, 無涘">
+    <meta name="keywords" content="20220505 - Level Design Book - BOOK 1. PROCESS - Combat - Encounter, 無涘">
     <meta name="description" content="Whatever will be, will be.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -28,7 +28,7 @@
 
 
 
-    <title>20220503 - Level Design Book - BOOK 1. PROCESS - Combat | 無涘</title>
+    <title>20220505 - Level Design Book - BOOK 1. PROCESS - Combat - Encounter | 無涘</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -239,12 +239,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220503233523.png')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220505231631.png')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">20220503 - Level Design Book - BOOK 1. PROCESS - Combat</h1>
+                    <h1 class="description center-align post-title">20220505 - Level Design Book - BOOK 1. PROCESS - Combat - Encounter</h1>
                 </div>
             </div>
         </div>
@@ -391,28 +391,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2022-05-04
+                    2022-05-05
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2022-05-04
+                    2024-09-14
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    854
+                    3.5k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    2 Min
+                    12 Min
                 </div>
                 
 
@@ -435,78 +435,147 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="Combat"><a href="#Combat" class="headerlink" title="Combat"></a>Combat</h2><ul>
-<li><p><a target="_blank" rel="noopener" href="https://book.leveldesignbook.com/process/combat">原文链接</a></p>
+                <h2 id="Encounter"><a href="#Encounter" class="headerlink" title="Encounter"></a>Encounter</h2><ul>
+<li><p><a target="_blank" rel="noopener" href="https://book.leveldesignbook.com/process/combat/encounter">原文链接</a></p>
 </li>
-<li><p><a href="https://medill-east.github.io/2022/04/28/20220428-leveldesignbook-toc/">Level Design Book 随译/笔记</a></p>
+<li><p><a href="https://medill-east.github.io/2022/04/29/20220428-leveldesignbook-toc/">Level Design Book 随译/笔记</a></p>
 </li>
 </ul>
 <blockquote>
-<p>设计玩家、NPC 之间或内部的物理冲突</p>
+<p>通常与 NPC 进行的连续不断的开放式挑战</p>
 </blockquote>
-<h3 id="What-is-combat-design"><a href="#What-is-combat-design" class="headerlink" title="What is combat design"></a>What is combat design</h3><p>战斗是游戏设计中最常见也是被探索得最为深刻的话题。一些工作室甚至有专门的战斗设计师，专门负责构建战斗系统和调整战斗。这是 2010 年代随着军事射击游戏/掩护射击游戏/黑魂等游戏的兴起才出现的行业惯例。</p>
-<p>如果没有一些已经制作好的战斗设计，想要直接制作战斗关卡是很难的。这也是为什么建议做 mod：这样就可以直接重用游戏中已经得到验证的核心战斗系统，而不用自己重建。</p>
-<p>如果没有选择冲突类型的游戏，可以直接学习有关<a target="_blank" rel="noopener" href="https://book.leveldesignbook.com/process/layout">布局</a>的内容。</p>
-<hr>
-<h3 id="Combat-concepts"><a href="#Combat-concepts" class="headerlink" title="Combat concepts"></a>Combat concepts</h3><p>设计战斗系统时，考虑以下方面：</p>
+<h3 id="What-is-an-encounter"><a href="#What-is-an-encounter" class="headerlink" title="What is an encounter?"></a>What is an encounter?</h3><p>遭遇战是一系列支持多种玩家策略的系统性挑战：</p>
 <ul>
-<li><a target="_blank" rel="noopener" href="https://book.leveldesignbook.com/process/combat/enemy">敌人设计</a>：定义不同类型的敌对 NPC 类型<ul>
-<li>理想情况下，每种类型都有不同的行为、优势、劣势</li>
-<li>如果敌人类型过于重复，战斗体验会感觉枯燥单一</li>
+<li>序列：可以有连续多个 beats/ waves/ 挑战</li>
+<li>系统性：使用重复游戏元素设计语言</li>
+<li>多样性：理想情况下，不仅有一种特定解决方案或最佳策略</li>
+<li>战术：即兴的短期玩法风格/行为</li>
 </ul>
-</li>
-<li><a target="_blank" rel="noopener" href="https://book.leveldesignbook.com/process/combat/encounter">遭遇战</a>：与 NPC 对抗的结构型战斗<ul>
-<li>开放式战斗谜题：玩家需要即兴解决</li>
-<li>游戏内的遭遇战通常会涉及一些<a target="_blank" rel="noopener" href="https://book.leveldesignbook.com/process/scripting">脚本</a></li>
-</ul>
-</li>
-<li><a target="_blank" rel="noopener" href="https://book.leveldesignbook.com/process/combat/balance">平衡</a>：主观（觉得平衡）和客观（真的平衡）都要体现，通常体现在 PvP 中<ul>
-<li>玩家可以哪里，他们能控制什么东西</li>
-<li>平衡的关卡有能构建玩家对于布局的信任，并想着期望的目标不断加码</li>
-</ul>
-</li>
-<li><a target="_blank" rel="noopener" href="https://book.leveldesignbook.com/process/combat/arena">竞技场设计</a>：专门为战斗而设的空间<ul>
-<li>设计可能的立足点，阻塞点，覆盖模式等</li>
-<li>这部分会稍晚些提到。在理解敌人设计和遭遇战设计之前是无法很好地知道竞技场设计的需求的</li>
-</ul>
-</li>
-</ul>
+<p>许多游戏以非暴力形式来构建挑战：如谜题，对话，或是迷你游戏等。但是在关卡设计文化中，“遭遇战”通常指的是动作/射击/RPG 品类游戏中的单人战役及 PVE（player vs. enemy）</p>
+<p>原文里没填的坑：有关更多非暴力挑战设计，请看谜题。</p>
+<p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220505211328.png" alt="combat front diagram for a cover-based military shooter, from &quot;Creating Conflict: Combat Design for AAA Action Games&quot; by Michael Barclay, Sam Howels, Pete Ellis at GDC Europe 2016 (via GdcVault.com) (https://www.gdcvault.com/play/1023791/Creating-Conflict-Combat-Design-for)"></p>
 <hr>
-<h3 id="Combat-mechanics"><a href="#Combat-mechanics" class="headerlink" title="Combat mechanics"></a>Combat mechanics</h3><p>战斗机制是玩家用于对抗敌人的可重用的动作/技能/武器。常见战斗机制有：</p>
+<h3 id="Combat-story"><a href="#Combat-story" class="headerlink" title="Combat story"></a>Combat story</h3><p>遭遇战是有关<a href="https://medill-east.github.io/2022/04/29/20220429-leveldesignbook-pre-production-pacing/">节奏</a>的艺术。何时，在哪里，发生了什么，会让玩家有何种反应？</p>
+<p>可以把它当成一个故事，但是是通过战斗来讲述的——一场有起因，经过，结果的遭遇故事：</p>
 <ul>
-<li><strong>收集</strong>有关布局和敌人的信息</li>
-<li><strong>远离</strong>危险，<strong>占领</strong>目标</li>
-<li><strong>瞄准</strong>特定的敌人类型/弱点</li>
-<li>当看到<strong>攻击信号</strong>（或者进攻机会时） <strong>示意</strong>攻击</li>
-<li>将攻击/武器动作组成<strong>连招</strong></li>
-<li><strong>阻挡</strong>敌人的攻击：在正确的时间<strong>招架</strong>/<strong>反击</strong>/<strong>闪避</strong></li>
-<li>在敌人无法击中或看到你的地方<strong>寻找掩护</strong></li>
-<li>管理<strong>资源</strong>，清点<strong>拾取物</strong>（血包，弹药等）</li>
-<li>在环境中布置<strong>陷阱</strong>（爆炸桶、水、岩浆、悬崖等）</li>
-</ul>
-<p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/GodOfWar2014_CombatPrototype.gif" alt="在简单的测试地图中测试战神（2018）的战斗原型，来源为 https://80.lv/articles/evolution-of-god-of-war-from-2014-to-2018/"></p>
-<h3 id="Weapon-design"><a href="#Weapon-design" class="headerlink" title="Weapon design"></a>Weapon design</h3><p>许多游戏为玩家提供了多种可用武器。武器设计是有关概念化、制作和平衡武器库的过程。需要考虑：</p>
-<ul>
-<li>武器的感觉和幻想：较大的射速较慢的枪 vs. 偷偷摸摸的刀 vs. 轰鸣电锯</li>
-<li>关于伤害，射程，射速，弹药供应等方面的统计数据<ul>
-<li>对于枪而言：需要考虑不同的散射度，后坐力，瞄具，穿透力，弹匣大小，装填速度等</li>
+<li>起因，在战斗开始前：<ul>
+<li>敌人们已经在战场中了吗，还是毫无察觉，或是在来的路上？</li>
+<li>是否由玩家选择合适加入战斗</li>
+<li>玩家是否知道敌人的布局和构成？</li>
 </ul>
 </li>
-<li>态势感知：挑选最合适/有效的武器</li>
-<li>弹药经济的管理：不浪费资源</li>
-<li>武器升级，装备升级等</li>
+<li>经过，战斗中：<ul>
+<li>短线作战还是长时作战？多少波或阶段？</li>
+<li>有任何会影响战斗的脚本事件吗</li>
+<li>有特别需要强调的路线或是策略吗</li>
+</ul>
+</li>
+<li>结果，战斗后：<ul>
+<li>玩家怎样知道战斗结束了</li>
+<li>是否有多种可能结果</li>
+</ul>
+</li>
+</ul>
+<p>好的遭遇战能够帮助玩家理解发生了什么，也能讲述一个拥有清晰起因和后果的连贯故事。</p>
+<p>这里配了龙叔电影中遭遇战的录制 233：</p>
+<iframe width="735" height="413" src="https://www.youtube.com/embed/YX327SIoSMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+下面这段话直翻了：
+> 在上面的纪录片《成龙：我的特技》（1999）的视频片段中，成龙为大片《尖峰时刻》（1998）编排并导演了一个打斗场景。 成龙对每个演员的动作都强调了一种“身体逻辑”； 因此，当他和克里斯·塔克的行为相互影响时，这意味着他们角色的合作关系达到了情感高潮。 布雷特·拉特纳 (Brett Ratner) 经常提出的关于枪支的愚蠢问题完全没有抓住重点。 性格就是行动，行动不断流动。 枪无所谓，它只是帮助观众遵循身体逻辑的工具。
+
+<h3 id="Starting-an-encounter-footholds"><a href="#Starting-an-encounter-footholds" class="headerlink" title="Starting an encounter: footholds"></a>Starting an encounter: footholds</h3><p>对于强调掩护的单人动作射击游戏，让玩家在战斗真正开始前有机会调查竞技场：</p>
+<ul>
+<li>从哪里开始打</li>
+<li>了解敌人的进攻路线</li>
+<li>如果打不过从哪里跑</li>
+</ul>
+<p>如果不帮玩家理解布局，他们只会在门口毫无想象力的战斗，竞技场的设计就白做了，玩家会反过来怪游戏提供的信息不够多，不知道什么时候利用竞技场。</p>
+<p>怎么吸引玩家进入竞技场，了解布局，而后交战？Andrew Yoder 将之称为 <a target="_blank" rel="noopener" href="https://andrewyoderdesign.blog/2019/08/04/the-door-problem-of-combat-design/">战斗设计的门问题</a></p>
+<p>让玩家找到立足点的方法：</p>
+<h4 id="方法-1：玩家伏击敌人"><a href="#方法-1：玩家伏击敌人" class="headerlink" title="方法 1：玩家伏击敌人"></a>方法 1：玩家伏击敌人</h4><p>开始时让敌人意识不到玩家存在，玩家可从入口处进入。这让玩家有一些时间来制定计划，并在准备好时开始攻击。</p>
+<p>玩家一开始可能会很容易消灭暴露在外的不知情敌人，但可以在拐角处隐藏/产生更多敌人，在战斗开始时引入这些敌人增援。</p>
+<p>这种模式在开放世界游戏或任何点缀着敌人前哨的大型景观中很常见。符合这些品类行动自由的美学。</p>
+<h4 id="方法-2：敌人包围玩家"><a href="#方法-2：敌人包围玩家" class="headerlink" title="方法 2：敌人包围玩家"></a>方法 2：敌人包围玩家</h4><p>开始时没有敌人，玩家就能够在竞技场中游荡到中央。一旦越过某些范围，或是机关，就触发遭遇战。可以放置一些东西和资源到场中作为“诱饵”。</p>
+<p>有经验的玩家一眼就能识破这种明显的陷阱，并且一看到空旷的竞技场房间或者看到“免费”的诱饵就提高警惕。</p>
+<p>这种伎俩其实用一次就不好使了。防止敌人保卫战很困难，因为重复死亡以及缺乏对战斗的掌控会让玩家感到后悔或不公。</p>
+<p>这种模式常见于经典射击/恐怖游戏。玩家们通常都会对此有心理准备。</p>
+<h4 id="方法-3：带有可选单向入口的-Vista"><a href="#方法-3：带有可选单向入口的-Vista" class="headerlink" title="方法 3：带有可选单向入口的 Vista"></a>方法 3：带有可选单向入口的 Vista</h4><p>Vista 应该指的是制高点。</p>
+<p>设计玩家在开始时会处于一个制高点，从这里可以看到远处的竞技场内部，但不能攻击到敌人。玩家可以收集信息，制定计划，并在愿意的时候开始战斗。</p>
+<p>可以让玩家从一个单向通道进入，在玩家进入时可以选择将其身后的门关闭，这样一旦玩家入场，敌人也知晓，类似一种“公平战斗”。</p>
+<p>如果玩家测试的时候没有很好利用 vista，可以尝试：a. 在 vista 上放置资源；b. 使得通往 vista 的路更加顺畅；c. 一开始阻塞通往竞技场的路，并混淆入口（如 U 型转弯路，这里说实话一下子看到觉得不是很直观，没想出来指的是哪种）；d. 以上所有。</p>
+<p>这种模式在 BOSS 战或是大型高潮编排中很常见。强迫玩家在一个故意建造的 vista 停留是一个强有力的设计暗示，警告玩家：不要草率，做好准备。</p>
+<hr>
+<h3 id="Encounter-design-tools"><a href="#Encounter-design-tools" class="headerlink" title="Encounter design tools"></a>Encounter design tools</h3><h4 id="Define-play-styles"><a href="#Define-play-styles" class="headerlink" title="Define play styles"></a>Define play styles</h4><p>玩家一般不会每种机制都喜欢使用，一些人会偏爱某种策略，主升某种流派，或是偏爱特定武器。这里必须区分一下玩法风格和玩家个性：</p>
+<p>玩法风格/打法（play style）：短期的战术或是模式。玩家的模式就像天气一样，毫无预兆就可能更改。<br>玩家个性（player persona）：整体的长期行为和动机。玩家个性，是玩家整体行为的氛围，一般不会改变。</p>
+<p>在以上前提下，建议：遭遇战应该迫使玩家改变打法，但不要挫败玩家个性。</p>
+<p>有关定义和研究玩家的更多内容，请看<a target="_blank" rel="noopener" href="https://book.leveldesignbook.com/process/blockout/playtesting/persona">玩家个性</a>。</p>
+<p>对于每个项目，定义一些玩家打法：</p>
+<ol>
+<li>定义一些可能的玩家战术/行为/模式</li>
+<li>用简短易读的名字标记它</li>
+</ol>
+<p>例子：</p>
+<ul>
+<li>平台跳跃游戏：跑者（runners）、跳者（jumpers）、滑翔者（gliders，啥意思，一直滑铲？）、游泳者（swimmers，啥意思，爱走水路不爱走陆路？）</li>
+<li>设计游戏：狙击手（snipers），霰弹枪手（shotgunners），喷雾（spray，这…也没懂）和祈祷（pray，啥意思，这个真没懂），露营者（campers，蹲点的）</li>
+<li>开放世界游戏：探险家（explorers）、战士（fighters）、司机（drivers，滴滴滴）、收藏家（collectors，仓鼠）</li>
+<li>策略游戏：冲刺者（rushers）、海龟者（turtlers，疯狂保命，苟）、扩张者（expansionists）、微观/宏观（micro/macro，这啥，细节和大局观？）</li>
+<li>所有游戏：完成者（completionists）、速通（speedrunners）、知识猎人（lore hunters，全成就吧应该是）、直播（streamers，主播）、新手（newbs）等。</li>
+</ul>
+<p>然后把玩法风格应用到遭遇战设计中：</p>
+<ul>
+<li>哪些关卡/遭遇应该支持哪些游戏风格？</li>
+<li>你是否试图同时支持太多的游戏风格？（贪多嚼不烂啊）</li>
 </ul>
 <hr>
-<h3 id="TODO-Combat-examples"><a href="#TODO-Combat-examples" class="headerlink" title="TODO: Combat examples"></a>TODO: Combat examples</h3><p>原文还没填这里的坑</p>
+<h3 id="Arena-design"><a href="#Arena-design" class="headerlink" title="Arena design"></a>Arena design</h3><p>也是没填完的坑：分解 sock 的图表并单独讨论它们</p>
+<p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220505224014.png" alt="different floor design diagrams for encounters by Simon O&#39;Callaghan"></p>
+<p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220505224039.png" alt="different fps encounter elements by Simon O&#39;Callaghan"></p>
 <hr>
-<h3 id="TODO-Combat-workflow"><a href="#TODO-Combat-workflow" class="headerlink" title="TODO: Combat workflow"></a>TODO: Combat workflow</h3><ul>
-<li>制作测试用的战斗关卡原型</li>
-<li>怎么知道一个战斗“足够好了”</li>
+<h3 id="Example-combat-bosses-in-God-of-War-2018"><a href="#Example-combat-bosses-in-God-of-War-2018" class="headerlink" title="Example: combat bosses in God of War (2018)"></a>Example: combat bosses in God of War (2018)</h3><p>纵观第三人称动作游戏《战神》（2018），玩家可以尝试击败 9个被称为“女武神”（Valkyries）的可选 BOSS。所有女武神共享相似的角色美术、动画和招式，但在不同条件下以不同顺序使用，在构建战斗变化的同时有效重用了相同资源。</p>
+<p>玩家游玩并解锁区域来解锁 BOSS，这种区域解锁的方式暗含了一种顺序，但并没有强制玩家按照这种顺序来进行战斗。前三个专门设计为一种松散教程（loose tutorials）供玩家来识别和学习，尽管有时候设计师也会利用这种潜在的建议顺序，通过混合以前的模式（prior patterns）来强迫玩家重新学习（已经学过的内容的）新的使用时机（relearn new timings）。</p>
+<p>Sony 前战斗设计师 Jason de Heras <a target="_blank" rel="noopener" href="https://twitter.com/jasondeheras/status/1376005093028335617">在 Twitter 上详述了战斗设计</a>:</p>
+<p>下面直翻：</p>
+<blockquote>
+<p>Gunnr 有 2 次独立攻击，其作用是鼓励招架（黄色 FX）；他们的预期窗口/攻击速度相似，以允许一致的招架时间。 [它] 鼓励玩家招架，但不是必须招架。 Gunnr 的所有攻击都可以左/右/后躲避或招架，[除了] 有 1 次不可招架（红色）攻击 […] 在一系列初始攻击之后执行，因此玩家有足够的时间准备。不可阻挡的攻击几乎为零跟踪，因此玩家可以以最小的精度向右躲避。</p>
+</blockquote>
+<blockquote>
+<p>Gunnr 通常会躲开以发起她的独立攻击。这给了玩家一个明显的视觉感受，但也有大量的分层预期时间，大约 2-3 秒来准备和应对随后的攻击。 […] Gunnr 在躲避然后攻击之后几乎没有停机时间（virtually no downtime after evading and then attacking，指的应该是攻击被格挡后不会下坠，玩家可以直接发起攻击？），这可以说使战斗更容易了。这减少了玩家必须制定策略的变量。设计者让战斗保持高强度，但实际上将敌人置于易受攻击的位置。</p>
+</blockquote>
+<p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/LDB_GodOfWar_JasonDeHeras_ValkyrieTelegraph.gif" alt="animated GIF showing Gunnr&#39;s attacks with long anticipation and yellow FX to encourage parry / evade (https://twitter.com/jasondeheras/status/1376005121830658049)"></p>
+<blockquote>
+<p>与 Gunnr 不同，Kara 的 2 次攻击强烈迫使玩家回避/阻挡。 由于这些攻击具有相似的启动姿势，因此玩家必须识别红色 FX 以选择回避或阻挡。 […]  Kara 共享 Gunnr’s 短跑/俯冲?，但是 [如果] 玩家在招架/防守时失误，他们将很容易受到附近 Draugrs 的攻击，[增加紧张感。] Kara’s 翅膀滑击（wing swipe） 是一种独立的攻击，给了她另一种躲避并重置战斗的混招。 […] Kara’s 翅膀滑击 的范围会导致它故意 miss。 如果玩家大意或贪了，这种设计会让他们更容易错失机会（sleep）或者进行攻击。 最后一小段向前短冲使这种攻击具有欺骗性。</p>
+</blockquote>
+<blockquote>
+<p>Geirdriful 分享了 Gunnr 和 Kara 的一些招式，但增加了 2 种独特的攻击来打造强大/全面的招式 […] 可以招架的攻击。 […] Geirdriful 的侧翼挥击组合与 Gunnr 的相同，但用作独立攻击（与 Gunnr 的反击相反），这是另一种使战斗更难预测的组合。 Geirdriful 共享 Gunnr 不可阻挡的翅膀冲击（wing thrust），但作为独立攻击增加了平移/速度。 如果玩家先与 Gunnr 战斗，那么在无法阻挡的翅膀冲击之前移除翅膀滑击（wing swipes）将迫使他们重新学习此攻击的节奏。<br><a target="_blank" rel="noopener" href="https://twitter.com/jasondeheras/status/1376005093028335617">– Jason de Heras (@JasonDeHeras)</a></p>
+</blockquote>
+<p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220505230700.png" alt="spreadsheet breakdown showing the moveset matrix for valkyrie bosses in God of War (2018), by Jason de Heras (via Twitter)(https://twitter.com/jasondeheras/status/1376005158656638977)"></p>
+<hr>
+<h3 id="Example-stealth-boss-in-Dishonored"><a href="#Example-stealth-boss-in-Dishonored" class="headerlink" title="Example: stealth boss in Dishonored"></a>Example: stealth boss in Dishonored</h3><p>在第一人称潜行游戏《耻辱》中，任务 7 “洪水区”中，玩家面对的是一个 Boss NPC。 他们可以偷偷溜过它而不被发现或试图与老板战斗。 Arkane Studios 的关卡设计师 Dana Nightingale 评论了她的设计文件：</p>
+<blockquote>
+<p>通常我讨厌 BOSS 战，所以设计一个规避了所有我不喜欢的部分的 BOSS 战让我感到兴奋。 […] 设计与 Daud 的相遇仍然是我最自豪的事情之一。 我喜欢看人们玩它。</p>
+</blockquote>
+<blockquote>
+<p>大块的文本很适合“开发评论”（dev commentary），但如果你有一百个文档要保持最新状态，或者你是必须阅读它们的人，那么它就不能很好地工作。 更简单，但传达更多，始终是我们的目标。 这真的很难。</p>
+</blockquote>
+<blockquote>
+<p><a target="_blank" rel="noopener" href="https://twitter.com/DanaENight/status/1371022031886635011">– Dana Nightingale (@DanaENight)</a></p>
+</blockquote>
+<p>Nightingale 的原始设计文件（见下方）概述了这次遭遇战的明确设计目标，以证明异常封闭的竞技场布局是合理的。 此外，由于《耻辱》是一款具有许多不同玩家能力的“沉浸式模拟”RPG 游戏，她使用流程图格式来想象不同的玩家策略以及遭遇脚本如何优雅地处理边界情况。 然而，正如她所指出的，阅读内容很多。 在设计简介中写太多细节并不一定会改善规划或设计。</p>
+<p><img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/LDB_Encounter_Daud_Dishonored_DanaNightingale.png" alt="design documents for boss encounter in Dishonored, by Dana Nightingale (https://twitter.com/DanaENight/status/1370643659792744449)"></p>
+<p>BOSS 战的其中一个通关例子，它满足了 Nightinggale 的设计目标吗？和初始的设计意图有何不同呢？</p>
+<p>（视频里面玩家用了类似“子弹时间”的技能来顺利偷到了东西，并且也没有触发战斗，算是满足了原始设计中的“逃课”目的，但却并非直接溜走，玩家用自己的方式做到了“雁过无痕”。）</p>
+<iframe width="485" height="273" src="https://www.youtube.com/embed/yE3yO4zMMgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<hr>
+<h3 id="Further-reading"><a href="#Further-reading" class="headerlink" title="Further reading"></a>Further reading</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://www.gameaipro.com/">Game AI Pro</a> is the main game industry publication about game AI programming and techniques – professionally written and edited – and <strong>free to read.</strong> If you’re not a programmer, some of it will be difficult to understand, but try to push through it anyway. If you can understand 50% of it, it’ll still help you a lot. A valuable community resource for combat designers.</li>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=oB4JMy9OjKk"><strong>“Basics of Classic FPS Combat Encounter Design”</strong></a> (47 min video) by Andrew Yoder</li>
+<li><a target="_blank" rel="noopener" href="https://www.nathanielchapman.games/pedrothedagger/encounter-design-topics-rng-in-encounter-design">“Encounter Design Topics: RNG in Encounter Design”</a> by Nathaniel Chapman is about when and how to apply randomness to combat, especially in a multiplayer or MMO context.</li>
+<li>  <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=s9bleQCTdTo">“Quake Mapping Tips: Difficulty Balance in Level Design” (8 min) video by Michael Markie</a> workshops Quake 1 combat encounters at different difficulty tiers, while offering general design commentary and advice. Markie uses different monster behavior and weapon / ammo placement to encourage different player movement within the same room layout. A great primer even if you’re not mapping for Quake.</li>
 </ul>
-<p>原文还没填这里的坑</p>
 <hr>
 <h2 id="Backlink"><a href="#Backlink" class="headerlink" title="Backlink"></a>Backlink</h2><ul>
-<li><a href="https://medill-east.github.io/2022/04/28/20220428-leveldesignbook-toc/">Level Design Book 随译/笔记</a></li>
+<li><a href="https://medill-east.github.io/2022/04/29/20220428-leveldesignbook-toc/">Level Design Book 随译/笔记</a></li>
 </ul>
 
                 
@@ -534,7 +603,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://medill-east.github.io/2022/05/04/20220503-leveldesignbook-combat/">https://medill-east.github.io/2022/05/04/20220503-leveldesignbook-combat/</a>
+                    <a href="https://medill-east.github.io/2022/05/05/20220505-leveldesignbook-combat-encounter/">https://medill-east.github.io/2022/05/05/20220505-leveldesignbook-combat-encounter/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -753,23 +822,23 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2022/05/04/20220504-leveldesignbook-combat-enemydesign/">
+                <a href="/2022/05/06/20220506-leveldesignbook-combat-balance/">
                     <div class="card-image">
                         
-                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220504122728.png" class="responsive-img" alt="20220504 - Level Design Book - BOOK 1. PROCESS - Combat - Enemy Design">
+                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220506234428.png" class="responsive-img" alt="20220506 - Level Design Book - BOOK 1. PROCESS - Combat - Balance">
                         
-                        <span class="card-title">20220504 - Level Design Book - BOOK 1. PROCESS - Combat - Enemy Design</span>
+                        <span class="card-title">20220506 - Level Design Book - BOOK 1. PROCESS - Combat - Balance</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            prototyping different types of NPCs with specific behaviors, strengths, and weaknesses
+                            The player's options throughout the level, the fairness of where the player can go
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-05-04
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-05-06
                         </span>
                         <span class="publish-author">
                             
@@ -805,30 +874,30 @@
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/05/03/20220502-gdc2017-zelda/">
+                <a href="/2022/05/04/20220504-leveldesignbook-combat-enemydesign/">
                     <div class="card-image">
                         
-                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220503000611.png" class="responsive-img" alt="20220502 - GDC2017 塞尔达：旷野之息的三角之力">
+                        <img src="https://raw.githubusercontent.com/Medill-East/IMGStorage/master/img/PicGo-Github-PicBed/20220504122728.png" class="responsive-img" alt="20220504 - Level Design Book - BOOK 1. PROCESS - Combat - Enemy Design">
                         
-                        <span class="card-title">20220502 - GDC2017 塞尔达：旷野之息的三角之力</span>
+                        <span class="card-title">20220504 - Level Design Book - BOOK 1. PROCESS - Combat - Enemy Design</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            对此次 GDC 上旷野之息的演讲再做整理，学习最出色的开放世界的设计理念。
+                            prototyping different types of NPCs with specific behaviors, strengths, and weaknesses
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-03
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-04
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Study-Game-Notes/" class="post-category">
-                                    Study-Game-Notes
+                            <a href="/categories/Study-Game-LevelDesign/" class="post-category">
+                                    Study-Game-LevelDesign
                                 </a>
                             
                             
@@ -842,12 +911,8 @@
                         <span class="chip bg-color">Game</span>
                     </a>
                     
-                    <a href="/tags/GDC/">
-                        <span class="chip bg-color">GDC</span>
-                    </a>
-                    
-                    <a href="/tags/Learning-Notes/">
-                        <span class="chip bg-color">Learning Notes</span>
+                    <a href="/tags/Game-Level-Design/">
+                        <span class="chip bg-color">Game Level Design</span>
                     </a>
                     
                 </div>
